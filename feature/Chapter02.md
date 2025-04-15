@@ -229,28 +229,32 @@ En esta parte, se han formulado varias preguntas destinadas a nuestros segmentos
 **Entrevista para el Segmento Objetivo 1 - Propietarios de viviendas tecnológicas:**
 
 - **Entrevista 1:**
-Entrevistador: Zárate Gamarra, Luis Alejandro 
-Entrevistado: Marco Eduardo Ricardo Colca Chipana
-Edad: 38 años
-Distrito: Miraflores
-Min Inicio: 0:09  
-Min Final: 3:30  
+**Entrevistador:** Zárate Gamarra, Luis Alejandro 
+**Entrevistado:** Marco Eduardo Ricardo Colca Chipana
+**Sexo:** Masculino
+**Edad:** 38 años
+**Domicilio:** Miraflores
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 3:30<br>
 <img src="./assets/entrevista1.png" alt="Entrevista con Eduardo" style="width: 600px; height: auto;"><br>
 
 - **Resumen:** 
 El entrevistado es un propietario de vivienda tecnológica que utiliza un ecosistema integrado de dispositivos inteligentes: luces automatizadas, cámaras, sensores de movimiento, cerradura digital y un asistente virtual tipo Alexa. Destaca la importancia del control remoto a través de una app móvil, permitiéndole gestionar su hogar incluso estando fuera, con ejemplos como abrir la puerta a familiares o simular presencia. Accede a su sistema 4 o 5 veces por semana desde fuera. Prefiere claramente la app móvil por su inmediatez y portabilidad, aunque acepta la web para configuraciones avanzadas. Desea funciones como historial detallado de accesos, notificaciones en tiempo real ante intentos de ingreso no autorizados o fallos, y opciones para otorgar accesos temporales. Resalta la necesidad de una conexión a internet confiable, pero también considera vital que el sistema funcione localmente en caso de cortes. Estaría dispuesto a reemplazar completamente las llaves tradicionales por reconocimiento facial, siempre que sea seguro y cuente con respaldo ante fallos.
+
 Enlace al video: [https://link.com](https://link.com)
 - **Entrevista 2:**
-Entrevistador: Gonzales Gomez, Antonella Frida  
-Entrevistado: Cristian Antony montalvo
-Edad: 24 años
-Distrito: Lima
-Min Inicio: 0.00
-Min Final:  7.12
+**Entrevistador:** Gonzales Gomez, Antonella Frida 
+**Entrevistado:** Cristian Antony montalvo 
+**Sexo:** Masculino
+**Edad:** 24 años
+**Domicilio:** Lima
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 7:12<br>
 <img src="./assets/entrevista2.png" alt="Entrevista con Cristian" style="width: 600px; height: auto;"><br>
 
 - **Resumen:** 
 Cristian Anthony Montalvo, estudiante de ingeniería y analista junior, participó en una entrevista sobre el uso de tecnologías inteligentes para la seguridad del hogar. Actualmente utiliza cerraduras tradicionales, como es común en Lima, pero mostró gran interés en implementar soluciones biométricas como el reconocimiento facial. Para él, lo más importante en un sistema de acceso inteligente es la comodidad, seguida de la seguridad, ya que permitiría evitar cargar llaves y simplificar el acceso diario. Ha tenido experiencias con la pérdida de llaves y considera que este tipo de tecnologías podrían prevenir esos inconvenientes. Está dispuesto a usar aplicaciones móviles para gestionar el acceso a su vivienda, siempre que sean fáciles de usar y le brinden control sobre quién puede entrar. Además, le parecería útil que familiares cercanos pudieran recibir alertas o ayudar a controlar el sistema desde sus propios dispositivos. Finalmente, comentó que cuenta con conexión a internet tanto en su hogar como en el móvil, lo que considera esencial para el funcionamiento de este tipo de soluciones. En resumen, Cristian ve con buenos ojos las tecnologías de seguridad basadas en IoT, siempre que ofrezcan confiabilidad, simplicidad y control.
+
 Enlace al video: [https://link.com](https://link.com)
 
 **Entrevista para el Segmento Objetivo 2 - Adultos mayores  o personas con movilidad reducida:**
