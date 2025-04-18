@@ -312,25 +312,128 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. EventStorming  
-### 4.1.2. Candidate Context Discovery  
-### 4.1.3. Domain Message Flows Modeling  
-### 4.1.4. Bounded Context Canvases  
-### 4.1.5. Context Mapping  
-## 4.2. Software Architecture
-### 4.2.1. Software Architecture System Landscape Diagram  
-### 4.2.2. Software Architecture Context Level Diagrams  
-### 4.2.3. Software Architecture Container Level Diagrams  
-### 4.2.4. Software Architecture Deployment Diagrams  
-## 4.3. Tactical-Level Domain-Driven Design
-### 4.3.1. Bounded Context: &lt;Bounded Context Name&gt;
-#### 4.3.1.1. Domain Layer  
-#### 4.3.1.2. Interface Layer  
-#### 4.3.1.3. Application Layer  
-#### 4.3.1.4. Infrastructure Layer  
-#### 4.3.1.5. Bounded Context Software Architecture Component Level Diagrams  
-#### 4.3.1.6. Bounded Context Software Architecture Code Level Diagrams  
-##### 4.3.1.6.1. Bounded Context Domain Layer Class Diagrams  
-##### 4.3.1.6.2. Bounded Context Database Design Diagram  
+
+El proceso de EventStorming lo llevamos a cabo utilizando la herramienta colaborativa MIRO, donde desarrollamos todas las etapas correspondientes.
+Comenzamos con la fase inicial, conocida como BrainStorming, en la cual analizamos el dominio de SmartGuard y compartimos ideas sobre los posibles eventos clave relacionados con el uso y funcionamiento de nuestro producto, FaceLoock.
+Para definir estos eventos, consideramos criterios como la relevancia dentro del flujo del sistema, la frecuencia con la que ocurren y su orden o relación temporal, asegurándonos de cubrir aquellos que impactan directamente en la experiencia del usuario y la operatividad del sistema.
+
+<img src="images/brainstorming.png"/>
+
+*Evidencia del desarrollo del primer paso del DDD*
+
+Luego pasamos a la segunda etapa del proceso, conocida como Timelines, donde nos enfocamos en discutir y organizar el flujo de los eventos dentro del dominio de SmartGuard. En esta fase, establecimos el orden cronológico en el que ocurren los eventos relacionados con el uso de FaceLoock, permitiéndonos visualizar de manera más clara la secuencia lógica del sistema y su comportamiento desde la perspectiva del usuario.
+
+<img src="images/timeline1.png"/>
+<img src="images/timeline2.png"/>
+
+*Evidencia del desarrollo del segundo paso del DDD*
+
+#### 4.1.1.1. Candidate Context Discovery  
+
+Como parte del proceso para identificar nuestros Candidate Contexts, avanzamos al paso 3: Pain Points, donde analizamos los eventos dentro del flujo de uso de nuestra solución “FaceLoock” que podrían representar cuellos de botella o pasos manuales susceptibles de ser automatizados. Este análisis nos permitirá detectar oportunidades clave para optimizar la experiencia del usuario y mejorar la eficiencia del sistema de seguridad inteligente que ofrece nuestra startup SmartGuard.
+
+<img src="images/painpoints1.png"/>
+<img src="images/painpoints2.png"/>
+
+*Evidencia del desarrollo del tercer paso del DDD*
+
+Después, comenzamos con el cuarto paso del DDD llamado Pivotal Points, donde identificamos puntos o eventos comerciales importantes que indican un cambio en el contexto o la fase aplicado a nuestro startup
+
+<img src="images/pivotalpoints1.png"/>
+<img src="images/pivotalpoints2.png"/>
+<img src="images/pivotalpoints3.png"/>
+
+*Evidencia del desarrollo del cuarto paso del DDD*
+
+Con base en lo anterior, iniciamos con la etapa de Commands, en la cual definimos los desencadenantes de determinados eventos dentro del dominio, así como el actor responsable de ejecutarlos
+
+<img src="images/commands1.png"/>
+<img src="images/commands2.png"/>
+<img src="images/commands3.png"/>
+
+*Evidencia del desarrollo del quinto paso del DDD*
+
+Posteriormente, avanzamos al paso 6: Policies, donde identificamos aquellos eventos que debían ejecutarse de forma automática o que requerían la aplicación de alguna política específica para su correcta ejecución. 
+
+<img src="images/policies1.png"/>
+<img src="images/policies2.png"/>
+<img src="images/policies3.png"/>
+
+*Evidencia del desarrollo del sexto paso del DDD*
+
+Con ello, procedemos a discutir los modelos de lectura de datos, logrando identificar algunos relevantes dentro del dominio de seguridad residencial, como por ejemplo el propietario del hogar, quien necesita monitorear y gestionar el acceso a su vivienda. Para esta identificación se tomaron en cuenta criterios como la complejidad del modelo, su relevancia dentro del sistema y la frecuencia de actualización de la información.
+
+<img src="images/readmodels1.png"/>
+<img src="images/readmodels2.png"/>
+
+*Evidencia del desarrollo del séptimo paso del DDD*
+
+Posteriormente empezamos a discutir el uso de sistemas externos, y los que encontramos entre ellos estaban relacionados a los pagos y el sistema de monitoreo
+
+<img src="images/externalsystems1.png"/>
+<img src="images/externalsystems2.png"/>
+
+*Evidencia del desarrollo del octavo paso del DDD*
+
+Posteriormente, iniciamos con la identificación de los Aggregates dentro del dominio de nuestra solución. Para ello, consideramos criterios como la granularidad, la consistencia de los datos y la estabilidad a lo largo del tiempo. Con base en estos criterios, procedimos a seleccionar los Aggregates más representativos, los cuales fueron los siguientes:
+
+<img src="images/aggregates1.png"/>
+<img src="images/aggregates2.png"/>
+
+*Evidencia del desarrollo del noveno paso del DDD*
+
+Y para finalizar, después de un análisis y discusión grupal, los siguientes bounded contexts fueron seleccionados:
+
+<img src="images/boundedcontexts.png"/>
+
+*Evidencia del desarrollo del desarrollo completo del DDD*
+
+Para una mejor visualización del tablero, se puede acceder directamente a nuestro MIRO mediante este enlace: [Complete DDD MIRO](https://miro.com/app/board/uXjVIEDKwK4=/)
+
+#### 4.1.1.2. Domain Message Flows Modeling  
+
+En relación con los flujos de mensajería, se seleccionaron aquellos más relevantes para el núcleo del negocio de SmartGuard, descartando flujos más generales como el registro básico de usuario o el procesamiento de pagos. En su lugar, se definieron los siguientes flujos clave de mensajería, directamente vinculados con el funcionamiento de FaceLoock:
+
+- Escenario 1:
+Registro inicial del usuario y captura de datos biométricos: El usuario crea su cuenta en el sistema y registra su rostro para habilitar el acceso facial a su hogar mediante FaceLoock.
+
+<img src="images/domainmessage1.png"/>
+
+- Escenario 2:
+Detección de intento de acceso sospechoso: El sistema detecta un rostro no autorizado intentando acceder a la vivienda y genera una alerta al propietario.
+
+<img src="images/domainmessage2.png"/>
+
+- Escenario 3:
+Renovación de suscripción para acceder a funciones premium: El usuario renueva su suscripción para mantener o desbloquear funciones avanzadas del sistema, como historial de accesos o control remoto.
+
+<img src="images/domainmessage3.png"/>
+
+#### 4.1.1.3. Bounded Context Canvases  
+
+De acuerdo con los bounded contexts definidos en puntos anteriores, se crearon sus respectivos Canvases: 
+
+<img src="images/bcanvases1.png"/>
+<img src="images/bcanvases2.png"/>
+<img src="images/bcanvases3.png"/>
+<img src="images/bcanvases4.png"/>
+
+### 4.1.2. Context Mapping  
+### 4.1.3. Software Architecture
+#### 4.1.3.1 Software Architecture System Landscape Diagram  
+#### 4.1.3.2 Software Architecture Context Level Diagrams  
+#### 4.1.3.3 Software Architecture Container Level Diagrams  
+#### 4.1.3.4 Software Architecture Deployment Diagrams  
+## 4.2. Tactical-Level Domain-Driven Design
+### 4.2.1. Bounded Context: &lt;Bounded Context Name&gt;
+#### 4.2.1.1. Domain Layer  
+#### 4.2.1.2. Interface Layer  
+#### 4.2.1.3. Application Layer  
+#### 4.2.1.4. Infrastructure Layer  
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams  
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams  
+##### 4.2.1.6.2. Bounded Context Database Design Diagram  
 
 # Capítulo V: Solution UI/UX Design  
 ## 5.1. Style Guidelines  
