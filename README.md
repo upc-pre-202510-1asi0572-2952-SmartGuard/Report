@@ -419,6 +419,24 @@ De acuerdo con los bounded contexts definidos en puntos anteriores, se crearon s
 <img src="images/bcanvases4.png"/>
 
 ### 4.1.2. Context Mapping  
+
+<img src="images/cmapping1.png"/>
+<img src="images/cmapping2.png"/>
+<img src="images/cmapping3.png"/>
+<img src="images/cmapping4.png"/>
+
+Los diferentes Bounded Contexts de SmartGuard están estrechamente relacionados para ofrecer una solución integral de seguridad residencial:
+
+- User Management se relaciona con Biometric Data Management, ya que los usuarios deben gestionar sus cuentas para registrar, actualizar o eliminar sus datos biométricos, esenciales para el funcionamiento del sistema FaceLoock.
+- Biometric Data Management se vincula con Security Monitoring, dado que los datos biométricos son utilizados para validar accesos en tiempo real y activar mecanismos de seguridad ante intentos sospechosos.
+- Security Monitoring está relacionado con Subscription Management, ya que ciertas funciones avanzadas del monitoreo (como notificaciones en tiempo real, historial de accesos o alertas automáticas) están disponibles solo para usuarios con una suscripción activa.
+- Subscription Management está relacionado con User Management, ya que un usuario al adquirir o renovar su suscripción, seguirá vigente sus credenciales y funcionamiento en el sistema.
+
+Estas relaciones reflejan cómo los distintos aspectos del sistema están integrados para brindar una experiencia segura, automatizada y personalizada, desde la gestión del usuario hasta el monitoreo inteligente y la administración de servicios premium.<br>
+Diagrama relacionado:
+
+<img src="images/contextmapping.png"/>
+
 ### 4.1.3. Software Architecture
 #### 4.1.3.1 Software Architecture System Landscape Diagram  
 #### 4.1.3.2 Software Architecture Context Level Diagrams  
