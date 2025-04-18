@@ -304,6 +304,35 @@ A continuación, procederemos a informar sobre a lo que se dedica nuestra startu
   </p>
 
 ### 1.1.2. Perfiles de integrantes del equipo
+
+<table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Perfil</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Mi nombre es Tony Ramos, estoy cursando el 9no ciclo de la carrera de Ingeniería de Software. Me considero hábil en el ámbito de la programación en los lenguajes, Python, Javascript, y últimamente estoy aprendiendo Angular. Con respeto a mi, me considero una persona responsable, con ganas de aprender y a superarme a mi mismo.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mi nombre es Antonella, actualmente estoy cursando el 9no ciclo de la carrera de ingeniería de software. Tengo conocimientos de distintos lenguajes de programación como Java, Node.js, C#, y diferentes frameworks. Me gusta trabajar en equipo responsablemente. :,’3</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mi nombre es Fernando, actualmente estoy cursando el 8vo ciclo de la carrera de ingeniería de software. Tengo conocimiento desarrollando plataformas web para la gestión empresarial, me encanta la innovación y el aprendizaje constante. Cada desafío es una oportunidad de avanzar y desarrollarme profesionalmente.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mi nombre es Alejandro, actualmente curso el 7mo ciclo de la carrera de Ingeniería de Software. Tengo experiencia en programación con lenguajes como Python, JavaScript y Java, y he trabajado con frameworks como React y tecnologías como .NET. Me considero una persona responsable, proactiva y con un fuerte compromiso por seguir aprendiendo y superándome constantemente en el ámbito profesional y personal.</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 <div>
@@ -450,6 +479,9 @@ A continuación, procederemos a informar sobre a lo que se dedica nuestra startu
 
 
 #### 1.2.2.4. Lean UX Canvas  
+
+<img src="./images/lean_ux_canvas.jpg" width="auto">
+
 ## 1.3. Segmentos objetivo
 
 <section id="segmentos-usuarios">
