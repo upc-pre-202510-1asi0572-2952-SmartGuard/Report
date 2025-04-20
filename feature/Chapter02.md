@@ -241,7 +241,7 @@ En esta parte, se han formulado varias preguntas destinadas a nuestros segmentos
 - **Resumen:** 
 El entrevistado es un propietario de vivienda tecnológica que utiliza un ecosistema integrado de dispositivos inteligentes: luces automatizadas, cámaras, sensores de movimiento, cerradura digital y un asistente virtual tipo Alexa. Destaca la importancia del control remoto a través de una app móvil, permitiéndole gestionar su hogar incluso estando fuera, con ejemplos como abrir la puerta a familiares o simular presencia. Accede a su sistema 4 o 5 veces por semana desde fuera. Prefiere claramente la app móvil por su inmediatez y portabilidad, aunque acepta la web para configuraciones avanzadas. Desea funciones como historial detallado de accesos, notificaciones en tiempo real ante intentos de ingreso no autorizados o fallos, y opciones para otorgar accesos temporales. Resalta la necesidad de una conexión a internet confiable, pero también considera vital que el sistema funcione localmente en caso de cortes. Estaría dispuesto a reemplazar completamente las llaves tradicionales por reconocimiento facial, siempre que sea seguro y cuente con respaldo ante fallos.
 
-Enlace al video: [https://link.com](https://link.com)
+Enlace al video: [https://drive.google.com/file/d/1Mo2DsHCd5W85YeI7AvBBWDPgul9eh7PE/view?usp=drive_link](https://drive.google.com/file/d/1Mo2DsHCd5W85YeI7AvBBWDPgul9eh7PE/view?usp=drive_link)
 - **Entrevista 2:**
 **Entrevistador:** Gonzales Gomez, Antonella Frida 
 **Entrevistado:** Cristian Antony montalvo 
@@ -255,14 +255,73 @@ Enlace al video: [https://link.com](https://link.com)
 - **Resumen:** 
 Cristian Anthony Montalvo, estudiante de ingeniería y analista junior, participó en una entrevista sobre el uso de tecnologías inteligentes para la seguridad del hogar. Actualmente utiliza cerraduras tradicionales, como es común en Lima, pero mostró gran interés en implementar soluciones biométricas como el reconocimiento facial. Para él, lo más importante en un sistema de acceso inteligente es la comodidad, seguida de la seguridad, ya que permitiría evitar cargar llaves y simplificar el acceso diario. Ha tenido experiencias con la pérdida de llaves y considera que este tipo de tecnologías podrían prevenir esos inconvenientes. Está dispuesto a usar aplicaciones móviles para gestionar el acceso a su vivienda, siempre que sean fáciles de usar y le brinden control sobre quién puede entrar. Además, le parecería útil que familiares cercanos pudieran recibir alertas o ayudar a controlar el sistema desde sus propios dispositivos. Finalmente, comentó que cuenta con conexión a internet tanto en su hogar como en el móvil, lo que considera esencial para el funcionamiento de este tipo de soluciones. En resumen, Cristian ve con buenos ojos las tecnologías de seguridad basadas en IoT, siempre que ofrezcan confiabilidad, simplicidad y control.
 
-Enlace al video: [https://link.com](https://link.com)
+Enlace al video: [https://drive.google.com/file/d/1fKyc2_ngx8cclktp1epBMCgF-LroQAZu/view?usp=drive_link](https://drive.google.com/file/d/1fKyc2_ngx8cclktp1epBMCgF-LroQAZu/view?usp=drive_link)
 
+- **Entrevista 3:**
+**Entrevistador:** Ramos Najar, Tony Alexander
+**Entrevistado:** Sandy Ingaruca
+**Sexo:** Mujer
+**Edad:** 29 años
+**Domicilio:** Lima
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 3:34<br>
+<img src="./assets/entrevista3.png" alt="Entrevista con Sandy" style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+La entrevistada, Sandy Ingaruca, expresa gran interés en tecnologías de seguridad para el hogar, especialmente aquellas que ofrecen protección confiable, comodidad y control remoto. Actualmente utiliza llaves físicas, aunque reconoce los riesgos asociados, como la pérdida o duplicación. Manifiesta interés en tecnologías biométricas, como el reconocimiento facial, y valora la posibilidad de control remoto mediante app móvil. Sandy usa dispositivos como cámaras, enchufes inteligentes y asistentes como Alexa, y accede a ellos con frecuencia cuando está fuera. Prefiere controlar estos sistemas mediante una aplicación móvil por su practicidad. También le interesan funciones como historial de accesos, notificaciones en tiempo real y perfiles personalizados. Finalmente, estaría dispuesta a reemplazar completamente las llaves tradicionales si el sistema facial es seguro y estable.
+
+Enlace al video: [https://drive.google.com/file/d/1TMcOckJDZniVaKipFdkIkufUpT3pWIAj/view?usp=drive_link](https://drive.google.com/file/d/1TMcOckJDZniVaKipFdkIkufUpT3pWIAj/view?usp=drive_link)
+
+
+- **Entrevista 4:**
+**Entrevistador:** Fernando Aquino Iman
+**Entrevistado:** Gerson Suelo Carrera
+**Sexo:** Hombre
+**Edad:** 32 años
+**Domicilio:** Comas
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 3:34<br>
+<img src="./assets/entrevista4.png" alt="Entrevista con Gerson" style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+En la entrevista, Gerson Carrera expresa su interés en mejorar la seguridad de su hogar mediante tecnología inteligente, mostrando apertura hacia el uso de sistemas con reconocimiento facial como Faceelock. Actualmente utiliza llaves tradicionales, pero valora la posibilidad de automatizar el acceso por seguridad, comodidad y rapidez. Considera que el costo y la disponibilidad son limitaciones de los sistemas actuales. Ya utiliza dispositivos como Alexa y aplicaciones móviles para controlar cámaras de seguridad, por lo que ve como fundamental que el nuevo sistema tenga control remoto y funciones como historial de accesos y alertas. Está dispuesto a reemplazar las llaves tradicionales si el sistema garantiza confiabilidad y efectividad.
+
+Enlace al video: [https://drive.google.com/file/d/16C7ZcuZatIejrDAFQ3RePuQLpxMRKYHs/view?usp=drive_link](https://drive.google.com/file/d/16C7ZcuZatIejrDAFQ3RePuQLpxMRKYHs/view?usp=drive_link)
 **Entrevista para el Segmento Objetivo 2 - Adultos mayores  o personas con movilidad reducida:**
 
+- **Entrevista 5:**
+**Entrevistador:** David Alexander Pérez García
+**Entrevistado:** Delfina Ames García
+**Sexo:** Mujer
+**Edad:** 45 años
+**Domicilio:** Lima
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 4:01<br>
+<img src="./assets/entrevista5.png" alt="Entrevista con Delfina" style="width: 600px; height: auto;"><br>
 
-
+- **Resumen:** 
+En esta entrevista, Delfina Ames García, una mujer de 45 años, comparte su experiencia como parte del segmento dirigido a adultos mayores o personas con movilidad reducida. Destaca la importancia de la seguridad en el hogar y expresa su interés en tecnologías de acceso inteligente, especialmente aquellas que eviten el uso de llaves, debido a experiencias negativas como olvidar o romper llaves y las dificultades para conseguir cerrajeros. Valora especialmente la facilidad de uso, la rapidez y la posibilidad de control mediante una aplicación móvil, siempre que reciba orientación para usarla. Además, le parece útil que familiares puedan recibir alertas y ayudar en el control de acceso desde sus propios dispositivos.
+Enlace al video: [https://drive.google.com/file/d/1b7dupsyRCYM38QB9auwEHKcBO0BDDzm_/view?usp=drive_link](https://drive.google.com/file/d/1b7dupsyRCYM38QB9auwEHKcBO0BDDzm_/view?usp=drive_link)
 ### 2.2.3. Análisis de entrevistas.
 #### Propietarios de viviendas tecnológicas
+
+| **Preguntas** | **Acciones realizadas** |
+|---------------|-------------------------------------------------------------|
+| ¿Qué importancia tiene para ti la seguridad en casa al momento de elegir una tecnología? | 100% la consideran muy importante para elegir tecnología de hogar. |
+| ¿Cómo gestionas actualmente el acceso a tu vivienda? | 67% usan llaves tradicionales , 33% usa cerradura digital (Propietario tecnológico). |
+| ¿Has considerado usar tecnologías biométricas (como reconocimiento facial) para acceder a tu hogar? | 100% están interesados o dispuestos a implementar reconocimiento facial. |
+| ¿Qué valoras más en un sistema de acceso inteligente? | 67% priorizan comodidad (Cristian y Sandy), 33% seguridad y control remoto (Propietario tecnológico). |
+| ¿Qué limitaciones o frustraciones has tenido con los sistemas de seguridad actuales? | 67% mencionaron pérdida de llaves como problema. |
+| ¿Qué te motivaría a comprar una solución como FaceLoock? | 67% destacaron seguridad, comodidad, control remoto y respaldo ante fallos como motivadores clave. |
+| ¿Qué dispositivos inteligentes usas para controlar tu hogar? | 67% usa ecosistema con luces, cámaras, sensores, cerradura digital, Alexa. |
+| ¿Qué tan importante es que el sistema tenga control remoto desde una app móvil o interfaz web? | 100% lo consideran muy importante, especialmente mediante app móvil. |
+| ¿Con qué frecuencia accedes o controlas tus dispositivos desde fuera de casa? | 67% accede 4–5 veces por semana desde fuera. |
+| ¿Preferirías gestionar el sistema desde una app móvil o web? ¿Por qué? | 67% prefieren app móvil por portabilidad; usan web para configuraciones avanzadas. |
+| ¿Qué funcionalidades te gustaría en la app? | 100% desean historial de accesos, alertas en tiempo real, accesos temporales. |
+| ¿Qué tan confiable necesitas que sea la conexión a internet? | 67% consideran esencial la confiabilidad, pero también necesitan respaldo local. |
+| ¿Estarías dispuesto a reemplazar llaves por sistema facial seguro? | 100% sí, siempre que haya seguridad y respaldo en caso de fallos. |
+
+
 #### Adultos mayores  o personas con movilidad reducida
 
 ## 2.3. Needfinding.
