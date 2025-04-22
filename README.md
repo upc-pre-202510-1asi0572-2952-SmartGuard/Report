@@ -443,15 +443,85 @@ Diagrama relacionado:
 #### 4.1.3.3 Software Architecture Container Level Diagrams  
 #### 4.1.3.4 Software Architecture Deployment Diagrams  
 ## 4.2. Tactical-Level Domain-Driven Design
-### 4.2.1. Bounded Context: &lt;Bounded Context Name&gt;
-#### 4.2.1.1. Domain Layer  
-#### 4.2.1.2. Interface Layer  
-#### 4.2.1.3. Application Layer  
-#### 4.2.1.4. Infrastructure Layer  
+
+## 4.2.1. Bounded Context: monitorización de seguridad
+
+Este contexto se centra en la capacidad del sistema para detectar accesos sospechosos mediante el reconocimiento facial y activar las alertas de seguridad correspondientes para asegurar la protección del hogar.
+
+### 4.2.1.1. Domain Layer
+
+#### Entidades
+
+- **SecurityAlert**: Representa una alerta generada cuando el sistema detecta un acceso sospechoso o una intrusión en la vivienda.
+- **AccessAttempt**: Registra un intento de acceso al hogar, ya sea exitoso o fallido, incluyendo el rostro capturado, la hora, y la identificación del usuario.
+- **AlarmSystem**: Representa el sistema de alarmas que se activa cuando se detecta un acceso no autorizado o un evento de seguridad.
+
+#### Objetos de Valor
+
+- **IntrusionDetection**: Contiene los detalles de un acceso no autorizado o intrusión detectada, como la identificación del rostro y la hora del intento.
+- **AlertMetadata**: Contiene detalles sobre la alerta, como el tipo de evento (intento fallido, intrusión, etc.) y la gravedad de la alerta.
+
+#### Repositorios
+
+- **SecurityAlertRepository**: Maneja la persistencia de las alertas de seguridad generadas por el sistema.
+- **AccessAttemptRepository**: Maneja la persistencia de los intentos de acceso al sistema.
+- **AlarmRepository**: Maneja la persistencia de los estados de las alarmas activadas.
+
+### 4.2.1.2. Interface Layer
+
+#### Controladores
+
+- **SecurityAlertController**: Gestiona las operaciones relacionadas con las alertas de seguridad, permitiendo generar, activar y notificar sobre los eventos de seguridad en tiempo real.
+- **AccessAttemptController**: Se encarga de gestionar los registros de intentos de acceso, proporcionando visibilidad sobre quién y cuándo ha intentado acceder al hogar.
+- **AlarmController**: Se encarga de gestionar las alarmas, activando o desactivando las alarmas cuando se detecta un evento de seguridad.
+
+### 4.2.1.3. Application Layer
+
+La capa de aplicación para "Monitorización de Seguridad" gestiona las funcionalidades que permiten al sistema detectar accesos sospechosos y activar las alertas de seguridad en el hogar. Esta capa interactúa con los repositorios para registrar los intentos de acceso y las alertas, además de manejar la lógica de activación de alarmas.
+
+#### Command Handlers
+
+- **DetectSuspiciousAccessCommandHandler**: Procesa las solicitudes de detección de accesos sospechosos, evaluando los intentos fallidos y activando las alertas si es necesario.
+- **ActivateAlarmCommandHandler**: Se encarga de activar las alarmas en caso de intrusión, enviando notificaciones a los propietarios de la vivienda.
+
+#### Event Handlers
+
+- **SuspiciousAccessDetectedEventHandler**: Maneja los eventos que indican que un acceso sospechoso ha sido detectado, generando alertas y activando respuestas automatizadas.
+- **AlarmActivatedEventHandler**: Maneja los eventos que indican que una alarma ha sido activada, enviando notificaciones y actualizando el estado del sistema.
+
+### 4.2.1.4. Infrastructure Layer
+
+La capa de infraestructura se encarga de la gestión de la base de datos para almacenar las alertas, los intentos de acceso y el estado de las alarmas. También implementa conexiones con servicios externos necesarios, como notificaciones push y activación de alarmas de forma remota.
+
+#### Gestión de bases de datos
+
+- **Tablas**: Creación y gestión de tablas para almacenar las alertas generadas, los intentos de acceso y los estados de las alarmas.
+
+#### Caché
+
+- Implementación de almacenamiento en caché para mejorar la eficiencia en la detección de eventos recientes y reducir la latencia en la activación de alertas.
+
+#### Copias de seguridad
+
+- Mantenimiento de copias de seguridad de los registros de seguridad, para garantizar la integridad y la disponibilidad de los datos históricos de accesos y alertas.
+
+#### Seguridad
+
+- **Autenticación**: Implementación de autenticación para garantizar que solo los usuarios autorizados puedan gestionar las configuraciones de alertas y alarmas, y acceder a los registros de seguridad.
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams  
+![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364349524595707944/image.png?ex=68095903&is=68080783&hm=9731c6d1321b34625498ae58f927196f44c54d7428280c59d6c615d4847886e2&=&format=webp&quality=lossless&width=985&height=568)
+
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams  
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams  
+![Image 2](https://media.discordapp.net/attachments/1364349164074438756/1364349524906082435/image.png?ex=68095903&is=68080783&hm=e210fe599cc9f6098732c7d7df4dcb786087903aec421efa0d323fe5a08a4ad5&=&format=webp&quality=lossless&width=985&height=393)
+
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram  
+![Image 3](https://media.discordapp.net/attachments/1364349164074438756/1364349525225111643/image.png?ex=68095903&is=68080783&hm=a05e653fb90747b7b613ab6bfad99812a5bd6ceb7ee6d9de94d5fc3a5a165b05&=&format=webp&quality=lossless&width=985&height=661)
+
+
+
+
 
 # Capítulo V: Solution UI/UX Design  
 ## 5.1. Style Guidelines  
