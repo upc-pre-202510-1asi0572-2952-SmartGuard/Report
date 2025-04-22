@@ -521,6 +521,83 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 
 
 
+## 4.2.1. Bounded Context: gestión de suscripciones
+
+Este contexto se centra en la gestión de las suscripciones de los usuarios, permitiendo a los propietarios acceder a funciones premium y gestionar sus pagos. Incluye la activación, renovación y cancelación de sus suscripciones a los servicios adicionales del sistema.
+
+### 4.2.1.1. Domain Layer
+
+#### Entidades
+
+- **Subscription**: Representa una suscripción activa a los servicios premium del sistema, que permite acceder a funciones avanzadas como notificaciones en tiempo real, acceso remoto y almacenamiento en la nube.
+- **Payment**: Registra los pagos realizados por los usuarios para activar o renovar sus suscripciones.
+- **User**: Representa al propietario de la vivienda que tiene una suscripción activa o pendiente.
+
+#### Objetos de Valor
+
+- **PaymentDetails**: Contiene la información del pago, como el monto, la fecha de pago y el método de pago.
+- **SubscriptionPlan**: Define los planes de suscripción, sus características y los beneficios asociados (por ejemplo, plan básico, plan premium).
+
+#### Repositorios
+
+- **SubscriptionRepository**: Maneja la persistencia de las suscripciones, permitiendo consultar, renovar y cancelar suscripciones.
+- **PaymentRepository**: Maneja la persistencia de los pagos realizados por los usuarios para las suscripciones.
+- **UserRepository**: Maneja la persistencia de la información de los usuarios y su estado de suscripción.
+
+### 4.2.1.2. Interface Layer
+
+#### Controladores
+
+- **SubscriptionController**: Gestiona las operaciones relacionadas con las suscripciones, como la creación, cancelación, y renovación de suscripciones.
+- **PaymentController**: Se encarga de gestionar el proceso de pago, incluyendo la validación de pagos y la actualización de la suscripción tras el pago.
+- **UserController**: Administra la información del usuario y su estado de suscripción, permitiendo modificar detalles del perfil y ver el historial de pagos.
+
+### 4.2.1.3. Application Layer
+
+La capa de aplicación para "Gestión de Suscripciones" gestiona las funcionalidades que permiten a los usuarios suscribirse a servicios premium, gestionar pagos y renovar sus suscripciones. Esta capa interactúa con los repositorios para almacenar información de pagos y suscripciones.
+
+#### Command Handlers
+
+- **SubscribeUserCommandHandler**: Procesa la solicitud de un usuario para suscribirse a un plan premium y valida el pago asociado.
+- **RenewSubscriptionCommandHandler**: Procesa la renovación de una suscripción y el pago relacionado.
+- **CancelSubscriptionCommandHandler**: Se encarga de la cancelación de suscripciones y la actualización de la base de datos.
+
+#### Event Handlers
+
+- **SubscriptionActivatedEventHandler**: Maneja los eventos que indican que una suscripción ha sido activada, enviando notificaciones o actualizando el estado del usuario.
+- **PaymentProcessedEventHandler**: Maneja los eventos que indican que un pago ha sido procesado exitosamente, activando o renovando la suscripción.
+
+### 4.2.1.4. Infrastructure Layer
+
+La capa de infraestructura se encarga de la gestión de la base de datos para almacenar información relacionada con las suscripciones y pagos. También implementa las conexiones a servicios externos necesarios para la gestión de pagos (pasarelas de pago).
+
+#### Gestión de bases de datos
+
+- **Tablas**: Creación y gestión de tablas relacionadas con las suscripciones, pagos y usuarios.
+
+#### Caché
+
+- Implementación de almacenamiento en caché para mejorar la velocidad de consulta de las suscripciones y pagos más recientes.
+
+#### Pasarelas de pago
+
+- Implementación de pasarelas de pago externas (por ejemplo, Stripe, PayPal) para gestionar los pagos de los usuarios.
+
+#### Seguridad
+
+- **Autenticación y autorización**: Implementación de medidas de seguridad para garantizar que solo los usuarios autenticados puedan gestionar sus suscripciones y realizar pagos.
+
+### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281140994078/image.png?ex=68095aa5&is=68080925&hm=cff4b4fb6d788aa3b137fb23f19a9fd940d31a45bcdbea741f69538f9236969a&=&format=webp&quality=lossless&width=985&height=605)
+
+### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281413488650/image.png?ex=68095aa5&is=68080925&hm=e718bc01530eae2bd55f82c167e7a24727ed60fc16dfc91a74ce1e2ee001a542&=&format=webp&quality=lossless&width=985&height=395)
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281824665650/image.png?ex=68095aa6&is=68080926&hm=6fdd78a6a36719965cc4f17a6ca007f8095b4a076fc0f398d261e7a00320f3b1&=&format=webp&quality=lossless&width=985&height=419)
+
 
 
 # Capítulo V: Solution UI/UX Design  
