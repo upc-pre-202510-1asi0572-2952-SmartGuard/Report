@@ -439,9 +439,24 @@ Diagrama relacionado:
 
 ### 4.1.3. Software Architecture
 #### 4.1.3.1 Software Architecture System Landscape Diagram  
+El diagrama ilustra los componentes tecnológicos fundamentales (FaceLoock, Gateway, Servidor Central, App Móvil y App Web), sus interrelaciones funcionales y los flujos de comunicación. Esta representación de alto nivel permite visualizar cómo los propietarios interactúan con el sistema de seguridad residencial basado en reconocimiento facial, facilitando la comprensión de las dependencias y responsabilidades de cada componente dentro del ecosistema IoT propuesto.
+
+![Image 1](https://cdn.discordapp.com/attachments/1364349164074438756/1364357069330845786/Captura_de_pantalla_2025-04-17_121143.png?ex=68096009&is=68080e89&hm=e5c1651bd14325bcc9a2fce786a422b144fdec5c5a8d09ed5dbbf869e0e87d9c&)
+
+
 #### 4.1.3.2 Software Architecture Context Level Diagrams  
+El diagrama ilustra el contexto del sistema FaceLoock, mostrando las interacciones entre el componente central (la cerradura inteligente con reconocimiento facial) y sus sistemas externos. En esta representación se visualizan claramente los límites del sistema y sus principales integraciones. El componente central FaceLoock interactúa con los propietarios, quienes gestionan el acceso y monitorean la seguridad. Se integra con sistemas externos clave: el Sistema de Notificaciones Push, los Servicios de Nube para almacenamiento de datos, la API de Reconocimiento Facial para la validación de identidades, y un Servicio de Pasarela de Pagos para gestionar suscripciones. Esta vista de contexto define el alcance del sistema, estableciendo sus fronteras operativas y las interfaces con actores externos, proporcionando una comprensión clara de las responsabilidades y dependencias del sistema FaceLoock en su entorno operativo.
+![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364358382487601202/image.png?ex=68096142&is=68080fc2&hm=3b21765bcfe335217bd4f64d305c2e18051b2f5e0bc82d0e0a556adeca376e8b&=&format=webp&quality=lossless&width=1074&height=771)
+
 #### 4.1.3.3 Software Architecture Container Level Diagrams  
+El diagrama muestra los diferentes contenedores tecnológicos dentro del sistema FaceLoock y cómo interactúan entre sí. Los propietarios de viviendas interactúan con aplicaciones móviles y web para gestionar la seguridad y controlar el acceso a sus hogares. Estas aplicaciones se conectan a un API que gestiona las interacciones con los dispositivos. Los datos operacionales y los eventos se almacenan en una base de datos central, que recopila información sobre los dispositivos IoT, como el sistema FaceLoock. Además, el sistema se integra con servicios externos como el sistema de notificaciones push, servicios de nube para almacenar fotos, videos y otros datos relacionados con los accesos y eventos, y pasarelas de pago para gestionar las suscripciones. Este diagrama ilustra la arquitectura y la infraestructura que respalda el funcionamiento seguro y eficiente del sistema.
+![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364358126777663528/image.png?ex=68096105&is=68080f85&hm=8e4c36b90884936efbc43d42cc0a5892aef20022812044d4e323c3b897a741b1&=&format=webp&quality=lossless&width=1115&height=738)
+
 #### 4.1.3.4 Software Architecture Deployment Diagrams  
+El diagrama muestra cómo se despliegan y comunican los diferentes componentes tecnológicos del sistema FaceLoock. Los usuarios interactúan con la aplicación móvil que hace solicitudes API al servidor backend. Este servidor gestiona la lógica del negocio y las interacciones con otros servicios, además de hacer llamadas a la base de datos, donde se almacenan los datos de usuarios, configuraciones y registros de acceso. El sistema también incluye una página de aterrizaje que interactúa con la aplicación web accesible desde cualquier navegador, proporcionando una interfaz adicional para los usuarios. Esta representación de despliegue ilustra cómo los componentes de software están organizados para asegurar la operación fluida del sistema.
+
+![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364358726357880842/Captura_de_pantalla_2025-04-17_130039.png?ex=68096194&is=68081014&hm=136d0cee1e36e66f1ddf8b7833e032c99c85cf193a10c0fb5e1cf55a9356539c&=&format=webp&quality=lossless&width=1115&height=650)
+
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ## 4.2.1. Bounded Context: monitorización de seguridad
