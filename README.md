@@ -261,19 +261,26 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td><b>Acciones realizadas</b></td>
     <td><b>Conclusiones</b></td>
   </tr>
-  <tbody>
-    <tr>
-      <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
+  <tr>
+    <td><b>Trabajo en equipo para proporcionar liderazgo en forma conjunta.</b></td>
+    <td><b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de
+      nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución
+      tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave
+      para definir los bounded contexts del sistema FaceLoock.</td>
+    <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara
+      de la idea  y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
+  </tr>
+  <tr>
+    <td><b>Creo un entorno colaborativo e inclusivo, establezco metas, planifico tareas y cumplo objetivos.</b></td>
+    <td><b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente
+      de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del
+      equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné
+      tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.</td>
+    <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los
+      objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
+  </tr>
 </table>
+
 
 
 # Capítulo I: Introducción
@@ -314,19 +321,23 @@ A continuación, procederemos a informar sobre a lo que se dedica nuestra startu
   </thead>
   <tbody>
     <tr>
-      <td></td>
+      <td><img src="./images/team/tony.png" width="auto"></td>
       <td>Mi nombre es Tony Ramos, estoy cursando el 9no ciclo de la carrera de Ingeniería de Software. Me considero hábil en el ámbito de la programación en los lenguajes, Python, Javascript, y últimamente estoy aprendiendo Angular. Con respeto a mi, me considero una persona responsable, con ganas de aprender y a superarme a mi mismo.</td>
     </tr>
     <tr>
-      <td></td>
-      <td>Mi nombre es Antonella, actualmente estoy cursando el 9no ciclo de la carrera de ingeniería de software. Tengo conocimientos de distintos lenguajes de programación como Java, Node.js, C#, y diferentes frameworks. Me gusta trabajar en equipo responsablemente. :,’3</td>
+      <td><img src="./images/team/antonella.png" width="auto"></td>
+      <td>Mi nombre es Antonella, actualmente estoy cursando el 9no ciclo de la carrera de ingeniería de software. Tengo conocimientos de distintos lenguajes de programación como Java, Node.js, C#, y diferentes frameworks. Me gusta trabajar en equipo responsablemente.</td>
     </tr>
     <tr>
-      <td></td>
+      <td><img src="./images/team/fernando.png" width="auto"></td>
       <td>Mi nombre es Fernando, actualmente estoy cursando el 8vo ciclo de la carrera de ingeniería de software. Tengo conocimiento desarrollando plataformas web para la gestión empresarial, me encanta la innovación y el aprendizaje constante. Cada desafío es una oportunidad de avanzar y desarrollarme profesionalmente.</td>
     </tr>
     <tr>
-      <td></td>
+      <td><img src="./images/team/david.png" width="auto"></td>
+      <td>Mi nombre es David, actualmente soy estudiante de Ingeniería de Software (7mo ciclo). Me especializo en el desarrollo de aplicaciones web, trabajando de forma independiente en proyectos de programación. Tengo experiencia en lenguajes como  TypeScript, Java y PHP, utilizando tecnologías modernas como React, Next.js, Spring Boot, Express y Laravel. Apasionado por la tecnología y el aprendizaje continuo, siempre busco mejorar mis habilidades y asumir nuevos desafíos en el mundo del desarrollo de software.</td>
+    </tr>
+    <tr>
+      <td><img src="./images/team/alejandro.png" width="auto"></td>
       <td>Mi nombre es Alejandro, actualmente curso el 7mo ciclo de la carrera de Ingeniería de Software. Tengo experiencia en programación con lenguajes como Python, JavaScript y Java, y he trabajado con frameworks como React y tecnologías como .NET. Me considero una persona responsable, proactiva y con un fuerte compromiso por seguir aprendiendo y superándome constantemente en el ámbito profesional y personal.</td>
     </tr>
   </tbody>
