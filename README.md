@@ -1,7 +1,3 @@
-# <center>COURSE PROJECT</center>
-
-
-# Contenido
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 
