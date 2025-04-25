@@ -1,9 +1,13 @@
 # <center>COURSE PROJECT</center>
 
+
 # Contenido
-# Capítulo III: Requirements Specification (#capítulo-iii-requirements-specification)
-## 3.1. To-Be Scenario Mapping (#31-to-be-scenario-mapping)
-## 3.2. User Stories (#32-user-stories)
+# Capítulo III: Requirements Specification
+## 3.1. To-Be Scenario Mapping
+
+<img src="./assets/To-Be-Mapping-Scennary.JPG" />
+
+## 3.2. User Stories 
 
   <table border="1" style="width: 100%; border-collapse: collapse;">
     <thead>
@@ -129,11 +133,14 @@
     </tbody>
   </table>
 
-## 3.3. Impact Mapping (#33-impact-mapping)
+## 3.3. Impact Mapping 
+
+
+<img src="./assets/Impact Map.png" />
 
 
 
-## 3.4. Product Backlog (#34-product-backlog)
+## 3.4. Product Backlog 
   
   <table border="1" style="width: 100%; border-collapse: collapse;">
     <thead>
