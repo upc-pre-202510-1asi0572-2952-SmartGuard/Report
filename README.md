@@ -145,7 +145,7 @@
         <th>User Story Id</th>
         <th>Título</th>
         <th>Descripción</th>
-        <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
+        <th>Story Points</th>
       </tr>
     </thead>
     <tbody>
