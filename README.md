@@ -261,46 +261,694 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td><b>Acciones realizadas</b></td>
     <td><b>Conclusiones</b></td>
   </tr>
+  <tr>
+    <td><b>Trabajo en equipo para proporcionar liderazgo en forma conjunta.</b></td>
+    <td><b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.<br><b>Gonzales Gomez, Antonella Frida</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.
+    <br><b>Pérez García, David Alexander</b><br> Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.
+</td>
+    <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea  y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
+  </tr>
+  <tr>
+    <td><b>Creo un entorno colaborativo e inclusivo, establezco metas, planifico tareas y cumplo objetivos.</b></td>
+    <td><b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><b>Gonzales Gomez, Antonella Frida</b><br> Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.
+    <br><b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.
+    </td>
+    <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
+  </tr>
+</table>
+
+
+
+
+# Capítulo I: Introducción
+## 1.1. Startup Profile
+A continuación, procederemos a informar sobre a lo que se dedica nuestra startup “SmartGuard”, así como la presentación del equipo de desarrollo del producto, software presentado anteriormente, “FaceLoock”.
+### 1.1.1. Descripción de la Startup
+<p>
+    <strong>SmartGuard</strong> es una startup tecnológica orientada a desarrollar soluciones de seguridad residencial inteligentes.
+    Nuestra misión es transformar la forma en que las personas protegen sus hogares mediante el uso de tecnologías avanzadas, confiables y fáciles de usar.
+    Apostamos por la innovación y la comodidad como ejes principales en el desarrollo de nuestros productos.
+  </p>
+
+  <p>
+    El primer producto de SmartGuard es <strong>"FaceLoock"</strong>, un sistema de reconocimiento facial para el acceso a viviendas,
+    que busca reemplazar el uso de llaves tradicionales por una solución segura y sin contacto físico.
+    FaceLoock se enfoca en usuarios que desean modernizar la seguridad de su hogar mediante tecnología biométrica.
+  </p>
+
+  <h4><strong>Misión</strong></h4>
+  <p>
+    Transformar la forma en que las personas protegen sus hogares mediante el uso de tecnologías avanzadas, confiables y fáciles de usar.
+  </p>
+
+  <h4><strong>Visión</strong></h4>
+  <p>
+    Ser líderes en soluciones de seguridad residencial inteligente en América Latina,
+    ofreciendo productos innovadores que mejoren la calidad de vida de nuestros usuarios.
+  </p>
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+<table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Perfil</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</b></td>
-      <td></td>
-      <td></td>
+      <td><img src="./images/team/tony.png" width="auto"></td>
+      <td>Mi nombre es Tony Ramos, estoy cursando el 9no ciclo de la carrera de Ingeniería de Software. Me considero hábil en el ámbito de la programación en los lenguajes, Python, Javascript, y últimamente estoy aprendiendo Angular. Con respeto a mi, me considero una persona responsable, con ganas de aprender y a superarme a mi mismo.</td>
     </tr>
     <tr>
-      <td><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></td>
-      <td></td>
-      <td></td>
+      <td><img src="./images/team/antonella.png" width="auto"></td>
+      <td>Mi nombre es Antonella, actualmente estoy cursando el 9no ciclo de la carrera de ingeniería de software. Tengo conocimientos de distintos lenguajes de programación como Java, Node.js, C#, y diferentes frameworks. Me gusta trabajar en equipo responsablemente.</td>
+    </tr>
+    <tr>
+      <td><img src="./images/team/fernando.png" width="auto"></td>
+      <td>Mi nombre es Fernando, actualmente estoy cursando el 8vo ciclo de la carrera de ingeniería de software. Tengo conocimiento desarrollando plataformas web para la gestión empresarial, me encanta la innovación y el aprendizaje constante. Cada desafío es una oportunidad de avanzar y desarrollarme profesionalmente.</td>
+    </tr>
+    <tr>
+      <td><img src="./images/team/david.png" width="auto"></td>
+      <td>Mi nombre es David, actualmente soy estudiante de Ingeniería de Software (7mo ciclo). Me especializo en el desarrollo de aplicaciones web, trabajando de forma independiente en proyectos de programación. Tengo experiencia en lenguajes como  TypeScript, Java y PHP, utilizando tecnologías modernas como React, Next.js, Spring Boot, Express y Laravel. Apasionado por la tecnología y el aprendizaje continuo, siempre busco mejorar mis habilidades y asumir nuevos desafíos en el mundo del desarrollo de software.</td>
+    </tr>
+    <tr>
+      <td><img src="./images/team/alejandro.png" width="auto"></td>
+      <td>Mi nombre es Alejandro, actualmente curso el 7mo ciclo de la carrera de Ingeniería de Software. Tengo experiencia en programación con lenguajes como Python, JavaScript y Java, y he trabajado con frameworks como React y tecnologías como .NET. Me considero una persona responsable, proactiva y con un fuerte compromiso por seguir aprendiendo y superándome constantemente en el ámbito profesional y personal.</td>
     </tr>
   </tbody>
 </table>
 
 
-# Capítulo I: Introducción
-## 1.1. Startup Profile
-### 1.1.1. Descripción de la Startup
-### 1.1.2. Perfiles de integrantes del equipo
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
-#### 1.2.2.3. Lean UX Hypothesis Statements
-#### 1.2.2.4. Lean UX Canvas
+<div>
+<h3>Antecedente</h3>
+  <p>
+    En la actualidad, el uso de llaves físicas continúa siendo el método más común para acceder a viviendas. 
+    Sin embargo, este sistema presenta diversas vulnerabilidades: extravío de llaves, duplicación no autorizada, robos o situaciones de emergencia 
+    donde el acceso rápido se ve limitado. Estas condiciones generan un entorno propenso a riesgos y afectan la percepción de seguridad de los usuarios 
+    en sus propios hogares.
+  </p>
+
+  <h3>Problemática – Enfoque con las 5W + 2H</h3>
+  <ul>
+    <li><strong>What?</strong> Las personas enfrentan problemas de seguridad y practicidad debido a la dependencia de llaves físicas para el ingreso a sus hogares.</li>
+    <li><strong>Why?</strong> Porque las llaves pueden perderse, duplicarse sin permiso o ser robadas, generando inseguridad. Además, su uso requiere contacto físico, lo cual puede ser incómodo o riesgoso en ciertas circunstancias.</li>
+    <li><strong>Who?</strong> A propietarios de viviendas, familias y personas que buscan mejorar la seguridad y accesibilidad en su entorno residencial.</li>
+    <li><strong>When?</strong> De manera cotidiana, especialmente en situaciones imprevistas como olvidos, emergencias médicas, o pérdida de llaves.</li>
+    <li><strong>Where?</strong> En zonas residenciales urbanas y suburbanas donde aún se emplean métodos de acceso tradicionales.</li>
+    <li><strong>How?</strong> A través de experiencias negativas como bloqueos de acceso, necesidad de copias físicas adicionales, o temor a intrusiones por pérdida o robo de llaves.</li>
+    <li><strong>How Much?</strong> El impacto varía, pero puede traducirse en costos económicos (cambio de cerraduras), pérdida de tiempo, estrés y una constante sensación de vulnerabilidad.</li>
+  </ul>
+</div>
+
+### 1.2.2 Antecedentes y problemática
+#### 1.2.2.1 Lean UX Hypothesis Statements
+
+<div>
+  <article>
+    <h3>Propietarios de viviendas</h3>
+    <p>
+      Las personas que poseen una vivienda desean garantizar la seguridad de su hogar, pero muchas veces confían únicamente en llaves físicas 
+      que pueden perderse, ser duplicadas sin consentimiento o forzadas. Además, no siempre se tiene control sobre quién ha ingresado o en qué momento.
+    </p>
+    <p><strong>¿Cómo pueden los propietarios acceder a sus hogares y gestionar el acceso de forma segura, moderna y sin depender de llaves físicas?</strong></p>
+  </article>
+
+  <article>
+    <h3>Adultos mayores o personas con movilidad reducida</h3>
+    <p>
+      Este grupo enfrenta dificultades al manipular llaves físicas, lo cual puede limitar su autonomía o poner en riesgo su seguridad en situaciones urgentes.
+    </p>
+    <p><strong>¿Cómo pueden acceder fácilmente a sus viviendas sin depender del uso físico de llaves o ayuda de terceros?</strong></p>
+  </article>
+</div>
+
+#### 1.2.2.2  Lean UX Assumptions
+<section id="business-assumptions">
+  <h4>Business Assumptions</h4>
+  <ul>
+    <li>Creemos que nuestros clientes necesitan una solución moderna, segura y sin contacto físico para acceder a sus hogares.</li>
+    <li>Estas necesidades pueden resolverse mediante un sistema de reconocimiento facial que permita a los usuarios entrar a su vivienda sin necesidad de llaves tradicionales ni tarjetas.</li>
+    <li>Nuestros clientes iniciales son propietarios de viviendas tecnológicas, personas interesadas en domótica, y usuarios preocupados por mejorar los niveles de seguridad de sus hogares.</li>
+    <li>El valor número 1 que un cliente busca en nuestros servicios es la seguridad sin fricciones, es decir, poder ingresar a su hogar de forma segura, rápida y sin complicaciones.</li>
+    <li>El cliente también puede obtener estos servicios adicionales:
+      <ul>
+        <li>Control de acceso mediante aplicación móvil</li>
+        <li>Historial de accesos por usuario</li>
+        <li>Integración con sistemas de domótica</li>
+        <li>Notificaciones en tiempo real ante intentos fallidos de reconocimiento</li>
+      </ul>
+    </li>
+    <li>Vamos a adquirir la mayoría de nuestros clientes a través de estrategias de marketing digital en redes sociales como Instagram, YouTube y LinkedIn, así como demostraciones en ferias de tecnología y alianzas con inmobiliarias o empresas de domótica.</li>
+    <li>Haremos dinero mediante la venta del sistema FaceLoock y un modelo de suscripción mensual para funciones premium (notificaciones avanzadas, respaldo en la nube, control remoto, integración con múltiples dispositivos).</li>
+    <li>La competencia principal en el mercado nacional es limitada, ya que la mayoría de sistemas similares son importados y no están optimizados para el contexto local. A nivel internacional, existen sistemas de reconocimiento facial para acceso, pero sus precios son elevados y no están pensados para residencias en América Latina.</li>
+    <li>Nuestra ventaja competitiva radica en el precio accesible, la facilidad de instalación, la personalización local y las integraciones con otros sistemas del hogar.</li>
+    <li>Nuestro mayor riesgo es la desconfianza en la precisión y seguridad del reconocimiento facial. Resolveremos esto mediante campañas de sensibilización, pruebas públicas de eficacia, garantías de satisfacción, y auditorías de seguridad que validen la calidad del sistema.</li>
+  </ul>
+</section>
+
+<section id="business-outcomes">
+  <h4>Business Outcomes</h4>
+  <ul>
+    <li>Incremento en la percepción de seguridad residencial: Mejorar la percepción de seguridad en los hogares de nuestros usuarios en un 30% dentro de los primeros 12 meses, a través de encuestas y reportes post-implementación.</li>
+    <li>Adopción tecnológica masiva en hogares: Lograr una adopción del sistema FaceLoock en al menos el 10% de residencias con sistemas de domótica dentro del primer año.</li>
+    <li>Reconocimiento de marca y confianza: Alcanzar una tasa de reconocimiento de marca del 35% entre los usuarios interesados en seguridad inteligente dentro de los primeros 18 meses, reforzada por influencers tecnológicos y alianzas estratégicas.</li>
+    <li>Ingresos sostenibles: Alcanzar un crecimiento del 15% mensual en ventas del sistema FaceLoock y suscripciones premium, generando ingresos recurrentes estables.</li>
+    <li>Liderazgo en el mercado nacional: Posicionarnos como la primera opción de seguridad inteligente residencial en Perú y expandirnos a otros países de América Latina en un plazo de 24 meses.</li>
+  </ul>
+</section>
+
+<section id="user-assumptions">
+  <h4>User Assumptions</h4>
+  <ul>
+    <li><strong>Seguridad y conveniencia:</strong> Los usuarios desean una solución que garantice un alto nivel de seguridad mientras les permite ingresar a sus hogares de manera rápida y sin complicaciones. Prefieren la comodidad de no depender de llaves físicas ni tarjetas.</li>
+    <li><strong>Preocupación por la privacidad:</strong> Los usuarios valoran la privacidad de sus datos y buscan sistemas de reconocimiento facial que ofrezcan garantías de seguridad, con almacenamiento de datos mínimamente accesibles y encriptados.</li>
+    <li><strong>Facilidad de uso:</strong> Los usuarios desean un sistema intuitivo, fácil de instalar y utilizar, con opciones claras y accesibles para gestionar el acceso y configurar notificaciones a través de una aplicación móvil.</li>
+    <li><strong>Interconexión con otros dispositivos:</strong> Los usuarios valoran la capacidad de integración del sistema de reconocimiento facial con otros dispositivos de domótica ya presentes en sus hogares, como cámaras de seguridad, sistemas de luces inteligentes y termostatos.</li>
+    <li><strong>Seguridad en caso de fallos:</strong> Los usuarios esperan que el sistema ofrezca opciones alternativas de acceso en caso de fallos en el reconocimiento facial, como códigos temporales o acceso remoto mediante la aplicación móvil.</li>
+    <li><strong>Confianza en la tecnología:</strong> Los usuarios tienen dudas sobre la precisión y seguridad del sistema de reconocimiento facial, especialmente en condiciones de poca luz o ante personas con características similares. Esperan pruebas públicas y auditorías que validen la eficacia del sistema.</li>
+  </ul>
+</section>
+
+<section id="user-outcomes">
+  <h4>User Outcomes</h4>
+  <ul>
+    <li><strong>Acceso sin fricciones:</strong> Los usuarios pueden ingresar a su hogar de manera rápida y sin inconvenientes, sin necesidad de llaves o tarjetas. El sistema reconoce a los usuarios con alta precisión y eficacia.</li>
+    <li><strong>Mayor control sobre la seguridad del hogar:</strong> Los usuarios reciben notificaciones en tiempo real sobre intentos fallidos de acceso y pueden revisar el historial de entradas para tener visibilidad sobre las personas que acceden a su hogar.</li>
+    <li><strong>Tranquilidad y confianza:</strong> Los usuarios sienten que sus hogares están mejor protegidos gracias a un sistema de seguridad robusto que les brinda un control total y acceso remoto. Además, tienen confianza en que sus datos están seguros gracias a las auditorías de seguridad.</li>
+    <li><strong>Satisfacción con la integración domótica:</strong> Los usuarios disfrutan de la interconexión del sistema de reconocimiento facial con otros dispositivos inteligentes en el hogar, como luces y cámaras, para mejorar la comodidad y el control.</li>
+    <li><strong>Flexibilidad en el acceso:</strong> En caso de problemas con el reconocimiento facial, los usuarios tienen opciones alternativas para acceder a su hogar sin complicaciones, como códigos de acceso temporales o control remoto.</li>
+  </ul>
+</section>
+
+<section id="features">
+  <h4>Features</h4>
+  <ul>
+    <li><strong>Reconocimiento Facial Avanzado:</strong> Sistema de reconocimiento facial rápido, preciso y con alta tasa de fiabilidad en diversas condiciones de luz y distancia.</li>
+    <li><strong>Aplicación Móvil de Control:</strong> Aplicación móvil que permite gestionar accesos, recibir notificaciones, revisar el historial de entradas y controlar remotamente las funciones del sistema.</li>
+    <li><strong>Integración Domótica:</strong> Funcionalidad de integración con otros dispositivos inteligentes en el hogar, como cámaras, luces, y termostatos, para un control unificado.</li>
+    <li><strong>Historial de Accesos:</strong> Registro detallado de todas las entradas al hogar, mostrando la hora, fecha y usuario que accedió, disponible en la aplicación móvil.</li>
+    <li><strong>Notificaciones en Tiempo Real:</strong> Alertas instantáneas en la aplicación móvil ante intentos fallidos de reconocimiento facial, proporcionando detalles sobre la ubicación y la hora del intento.</li>
+    <li><strong>Acceso Alternativo:</strong> Opciones de acceso alternativo en caso de fallos en el reconocimiento facial, como códigos temporales o acceso remoto a través de la aplicación móvil.</li>
+    <li><strong>Ajustes de Seguridad Avanzados:</strong> Funciones adicionales de seguridad, como la encriptación de datos y auditorías periódicas, para garantizar la privacidad y la protección de los usuarios.</li>
+    <li><strong>Suscripción Premium:</strong> Acceso a funciones avanzadas, como almacenamiento en la nube, soporte prioritario y control de múltiples dispositivos a través de un modelo de suscripción mensual.</li>
+  </ul>
+</section>
+
+#### 1.2.2.3  Lean UX Hypothesis Statements
+
+<section id="hipotesis-solucion">
+  <ul>
+    <li>
+      <strong>Hipótesis sobre la solución de reconocimiento facial:</strong>  
+      Creemos que si desarrollamos un sistema de reconocimiento facial eficiente y preciso, los usuarios podrán acceder a sus viviendas de manera más segura y conveniente que utilizando llaves tradicionales. Esta solución puede satisfacer sus necesidades de seguridad, control de acceso y conveniencia, brindando una experiencia sin fricciones y un alto nivel de confianza en la protección de sus hogares.
+    </li>
+    <li>
+      <strong>Hipótesis sobre la experiencia de usuario y control móvil:</strong>  
+      Creemos que si los usuarios pueden gestionar los accesos a través de una aplicación móvil intuitiva, recibir notificaciones en tiempo real sobre intentos fallidos de acceso y revisar el historial de entradas, estarán más satisfechos con el control y la seguridad de su hogar. Esto aumentará la percepción de seguridad y permitirá una experiencia fluida y moderna en su vida diaria.
+    </li>
+    <li>
+      <strong>Hipótesis sobre la integración con sistemas domóticos:</strong>  
+      Creemos que si integramos nuestro sistema de reconocimiento facial con otros dispositivos de domótica como cámaras, luces y termostatos, los usuarios experimentarán una mayor comodidad y control de su entorno, lo que les permitirá optimizar la seguridad y la eficiencia energética en su hogar. Esta integración será una característica valorada por los usuarios interesados en soluciones tecnológicas avanzadas.
+    </li>
+    <li>
+      <strong>Hipótesis sobre la confianza en la tecnología:</strong>  
+      Creemos que si proporcionamos pruebas públicas y auditorías de seguridad que validen la eficacia del sistema de reconocimiento facial, los usuarios ganarán confianza en la tecnología, especialmente aquellos que inicialmente tienen dudas sobre la precisión y seguridad del sistema. Esto reducirá el riesgo de desconfianza y aumentará la adopción del sistema.
+    </li>
+    <li>
+      <strong>Hipótesis sobre el acceso alternativo:</strong>  
+      Creemos que si ofrecemos opciones alternativas de acceso, como códigos temporales o acceso remoto a través de la aplicación móvil en caso de fallos en el reconocimiento facial, los usuarios se sentirán más seguros y respaldados, sabiendo que siempre tendrán una solución para acceder a su hogar sin inconvenientes, incluso si hay fallos técnicos en el sistema de reconocimiento facial.
+    </li>
+  </ul>
+</section>
+
+
+#### 1.2.2.4. Lean UX Canvas  
+
+<img src="./images/lean_ux_canvas.jpg" width="auto">
+
 ## 1.3. Segmentos objetivo
 
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores
-### 2.1.1. Análisis competitivo
-### 2.1.2. Estrategias y tácticas frente a competidores
-## 2.2. Entrevistas
-### 2.2.1. Diseño de entrevistas
-### 2.2.2. Registro de entrevistas
-### 2.2.3. Análisis de entrevistas
-## 2.3. Needfinding
-### 2.3.1. User Personas
-### 2.3.2. User Task Matrix
-### 2.3.3. User Journey Mapping
-### 2.3.4. Empathy Mapping
-### 2.3.5. As-is Scenario Mapping
-## 2.4. Ubiquitous Language
+<section id="segmentos-usuarios">
+
+  <article>
+    <h4>Propietarios de Viviendas Tecnológicas</h4>
+    <p>
+      Este segmento está compuesto por individuos que ya están familiarizados con la tecnología y buscan integrar soluciones inteligentes en sus hogares. 
+      Los propietarios de viviendas tecnológicas desean modernizar sus sistemas de seguridad mediante soluciones avanzadas, como el reconocimiento facial. 
+      Este grupo valora la innovación, la comodidad y la automatización de sus hogares, y está dispuesto a invertir en productos que mejoren la seguridad y eficiencia de su vida diaria.
+    </p>
+    <h4>Características clave:</h4>
+    <ul>
+      <li>Interés en soluciones de domótica y hogares inteligentes.</li>
+      <li>Preocupación por la seguridad y el control de acceso.</li>
+      <li>Valoración de la comodidad y la conveniencia.</li>
+      <li>Propietarios de casas unifamiliares o apartamentos con enfoque en tecnología avanzada.</li>
+    </ul>
+  </article>
+
+  <article>
+    <h4>Adultos Mayores o Personas con Movilidad Reducida</h4>
+    <p>
+      Este segmento incluye personas mayores o individuos con movilidad reducida que enfrentan dificultades al manipular llaves tradicionales. 
+      Buscan una solución que les permita acceder a sus hogares sin esfuerzo físico, mejorando su autonomía y reduciendo el riesgo de accidentes o fallos en situaciones de emergencia. 
+      La solución de reconocimiento facial representa una forma accesible y segura para ingresar a su vivienda sin depender de la ayuda de terceros.
+    </p>
+    <h4>Características clave:</h4>
+    <ul>
+      <li>Necesidad de soluciones de fácil acceso y sin contacto físico.</li>
+      <li>Preocupación por la seguridad personal y la autonomía.</li>
+      <li>Valoran la facilidad de uso y la confiabilidad del sistema.</li>
+      <li>Pueden vivir en viviendas unifamiliares o departamentos, especialmente en comunidades de adultos mayores.</li>
+    </ul>
+  </article>
+</section>
+
+
+
+
+# **Capítulo II: Requirements Elicitation & Analysis**
+
+## 2.1. Competidores.
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre del Competidor</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2" align="center">
+                <img src="./images/ringIco.png" alt="Ring Logo" style="width: 250px; height: auto;">
+                <br>Ring (Amazon)
+            </td>
+            <td>Ring ofrece un sistema completo de seguridad para el hogar, incluyendo videoporteros y cámaras de seguridad conectadas. Está integrado con Alexa y los servicios de Amazon.</td>
+        </tr>
+        <tr>
+            <td>Página web: <a href="https://ring.com" target="_blank">https://ring.com</a></td>
+        </tr>
+        <tr>
+            <td rowspan="2" align="center">
+                <img src="./images/nestIco.png"  alt="Nest Logo" style="width: 250px; height: auto;">
+                <br>Nest (Google)
+            </td>
+            <td>Nest ofrece un ecosistema de automatización del hogar con productos como cámaras, termostatos, sensores y sistemas de seguridad. Está fuertemente integrado con Google Home.</td>
+        </tr>
+        <tr>
+            <td>Página web: <a href="https://store.google.com/us/category/connected_home" target="_blank">https://store.google.com/us/category/connected_home</a></td>
+        </tr>
+        <tr>
+            <td rowspan="2" align="center">
+                <img src="./images/augustIco.png"  alt="August Logo" style="width: 250px; height: auto;">
+                <br>August
+            </td>
+            <td>August es conocida por sus cerraduras inteligentes y soluciones de acceso sin llaves. Compatible con Alexa, Google Assistant y Siri para control remoto y acceso inteligente.</td>
+        </tr>
+               <tr>
+            <td>Página web: <a href="https://august.com/" target="_blank">https://august.com</a></td>
+        </tr>
+    </tbody>
+</table>
+
+### 2.1.1. Análisis competitivo.
+
+<table style="width: 100%;">
+  <tr>
+    <th colspan="6" style="padding: 8px; text-align: center;"> Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td>¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5">Para identificar fortalezas, oportunidades y áreas de mejora frente a los competidores; posicionar mejor el producto FaceLoock en el mercado y tomar decisiones estratégicas de desarrollo, marketing y precios.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  <td align="center"><br><img src="./images/ringIco.png" alt="Ring (Amazon)"></td>
+  <td align="center"><br><img src="./images/nestIco.png" alt="Nest (Google)"></td>
+  <td align="center"><br><img src="./images/augustIco.png" alt="August"></td>
+  <td align="center"><br><img src="./images/iotIcon.png" alt="FaceLoock (SmartGuard)"></td>
+  </tr>
+<tr>
+  <td rowspan="2" align="center">Perfil</td>
+  <td align="center">Overview</td>
+  <td>Sistema de seguridad inteligente con enfoque en videoporteros y cámaras conectadas, con fuerte integración en el ecosistema de Amazon y Alexa.</td>
+  <td>Solución integral de domótica y seguridad, integrada completamente con Google Home, que incluye cámaras, sensores y automatización del hogar.</td>
+  <td>Empresa especializada en cerraduras inteligentes enfocadas en accesos remotos sin llaves, con compatibilidad con Siri, Alexa y Google Assistant.</td>
+  <td>Sistema de acceso residencial basado en reconocimiento facial, diseñado para ofrecer seguridad manos libres, especialmente para personas con movilidad reducida.</td>
+</tr>
+<tr>
+  <td>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</td>
+  <td>Integración nativa con Amazon, dispositivos múltiples, y monitoreo en tiempo real accesible desde cualquier lugar.</td>
+  <td>Automatización total del hogar con inteligencia artificial, respaldado por la infraestructura de Google.</td>
+  <td>Acceso sin llaves cómodo, instalación sencilla y control remoto seguro desde el smartphone.</td>
+  <td>Acceso 100% biométrico sin contacto, pensado para usabilidad inclusiva y seguridad avanzada sin necesidad de llaves ni códigos.</td>
+</tr>
+ <tr>
+  <td rowspan="2" align="center">Perfil de Marketing</td>
+  <td>Mercado objetivo</td>
+  <td>Propietarios de viviendas inteligentes, usuarios del ecosistema Amazon, y personas que buscan seguridad conectada.</td>
+  <td>Usuarios de productos Google, hogares domóticos, early adopters tecnológicos.</td>
+  <td>Usuarios urbanos, tecnófilos, anfitriones de alquiler vacacional.</td>
+  <td>Personas con movilidad reducida, adultos mayores, familias que valoran accesibilidad e innovación en seguridad.</td>
+</tr>
+<tr>
+  <td>Estrategias de marketing</td>
+  <td>Integración con Amazon Prime, promociones en ecommerce, presencia fuerte en redes sociales y YouTube.</td>
+  <td>Marketing digital integrado en Google Ads y YouTube, promociones en Google Store, influencers tech.</td>
+  <td>Alianzas con Airbnb y Apple, marketing de producto simple, publicidad en redes.</td>
+  <td>Campañas centradas en accesibilidad, ferias tecnológicas, demos en asociaciones de asistencia y canales sociales.</td>
+</tr>
+
+<tr>
+  <td rowspan="3" align="center">Perfil del Producto</td>
+  <td>Productos & Servicios</td>
+  <td>Videoporteros, cámaras de seguridad, sensores de movimiento, app de control remoto.</td>
+  <td>Cámaras Nest, sensores, termostatos inteligentes, app Nest, Nest Aware.</td>
+  <td>Cerraduras inteligentes, sensores de puerta, teclados inalámbricos, app móvil.</td>
+  <td>Dispositivo de reconocimiento facial, app de control, integración con asistentes y domótica.</td>
+</tr>
+<tr>
+  <td>Precios & Costos</td>
+  <td>$99–$349 + suscripciones mensuales desde $3</td>
+  <td>$129–$399 + Nest Aware desde $6/mes</td>
+  <td>$149–$250 por cerradura, sin suscripción obligatoria</td>
+  <td>$120–$200 por dispositivo, sin suscripción obligatoria (estimado)</td>
+</tr>
+<tr>
+  <td>Canales de distribución (Web y/o Móvil)</td>
+  <td>Amazon, Web oficial, App (iOS/Android), tiendas físicas</td>
+  <td>Google Store, Web oficial, App (iOS/Android), minoristas</td>
+  <td>Apple Store, Amazon, Web oficial, App (iOS/Android)</td>
+  <td>Web oficial, App (iOS/Android), asociaciones, tiendas aliadas</td>
+</tr>
+
+<tr>
+  <td rowspan="4" align="center">Análisis SWOT</td>
+  <td>Fortalezas</td>
+  <td>Reconocimiento global, ecosistema Amazon, facilidad de uso</td>
+  <td>Infraestructura de Google, IA integrada, diseño avanzado</td>
+  <td>Instalación fácil, integración con múltiples asistentes, diseño moderno</td>
+  <td>Innovación en accesibilidad, enfoque en biometría, uso manos libres</td>
+</tr>
+<tr>
+  <td>Debilidades</td>
+  <td>Problemas de privacidad, dependencia del ecosistema Amazon</td>
+  <td>Costos elevados, dependencia del ecosistema Google</td>
+  <td>Enfoque limitado al acceso, sin oferta integral de seguridad</td>
+  <td>Marca nueva, poca visibilidad aún, sin historial de confianza</td>
+</tr>
+<tr>
+  <td>Oportunidades</td>
+  <td>Crecimiento del mercado smart home, expansión internacional</td>
+  <td>Mejoras en IA, sinergia con otros dispositivos Google</td>
+  <td>Alianzas con plataformas de alojamiento y empresas de seguridad</td>
+  <td>Mercado no atendido (PMR), regulación que impulse accesibilidad</td>
+</tr>
+<tr>
+  <td>Amenazas</td>
+  <td>Competencia intensa, regulación sobre vigilancia</td>
+  <td>Competencia directa con Amazon, saturación de mercado</td>
+  <td>Competidores más grandes replicando su tecnología</td>
+  <td>Copias de grandes marcas, barreras de entrada al retail</td>
+</tr>
+<table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
+
+**Estrategias:**  
+- **Diferenciación por accesibilidad biométrica:** Enfocar la propuesta de valor en el acceso facial sin contacto como una solución única frente a sistemas tradicionales basados en llaves, códigos o móviles.  
+- **Segmentación en nichos desatendidos:** Atacar segmentos poco explotados por los grandes competidores, como personas con movilidad reducida, adultos mayores y familias con necesidades de accesibilidad.  
+- **Innovación continua centrada en el usuario:** Iterar el producto con base en retroalimentación de usuarios reales, con mejoras funcionales y de UX que los gigantes no adaptan con rapidez.
+
+**<strong>Tácticas:</strong>**  
+- **Demostraciones en asociaciones y eventos de salud:** Presentar el producto en espacios donde los beneficios de accesibilidad y seguridad inclusiva tengan mayor impacto.  
+- **Campañas de contenido educativo:** Crear contenido enfocado en explicar los riesgos de seguridad actuales y cómo FaceLoock los soluciona sin fricción.  
+- **Alianzas estratégicas con organizaciones de asistencia:** Colaborar con entidades que trabajen con personas con discapacidad o adultos mayores para validar, distribuir y promover el producto.
+
+
+## 2.2. Entrevistas.
+
+El objetivo de las entrevistas es obtener una comprensión profunda de las experiencias, perspectivas y opiniones de los segmentos de mercado seleccionados. Nuestra meta es recopilar información valiosa que nos permita entender mejor a nuestro público objetivo y mejorar nuestra comprensión de los usuarios. Estas conversaciones nos proporcionarán una visión más clara de las necesidades y deseos de nuestros usuarios, lo que nos ayudará a adaptar nuestros productos o servicios de manera más efectiva a sus requisitos.
+
+### 2.2.1. Diseño de entrevistas.
+
+En esta parte, se han formulado varias preguntas destinadas a nuestros segmentos de interés con el fin de obtener información cualitativa, como opiniones o descripciones. Esta información será crucial para el desarrollo de nuestra solución.
+
+
+**Preguntas Generales:**
+
+- ¿Qué importancia tiene para ti la seguridad en casa al momento de elegir una tecnología?
+
+
+-  ¿Cómo gestionas actualmente el acceso a tu vivienda? (llaves, cerraduras inteligentes, etc.)
+
+
+- ¿Has considerado usar tecnologías biométricas (como reconocimiento facial) para acceder a tu hogar?
+
+
+- ¿Qué valoras más en un sistema de acceso inteligente? (seguridad, comodidad, rapidez, etc.)
+
+
+- ¿Qué limitaciones o frustraciones has tenido con los sistemas de seguridad actuales?
+
+
+- ¿Qué te motivaría a comprar una solución como FaceLoock? 
+
+
+**Preguntas para el Segmento Objetivo 1 - Propietarios de viviendas tecnológicas:**
+
+
+- ¿Qué dispositivos inteligentes usas para controlar tu hogar?
+
+- ¿Qué tan importante es que el sistema tenga control remoto desde una app móvil o una interfaz web?
+
+- ¿Con qué frecuencia accedes o controlas tus dispositivos de seguridad desde fuera de casa?
+
+- ¿Preferirías gestionar el sistema desde una app móvil, una plataforma web? ¿Por qué?
+
+- ¿Qué tipo de funcionalidades te gustaría ver en la app (ej. historial de accesos, alertas, control remoto)?
+
+- ¿Qué tan confiable necesitas que sea la conexión a internet para sentir seguridad en este tipo de sistema?
+
+- ¿Estarías dispuesto a reemplazar completamente las llaves tradicionales por un sistema facial si fuera seguro?
+
+
+**Preguntas para el Segmento Objetivo 2 - Adultos mayores  o personas con movilidad reducida:**
+
+
+- ¿Qué tan fácil o difícil es para ti abrir la puerta de tu casa actualmente?
+
+- ¿Te resulta complicado usar llaves o tienes alguna limitación física?
+
+- ¿Has tenido alguna experiencia en la que no pudiste entrar a tu casa por perder las llaves?
+
+- ¿Te gustaría poder entrar sin llaves ni necesidad de usar una app o teléfono?
+
+- ¿Qué tan cómodo(a) te sentirías usando una aplicación para gestionar el acceso a tu casa?
+
+- ¿Te gustaría que un familiar reciba alertas o pueda ayudarte a controlar el sistema desde su propio teléfono?
+
+- ¿Tienes acceso frecuente a internet en tu casa?
+
+### 2.2.2. Registro de entrevistas.
+
+**Entrevista para el Segmento Objetivo 1 - Propietarios de viviendas tecnológicas:**
+
+- **Entrevista 1:**
+**Entrevistador:** Zárate Gamarra, Luis Alejandro 
+**Entrevistado:** Marco Eduardo Ricardo Colca Chipana
+**Sexo:** Masculino
+**Edad:** 38 años
+**Domicilio:** Miraflores
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 3:30<br>
+<img src="./images/entrevista1.png" alt="Entrevista con Eduardo" style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+El entrevistado es un propietario de vivienda tecnológica que utiliza un ecosistema integrado de dispositivos inteligentes: luces automatizadas, cámaras, sensores de movimiento, cerradura digital y un asistente virtual tipo Alexa. Destaca la importancia del control remoto a través de una app móvil, permitiéndole gestionar su hogar incluso estando fuera, con ejemplos como abrir la puerta a familiares o simular presencia. Accede a su sistema 4 o 5 veces por semana desde fuera. Prefiere claramente la app móvil por su inmediatez y portabilidad, aunque acepta la web para configuraciones avanzadas. Desea funciones como historial detallado de accesos, notificaciones en tiempo real ante intentos de ingreso no autorizados o fallos, y opciones para otorgar accesos temporales. Resalta la necesidad de una conexión a internet confiable, pero también considera vital que el sistema funcione localmente en caso de cortes. Estaría dispuesto a reemplazar completamente las llaves tradicionales por reconocimiento facial, siempre que sea seguro y cuente con respaldo ante fallos.
+
+Enlace al video: [https://drive.google.com/file/d/1Mo2DsHCd5W85YeI7AvBBWDPgul9eh7PE/view?usp=drive_link](https://drive.google.com/file/d/1Mo2DsHCd5W85YeI7AvBBWDPgul9eh7PE/view?usp=drive_link)
+- **Entrevista 2:**
+**Entrevistador:** Gonzales Gomez, Antonella Frida 
+**Entrevistado:** Cristian Antony montalvo 
+**Sexo:** Masculino
+**Edad:** 24 años
+**Domicilio:** Lima
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 7:12<br>
+<img src="./images/entrevista2.png" alt="Entrevista con Cristian" style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+Cristian Anthony Montalvo, estudiante de ingeniería y analista junior, participó en una entrevista sobre el uso de tecnologías inteligentes para la seguridad del hogar. Actualmente utiliza cerraduras tradicionales, como es común en Lima, pero mostró gran interés en implementar soluciones biométricas como el reconocimiento facial. Para él, lo más importante en un sistema de acceso inteligente es la comodidad, seguida de la seguridad, ya que permitiría evitar cargar llaves y simplificar el acceso diario. Ha tenido experiencias con la pérdida de llaves y considera que este tipo de tecnologías podrían prevenir esos inconvenientes. Está dispuesto a usar aplicaciones móviles para gestionar el acceso a su vivienda, siempre que sean fáciles de usar y le brinden control sobre quién puede entrar. Además, le parecería útil que familiares cercanos pudieran recibir alertas o ayudar a controlar el sistema desde sus propios dispositivos. Finalmente, comentó que cuenta con conexión a internet tanto en su hogar como en el móvil, lo que considera esencial para el funcionamiento de este tipo de soluciones. En resumen, Cristian ve con buenos ojos las tecnologías de seguridad basadas en IoT, siempre que ofrezcan confiabilidad, simplicidad y control.
+
+Enlace al video: [https://drive.google.com/file/d/1fKyc2_ngx8cclktp1epBMCgF-LroQAZu/view?usp=drive_link](https://drive.google.com/file/d/1fKyc2_ngx8cclktp1epBMCgF-LroQAZu/view?usp=drive_link)
+
+- **Entrevista 3:**
+**Entrevistador:** Ramos Najar, Tony Alexander
+**Entrevistado:** Sandy Ingaruca
+**Sexo:** Mujer
+**Edad:** 29 años
+**Domicilio:** Lima
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 3:34<br>
+<img src="./images/entrevista3.png" alt="Entrevista con Sandy" style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+La entrevistada, Sandy Ingaruca, expresa gran interés en tecnologías de seguridad para el hogar, especialmente aquellas que ofrecen protección confiable, comodidad y control remoto. Actualmente utiliza llaves físicas, aunque reconoce los riesgos asociados, como la pérdida o duplicación. Manifiesta interés en tecnologías biométricas, como el reconocimiento facial, y valora la posibilidad de control remoto mediante app móvil. Sandy usa dispositivos como cámaras, enchufes inteligentes y asistentes como Alexa, y accede a ellos con frecuencia cuando está fuera. Prefiere controlar estos sistemas mediante una aplicación móvil por su practicidad. También le interesan funciones como historial de accesos, notificaciones en tiempo real y perfiles personalizados. Finalmente, estaría dispuesta a reemplazar completamente las llaves tradicionales si el sistema facial es seguro y estable.
+
+Enlace al video: [https://drive.google.com/file/d/1TMcOckJDZniVaKipFdkIkufUpT3pWIAj/view?usp=drive_link](https://drive.google.com/file/d/1TMcOckJDZniVaKipFdkIkufUpT3pWIAj/view?usp=drive_link)
+
+
+- **Entrevista 4:**
+**Entrevistador:** Fernando Aquino Iman
+**Entrevistado:** Gerson Suelo Carrera
+**Sexo:** Hombre
+**Edad:** 32 años
+**Domicilio:** Comas
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 3:34<br>
+<img src="./images/entrevista4.png" alt="Entrevista con Gerson" style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+En la entrevista, Gerson Carrera expresa su interés en mejorar la seguridad de su hogar mediante tecnología inteligente, mostrando apertura hacia el uso de sistemas con reconocimiento facial como Faceelock. Actualmente utiliza llaves tradicionales, pero valora la posibilidad de automatizar el acceso por seguridad, comodidad y rapidez. Considera que el costo y la disponibilidad son limitaciones de los sistemas actuales. Ya utiliza dispositivos como Alexa y aplicaciones móviles para controlar cámaras de seguridad, por lo que ve como fundamental que el nuevo sistema tenga control remoto y funciones como historial de accesos y alertas. Está dispuesto a reemplazar las llaves tradicionales si el sistema garantiza confiabilidad y efectividad.
+
+Enlace al video: [https://drive.google.com/file/d/16C7ZcuZatIejrDAFQ3RePuQLpxMRKYHs/view?usp=drive_link](https://drive.google.com/file/d/16C7ZcuZatIejrDAFQ3RePuQLpxMRKYHs/view?usp=drive_link)
+**Entrevista para el Segmento Objetivo 2 - Adultos mayores  o personas con movilidad reducida:**
+
+- **Entrevista 5:**
+**Entrevistador:** David Alexander Pérez García
+**Entrevistado:** Delfina Ames García
+**Sexo:** Mujer
+**Edad:** 45 años
+**Domicilio:** Lima
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 4:01<br>
+<img src="./images/entrevista5.png" alt="Entrevista con Delfina" style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+En esta entrevista, Delfina Ames García, una mujer de 45 años, comparte su experiencia como parte del segmento dirigido a adultos mayores o personas con movilidad reducida. Destaca la importancia de la seguridad en el hogar y expresa su interés en tecnologías de acceso inteligente, especialmente aquellas que eviten el uso de llaves, debido a experiencias negativas como olvidar o romper llaves y las dificultades para conseguir cerrajeros. Valora especialmente la facilidad de uso, la rapidez y la posibilidad de control mediante una aplicación móvil, siempre que reciba orientación para usarla. Además, le parece útil que familiares puedan recibir alertas y ayudar en el control de acceso desde sus propios dispositivos.
+Enlace al video: [https://drive.google.com/file/d/1b7dupsyRCYM38QB9auwEHKcBO0BDDzm_/view?usp=drive_link](https://drive.google.com/file/d/1b7dupsyRCYM38QB9auwEHKcBO0BDDzm_/view?usp=drive_link)
+### 2.2.3. Análisis de entrevistas.
+#### Propietarios de viviendas tecnológicas
+
+| **Preguntas** | **Acciones realizadas** |
+|---------------|-------------------------------------------------------------|
+| ¿Qué importancia tiene para ti la seguridad en casa al momento de elegir una tecnología? | 100% la consideran muy importante para elegir tecnología de hogar. |
+| ¿Cómo gestionas actualmente el acceso a tu vivienda? | 67% usan llaves tradicionales , 33% usa cerradura digital (Propietario tecnológico). |
+| ¿Has considerado usar tecnologías biométricas (como reconocimiento facial) para acceder a tu hogar? | 100% están interesados o dispuestos a implementar reconocimiento facial. |
+| ¿Qué valoras más en un sistema de acceso inteligente? | 67% priorizan comodidad (Cristian y Sandy), 33% seguridad y control remoto (Propietario tecnológico). |
+| ¿Qué limitaciones o frustraciones has tenido con los sistemas de seguridad actuales? | 67% mencionaron pérdida de llaves como problema. |
+| ¿Qué te motivaría a comprar una solución como FaceLoock? | 67% destacaron seguridad, comodidad, control remoto y respaldo ante fallos como motivadores clave. |
+| ¿Qué dispositivos inteligentes usas para controlar tu hogar? | 67% usa ecosistema con luces, cámaras, sensores, cerradura digital, Alexa. |
+| ¿Qué tan importante es que el sistema tenga control remoto desde una app móvil o interfaz web? | 100% lo consideran muy importante, especialmente mediante app móvil. |
+| ¿Con qué frecuencia accedes o controlas tus dispositivos desde fuera de casa? | 67% accede 4–5 veces por semana desde fuera. |
+| ¿Preferirías gestionar el sistema desde una app móvil o web? ¿Por qué? | 67% prefieren app móvil por portabilidad; usan web para configuraciones avanzadas. |
+| ¿Qué funcionalidades te gustaría en la app? | 100% desean historial de accesos, alertas en tiempo real, accesos temporales. |
+| ¿Qué tan confiable necesitas que sea la conexión a internet? | 67% consideran esencial la confiabilidad, pero también necesitan respaldo local. |
+| ¿Estarías dispuesto a reemplazar llaves por sistema facial seguro? | 100% sí, siempre que haya seguridad y respaldo en caso de fallos. |
+
+
+#### Adultos mayores  o personas con movilidad reducida
+
+## 2.3. Needfinding.
+El Needfinding es una metodología centrada en descubrir necesidades reales de los usuarios antes de diseñar una solución. En nuestro proyecto FaceLoock, se aplica para entender cómo las personas gestionan actualmente el acceso a sus hogares, qué frustraciones enfrentan (como pérdida de llaves, inseguridad o dificultad física), y qué esperan de una solución moderna como el reconocimiento facial. A través de observaciones, entrevistas y mapeo de experiencias, se busca identificar necesidades expresas, latentes y ocultas en 2 segmentos clave: propietarios tecnológicos, adultos mayores/personas con movilidad reducida.
+
+### 2.3.1. User Personas.
+
+- **Segmento Objetivo 1 - Propietarios de viviendas tecnológicas**
+
+<img src="./images/userPersona1.png" alt="User Persona 1" style="width: 600px; height: auto;" ><br>
+
+- **Segmento Objetivo 2 - Adultos mayores  o personas con movilidad reducida**
+
+<img src="./images/userPersona2.png" alt="User Persona 2" style="width: 600px; height: auto;" ><br>
+
+### 2.3.2. User Task Matrix.
+El siguiente cuadro muestra las tareas que completan los segmentos Propietarios de viviendas tecnológicas y Adultos mayores  o personas con movilidad reducida.
+
+***Segmento 1: Milagros Pérez -  Propietarios de viviendas tecnológicas***
+
+| **Actividad**                                                                 | **Frecuencia** | **Importancia** |
+|:-----------------------------------------------------------------------------:|:--------------:|:----------------:|
+|Controlar el acceso a la vivienda desde el celular                             | Alta           | Alta             |
+|Revisar historial de accesos a la casa                                         | Media          | Alta             |
+|Compartir acceso temporal a familiares o técnicos                              | Media          | Alta             |
+|Automatizar rutinas de llegada o salida del hogar                              | Media          | Media            |
+|Recibir notificaciones de accesos no autorizados                               | Alta           | Alta             |
+|Conectar y sincronizar dispositivos del hogar inteligente                      | Media          | Alta             |
+|Monitorear cámaras o sensores desde fuera del hogar                            | Alta           | Alta             |
+|Evitar el uso de llaves físicas                                                | Alta           | Alta             |
+
+***Segmento 2: Maria Amez - Adultos mayores  o personas con movilidad reducida***
+
+| **Actividad**                                                                 | **Frecuencia** | **Importancia** |
+|:-----------------------------------------------------------------------------:|:--------------:|:----------------:|
+|Entrar y salir del hogar sin usar llaves                                       | Alta           | Alta             |
+|Evitar el uso de cerraduras físicas complejas                                  | Alta           | Alta             |
+|Recibir asistencia remota por parte de familiares                              | Media          | Alta             |
+|Sentirse segura estando sola en casa                                           | Alta           | Alta             |
+|Usar métodos simples y sin esfuerzo para acceder                               | Alta           | Alta             |
+|Mantener su independencia al ingresar al hogar                                 | Alta           | Alta             |
+|Evitar bloqueos o quedarse fuera por pérdida de llaves                         | Media          | Alta             |
+|Evitar el uso constante de aplicaciones complejas                              | Alta           | Media            |
+
+### 2.3.3. User Journey Mapping.
+
+- **Primer segmento: Propietarios de viviendas tecnológica**
+
+<br><img src="./images/journeyMap1.png" alt="Journey Map 1" style="width: 1000px; height: auto;" ><br>
+
+- **Segundo segmento: Adultos mayores  o personas con movilidad reducida**
+
+<br><img src="./images/journeyMap2.png" alt="Journey Map 2" style="width: 1000px; height: auto;" ><br>
+
+### 2.3.4. Empathy Mapping.
+El Empathy Map nos permitió comprender a fondo las emociones, necesidades y frustraciones de nuestros dos segmentos clave: propietarios de viviendas tecnológicas y adultos mayores o personas con movilidad reducida. A través de esta herramienta, identificamos preocupaciones como la pérdida de llaves, la dificultad de acceso y el deseo de mayor seguridad y control. Esta visión nos ayudó a diseñar una solución centrada en el usuario, que responda a sus verdaderas motivaciones y problemas, asegurando que FaceLoock sea accesible, confiable y adaptado a las realidades de cada perfil.
+
+- **Primer segmento: Propietarios de viviendas tecnológica**
+<br><img src="./images/empathyMap1.png" alt="Empathy Map 1" style="width: 600px; height: auto;" ><br>
+
+- **Segundo segmento: Adultos mayores  o personas con movilidad reducida**
+<br><img src="./images/empathyMap2.png" alt="Empathy Map 2" style="width: 600px; height: auto;" ><br>
+
+### 2.3.5. As-is Scenario Mapping.
+
+- **Primer segmento: Propietarios de viviendas tecnológica**
+<br><img src="./images/scenarioMapping1.jpg" alt="As Is Scenario Map 1" style="width: 800px; height: auto;" ><br>
+
+Miro: [https://miro.com/app/board/uXjVKOI5DF8=/?share_link_id=949304225961](https://miro.com/app/board/uXjVKOI5DF8=/?share_link_id=949304225961)
+
+- **Segundo segmento: Adultos mayores  o personas con movilidad reducida**
+<br><img src="./images/scenarioMapping2.jpg" alt="As Is Scenario Map 2" style="width: 800px; height: auto;" ><br>
+
+Miro: [https://miro.com/app/board/uXjVKOI5DF8=/?share_link_id=949304225961](https://miro.com/app/board/uXjVKOI5DF8=/?share_link_id=949304225961)
+
+## 2.4. Ubiquitous Language.
+En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equipo desde diseñadores, desarrolladores y testers hasta stakeholders hablen el mismo idioma. El Ubiquitous Language es un lenguaje compartido que facilita la comunicación clara, precisa y coherente durante todas las etapas del proyecto. Se construye a partir de conceptos clave extraídos directamente de las experiencias, necesidades y expectativas de los usuarios. Al definir este lenguaje común, se eliminan malentendidos, se alinean objetivos y se asegura que el producto final responda fielmente a los problemas que busca resolver.
+
+| Término                        | Definición                                                                                                                                     |
+|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| FaceLoock                     | Producto de SmartGuard basado en reconocimiento facial para controlar el acceso a viviendas sin llaves físicas.                              |
+| Reconocimiento facial         | Tecnología biométrica que permite identificar personas a través de los rasgos de su rostro.                                                   |
+| Acceso inteligente            | Sistema de apertura automatizada que no requiere interacción física con llaves o tarjetas.                                                   |
+| Propietario de vivienda tecnológica | Persona que adopta soluciones de domótica y valora la seguridad, automatización y control remoto del hogar.                            |
+| Adulto mayor / Movilidad reducida | Usuario con necesidades de accesibilidad que busca una solución simple y sin esfuerzo físico para entrar a su vivienda.               |
+| Control remoto de acceso      | Funcionalidad que permite autorizar o bloquear el ingreso desde una app móvil o plataforma web.                                              |
+| Historial de accesos          | Registro cronológico de entradas y salidas capturado por el sistema FaceLoock.                                                               |
+| Notificación de acceso        | Alerta que se envía cuando alguien intenta acceder a la vivienda, ya sea autorizado o no.                                                    |
+| Gestión de usuarios           | Administración de permisos y perfiles de personas autorizadas a ingresar mediante la app.                                                    |
+| Interfaz accesible            | Diseño pensado para ser utilizado fácilmente por adultos mayores o personas con dificultades motoras.                                       |
+| Punto de dolor (Pain Point)   | Problema real que experimenta el usuario con los métodos actuales de acceso a su vivienda.                                                   |
+| Escenario As-Is               | Mapeo de la experiencia actual del usuario sin la implementación de FaceLoock.                                                               |
+| Escenario To-Be               | Mapeo de la experiencia deseada del usuario una vez implementado FaceLoock.                                                                  |
+| Empathy Map                   | Herramienta que permite visualizar lo que el usuario piensa, siente, dice y hace en relación con el problema que enfrenta.                  |
+| User Persona                  | Representación ficticia de un usuario real basada en datos, que refleja sus objetivos, frustraciones y comportamientos.                    |
+
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
