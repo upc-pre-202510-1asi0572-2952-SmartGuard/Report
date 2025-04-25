@@ -459,6 +459,178 @@ El diagrama muestra cómo se despliegan y comunican los diferentes componentes t
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
+
+
+
+## 4.2.1. Bounded Context: User Management
+
+El dominio User Management en el sistema FaceLoock de la startup SmartGuard se encarga de gestionar los perfiles de usuario, permisos de acceso, cuentas vinculadas y eventos relacionados, como notificaciones y respaldos de información. Este módulo es esencial para garantizar una administración segura y personalizada de la identidad digital de los usuarios, así como un control preciso del acceso a los hogares mediante tecnología biométrica.<br>
+- **Diccionario de Clases:** <br>
+El Diccionario de Clases es una herramienta clave en el diseño y desarrollo de FaceLoock, ya que proporciona una descripción detallada de las clases esenciales que conforman el modelo de dominio del sistema. Este diccionario facilita la colaboración entre los miembros del equipo de desarrollo y asegura una base sólida para la evolución del producto.
+
+<img src="images/diccionario1BC1.png"/>
+
+<img src="images/diccionario2BC1.png"/>
+
+<img src="images/diccionario3BC1.png"/>
+
+<img src="images/diccionario4BC1.png"/>
+
+### 4.2.1.1. Domain Layer
+
+Dentro del dominio de User Management en el sistema FaceLoock, se encuentran entidades clave que permiten gestionar la identidad de los usuarios, controlar sus permisos de acceso, sincronizar datos biométricos (reconocimiento facial) y mantener un historial seguro de accesos y notificaciones.
+Estas entidades son fundamentales para garantizar una experiencia segura y eficiente en el uso del sistema, ya que permiten administrar con precisión quién accede a una vivienda, en qué momento y bajo qué condiciones.
+A continuación, se muestran los objetos relacionados con el dominio:
+
+#### Aggregates
+
+<img src="images/aggregatesBC1.png"/>
+
+#### Entities
+
+<img src="images/entitiesBC1.png"/>
+
+#### Value Objects
+
+<img src="images/valueobjectsBC1.png"/>
+
+#### Domain Services
+
+<img src="images/domainserviceBC1.png"/>
+
+#### Repositories
+
+<img src="images/repositoriesBC1.png"/>
+
+### 4.2.1.2. Interface Layer
+
+En esta sección, presentamos la Capa de Interfaz de nuestra plataforma de seguridad inteligente FaceLoock, la cual representa el punto de entrada para las interacciones entre los usuarios y el sistema. Esta capa está compuesta por una serie de controladores REST que manejan las peticiones entrantes desde dispositivos móviles o aplicaciones web, procesan los datos mediante servicios de aplicación y devuelven respuestas adecuadas.
+La Capa de Interfaz permite una comunicación eficiente y segura entre el sistema y sus usuarios, facilitando tareas como la gestión de perfiles, permisos de acceso, reconocimiento facial, alertas y configuración de notificaciones.
+Contexto de esta capa – Controladores principales:
+
+- **UserProfileController**:<br>
+Maneja todas las operaciones relacionadas con la creación y administración del perfil de usuario.
+
+- **AccessControlController**:<br>
+Administrar permisos de acceso y relaciones entre usuarios y dispositivos autorizados para ingresar al inmueble.
+
+- **FaceRecognitionController**:<br>
+Encargado de recibir datos biométricos faciales y validar accesos mediante reconocimiento.
+
+- **AlertsController**:<br>
+Gestiona las alertas generadas por accesos sospechosos, horarios no permitidos o errores de autenticación.
+
+- **NotificationController**:<br>
+Controla la configuración de notificaciones enviadas al usuario ante diferentes eventos del sistema.
+
+<img src="images/interfacelayerBC1.png"/>
+
+### 4.2.1.3. Application Layer
+
+La Capa de Aplicación de FaceLoock coordina la lógica entre el dominio y la infraestructura. No contiene lógica de negocio compleja, sino que orquesta tareas, maneja comandos, eventos y delega operaciones. Sus principales componentes son:
+
+- **Command Handlers:**<br>
+Gestionan acciones como registrar usuarios o subir capturas faciales.
+
+- **Event Handlers:**<br>
+Procesan eventos del sistema como accesos fallidos o alertas fuera de horario.
+
+<img src="images/applicationlayerBC1.png"/>
+
+### 4.2.1.4. Infrastructure Layer
+
+En esta sección, presentamos la Capa de Infraestructura (Infrastructure Layer) dentro del enfoque de diseño Domain-Driven Design (DDD) aplicado al sistema FaceLoock, nuestra plataforma de seguridad inteligente.
+Esta capa se encarga de proveer los recursos técnicos y de soporte necesarios para el correcto funcionamiento del sistema, actuando como puente entre la lógica del dominio y la tecnología subyacente.
+
+<img src="images/infrastructurelayerBC1.png"/>
+
+### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="images/boundedcontextsoftwarearchitectureBC1.png"/>
+
+### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+<img src="images/boundedcontextdomainBC1.png"/>
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+<img src="images/boundedcontextdatabaseBC1.png"/>
+
+
+
+## 4.2.1. Bounded Context: Biometric Data Management
+
+El dominio Biometric Data Management en FaceLoock gestiona de forma segura y trazable los datos faciales de los usuarios, permitiendo su registro, actualización, eliminación y respaldo. Es clave para el reconocimiento de identidad y colabora con los módulos de autenticación, auditoría y gestión de usuarios, garantizando seguridad e integración en todo el sistema.
+
+<img src="images/diccionario1BC2.png"/>
+
+<img src="images/diccionario2BC2.png"/>
+
+<img src="images/diccionario3BC2.png"/>
+
+### 4.2.1.1. Domain Layer
+
+La capa de dominio encapsula la lógica del negocio central. Aquí se encuentran los Aggregates, Entities, Value Objects, Domain Services y Repositories que representan la lógica pura del sistema, independiente de la infraestructura.
+
+#### Aggregates
+
+<img src="images/aggregateBC2.png"/>
+
+#### Entities
+
+<img src="images/entitiesBC2.png"/>
+
+#### Value Objects
+
+<img src="images/valueobjectBC2.png"/>
+
+#### Domain Services
+
+<img src="images/domainserviceBC2.png"/>
+
+#### Repositories
+
+<img src="images/repositoriesBC2.png"/>
+
+
+### 4.2.1.2. Interface Layer
+
+La capa de interfaz representa el punto de entrada del sistema. Aquí se encuentran los Controllers que reciben las solicitudes externas (por ejemplo, desde una app móvil o web) y se encargan de invocar los servicios de aplicación.
+
+<img src="images/interfacelayerBC2.png"/>
+
+
+### 4.2.1.3. Application Layer
+
+La capa de aplicación gestiona el flujo entre la interfaz y el dominio. Aquí se definen los Commands, EventHandlers y CommandHandlers. Es donde se orquesta la lógica de casos de uso.
+
+<img src="images/applicationlayerBC2.png"/>
+
+
+### 4.2.1.4. Infrastructure Layer
+
+La capa de infraestructura gestiona la persistencia y los detalles técnicos de bajo nivel. Aquí se encuentran las implementaciones de los JPA Repositories, que interactúan directamente con la base de datos.
+
+<img src="images/infrastructurelayerBC2.png"/>
+
+
+### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="images/boundedcontextsoftwarearchitectureBC2.png"/>
+
+### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+<img src="images/boundedcontextdomainlayerBC2.png"/>
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+<img src="images/boundedcontextdatabasediagramBC2.png"/>
+
+
 ## 4.2.1. Bounded Context: monitorización de seguridad
 
 Este contexto se centra en la capacidad del sistema para detectar accesos sospechosos mediante el reconocimiento facial y activar las alertas de seguridad correspondientes para asegurar la protección del hogar.
@@ -533,7 +705,6 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram  
 ![Image 3](https://media.discordapp.net/attachments/1364349164074438756/1364349525225111643/image.png?ex=68095903&is=68080783&hm=a05e653fb90747b7b613ab6bfad99812a5bd6ceb7ee6d9de94d5fc3a5a165b05&=&format=webp&quality=lossless&width=985&height=661)
-
 
 
 ## 4.2.1. Bounded Context: gestión de suscripciones
@@ -612,6 +783,8 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram
 ![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281824665650/image.png?ex=68095aa6&is=68080926&hm=6fdd78a6a36719965cc4f17a6ca007f8095b4a076fc0f398d261e7a00320f3b1&=&format=webp&quality=lossless&width=985&height=419)
+
+
 
 
 
