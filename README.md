@@ -255,43 +255,39 @@ ABET – EAC - Student Outcome 5
 
 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos
 
+
 <table>
- <tr>
+  
+  <tr>
     <td><b>Criterio específico</b></td>
     <td><b>Acciones realizadas</b></td>
     <td><b>Conclusiones</b></td>
   </tr>
-   <tr>
-    <td><b>Trabajo en equipo para proporcionar liderazgo en forma conjunta.</b></td>
-    <td><b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.<br><br><b>Gonzales Gomez, Antonella Frida</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.<br>
-    <br><b>Pérez García, David Alexander</b><br> Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.<br>
-    <br><b>Ramos Najar, Tony Alexander</b<br><br> En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.
-</td>
-    <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea  y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
-  </tr>
+
+
   <tr>
-    <td><b>Creo un entorno colaborativo e inclusivo, establezco metas, planifico tareas y cumplo objetivos.</b></td>
-    <td><b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><b><br>Gonzales Gomez, Antonella Frida</b><br> Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.<br>
-    <br><b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.<br>
-    <br><b>Ramos Najar, Tony Alexander</b><br> Me encargué de dividir dos bounded contexts en capas (interfaz, dominio e infraestructura), para ordenar mejor el diseño de la solución. Usé Visual Paradigm para armar diagramas C4 que ayudaron a que todo el equipo entienda cómo se conecta cada parte del sistema. Gracias a esto, logramos organizarnos mejor, establecer metas claras y avanzar en el desarrollo respetando los tiempos que nos propusimos.
-    </td>
-    <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
-  </tr>
-  <tr>
-  <td><b>Aporto al desarrollo del proyecto con enfoque estratégico y trabajo colaborativo</b></td>
-  <td><b>Aquino Iman, Herly Fernando</b><br>
-    Me encargué del desarrollo del Capítulo 3: Especificación de Requerimientos, coordinando con el equipo para validar y priorizar los requisitos funcionales y no funcionales del sistema.
-    También elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales permitieron definir objetivos estratégicos y alinearlos con las funcionalidades del sistema.
-    Fomenté un entorno de trabajo colaborativo al integrar los aportes del equipo en los entregables y mantener la coherencia entre las distintas secciones del documento.
-    Además, establecí metas claras, planifiqué tareas con tiempos definidos y cumplí con los plazos acordados, lo que contribuyó al progreso estructurado del proyecto.
-  </td>
+  <td><b>Trabajo en equipo para proporcionar liderazgo en forma conjunta.</b></td>
   <td>
-    Gracias a una planificación estructurada y una buena articulación con los demás integrantes, se logró una especificación de requerimientos completa y alineada con los objetivos del proyecto, facilitando la comprensión y ejecución de futuras etapas del desarrollo.
+    <b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.<br><br>
+    <b>Gonzales Gomez, Antonella Frida</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.<br><br>
+    <b>Pérez García, David Alexander</b><br> Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.<br><br>
+    <b>Ramos Najar, Tony Alexander</b><br> En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br>
+    <b>Aquino Iman Herly Fernando</b><br> Me encargué del desarrollo del capítulo 3, que abarca la Especificación de Requerimientos. Validé y prioricé los requisitos funcionales y no funcionales del sistema en coordinación con el equipo. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales orientaron la alineación entre objetivos estratégicos y funcionalidades clave del sistema.
   </td>
+  <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
 </tr>
 
-
-
+<tr>
+  <td><b>Creo condiciones para el trabajo articulado, priorizo tareas y cumplo los objetivos establecidos.</b></td>
+  <td>
+    <b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><br>
+    <b>Gonzales Gomez, Antonella Frida</b><br> Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.<br><br>
+    <b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.<br><br>
+    <b>Ramos Najar, Tony Alexander</b><br> Me encargué de dividir dos bounded contexts en capas (interfaz, dominio e infraestructura), para ordenar mejor el diseño de la solución. Usé Visual Paradigm para armar diagramas C4 que ayudaron a que todo el equipo entienda cómo se conecta cada parte del sistema. Gracias a esto, logramos organizarnos mejor, establecer metas claras y avanzar en el desarrollo respetando los tiempos que nos propusimos.<br><br>
+    <b>Aquino Iman Herly Fernando</b><br> Desarrollé el capítulo 3: Especificación de Requerimientos, coordinando con el equipo para validar y priorizar los requisitos funcionales y no funcionales del sistema. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales guiaron la definición de objetivos estratégicos y su alineación con las funcionalidades del sistema. Promoví un entorno de trabajo colaborativo al integrar los aportes del equipo en los entregables y asegurar la coherencia entre las secciones del documento. Establecí metas claras, planifiqué las tareas con plazos definidos y cumplí con los entregables en los tiempos acordados, contribuyendo al avance ordenado del proyecto.
+  </td>
+  <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
+</tr>
 
 </table>
 
