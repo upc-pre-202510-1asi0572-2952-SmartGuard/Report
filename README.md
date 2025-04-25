@@ -278,24 +278,6 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     </td>
     <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
   </tr>
-
-
-  <tr>
-    <td><b>Creo un entorno colaborativo e inclusivo, establezco metas, planifico tareas y cumplo objetivos.</b></td>
-    <td><b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><b>Gonzales Gomez, Antonella Frida</b><br> Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.
-    <br><b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.
-    </td>
-    <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
-  </tr>
-
-  <tr>
-    <td><b>Creo un entorno colaborativo e inclusivo, establezco metas, planifico tareas y cumplo objetivos.</b></td>
-    <td><b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><b>Gonzales Gomez, Antonella Frida</b><br> Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.
-    <br><b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.
-    </td>
-    <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
-  </tr>
-
   <tr>
   <td><b>Creo un entorno colaborativo e inclusivo, establezco metas, planifico tareas y cumplo objetivos.</b></td>
   <td><b>Aquino Iman, Herly Fernando</b><br>
