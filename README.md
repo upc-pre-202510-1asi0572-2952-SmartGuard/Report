@@ -1707,4 +1707,15 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 
 # Bibliografía  
 
+- Xataka. (2023, 10 de diciembre). Las cerraduras inteligentes han conseguido hacerse un hueco en casa: cómo funcionan y qué hay que tener en cuenta. [https://www.xataka.com/domotica-1/cerraduras-inteligentes-han-conseguido-hacerse-hueco-casa-como-funcionan-que-hay-que-tener-cuenta]
+
+- Fuerteco. (2024, 30 de julio). Las mejores 7 cerraduras digitales del 2024. [https://www.fuerteco.com/las-mejores-7-cerraduras-digitales-del-2024/?srsltid=AfmBOopVAOjF1MIAmMpu_-vfwTT6k32zbBV_skDb74tvoI0htL_EWOLv]
+
+- Cerraduras Inteligentes. (2024, 24 de julio). La tecnología IoT en cerraduras inteligentes. [https://cerradurasinteligente.es/la-tecnologia-iot-en-cerraduras-inteligentes/]
+
+- WELOCK. (s. f.). El auge de las cerraduras de puertas inteligentes en los hogares inteligentes (IoT). [https://www.welock.com/es/pages/el-auge-de-las-cerraduras-de-puertas-inteligentes-en-los-hogares-inteligentes-iot]
+
 # Anexos  
+
+Link del repositorio GitHub: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard]<br>
+Link del Miro: [https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301]
