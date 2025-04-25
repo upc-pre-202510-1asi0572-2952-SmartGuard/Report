@@ -279,7 +279,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
   </tr>
   <tr>
-  <td><b>Creo un entorno colaborativo e inclusivo, establezco metas, planifico tareas y cumplo objetivos.</b></td>
+  <td><b>Aporto al desarrollo del proyecto con enfoque estratégico y trabajo colaborativo</b></td>
   <td><b>Aquino Iman, Herly Fernando</b><br>
     Me encargué del desarrollo del Capítulo 3: Especificación de Requerimientos, coordinando con el equipo para validar y priorizar los requisitos funcionales y no funcionales del sistema.
     También elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales permitieron definir objetivos estratégicos y alinearlos con las funcionalidades del sistema.
