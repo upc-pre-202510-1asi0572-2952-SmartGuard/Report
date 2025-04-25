@@ -172,6 +172,16 @@ TF:
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
 - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+
+  <img src="./assets/To-Be-Mapping-Scennary.JPG"></img><br>
+
+  <a>https://miro.com/welcomeonboard/WnJvMWNYaWVsVzdwc2ticG1ja3dET2N6NzBOQXU2WjIza1Q5cU9TVUswa2k3QXZwbzBZZFdWWEtUTkR4M1BnNTkzWnJVckJ5eExOZ0QvVTMyNk9adzk0d2hTMG1hWmU5a3BrZHBxaGtVYVNoMXlMUHdmalZGQnB1cm5jSUU0UnB0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=523513537256</a>
+
+
+
+
+
+
 - [3.2. User Stories](#32-user-stories)
 - [3.3. Impact Mapping](#33-impact-mapping)
 - [3.4. Product Backlog](#34-product-backlog)
