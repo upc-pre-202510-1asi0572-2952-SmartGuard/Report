@@ -137,7 +137,7 @@
 
 
 ## 3.4. Product Backlog 
-  
+  <div style="display: flex; justify-content: center;">
   <table border="1" style="width: 100%; text-align: center; border-collapse: collapse;">
     <thead>
       <tr>
@@ -214,4 +214,6 @@
       </tr>
     </tbody>
   </table>
+  </div>
+
 
