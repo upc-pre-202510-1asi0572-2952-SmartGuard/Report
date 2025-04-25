@@ -263,23 +263,16 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
   </tr>
   <tr>
     <td><b>Trabajo en equipo para proporcionar liderazgo en forma conjunta.</b></td>
-    <td><b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de
-      nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución
-      tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave
-      para definir los bounded contexts del sistema FaceLoock.</td>
-    <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara
-      de la idea  y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
+    <td><b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.<br><b>Gonzales Gomez, Antonella Frida</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.</td>
+    <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea  y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
   </tr>
   <tr>
     <td><b>Creo un entorno colaborativo e inclusivo, establezco metas, planifico tareas y cumplo objetivos.</b></td>
-    <td><b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente
-      de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del
-      equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné
-      tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.</td>
-    <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los
-      objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
+    <td><b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><b>Gonzales Gomez, Antonella Frida</b><br> Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.</td>
+    <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
   </tr>
 </table>
+
 
 
 
