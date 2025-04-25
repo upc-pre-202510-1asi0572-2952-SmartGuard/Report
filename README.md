@@ -132,6 +132,12 @@
 
 TB1:
 
+<img src="images/Insights1.png" />
+
+<img src="images/Insights2.png" />
+
+<img src="images/Insights3.png" />
+
 TP:
 
 TB2:
