@@ -697,14 +697,17 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 - **Autenticación**: Implementación de autenticación para garantizar que solo los usuarios autorizados puedan gestionar las configuraciones de alertas y alarmas, y acceder a los registros de seguridad.
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams  
-![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364349524595707944/image.png?ex=68095903&is=68080783&hm=9731c6d1321b34625498ae58f927196f44c54d7428280c59d6c615d4847886e2&=&format=webp&quality=lossless&width=985&height=568)
+
+<img src="images/BC31.png"/>
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams  
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams  
-![Image 2](https://media.discordapp.net/attachments/1364349164074438756/1364349524906082435/image.png?ex=68095903&is=68080783&hm=e210fe599cc9f6098732c7d7df4dcb786087903aec421efa0d323fe5a08a4ad5&=&format=webp&quality=lossless&width=985&height=393)
+
+<img src="images/BC32.png"/>
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram  
-![Image 3](https://media.discordapp.net/attachments/1364349164074438756/1364349525225111643/image.png?ex=68095903&is=68080783&hm=a05e653fb90747b7b613ab6bfad99812a5bd6ceb7ee6d9de94d5fc3a5a165b05&=&format=webp&quality=lossless&width=985&height=661)
+
+<img src="images/BC33.png"/>
 
 
 ## 4.2.1. Bounded Context: gestión de suscripciones
@@ -774,15 +777,19 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 - **Autenticación y autorización**: Implementación de medidas de seguridad para garantizar que solo los usuarios autenticados puedan gestionar sus suscripciones y realizar pagos.
 
 ### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281140994078/image.png?ex=68095aa5&is=68080925&hm=cff4b4fb6d788aa3b137fb23f19a9fd940d31a45bcdbea741f69538f9236969a&=&format=webp&quality=lossless&width=985&height=605)
+
+<img src="images/BC41.png"/>
 
 ### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
-![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281413488650/image.png?ex=68095aa5&is=68080925&hm=e718bc01530eae2bd55f82c167e7a24727ed60fc16dfc91a74ce1e2ee001a542&=&format=webp&quality=lossless&width=985&height=395)
+
+<img src="images/BC42.png"/>
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram
-![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281824665650/image.png?ex=68095aa6&is=68080926&hm=6fdd78a6a36719965cc4f17a6ca007f8095b4a076fc0f398d261e7a00320f3b1&=&format=webp&quality=lossless&width=985&height=419)
+
+<img src="images/BC43.png"/>
+
 
 
 
