@@ -8,9 +8,19 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    2: typeof import('./src/components/shared/IngreseConGoolge copy 2.vue')['default']
     AboutView: typeof import('./src/components/shared/AboutView.vue')['default']
+    Button: typeof import('./src/components/shared/Button.vue')['default']
+    copy: typeof import('./src/components/shared/IngreseConGoolge copy.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     HomeView: typeof import('./src/components/shared/HomeView.vue')['default']
+    IngresaConRedSocial: typeof import('./src/components/shared/IngresaConRedSocial.vue')['default']
+    IngreseConApple: typeof import('./src/components/shared/IngreseConApple.vue')['default']
+    IngreseConFacebook: typeof import('./src/components/shared/IngreseConFacebook.vue')['default']
+    IngreseConGoolge: typeof import('./src/components/shared/IngreseConGoolge.vue')['default']
+    Input: typeof import('./src/components/shared/Input.vue')['default']
+    InputText: typeof import('primevue/inputtext')['default']
+    InputTexto: typeof import('./src/components/shared/InputTexto.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
