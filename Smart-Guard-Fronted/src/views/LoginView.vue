@@ -3,7 +3,7 @@
 
     <!-- Sección Izquierda -->
     <section class="w-full md:w-1/2 bg-gray-100 flex flex-col items-center justify-center p-8">
-      <img class="mb-6 xl:w-2xl md:w-60" src="../assets/House.png" alt="Logo" />
+      <img class="mb-6 xl:w-2xl md:w-60" src="../assets/smart-home/House.png" alt="Logo" />
       <div class="text-center max-w-sm">
         <h1 class="uppercase font-bold text-xl mb-2">
           Más que seguridad, tranquilidad inteligente en tu hogar
@@ -33,9 +33,9 @@
             <label for="recuerda" class="text-sm text-gray-700">Recuérdame</label>
           </div>
 
-          <router-link to="/home" class="text-blue-500 text-sm hover:underline">Ir al inicio</router-link>
-
-          <Button />
+          <router-link to="/home" class="contents">
+            <Button />
+          </router-link>
 
           <a href="#" class="text-blue-400 text-center text-sm hover:underline">¿Olvidaste tu contraseña?</a>
         </main>

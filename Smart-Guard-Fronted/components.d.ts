@@ -16,8 +16,10 @@ declare module 'vue' {
     IngreseConFacebook: typeof import('./src/components/login/IngreseConFacebook.vue')['default']
     IngreseConGoolge: typeof import('./src/components/login/IngreseConGoolge.vue')['default']
     InputTexto: typeof import('./src/components/shared/InputTexto.vue')['default']
+    LinkButton: typeof import('./src/components/home/LinkButton.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Sidebar: typeof import('./src/components/home/sidebar.vue')['default']
+    Sidebar: typeof import('primevue/sidebar')['default']
+    SideBar: typeof import('./src/components/home/SideBar.vue')['default']
   }
 }
