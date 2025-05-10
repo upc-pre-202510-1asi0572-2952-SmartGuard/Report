@@ -1455,72 +1455,94 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
   <table border="1" style="border-collapse: collapse; width: 90%; text-align: center;">
     <thead>
       <tr>
-        <th>Epic/Story</th>
+        <th>#Orden</th>
+        <th>ID</th>
         <th>Titulo</th>
         <th>Descripción</th>
-        <th>Relacionado con (Epic ID)</th>
+        <th>Story Point</th>
+        <th>Usuario</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>001</td>
+        <td>US001</td>
         <td>Identificación automática mediante reconocimiento facial</td>
         <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial, para saber si son conocidas o extrañas y decidir si permitir el acceso o recibir una alerta.</td>
         <td>8</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>002</td>
+        <td>US002</td>
         <td>Registro de rostros autorizados</td>
-        <td>Como propietario, quiero registrar los rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin necesidad de que yo intervenga manualmente.</td>
+        <td>Como propietario, quiero registrar los rostros de personas autorizadas (familiares, amigos), para que puedan ingresar sin necesidad de que yo intervenga manualmente.</td>
         <td>3</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>003</td>
+        <td>US003</td>
         <td>Notificación por detección de persona desconocida</td>
         <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta, para poder tomar decisiones rápidas sobre la seguridad de mi hogar.</td>
         <td>3</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>004</td>
+        <td>US004</td>
         <td>Inicio de sesión con credenciales predeterminadas</td>
-        <td>Como propietario, quiero poder iniciar sesión rápidamente en la aplicación usando las credenciales predeterminadas de la cerradura, para acceder a la configuración inicial sin complicaciones.</td>
+        <td>Como propietario, quiero poder iniciar sesión en la aplicación usando las credenciales predeterminadas de la cerradura, para acceder rápidamente a la configuración inicial.</td>
         <td>2</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>005</td>
+        <td>US005</td>
         <td>Visualización en tiempo real del rostro frente a la puerta</td>
         <td>Como propietario, quiero ver en tiempo real el rostro de la persona que está frente a la puerta, para decidir si es seguro abrir o no la cerradura.</td>
         <td>8</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>006</td>
-        <td>Botones de acción remota en la app (abrir puerta o llamar a la policía)</td>
-        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza, para actuar rápidamente según la situación detectada.</td>
+        <td>US006</td>
+        <td>Botones de acción remota en la app</td>
+        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza, para actuar rápidamente según la situación.</td>
         <td>5</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>007</td>
+        <td>US007</td>
         <td>Consulta de historial de acceso</td>
         <td>Como propietario, quiero consultar un historial de accesos, para saber quién y cuándo ha intentado ingresar a mi casa, ya sea con éxito o sin autorización.</td>
         <td>3</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>008</td>
+        <td>US008</td>
         <td>Visualización de evidencias visuales de visitas anteriores</td>
         <td>Como propietario, quiero ver imágenes o clips cortos de las visitas anteriores, para tener evidencia en caso de incidentes o situaciones sospechosas.</td>
         <td>5</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>009</td>
+        <td>US009</td>
         <td>Configuración de alertas personalizadas</td>
-        <td>Como propietario, quiero poder configurar alertas personalizadas, para recibir notificaciones específicas (como si alguien intenta forzar la cerradura) y poder tomar medidas rápidamente.</td>
+        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura), para recibir notificaciones específicas y actuar rápido.</td>
         <td>5</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>010</td>
+        <td>US010</td>
         <td>Configuración de horarios de acceso para personas autorizada</td>
-        <td>Como propietario, deseo poder configurar las fechas y horas en las que una persona autorizada puede ingresar a mi casa, para tener mayor control sobre los accesos y limitar el ingreso según horarios permitidos.</td>
+        <td>Como propietario, deseo poder configurar las fechas y horas en las que una persona autorizada puede ingresar a mi casa, para tener mayor control sobre los accesos.</td>
         <td>5</td>
+        <td>Propietario</td>
       </tr>
     </tbody>
   </table>
