@@ -55,9 +55,9 @@
         </section>
 
         <!-- Sección Derecha -->
-        <section class="w-1/2 flex items-center justify-center bg-white p-10">
+        <section class="w-1/2 flex justify-center bg-white p-10">
             
-            <div class="flex flex-col gap-4 w-full max-w-xl bg-white p-8 rounded-xl shadow-lg">
+            <div class="flex flex-col gap-4 w-full max-w-xl bg-white p-8 rounded-xl shadow-md">
                 
                 <header class="mb-8 text-center">
                     <h1 class="text-2xl font-semibold mb-1">Inicio</h1>
