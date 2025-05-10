@@ -1,0 +1,62 @@
+<template>
+    <div>
+        <div class="bg-[#2A3240] flex flex-row justify-between items-center gap-4 p-8  text-xl rounded-b-4xl lg:rounded-none">
+            <div class="rounded-full bg-[#555B66] px-4 py-2">Regresar</div>
+            <div>
+                <h2 class="text-center text-4xl font-black mb-8">Registrar un nuevo hogar</h2>
+                <p class="text-center  font-light">Añade los primeros detalles</p>
+            </div>
+            <div class="flex flex-col items-center tex"><span>PASO</span><span class="font-black">2/1</span></div>
+        </div>
+        <div class="relative flex flex-col items-center  gap-4 text-xl pb-8">
+
+            <img class="h-full w-auto block mt-4 px-4 mb-4 z-10" src="../assets/homeRegister.png" alt="icon" />
+            <div class="absolute rounded-b-4xl top-0 w-full lg:pb-24 bg-[#2A3240]"></div>
+            <p>¿Cuál es el nombre de tu hogar?</p>
+            <InputTexto _placeholder="Mi Casa" :_onClick="handleClick" />
+            <p class="font-black">Sin inspiración? Intenta uno de estos nombres</p>
+            <div class="flex flex-row flex-wrap gap-4">
+                <Button />
+                <Button />
+                <Button />
+            </div>
+            <div class="flex flex-row flex-wrap gap-4 rounded-4xl bg-white p-8 w-md shadow-2xl">
+                <Button class="w-full" />
+
+            </div>
+        </div>
+
+    </div>
+</template>
+
+
+
+
+
+
+
+
+
+
+
+<script lang="ts">
+import Button from '../components/shared/button.vue'
+import InputTexto from '../components/shared/InputTexto.vue';
+
+
+export default {
+    components: {
+        Button,
+        InputTexto,
+    },
+    methods: {
+        handleClick() {
+            console.log("Botón clickeado desde la vista")
+        }
+    }
+}
+</script>
+
+
+
+<style scopeed></style>

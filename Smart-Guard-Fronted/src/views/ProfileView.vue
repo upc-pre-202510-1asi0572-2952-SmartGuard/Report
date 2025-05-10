@@ -1,28 +1,28 @@
 <template>
-<div class="container mx-auto px-4 py-8">
+    <div class="container mx-auto px-4 py-8">
+        <h2 class="text-4xl font-black mb-8">Perfil de usuario</h2>
+        <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+            <div class="flex justify-center">
+                <img class="" src="../assets/profile.png" />
+            </div>
+            <div class="flex flex-col justify-center gap-4">
+                <Button />
+                <Button />
+                <Button />
+            </div>
 
-    <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-        <div class="flex justify-center">
-            <img class="" src="../assets/profile.png" />
-        </div>
-        <div class="flex flex-col justify-center gap-4">
-            <Button />
-            <Button />
-            <Button />
-        </div>
+        </section>
 
-    </section>
-
-    <section class="grid grid-cols-2 gap-4">
-        <InputTexto _placeholder="joe.doe@gmail.com" :_onClick="handleClick" />
-        <InputTexto _placeholder="joe.doe@gmail.com" :_onClick="handleClick" />
-        <InputTexto _placeholder="joe.doe@gmail.com" :_onClick="handleClick" />
-        <InputTexto _placeholder="joe.doe@gmail.com" :_onClick="handleClick" />
-        <InputTexto _placeholder="joe.doe@gmail.com" :_onClick="handleClick" />
-        <InputTexto _placeholder="joe.doe@gmail.com" :_onClick="handleClick" />
-        <Button class="col-span-2 mt-4" />
-    </section> 
-</div>
+        <section class="grid grid-cols-2 gap-4">
+            <InputTexto _placeholder="Julia Perez" :_onClick="handleClick" />
+            <InputTexto _placeholder="Administrador del Hogar" :_onClick="handleClick" />
+            <InputTexto _placeholder="joe.doe@gmail.com" :_onClick="handleClick" />
+            <InputTexto _placeholder="Perú, Lima" :_onClick="handleClick" />
+            <InputTexto _placeholder="954302758" :_onClick="handleClick" />
+            <InputTexto _placeholder="Jr. La Paz 884, Cercado de Lima" :_onClick="handleClick" />
+            <Button class="col-span-2 mt-4" />
+        </section>
+    </div>
 </template>
 
 
