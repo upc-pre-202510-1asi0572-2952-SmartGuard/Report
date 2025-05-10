@@ -1,5 +1,5 @@
 <template>
-    <button :class="`p-2 rounded-md text-white ${_color}`" @click="_onClick">
+    <button :class="`p-2 rounded-md text-white transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 shadow-md hover:shadow-lg ${_color}`" @click="_onClick">
         {{ _texto }}
     </button>
 </template>
