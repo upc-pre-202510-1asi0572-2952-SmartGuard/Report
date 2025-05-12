@@ -21,5 +21,6 @@ declare module 'vue' {
     RouterView: typeof import('vue-router')['RouterView']
     Sidebar: typeof import('primevue/sidebar')['default']
     SideBar: typeof import('./src/components/home/SideBar.vue')['default']
+    ToggleSwitch: typeof import('primevue/toggleswitch')['default']
   }
 }
