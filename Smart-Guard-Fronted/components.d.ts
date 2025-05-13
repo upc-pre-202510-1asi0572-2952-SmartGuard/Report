@@ -10,6 +10,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     AboutView: typeof import('./src/components/shared/AboutView.vue')['default']
     Button: typeof import('./src/components/shared/Button.vue')['default']
+    Chart: typeof import('primevue/chart')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     HomeView: typeof import('./src/components/shared/HomeView.vue')['default']
     IngreseConApple: typeof import('./src/components/login/IngreseConApple.vue')['default']
