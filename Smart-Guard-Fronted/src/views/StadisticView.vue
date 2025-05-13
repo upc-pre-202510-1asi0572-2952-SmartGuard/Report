@@ -2,50 +2,62 @@
     <div class="flex flex-col md:flex-row h-full min-h-screen bg-gray-100">
         <SideBar class="w-full md:w-[15%]" />
 
-        <main class="w-full lg:w-[85%] mx-auto p-6 bg-gray-200 flex flex-col gap-10 text-black">
+        <main class="w-full lg:w-[85%] flex flex-col justify-center items-center gap-10 text-black">
 
-            <div class="flex flex-col gap-10 max-w-5xl mx-auto w-full"> <div class="flex flex-col md:flex-row justify-between items-start gap-10"> <div class="flex flex-col gap-2"> <h1 class="text-2xl font-semibold">Estadísticas</h1>
-                        <span class="text-gray-600">Resumen de actividad y estadísticas del sistema asegurador</span>
+            <div class="flex flex-col rounded-2xl gap-10 max-w-6xl w-full px-5 py-10 bg-white shadow-2xl">
+                
+                <div class="flex flex-col md:flex-row justify-between items-start gap-10">
+                    <div class="flex flex-col gap-2">
+                        <h1 class="text-4xl font-semibold">Estadísticas</h1>
+                        <span class=" text-xl text-gray-600 max-w-80">Resumen de actividad y estadísticas del sistema asegurador</span>
                     </div>
 
-                    <div class="flex flex-col sm:flex-row gap-4 md:gap-10"> <Select v-model="homeSelected" :options="homes" optionLabel="name"
-                            placeholder="Selecciona un Hogar" class="w-full md:w-56" />
-                        <Select v-model="diaSelected" :options="dias" optionLabel="name" placeholder="Selecciona un período"
+                    <div class="flex flex-col gap-4 md:gap-10"> <Select v-model="homeSelected"
+                            :options="homes" optionLabel="name" placeholder="Selecciona un Hogar"
                             class="w-full md:w-56" />
+                        <Select v-model="diaSelected" :options="dias" optionLabel="name"
+                            placeholder="Selecciona un período" class="w-full md:w-56" />
                     </div>
                 </div>
 
-                <div class="flex flex-wrap justify-center sm:justify-start gap-4"> <div
-                        class="rounded-2xl px-4 py-2 flex flex-col justify-center items-center gap-2 border-2 border-gray-300 min-w-[150px] flex-grow sm:flex-grow-0">
-                        <h3 class="text-5xl font-bold text-blue-600">{{ Accesos }}</h3> <span class="text-gray-600">Accesos</span>
+                <div class="flex flex-wrap gap-6 justify-start">
+                    <div
+                        class="bg-white rounded-2xl px-6 py-4 flex flex-col items-center gap-2 shadow border border-gray-300 w-40">
+                        <h3 class="text-4xl font-bold">{{ Accesos }}</h3>
+                        <span class="text-gray-600">Accesos</span>
                     </div>
 
                     <div
-                        class="rounded-2xl px-4 py-2 flex flex-col justify-center items-center gap-2 border-2 border-gray-300 min-w-[150px] flex-grow sm:flex-grow-0">
-                        <h3 class="text-5xl font-bold text-green-600">{{ Miembros }}</h3>
+                        class="bg-white rounded-2xl px-6 py-4 flex flex-col items-center gap-2 shadow border border-gray-300 w-40">
+                        <h3 class="text-4xl font-bold">{{ Miembros }}</h3>
                         <span class="text-gray-600">Miembros</span>
                     </div>
 
                     <div
-                        class="rounded-2xl px-4 py-2 flex flex-col justify-center items-center gap-2 border-2 border-gray-300 min-w-[150px] flex-grow sm:flex-grow-0">
-                        <h3 class="text-5xl font-bold text-purple-600">{{ Dispositivos }}</h3>
+                        class="bg-white rounded-2xl px-6 py-4 flex flex-col items-center gap-2 shadow border border-gray-300 w-40">
+                        <h3 class="text-4xl font-bold">{{ Dispositivos }}</h3>
                         <span class="text-gray-600">Dispositivos</span>
                     </div>
 
                     <div
-                        class="rounded-2xl px-4 py-2 flex flex-col justify-center items-center gap-2 border-2 border-gray-300 min-w-[150px] flex-grow sm:flex-grow-0">
-                        <h3 class="text-5xl font-bold text-red-600">{{ Incidentes }}</h3>
+                        class="bg-white rounded-2xl px-6 py-4 flex flex-col items-center gap-2 shadow border border-gray-300 w-40">
+                        <h3 class="text-4xl font-bold">{{ Incidentes }}</h3>
                         <span class="text-gray-600">Incidentes</span>
                     </div>
                 </div>
 
 
-                <div class="flex flex-col lg:flex-row justify-between gap-10 items-start"> <div class="flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md flex-1 min-w-[300px]"> <h2 class="text-lg font-semibold">Accesos por día</h2>
-                        <Chart type="line" :data="chartData1" :options="chartOptions1" class="w-full h-[300px]" /> </div>
+                <div class="flex flex-col lg:flex-row justify-between gap-10 items-start">
+                    <div class=" px-4 py-5 flex flex-col gap-4 bg-white shadow-2xl rounded-lg flex-1 min-w-[300px]">
+                        <h2 class="text-lg font-semibold">Accesos por día</h2>
+                        <Chart type="line" :data="chartData1" :options="chartOptions1" class="w-full h-[300px]" />
+                    </div>
 
-                    <div class="flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md flex-1 min-w-[300px]">
+                    <div class="px-4 py-5 flex flex-col gap-4 bg-white shadow-2xl rounded-lg flex-1 min-w-[300px]">
                         <h2 class="text-lg font-semibold">Accesos por miembro</h2>
-                        <Chart type="doughnut" :data="chartData2" :options="chartOptions2" class="w-full h-[300px] md:w-[30rem]" /> </div>
+                        <Chart type="doughnut" :data="chartData2" :options="chartOptions2"
+                            class="w-full h-[300px] md:w-[30rem]" />
+                    </div>
 
                 </div>
 
@@ -65,16 +77,16 @@ import Chart from 'primevue/chart';
 export default {
     components: {
         SideBar,
-        Select, 
+        Select,
         Chart
     },
     data() {
         return {
-            chartData2: null, 
+            chartData2: null,
             chartOptions2: null,
 
             chartData1: null,
-            chartOptions1: null, 
+            chartOptions1: null,
 
             Accesos: 24,
             Miembros: 3,
@@ -110,11 +122,11 @@ export default {
             const documentStyle = getComputedStyle(document.documentElement);
 
             return {
-                labels: ['Día 1', 'Día 2', 'Día 3', 'Día 4', 'Día 5', 'Día 6', 'Día 7'], 
+                labels: ['Día 1', 'Día 2', 'Día 3', 'Día 4', 'Día 5', 'Día 6', 'Día 7'],
                 datasets: [
                     {
                         label: 'Accesos',
-                        data: [0, 3, 4, 6, 5, 8, 6], 
+                        data: [0, 3, 4, 6, 5, 8, 6],
                         fill: false,
                         borderColor: documentStyle.getPropertyValue('--p-blue-500') || '#3B82F6',
                         tension: 0.4
@@ -129,7 +141,7 @@ export default {
             const surfaceBorder = documentStyle.getPropertyValue('--p-content-border-color') || '#D1D5DB';
 
             return {
-                responsive: true, 
+                responsive: true,
                 maintainAspectRatio: false,
                 aspectRatio: 1.5,
                 plugins: {
@@ -169,7 +181,7 @@ export default {
             const documentStyle = getComputedStyle(document.body);
 
             return {
-                labels: ['Miembro A', 'Miembro B', 'Miembro C'],
+                labels: ['Fernando', 'Aquino', 'Alexis'],
                 datasets: [
                     {
                         data: [70, 20, 10],
@@ -193,8 +205,8 @@ export default {
 
             return {
                 responsive: true,
-                maintainAspectRatio: false, 
-                cutout: '70%', 
+                maintainAspectRatio: false,
+                cutout: '70%',
                 plugins: {
                     legend: {
                         position: 'right',
@@ -212,5 +224,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
