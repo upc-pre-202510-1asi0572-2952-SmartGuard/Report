@@ -25,7 +25,7 @@
         <LinkButton text="Accesos" iconClass="pi pi-clone" route="/login"/>
         <LinkButton text="Dispositivos" iconClass="pi pi-mobile" route="/login" />
         <LinkButton text="Miembros" iconClass="pi pi-users" route="/login"/>
-        <LinkButton text="Estadísticas" iconClass="pi pi-chart-line" route="/login"/>
+        <LinkButton text="Estadísticas" iconClass="pi pi-chart-line" route="/stadisticas"/>
         <div class="border-t my-2"></div>
         <LinkButton text="Perfil & Configuraciones" iconClass="pi pi-user-edit" route="/configuration"/>
       </div>
