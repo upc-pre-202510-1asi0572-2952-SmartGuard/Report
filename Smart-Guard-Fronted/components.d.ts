@@ -13,7 +13,6 @@ declare module 'vue' {
     Chart: typeof import('primevue/chart')['default']
     DonutChart: typeof import('./src/components/statistics/DonutChart.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
-    HomeView: typeof import('./src/components/shared/HomeView.vue')['default']
     InfoData: typeof import('./src/components/statistics/InfoData.vue')['default']
     IngreseConApple: typeof import('./src/components/login/IngreseConApple.vue')['default']
     IngreseConFacebook: typeof import('./src/components/login/IngreseConFacebook.vue')['default']
@@ -24,8 +23,8 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Select: typeof import('primevue/select')['default']
-    Sidebar: typeof import('primevue/sidebar')['default']
-    SideBar: typeof import('./src/components/home/SideBar.vue')['default']
+    Sidebar: typeof import('./src/components/home/sidebar.vue')['default']
+    SideBar: typeof import('primevue/sidebar')['default']
     StatisticFilter: typeof import('./src/components/statistics/StatisticFilter.vue')['default']
     ToggleSwitch: typeof import('primevue/toggleswitch')['default']
   }

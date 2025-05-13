@@ -1,8 +1,7 @@
 <template>
   <div class="flex h-screen">
     <!-- Sidebar: 15% del ancho -->
-    <SideBar/>
-
+    <sidebar/>
     <!-- Contenido principal: 85% restante -->
     <main class="w-[85%] p-6 bg-gray-200 flex items-center justify-center">
       
@@ -20,11 +19,12 @@
 </template>
 
 <script>
-import SideBar from '../components/home/SideBar.vue';
 import Button from '../components/shared/Button.vue';
+import sidebar from '../components/home/sidebar.vue';
+
 export default {
   components:{
-    SideBar,
+    sidebar,
     Button
   }
 }

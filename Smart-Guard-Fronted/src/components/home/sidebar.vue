@@ -21,10 +21,10 @@
 
       <!-- Navegación -->
       <div class="flex flex-col gap-4 px-6 font-medium">
-        <LinkButton text="Hogar" iconClass="pi pi-home" route="/hogar"/>
-        <LinkButton text="Accesos" iconClass="pi pi-clone" route="/login"/>
-        <LinkButton text="Dispositivos" iconClass="pi pi-mobile" route="/login" />
-        <LinkButton text="Miembros" iconClass="pi pi-users" route="/login"/>
+        <LinkButton text="Hogar" iconClass="pi pi-home" route="/home"/>
+        <LinkButton text="Accesos" iconClass="pi pi-clone" route="/home"/>
+        <LinkButton text="Dispositivos" iconClass="pi pi-mobile" route="/home" />
+        <LinkButton text="Miembros" iconClass="pi pi-users" route="/home"/>
         <LinkButton text="Estadísticas" iconClass="pi pi-chart-line" route="/stadisticas"/>
         <div class="border-t my-2"></div>
         <LinkButton text="Perfil & Configuraciones" iconClass="pi pi-user-edit" route="/configuration"/>
