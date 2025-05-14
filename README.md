@@ -3148,6 +3148,16 @@ A continuación, brindamos evidencia de lo trabajado en el presente sprint:
 - **Web Application desplegada:**  
   https://6824e56fcf04376e4520c2b3--smartguard-web.netlify.app/login
 
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+
+Landing Page:
+
+<img src="images/reporte22.png">
+
+Web Application:
+
+<img src="images/reporte11.png">
+
 
 # Conclusiones  
 ## Conclusiones y recomendaciones  
