@@ -1324,7 +1324,7 @@ Gestión de dispositivos IoT, computación en la nube y en el borde (Edge Comput
 
 # Control de Versiones y Commits Convencionales
 
-## GitHub y Metodología Gitflow
+#### GitHub y Metodología Gitflow
 
 Como se indicó en la sección anterior, la plataforma y sistema utilizado para el control de versiones es **GitHub**.  
 Se adopta la metodología **Gitflow**, basada en la propuesta de Vincent Driessen, que organiza las ramas del repositorio de la siguiente manera:
@@ -1349,13 +1349,13 @@ Se adopta la metodología **Gitflow**, basada en la propuesta de Vincent Driesse
 
 ---
 
-## Commits Convencionales
+#### Commits Convencionales
 
 Para mantener un historial claro y consistente, el proyecto sigue la convención de **"Conventional Commits 2.0.0"**.  
 La estructura estándar es:
 
 
-### Tipos de commit:
+##### Tipos de commit:
 
 - `fix`: Corrección de errores.  
 - `feat`: Incorporación de nuevas funcionalidades.  
@@ -1368,7 +1368,7 @@ Solo se incluye en ramas `release`, `hotfix` y `main` para señalar la versión 
 
 ---
 
-## Repositorios del Proyecto
+#### Repositorios del Proyecto
 
 - **Landing Page:**  
   [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/landing-page](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/landing-page)
@@ -1385,13 +1385,13 @@ Solo se incluye en ramas `release`, `hotfix` y `main` para señalar la versión 
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
-# HTML Style Guide for the project
+#### HTML Style Guide for the project
 
 - Siempre declarar el Document Type: `<!DOCTYPE html>`.
 - Utiliza lowercase para los elementos y atributos, por ejemplo: `body`, `p`, `label`, `href`.
 - Siempre agregar los atributos entre comillas, como en `class="striped"`.
 
-# Gherkin Specifications
+#### Gherkin Specifications
 
 - Los escenarios deben mantener la estructura simple: **Given**, **When**, **Then**.
 - Para los steps adicionales se utiliza **And**.
@@ -1400,23 +1400,23 @@ Solo se incluye en ramas `release`, `hotfix` y `main` para señalar la versión 
 
 (Aquí se incluiría un ejemplo típico de escenario con Given, When, Then, And)
 
-# Angular Code Style Guide
+#### Angular Code Style Guide
 
-## Single responsibility - Rule of One
+##### Single responsibility - Rule of One
 
 - Definir los componentes por tarea, de modo que solo hagan una cosa.
 - Asegurarse de que el componente no exceda las 100 líneas de código para evitar bugs causados por la combinación accidental de componentes.
 
-## Single responsibility - Small functions
+##### Single responsibility - Small functions
 
 - Utilizar funciones pequeñas (no más de 100 líneas de código) facilita su testeo, lectura y mantenimiento, y promueve el reuso.
 
-## General Naming Guidelines
+##### General Naming Guidelines
 
 - Sigue un patrón que describa el feature y luego el tipo.
 - El patrón recomendado es: `feature.type.ts`.
 
-## Symbols and file names
+##### Symbols and file names
 
 - Usa Upper camel case para los nombres de clase.
 - Añade el símbolo del nombre con el sufijo, como:
@@ -1429,6 +1429,35 @@ Solo se incluye en ramas `release`, `hotfix` y `main` para señalar la versión 
 
 
 ### 6.1.4. Software Deployment Configuration  
+
+
+#### Despliegue de la aplicación web en Netlify
+
+1. **Crear un nuevo proyecto en Netlify**  
+   Inicia sesión en Netlify y haz clic en **"Add new site"**. Este paso te permitirá crear un nuevo proyecto para que Netlify gestione automáticamente el despliegue desde tu repositorio.  
+   <br/>
+   ![Paso 1 - Crear nuevo proyecto](./images/netly1.png)  
+   <br/>
+
+2. **Seleccionar el repositorio desde GitHub**  
+   Conecta tu cuenta de GitHub (si no lo hiciste previamente) y selecciona el repositorio que contiene el proyecto a desplegar.  
+   <br/>
+   ![Paso 2 - Seleccionar repositorio](./images/netly2.png)  
+   <br/>
+
+3. **Configurar la rama y comandos de despliegue**  
+   Elige la rama desde la cual deseas hacer el deploy (por ejemplo, `main` o `deploy`) y configura el directorio de salida (por defecto suele ser `dist/` en proyectos Vue.js). Luego, guarda los cambios.  
+   <br/>
+   ![Paso 3 - Configurar rama](./images/netly3.png)  
+   <br/>
+
+4. **Hacer clic en el botón “Deploy Site”**  
+   Finalmente, haz clic en **"Deploy Site"** para que Netlify construya y despliegue tu aplicación automáticamente.  
+   Una vez finalizado el proceso, se te proporcionará una URL pública donde tu app estará disponible.  
+   <br/>
+   ![Paso 4 - Iniciar despliegue](./images/netly4.png)
+
+
 ## 6.2. Landing Page, Services & Applications Implementation  
 
 
