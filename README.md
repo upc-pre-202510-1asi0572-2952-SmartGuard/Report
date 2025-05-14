@@ -1688,10 +1688,186 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 
 # Capítulo VI: Product Implementation, Validation & Deployment  
 ## 6.1. Software Configuration Management  
+##### Formato Markdown
+- Propósito: Dividir el informe en múltiples archivos con extensión .md, organizados por capítulos, para facilitar su desarrollo y posterior conversión a PDF para su entrega en el aula virtual.
+- Ruta: [https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+##### Git y Github
+- Propósito: Gestión del control de versiones del proyecto.
+- Ruta: [https://git-scm.com/](https://git-scm.com/), [https://github.com/](https://github.com/)
+
+##### Discord
+- Propósito: Facilitar la comunicación, organización de reuniones y el intercambio de documentos relevantes entre los miembros del equipo.
+- Ruta: [https://discord.com/](https://discord.com/)
+
+##### Pivotal Tracker
+- Propósito: Gestión del proyecto mediante la asignación de tareas y seguimiento del progreso del equipo de desarrollo.
+- Ruta: [https://www.pivotaltracker.com/dashboard](https://www.pivotaltracker.com/dashboard)
+
+#### Product UX/UI Design:
+
+##### Figma
+- Propósito: Crear wireframes, mock-ups y prototipos interactivos.
+- Ruta: [https://www.figma.com/](https://www.figma.com/)
+
+##### Miro
+- Propósito: Diseño de escenarios actuales (As-Is) y futuros (To-Be).
+- Ruta: [https://miro.com/es/](https://miro.com/es/)
+
+##### Structurizr
+- Propósito: Generación de diagramas del tipo C4 para representar arquitecturas de software.
+- Ruta: [https://structurizr.com/](https://structurizr.com/)
+
+##### UXPressia
+- Propósito: Desarrollo de herramientas de experiencia de usuario como User Personas, Empathy Maps, Journey Maps e Impact Maps.
+- Ruta: [https://uxpressia.com/](https://uxpressia.com/)
+
+
 ### 6.1.1. Software Development Environment Configuration  
+
+##### Visual Studio Code, Vue.js Framework, .NET y Python Backend, Azure Cloud
+- Propósito: Herramientas esenciales para el desarrollo completo del sistema. Visual Studio Code es el editor de código principal utilizado por el equipo. Vue.js Framework (junto con HTML5, CSS3 y JavaScript) se emplea para construir el Frontend de la aplicación web y la Landing Page. En el Backend se utilizan tecnologías como .NET (para APIs robustas y seguras) y Python (para lógica de negocio, procesamiento de datos o integración con servicios externos). Azure es la plataforma de nube utilizada para desplegar, escalar y administrar la infraestructura del proyecto. Para la primera entrega, se utilizó una Fake API mediante Json Server como solución temporal de simulación.
+- Ruta: [https://code.visualstudio.com/](https://code.visualstudio.com/), [https://vuejs.org/](https://vuejs.org/), [https://dotnet.microsoft.com/](https://dotnet.microsoft.com/), [https://www.python.org/](https://www.python.org/), [https://azure.microsoft.com/](https://azure.microsoft.com/), [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)
+
+##### C++
+- Propósito: Lenguaje usado para desarrollar componentes que requieren alto rendimiento o interacción directa con hardware, especialmente en soluciones que integran dispositivos IoT.
+- Ruta: [https://cplusplus.com/](https://cplusplus.com/)
+
+#### Software Testing, Software Deployment:
+
+##### GitHub Pages
+- Propósito: Hospedaje y despliegue de la Landing Page del proyecto desde el repositorio, facilitando su acceso público.
+- Ruta: [https://pages.github.com/](https://pages.github.com/)
+
+##### Netlify
+- Propósito: Plataforma utilizada para el despliegue de la Web Application desarrollada en Vue.js, incluyendo integración continua, vista previa por ramas y gestión de entornos.
+- Ruta: [https://www.netlify.com/](https://www.netlify.com/)
+
+##### Azure App Service / Azure Functions
+- Propósito: Despliegue y ejecución del backend desarrollado en .NET y Python, con escalado automático, monitoreo en tiempo real y configuración continua desde Azure DevOps o GitHub Actions.
+- Ruta: [https://azure.microsoft.com/en-us/products/app-service/](https://azure.microsoft.com/en-us/products/app-service/), [https://azure.microsoft.com/en-us/products/functions/](https://azure.microsoft.com/en-us/products/functions/)
+
+##### OpenAPI Specification vía Swagger
+- Propósito: Documentación de los Web Services construidos en .NET y Python, permitiendo su exploración e interacción mediante una interfaz intuitiva.
+- Ruta: [https://swagger.io/](https://swagger.io/)
+
+##### Arduino
+- Propósito: Programación de dispositivos IoT para recolección de datos, control de hardware y procesamiento en entornos Edge o en la nube mediante integración con Azure IoT Hub.
+- Ruta: [https://www.arduino.cc/](https://www.arduino.cc/), [https://azure.microsoft.com/en-us/products/iot-hub/](https://azure.microsoft.com/en-us/products/iot-hub/)
+
+
 ### 6.1.2. Source Code Management  
+
+Como se detalló en la sección anterior, GitHub es la plataforma elegida tanto para el hospedaje del repositorio como para el control de versiones del proyecto. Su uso permite el trabajo colaborativo distribuido, el seguimiento detallado del historial de cambios y la integración con flujos de CI/CD automatizados a través de herramientas como GitHub Actions, Azure Pipelines o Netlify.
+
+#### Implementación de Gitflow según Vincent Driessen
+
+Se ha adoptado el modelo de ramificación Gitflow, propuesto por Vincent Driessen, por su claridad para gestionar múltiples entornos (desarrollo, prueba, producción) y facilitar la colaboración estructurada entre equipos. Este enfoque estandariza el proceso de desarrollo, mejora la trazabilidad de cambios y reduce errores en la entrega de software.
+
+- **Master / Main Branch:**  
+  Representa la rama de producción. Todo lo que está en `main` se considera estable y desplegable. Cada commit aquí debe estar asociado a una versión lanzada o a un despliegue válido.  
+  Notación usada: `main`
+
+- **Develop Branch:**  
+  Es la rama donde se integran todas las funcionalidades nuevas antes de ser consideradas para producción. Aquí se hacen las pruebas de integración y se generan builds nocturnos o en staging.  
+  Notación usada: `develop`
+
+- **Release Branch:**  
+  Utilizada para estabilizar el código de cara a una nueva versión de producción. En esta rama se corrigen bugs menores, se preparan changelogs y se ajustan versiones.  
+  Notación usada: `release/[versión]` (ej. `release/1.0.0`)
+
+- **Feature Branch:**  
+  Dedicadas al desarrollo de nuevas funcionalidades. Se crean desde `develop` y, una vez finalizadas, se fusionan de vuelta. Esta estrategia permite a los desarrolladores trabajar en paralelo sin afectar la rama principal de desarrollo.  
+  Notación usada: `feature/[nombre-de-la-funcionalidad]` o simplemente `[nombre-de-la-funcionalidad]`
+
+- **Hotfix Branch:**  
+  Ramas críticas creadas desde `main` para corregir fallos en producción de manera urgente. Una vez solucionado el problema, se fusionan tanto en `main` como en `develop` para mantener la consistencia.  
+  Notación usada: `hotfix/[versión]` (ej. `hotfix/1.0.1`)
+
+Este esquema de ramificación asegura control, trazabilidad y calidad en los cambios incorporados al proyecto, especialmente cuando se trabaja en entornos CI/CD y múltiples versiones en paralelo.
+
+#### Commits Convencionales (Conventional Commits)
+
+Para garantizar un historial de commits legible, ordenado y automatizable (ideal para generación de changelogs y análisis de versiones), se utiliza la especificación **Conventional Commits 2.0.0**. Esta convención permite clasificar cada cambio según su propósito, lo que facilita la comprensión del historial de desarrollo y mejora la integración con herramientas
+
+##### Repositorios:
+- Landing page: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/landing-page](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/landing-page)
+- Frontend Web Application: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/aplication-web](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/aplication-web)
+- Frontent Movile Application: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/aplication-web](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/aplication-web)
+- Informe: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Report](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Report)
+
+
 ### 6.1.3. Source Code Style Guide & Conventions  
+#### HTML Style Guide para el proyecto
+- Siempre declarar el `<!DOCTYPE html>` para asegurar una correcta interpretación del documento por los navegadores.
+- Utilizar **minúsculas** para nombres de etiquetas y atributos: `div`, `p`, `class`, `href`, etc.
+- Todos los atributos deben ir **entre comillas dobles**: `class="container"`, `id="app"`
+- Respetar la indentación y anidar correctamente los elementos para mejorar la legibilidad.
+- Evitar etiquetas vacías innecesarias. Si es necesario dejar una etiqueta sin contenido, incluir un comentario que justifique su uso.
+
+#### Gherkin Specifications:
+- Los escenarios deben seguir la estructura estándar de BDD: `Given`, `When`, `Then`, utilizando `And` para pasos adicionales.
+- Se recomienda mantener la redacción clara y en lenguaje natural, enfocado en comportamiento observable del sistema.
+Ejemplo:
+- Feature: Registro de usuario
+- Scenario: Registro exitoso
+- Given el usuario se encuentra en la página de registro
+- When completa el formulario con datos válidos
+- And presiona el botón "Registrar"
+- Then debería ver un mensaje de éxito
+#### Code Style Guide
+
+- **Single Responsibility Principle (SRP):**
+  - Cada componente debe enfocarse en una sola función o unidad lógica. Componentes que hagan demasiado tienden a ser difíciles de mantener y testear.
+  - Divide vistas complejas en subcomponentes reutilizables.
+
+- **Funciones pequeñas y reutilizables:**
+  - Las funciones (métodos, computed, watchers) no deben exceder las 75 líneas. Mantener la lógica dividida y clara permite mayor facilidad de prueba y mantenimiento.
+  
+- **Convenciones de nombres:**
+  - Archivos de componentes deben seguir el patrón: `NombreComponente.vue`, usando UpperCamelCase.
+  - Los nombres de archivos deben describir su propósito y tipo. Ejemplos:
+    - `UserCard.vue` (componente de UI)
+    - `useAuth.js` (composable de autenticación)
+    - `auth.service.js` (servicio para autenticación)
+    - `AuthForm.vue` (formulario de autenticación)
+
+- **Estructura de archivo Vue:**
+  - Seguir el orden: `<template>`, `<script>`, `<style>`. Este orden ayuda a mantener coherencia y legibilidad.
+  - Utilizar `setup()` con la Composition API si se desea una mayor organización y reuso de lógica.
+  - Evitar lógica compleja en el template. Llevar la lógica al script y usar computed o métodos según corresponda.
+
+- **Estilo y convenciones:**
+  - Usar kebab-case en nombres de componentes dentro del template: `<user-card />`
+  - Prefiere SCSS o CSS Modules para estilos organizados. Si se usan estilos globales, declararlos de forma clara.
+  - En `<style>`, siempre usar `scoped` si el estilo es exclusivo del componente.
+  - Evita repetir código. Usa slots y props para hacer componentes reutilizables y dinámicos.
+
+[Referencia oficial Vue Style Guide](https://vuejs.org/style-guide/)
+
+
 ### 6.1.4. Software Deployment Configuration  
+#### Despliegue de la aplicacion web en netlify:
+1. **Crear un nuevo proyecto en Netlify**  
+   Inicia sesión en Netlify y haz clic en **"Add new site"**. Este paso te permitirá crear un nuevo proyecto para que Netlify gestione automáticamente el despliegue desde tu repositorio.  
+   <br/>
+   ![Paso 1 - Crear nuevo proyecto](./images/netly1.png)
+  <br/>
+2. **Seleccionar el repositorio desde GitHub**  
+   Conecta tu cuenta de GitHub (si no lo hiciste previamente) y selecciona el repositorio que contiene el proyecto a desplegar.
+     <br/>  
+   ![Paso 2 - Seleccionar repositorio](./images/netly2.png)
+  <br/>
+3. **Configurar la rama y comandos de despliegue**  
+   Elige la rama desde la cual deseas hacer el deploy (por ejemplo, `main` o `deploy`) y configura el directorio de salida (por defecto suele ser `dist/` en proyectos Vue.js). Luego, guarda los cambios.  
+     <br/>
+   ![Paso 3 - Configurar rama](./images/netly3.png)
+  <br/>
+4. **Hacer clic en el botón “Deploy Site”**  
+   Finalmente, haz clic en **"Deploy Site"** para que Netlify construya y despliegue tu aplicación automáticamente. Una vez finalizado el proceso, se te proporcionará una URL pública donde tu app estará disponible.  
+     <br/>
+   ![Paso 4 - Iniciar despliegue](./images/netly4.png)
+
 ## 6.2. Landing Page, Services & Applications Implementation  
 ### 6.2.X. Sprint n  
 #### 6.2.X.1. Sprint Planning n  
