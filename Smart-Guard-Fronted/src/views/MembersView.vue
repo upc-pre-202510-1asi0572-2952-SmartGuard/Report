@@ -58,6 +58,7 @@
 
 
 <script lang="ts">
+import SideBar from '../components/home/sidebar.vue';
 import Button from '../components/shared/button.vue'
 import profile1 from '../assets/profile.png';
 import profile2 from '../assets/profile2.png';
@@ -66,6 +67,7 @@ import profile3 from '../assets/profile3.png'
 export default {
     components: {
         Button,
+        SideBar
     },
     data() {
         return {

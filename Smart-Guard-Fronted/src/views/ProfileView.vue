@@ -45,12 +45,13 @@
 <script lang="ts">
 import Button from '../components/shared/button.vue'
 import InputTexto from '../components/shared/InputTexto.vue';
-
+import SideBar from '../components/home/SideBar.vue';
 
 export default {
     components: {
         Button,
         InputTexto,
+        SideBar
     },
     methods: {
         handleClick() {

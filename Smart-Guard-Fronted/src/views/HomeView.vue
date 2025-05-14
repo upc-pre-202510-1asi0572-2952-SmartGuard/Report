@@ -1,7 +1,7 @@
 <template>
   <div class="flex h-screen">
     <!-- Sidebar: 15% del ancho -->
-    <sidebar/>
+    <SideBar/>
     <!-- Contenido principal: 85% restante -->
     <main class="w-[85%] bg-gray-100">
       
@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import SideBar from '../components/home/Sidebar.vue';
+import SideBar from '../components/home/sidebar.vue';
 import Button from '../components/shared/Button.vue';
 import HomeSpace from '../components/HomeSpace.vue';
 

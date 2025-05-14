@@ -24,7 +24,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Select: typeof import('primevue/select')['default']
-    Sidebar: typeof import('./src/components/home/sidebar.vue')['default']
+    Sidebar: typeof import('primevue/sidebar')['default']
     SideBar: typeof import('primevue/sidebar')['default']
     SplashView: typeof import('./src/components/shared/SplashView.vue')['default']
     StatisticFilter: typeof import('./src/components/statistics/StatisticFilter.vue')['default']

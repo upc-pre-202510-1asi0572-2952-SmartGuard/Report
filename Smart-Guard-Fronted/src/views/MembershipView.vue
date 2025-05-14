@@ -97,12 +97,13 @@
 
 <script lang="ts">
 import Button from '../components/shared/button.vue'
-
+import SideBar from '../components/home/sidebar.vue';
 
 
 export default {
     components: {
         Button,
+        SideBar
     },
     methods: {
         handleClick() {

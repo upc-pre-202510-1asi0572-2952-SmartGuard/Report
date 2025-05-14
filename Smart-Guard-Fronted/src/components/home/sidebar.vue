@@ -24,11 +24,12 @@
         <LinkButton text="Hogar" iconClass="pi pi-home" route="/home"/>
         <LinkButton text="Accesos" iconClass="pi pi-clone" route="/home"/>
         <LinkButton text="Dispositivos" iconClass="pi pi-mobile" route="/home" />
-        <LinkButton text="Miembros" iconClass="pi pi-users" route="/home"/>
+        <LinkButton text="Miembros" iconClass="pi pi-users" route="/members"/>
         <LinkButton text="Estadísticas" iconClass="pi pi-chart-line" route="/stadisticas"/>
         <div class="border-t my-2"></div>
         <LinkButton text="Perfil" iconClass="pi pi-user-edit" route="/profile" />
         <LinkButton text="Configuraciones" iconClass="pi pi-user-edit" route="/configuration" />
+        <LinkButton text="Conseguir Premiun" iconClass="pi pi-user-edit" route="/membership" />
       </div>
     </div>
 
