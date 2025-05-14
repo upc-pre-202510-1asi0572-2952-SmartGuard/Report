@@ -2,7 +2,7 @@
     <div class=" flex flex-col w-full px-8">
         <div
             class="bg-[#2A3240] flex flex-row justify-between items-center gap-4 p-8  text-xl rounded-b-4xl lg:rounded-none">
-            <Button _color="bg-[#555B66]" _texto="Regresar"/>
+            <Button _color="bg-[#555B66]" _texto="Regresar" />
             <div>
                 <h2 class="text-center text-4xl font-black mb-8">Registrar un nuevo hogar</h2>
                 <p class="text-center  font-light">Añade los primeros detalles</p>
@@ -39,7 +39,7 @@
 
 
 <script lang="ts">
-import Button from '../components/shared/button.vue'
+import Button from '../components/shared/Button.vue'
 import InputTexto from '../components/shared/InputTexto.vue';
 
 

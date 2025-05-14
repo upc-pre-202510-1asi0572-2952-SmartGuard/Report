@@ -34,7 +34,7 @@
           </div>
 
           <router-link to="/home" class="contents">
-            <Button />
+            <Button _texto="Ingresar" _color="bg-blue-500" />
           </router-link>
 
           <a href="#" class="text-blue-400 text-center text-sm hover:underline">¿Olvidaste tu contraseña?</a>
@@ -69,7 +69,7 @@
 
 
 <script lang="ts">
-import Button from '../components/shared/button.vue'
+import Button from '../components/shared/Button.vue'
 import InputTexto from '../components/shared/InputTexto.vue';
 import IngreseConGoogle from '../components/login/IngreseConGoolge.vue';
 import IngreseConFacebook from '../components/login/IngreseConFacebook.vue';

@@ -1,4 +1,4 @@
-<template lang="">
+<template>
     <section class="h-screen flex justify-end bg-gray-300 text-black">
  
         
@@ -19,13 +19,13 @@
  </template>
  
  
- <script lang="ts">
+ <script>
  export default {
  
  }
  </script>
  
  
- <style lang="">
+ <style>
  
  </style>

@@ -12,8 +12,8 @@
                         <img class="" src="../assets/profile.png" />
                     </div>
                     <div class="flex flex-col justify-center gap-4">
-                        <Button _texto="Editar Usuario" />
-                        <Button _texto="Cambiar Contraseña" />
+                        <Button _texto="Editar Usuario" _color="bg-blue-500"  />
+                        <Button _texto="Cambiar Contraseña" _color="bg-blue-500"  />
                     </div>
 
                 </section>
@@ -43,7 +43,7 @@
 
 
 <script lang="ts">
-import Button from '../components/shared/button.vue'
+import Button from '../components/shared/Button.vue'
 import InputTexto from '../components/shared/InputTexto.vue';
 import SideBar from '../components/home/SideBar.vue';
 

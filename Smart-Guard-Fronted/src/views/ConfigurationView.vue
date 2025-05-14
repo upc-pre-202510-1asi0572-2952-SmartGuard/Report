@@ -68,7 +68,7 @@
                     <span class="text-2xl font-semibold">Ayuda</span>
                     <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                         <span class="font-semibold">Acerca de Nosotros</span>
-                        <Button _texto="Guardar Cambios" _color="bg-blue-600" :_onClick="prueba" />
+                        <Button _texto="Guardar Cambios" _color="bg-blue-600" />
                     </div>
                 </section>
 

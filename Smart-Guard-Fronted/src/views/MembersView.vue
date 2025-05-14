@@ -13,8 +13,8 @@
                         permiso
                         para acceder a tu hogar</p>
                     <div class="flex flex-col lg:w-md gap-4">
-                        <Button class="font-semibold" _texto = "+ Agregar miembros"  />
-                        <Button class="font-semibold" _texto = "- Eliminar miembros"  />
+                        <Button class="font-semibold" _texto = "+ Agregar miembros" />
+                        <Button class="font-semibold" _texto = "- Eliminar miembros" />
                     </div>
                 </div>
                 <div class="flex flex-col gap-4 mt-8">
@@ -59,7 +59,7 @@
 
 <script lang="ts">
 import SideBar from '../components/home/sidebar.vue';
-import Button from '../components/shared/button.vue'
+import Button from '../components/shared/Button.vue'
 import profile1 from '../assets/profile.png';
 import profile2 from '../assets/profile2.png';
 import profile3 from '../assets/profile3.png'

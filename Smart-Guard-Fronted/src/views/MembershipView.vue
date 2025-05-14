@@ -42,7 +42,7 @@
                                 <img class="h-6 w-6" src="../assets/checkicon.png" alt="icon" /><span>
                                     Sonido de bloqueos limitados</span>
                             </div>
-                            <Button class="font-semibold" _texto = "Plan actual" />
+                            <Button class="font-semibold" _texto = "Plan actual"/>
                         </div>
                     </div>
                     <div
@@ -74,7 +74,7 @@
                                 <img class="h-6 w-6" src="../assets/checkicon.png" alt="icon" /><span>Sonido
                                     Bloqueos ilimitados</span>
                             </div>
-                            <Button class="font-semibold"  _texto = "Conseguir plan"/>
+                            <Button class="font-semibold"  _texto = "Conseguir plan" />
                         </div>
 
                     </div>
@@ -96,7 +96,7 @@
 
 
 <script lang="ts">
-import Button from '../components/shared/button.vue'
+import Button from '../components/shared/Button.vue'
 import SideBar from '../components/home/sidebar.vue';
 
 
