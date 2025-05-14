@@ -36,6 +36,10 @@ export default {
     },
     data() {
         return {
+            Accesos:2,
+            Miembros:20,
+            Dispositivos:1,
+            Incidentes:2
         }
     }
 }
