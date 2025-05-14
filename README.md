@@ -1171,8 +1171,263 @@ Link del video: [Prototyping](https://drive.google.com/file/d/1FmPEuNleyq4nlumBA
 # Capítulo VI: Product Implementation, Validation & Deployment  
 ## 6.1. Software Configuration Management  
 ### 6.1.1. Software Development Environment Configuration  
+
+# Gestión de Proyecto
+
+## Formato Markdown
+
+**Propósito:**  
+Organizar la documentación del proyecto en múltiples archivos con extensión `.md`, segmentados en capítulos. Estos archivos servirán para desarrollar el informe final, que será posteriormente exportado a formato PDF para su entrega en el aula virtual.
+
+**Referencia:**  
+- [Markdown en GitHub](https://guides.github.com/features/mastering-markdown/)
+
+---
+
+## Git y GitHub
+
+**Propósito:**  
+Control de versiones para la gestión del código fuente y colaboración entre los miembros del equipo.
+
+**Referencias:**  
+- [Git](https://git-scm.com/)  
+- [GitHub](https://github.com/)
+
+---
+
+## WhatsApp y Discord
+
+**Propósito:**  
+Comunicación, coordinación de reuniones y compartición de documentación relevante entre los integrantes del equipo.
+
+**Referencias:**  
+- [WhatsApp](https://www.whatsapp.com/)  
+- [Discord](https://discord.com/)
+
+---
+
+## Pivotal Tracker
+
+**Propósito:**  
+Herramienta para el control del proyecto y asignación de tareas a los miembros del equipo de desarrollo.
+
+**Referencia:**  
+- [Pivotal Tracker](https://www.pivotaltracker.com/)
+
+---
+
+# Diseño de Producto UX/UI
+
+## Figma
+
+**Propósito:**  
+Elaboración de wireframes, mock-ups y prototipos de la interfaz de usuario.
+
+**Referencia:**  
+- [Figma](https://www.figma.com/)
+
+---
+
+## Miro
+
+**Propósito:**  
+Creación de mapas de escenarios As-Is y To-Be para análisis y planificación.
+
+**Referencia:**  
+- [Miro](https://miro.com/)
+
+---
+
+## Structurizr y Visual Paradigm
+
+**Propósito:**  
+Desarrollo de diagramas C4 para la visualización arquitectónica del software.
+
+**Referencias:**  
+- [Structurizr](https://structurizr.com/)  
+- [Visual Paradigm](https://www.visual-paradigm.com/)
+
+---
+
+## UXPressia
+
+**Propósito:**  
+Elaboración de User Personas, mapas de empatía, mapas de viaje del usuario (Journey Maps) y mapas de impacto.
+
+**Referencia:**  
+- [UXPressia](https://uxpressia.com/)
+
+---
+
+# Desarrollo de Software
+
+## Visual Studio Code, Vue y C++
+
+**Propósito:**  
+- **Visual Studio Code:** Editor de código utilizado para el desarrollo del Landing Page, aplicaciones frontend y servicios web.  
+- **Vue.js Framework:** Desarrollo frontend usando HTML5, CSS3 y JavaScript.  
+- Para la primera entrega se utilizó una Fake API basada en Json Server.
+
+**Referencias:**  
+- [Visual Studio Code](https://code.visualstudio.com/)  
+- [Vue.js](https://vuejs.org/)  
+- [JSON Server](https://github.com/typicode/json-server)
+
+---
+
+# Pruebas y Despliegue de Software
+
+## GitHub Pages
+
+**Propósito:**  
+Plataforma para desplegar la landing page.
+
+**Referencia:**  
+- [GitHub Pages](https://pages.github.com/)
+
+---
+
+## Netlify
+
+**Propósito:**  
+Servicio para desplegar aplicaciones web completas.
+
+**Referencia:**  
+- [Netlify](https://www.netlify.com/)
+
+---
+
+# Documentación de Software
+
+## OpenAPI Specification vía Swagger
+
+**Propósito:**  
+Documentación formal de los servicios web.
+
+**Referencia:**  
+- [Swagger](https://swagger.io/specification/)
+
+---
+
+# Para Dispositivos IoT
+
+## ArduinoNt
+
+**Propósito:**  
+Gestión de dispositivos IoT, computación en la nube y en el borde (Edge Computing).
+
+**Referencia:**  
+- [Arduino](https://www.arduino.cc/)
+
+
 ### 6.1.2. Source Code Management  
-### 6.1.3. Source Code Style Guide & Conventions  
+
+# Control de Versiones y Commits Convencionales
+
+## GitHub y Metodología Gitflow
+
+Como se indicó en la sección anterior, la plataforma y sistema utilizado para el control de versiones es **GitHub**.  
+Se adopta la metodología **Gitflow**, basada en la propuesta de Vincent Driessen, que organiza las ramas del repositorio de la siguiente manera:
+
+- **Rama Principal (Main/Master):**  
+  La rama principal, denominada `main`, siempre debe mantenerse en un estado estable y listo para producción. Es la rama desde la cual se realizan los despliegues a producción.
+
+- **Rama de Desarrollo (Develop):**  
+  Esta rama contiene los cambios más recientes del desarrollo que se preparan para la siguiente versión. Se considera la rama de integración, ya que desde ella se generan compilaciones automáticas periódicas, generalmente durante la noche.
+
+- **Rama de Lanzamiento (Release):**  
+  Esta rama se usa para preparar un nuevo lanzamiento de producción, permitiendo realizar ajustes finales, corregir errores menores y preparar los metadatos necesarios para la versión.  
+  Se denomina `release/[version-del-lanzamiento]`.
+
+- **Rama de Funcionalidades (Feature):**  
+  Cada nueva funcionalidad o mejora se desarrolla en una rama específica que se deriva de la rama `develop`. Al finalizar el desarrollo, estas ramas deben fusionarse nuevamente en `develop`.  
+  Se nombran como `feature/[nombre-de-la-funcionalidad]`.
+
+- **Rama de Corrección Rápida (Hotfix):**  
+  Se utiliza para resolver urgentemente errores críticos detectados en producción. Estas ramas se crean a partir de la rama `main` en el punto correspondiente a la versión afectada y, una vez corregido el problema, se fusionan tanto en `main` como en `develop` para mantener la coherencia.  
+  La notación es `hotfix/[version-de-corrección]`.
+
+---
+
+## Commits Convencionales
+
+Para mantener un historial claro y consistente, el proyecto sigue la convención de **"Conventional Commits 2.0.0"**.  
+La estructura estándar es:
+
+
+### Tipos de commit:
+
+- `fix`: Corrección de errores.  
+- `feat`: Incorporación de nuevas funcionalidades.  
+- `BREAKING CHANGE`: Indica un cambio que rompe la compatibilidad con versiones anteriores (se puede incluir como un *footer* o con un signo `!` después del tipo).  
+- `add`: Añadir archivos o carpetas.  
+- `test`: Inclusión de nuevos tests.  
+
+**Ámbito opcional:**  
+Solo se incluye en ramas `release`, `hotfix` y `main` para señalar la versión correspondiente.
+
+---
+
+## Repositorios del Proyecto
+
+- **Landing Page:**  
+  [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/landing-page](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/landing-page)
+
+- **Aplicación Web Frontend:**  
+  [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/aplication-web](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/aplication-web)
+
+- **Aplicación Móvil Frontend:**  
+  *(Repositorio aún no especificado)*
+
+- **Informe del Proyecto:**  
+  [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Report](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Report)
+
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+# HTML Style Guide for the project
+
+- Siempre declarar el Document Type: `<!DOCTYPE html>`.
+- Utiliza lowercase para los elementos y atributos, por ejemplo: `body`, `p`, `label`, `href`.
+- Siempre agregar los atributos entre comillas, como en `class="striped"`.
+
+# Gherkin Specifications
+
+- Los escenarios deben mantener la estructura simple: **Given**, **When**, **Then**.
+- Para los steps adicionales se utiliza **And**.
+
+**Ejemplo:**
+
+(Aquí se incluiría un ejemplo típico de escenario con Given, When, Then, And)
+
+# Angular Code Style Guide
+
+## Single responsibility - Rule of One
+
+- Definir los componentes por tarea, de modo que solo hagan una cosa.
+- Asegurarse de que el componente no exceda las 100 líneas de código para evitar bugs causados por la combinación accidental de componentes.
+
+## Single responsibility - Small functions
+
+- Utilizar funciones pequeñas (no más de 100 líneas de código) facilita su testeo, lectura y mantenimiento, y promueve el reuso.
+
+## General Naming Guidelines
+
+- Sigue un patrón que describa el feature y luego el tipo.
+- El patrón recomendado es: `feature.type.ts`.
+
+## Symbols and file names
+
+- Usa Upper camel case para los nombres de clase.
+- Añade el símbolo del nombre con el sufijo, como:
+  - `Component`
+  - `Directive`
+  - `Module`
+  - `Pipe`
+  - `Service`
+- Dale al nombre del archivo el mismo sufijo.
+
+
 ### 6.1.4. Software Deployment Configuration  
 ## 6.2. Landing Page, Services & Applications Implementation  
 
