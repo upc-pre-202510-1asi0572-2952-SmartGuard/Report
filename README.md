@@ -366,14 +366,230 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 # Capítulo V: Solution UI/UX Design  
 ## 5.1. Style Guidelines  
+Se presentan las bases del repositorio central y organizado de uso común para todo el equipo con el fin de mantener una presentación consistente. Se incluyen secciones para General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines.
 ### 5.1.1. General Style Guidelines  
+Para garantizar una experiencia coherente y profesional en todas las plataformas del ecosistema FaceLoock, se ha establecido una guía general de estilos de uso común para todo el equipo de diseño y desarrollo. Estas directrices buscan alinear los principios visuales con la propuesta de valor de SmartGuard y su producto insignia, FaceLoock.
+Nombre del proyecto: FaceLoock
+Startup: SmartGuard
+Fecha de versión: Mayo 2025
+Misión de la marca
+Transformar la forma en que las personas protegen sus hogares mediante el uso de tecnologías avanzadas, confiables y fáciles de usar.
+Visión de la marca
+Ser líderes en soluciones de seguridad residencial inteligente en América Latina, ofreciendo productos innovadores que mejoren la calidad de vida de nuestros usuarios.
+Público objetivo
+Propietarios de viviendas tecnológicas interesados en domótica y soluciones inteligentes.
+
+
+Adultos mayores o personas con movilidad reducida que requieren accesos más seguros, cómodos y sin contacto físico.
+
+
+Personalidad de la marca
+La personalidad de la marca es tecnológica, confiable y cercana, enfocada en transmitir seguridad sin perder la calidez. La solución FaceLoock se comunica con claridad, respeto y serenidad, brindando confianza y facilidad de uso.
+Valores fundamentales de la marca
+Seguridad: Brindamos protección integral mediante tecnología avanzada.
+
+
+- Confianza: Nos comprometemos con la privacidad y la fiabilidad del sistema.
+
+
+- Innovación: Apostamos por soluciones tecnológicas disruptivas.
+
+
+- Accesibilidad: Creamos experiencias intuitivas para todos los perfiles de usuario.
+
+
+- Integridad: Operamos con transparencia, respeto y responsabilidad.
+
+<br><img src="images/FaceLockLogo.png"></br>
+
+Tono de comunicación
+El tono será sereno, profesional y directo, especialmente en mensajes dentro de la aplicación, la web y la interacción con usuarios finales. Se prioriza la claridad y la confianza, evitando tecnicismos innecesarios y fomentando la tranquilidad del usuario.
+Lineamientos visuales generales
+<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="text-align: left;">Elemento</th>
+      <th style="text-align: left;">Lineamiento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Logotipo</td>
+      <td>El logo de FaceLoock representa una casa estilizada con ondas, en color azul moderno, destacando el concepto de hogar inteligente y seguridad sin contacto. Debe usarse sobre fondos claros para máxima legibilidad.</td>
+    </tr>
+    <tr>
+      <td>Tipografía</td>
+      <td>Uso preferente de Sans Serif modernas (como Montserrat o Inter) para transmitir modernidad y simplicidad. Evitar fuentes decorativas o con serifas.</td>
+    </tr>
+    <tr>
+      <td>Colores</td>
+      <td>El color azul celeste (#1E90FF aprox.) simboliza seguridad, tecnología y confianza. Se complementa con tonos neutros como blanco, gris claro y negro para una estética limpia y profesional.</td>
+    </tr>
+    <tr>
+      <td>Iconografía</td>
+      <td>Íconos minimalistas y universales. Deben ser intuitivos y coherentes con el diseño global. Se prioriza el uso de iconografía lineal.</td>
+    </tr>
+    <tr>
+      <td>Espaciado</td>
+      <td>Se mantiene un espaciado generoso y coherente para evitar sobrecarga visual y mejorar la legibilidad.</td>
+    </tr>
+    <tr>
+      <td>Diseño responsivo</td>
+      <td>Todas las interfaces deben estar optimizadas para distintos tamaños de pantalla (móvil, tablet, web). Las proporciones y tipografías se ajustan dinámicamente.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br><img src="images/Colors.png"></br>
+<br><img src="images/Typography1.png"></br>
+
+<br><img src="images/Typography2.png"></br>
+Consideraciones de accesibilidad
+Contraste suficiente entre texto y fondo.
+
+
+- Tamaño mínimo de texto recomendado: 16px.
+
+
+- Botones accesibles para personas con movilidad reducida.
+
+
+- Textos descriptivos en botones e íconos clave.
+
+
+- Compatibilidad con lectores de pantalla.
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines  
+
+En esta sección se describen las pautas específicas de diseño para las plataformas Web, Mobile e IoT del sistema FaceLoock, asegurando una presentación visual coherente, centrada en el usuario y adaptada a las características de cada canal.
+Principios generales
+- Consistencia visual y funcional: Todos los elementos visuales y de navegación deben mantener coherencia en estilo, color, tipografía y jerarquía, sin importar la plataforma.
+
+
+- Priorización de contenido: Las funciones más relevantes deben destacarse mediante la barra lateral (Web) o la navegación inferior (Mobile).
+
+
+- Interacción accesible: Uso de fuentes legibles y de buen tamaño, contrastes adecuados y componentes claramente distinguibles para facilitar la navegación.
+
+
+- Adaptabilidad: Interfaces adaptadas para una experiencia fluida en distintos dispositivos y condiciones de uso.
+
+<br><img src="images/SplashView.png"></br>
+
+Web Style Guidelines
+- Estilo de diseño: Se implementa un diseño tipo Dashboard, permitiendo una vista general del estado del sistema (usuarios autorizados, eventos recientes, alertas).
+
+
+- Sidebar de navegación: Presenta las secciones clave como Inicio, Accesos, Notificaciones, Configuración, Membresía, entre otras. Facilita la exploración jerárquica de la plataforma.
+
+
+- Diseño responsivo: La interfaz web se adapta automáticamente a diferentes tamaños de pantalla (PC, tablet, móviles).
+
+
+- Tipografía clara y moderna: Uso de fuentes sans serif legibles, con un tamaño mínimo recomendado de 16px para texto base.
+
+
+- Contrastes visuales: Se utilizan colores contrastantes (por ejemplo, azul celeste sobre blanco o negro) para resaltar botones, alertas o notificaciones.
+
+
+- Componentes reutilizables: Formularios, botones y tarjetas siguen un mismo diseño reutilizable que puede aplicarse en toda la web.
+
+<br><img src="images/Home2.png"></br>
+
+
 ## 5.2. Information Architecture  
 
 La arquitectura de información de FaceLoock está diseñada para ofrecer una experiencia intuitiva, eficiente y accesible a todos los perfiles de usuario. Nuestra meta es estructurar el contenido y las funcionalidades de forma lógica y predecible, asegurando que el usuario pueda navegar y encontrar lo que necesita sin fricciones.
 
 ### 5.2.1. Organization Systems  
+
+Para ofrecer una experiencia de usuario fluida, intuitiva y centrada en la seguridad, se ha definido una estrategia de organización del contenido que combina distintas estructuras de presentación según el propósito de cada módulo funcional dentro de FaceLoock. A continuación, se describen los principales enfoques aplicados:
+Organización Visual del Contenido
+- Jerárquica (Visual Hierarchy):
+ Se utiliza en la página de inicio y en el panel principal del Dashboard Web. Las alertas de seguridad, el acceso rápido al botón de apertura de puerta y la vista en vivo se ubican en la parte superior izquierda. Elementos secundarios como el historial, configuración y membresía se disponen en secciones subordinadas, siguiendo una jerarquía clara.
+
+
+- Secuencial (Step-by-Step):
+ Se aplica en flujos como la sincronización inicial del dispositivo IoT, el registro de usuarios y la configuración del reconocimiento facial. Las tareas se presentan paso a paso con validación progresiva para evitar errores y asegurar una configuración exitosa.
+
+
+- Matricial:
+ En secciones como el historial de accesos o la visualización de eventos, los datos se organizan en tablas o cuadrículas que permiten comparar múltiples parámetros (fecha, hora, tipo de usuario, estado del acceso) de manera simultánea y multidimensional.
+
+
+Esquemas de Categorización de Contenido
+- Alfabético:
+ Se aplica en la lista de usuarios registrados en la plataforma o miembros autorizados por vivienda. La organización alfabética por nombre facilita búsquedas rápidas.
+
+
+- Cronológico:
+ Utilizado en el historial de accesos y en las alertas de seguridad, donde los eventos se ordenan del más reciente al más antiguo, permitiendo un seguimiento lógico de la actividad del sistema.
+
+
+- Por Tópicos:
+ Empleado en la sección de configuración, donde se agrupan funciones según su tipo: privacidad, notificaciones, biometría, dispositivos, etc. Esto permite al usuario identificar y gestionar fácilmente las funcionalidades según su categoría.
+
 ### 5.2.2. Labeling Systems  
+
+La estrategia de etiquetado en SmartGuard – FaceLoock prioriza la claridad, la simplicidad y la familiaridad con conceptos del ámbito de seguridad tecnológica y domótica. Se busca evitar ambigüedades y guiar a los usuarios mediante nombres de secciones y botones que reflejen exactamente su funcionalidad.
+Principios de etiquetado
+- Etiquetas Simples y Claras:
+ Todas las etiquetas contienen 1 a 3 palabras clave, sin tecnicismos. Ejemplo: “Ver historial”, “Agregar rostro”, “Modo noche”.
+
+
+- Asociaciones Coherentes:
+ Cada etiqueta está estrictamente alineada con su contenido funcional. Por ejemplo, “Dispositivo sincronizado” solo se utiliza cuando el FaceLoock ha sido correctamente vinculado con una vivienda.
+
+Etiquetas utilizadas en la plataforma
+<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="text-align: left;">Etiqueta</th>
+      <th style="text-align: left;">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Inicio</td>
+      <td>Pantalla principal del Dashboard donde se muestran alertas, eventos recientes y control rápido.</td>
+    </tr>
+    <tr>
+      <td>Agregar rostro</td>
+      <td>Botón que abre el formulario para registrar un nuevo usuario autorizado.</td>
+    </tr>
+    <tr>
+      <td>Ver historial</td>
+      <td>Sección con registros de accesos, denegaciones e intentos fallidos.</td>
+    </tr>
+    <tr>
+      <td>Notificaciones</td>
+      <td>Centro de alertas configurables.</td>
+    </tr>
+    <tr>
+      <td>Configuración</td>
+      <td>Preferencias de cuenta, ajustes del dispositivo y opciones de seguridad.</td>
+    </tr>
+    <tr>
+      <td>Membresía</td>
+      <td>Visualización del plan activo, opciones de renovación y detalles de beneficios.</td>
+    </tr>
+    <tr>
+      <td>Dispositivo IoT</td>
+      <td>Estado de conexión, configuración del hardware FaceLoock y diagnóstico.</td>
+    </tr>
+    <tr>
+      <td>Miembros autorizados</td>
+      <td>Lista editable de personas habilitadas para ingresar al hogar.</td>
+    </tr>
+    <tr>
+      <td>Cerrar sesión</td>
+      <td>Opción para cerrar la sesión de usuario en app web o móvil.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 ### 5.2.3. SEO Tags and Meta Tags  
 
 
