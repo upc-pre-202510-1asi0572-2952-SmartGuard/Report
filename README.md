@@ -379,6 +379,72 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 ### 5.3.2. Landing Page Mock-up  
 ## 5.4. Applications UX/UI Design  
 ### 5.4.1. Applications Wireframes  
+
+### Web Application
+
+- **Sección “Vista General”**
+
+<img src="images/WireSplashView.png">
+
+*Draft de la sección Vista General*
+
+
+- **Sección “Login”**
+
+<img src="images/WireLogin.png">
+
+*Draft de la sección Login*
+
+
+- **Sección “Home”**
+
+<img src="images/WireHome.png">
+
+*Draft de la sección Home*
+
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/WireSetNewSpace.png">
+
+*Draft de la sección Agregar Nueva Vivienda*
+
+
+- **Sección “Membresía”**
+
+<img src="images/WireMembership.png">
+
+*Draft de la sección Membresía*
+
+
+- **Sección “Estadísticas”**
+
+<img src="images/WireStatistics.png">
+
+*Draft de la sección Estadísticas*
+
+
+- **Sección “Miembros”**
+
+<img src="images/WireMembers.png">
+
+*Draft de la sección Miembros*
+
+
+- **Sección “Configuración”**
+
+<img src="images/WireConfiguration.png">
+
+*Draft de la sección Configuración*
+
+
+- **Sección “Perfil de Usuario”**
+
+<img src="images/WireProfile.png">
+
+*Draft de la sección Perfil de Usuario*
+
+
 ### 5.4.2. Applications Wireflow Diagrams  
 ### 5.4.3. Applications Mock-ups  
 
