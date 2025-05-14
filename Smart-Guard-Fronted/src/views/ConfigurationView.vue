@@ -83,12 +83,15 @@
 
 
 <script>
-import SideBar from '../components/home/SideBar.vue';
-import Button from '../components/shared/Button.vue';
+import SideBar from '@/components/home/SideBar.vue';
+import Button from '@/components/shared/Button.vue';
+import ToggleSwitch from '@/components/shared/ToggleSwitch.vue';
+
 export default {
     components: {
         SideBar,
-        Button
+        Button,
+        ToggleSwitch
     },
     methods: {
         prueba() {
