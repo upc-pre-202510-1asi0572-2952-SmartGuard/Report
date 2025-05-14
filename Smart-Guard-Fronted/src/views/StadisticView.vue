@@ -9,22 +9,18 @@
                     <LineChart/>
                     <DonutChart/>
                 </div>
-
             </div>
-
-
         </main>
     </div>
-
 </template>
 
 <script>
-import SideBar from '@/components/home/SideBar.vue';
+import SideBar from '../components/home/SideBar.vue';
 import Select from 'primevue/dropdown';
-import InfoData from '@/components/statistics/InfoData.vue';
-import StatisticFilter from '@/components/statistics/StatisticFilter.vue';
-import DonutChart from '@/components/statistics/DonutChart.vue';
-import LineChart from '@/components/statistics/LineChart.vue';
+import InfoData from '../components/statistics/InfoData.vue';
+import StatisticFilter from '../components/statistics/StatisticFilter.vue';
+import DonutChart from '../components/statistics/DonutChart.vue';
+import LineChart from '../components/statistics/LineChart.vue';
 
 export default {
     components: {

@@ -58,7 +58,8 @@
 
                         <div class="flex flex-row justify-between">
                             <label class="mr-3">Modo oscuro</label>
-                            <ToggleSwitch label="Modo oscuro" />
+                            <ToggleSwitch for="modo_ahorro_de_energia" />
+
                         </div>
 
                     </div>
@@ -83,15 +84,13 @@
 
 
 <script>
-import SideBar from '@/components/home/SideBar.vue';
-import Button from '@/components/shared/Button.vue';
-import ToggleSwitch from '@/components/shared/ToggleSwitch.vue';
+import SideBar from '../components/home/SideBar.vue';
+import Button from '../components/shared/Button.vue';
 
 export default {
     components: {
         SideBar,
-        Button,
-        ToggleSwitch
+        Button
     },
     methods: {
         prueba() {
