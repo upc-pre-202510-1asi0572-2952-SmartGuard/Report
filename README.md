@@ -3015,21 +3015,140 @@ Ejemplo:
    ![Paso 4 - Iniciar despliegue](./images/netly4.png)
 
 ## 6.2. Landing Page, Services & Applications Implementation  
-### 6.2.X. Sprint n  
-#### 6.2.X.1. Sprint Planning n  
-#### 6.2.X.2.  
-#### 6.2.X.3.  
-#### 6.2.X.4.  
-#### 6.2.X.5.  
-#### 6.2.X.6.  
-#### 6.2.X.7.  
-#### 6.2.X.8.  
-#### 6.2.X.9.  
-## 6.3. Validation Interviews  
-### 6.3.1. Diseño de Entrevistas  
-### 6.3.2. Registro de Entrevistas  
-### 6.3.3. Evaluaciones según heurísticas  
-## 6.4. Video About-the-Product  
+
+
+
+### 6.2.1. Sprint 1
+
+Durante el primer sprint, el equipo se centró en los siguientes entregables clave del proyecto **FaceLoock**:
+
+- Diseño de la arquitectura de software para la solución de acceso inteligente a viviendas.
+- Implementación y despliegue exitoso de la landing page del producto.
+- Desarrollo y publicación inicial de la Web Application funcional, permitiendo navegación básica y presentación del valor principal de FaceLoock.
+
+---
+
+#### 6.2.1.1. Sprint Planning 1  
+
+- **Sprint #:** 1  
+- **Date:** 13/05/2025  
+- **Time:** 20:00  
+- **Location:** Reunión virtual vía Discord  
+- **Prepared By:** Tony Ramos Najar  
+- **Attendees:**  
+  - Fernando Aquino Iman  
+  - Pérez García David Alexander  
+  - Gonzales Gomez Antonella Frida  
+  - Ramos Najar Tony Alexander  
+  - Zárate Gamarra Luis Alejandro  
+
+- **Sprint n – 1 Review Summary:**  
+  Acordes de este nuestro primer Sprint
+
+- **Sprint n – 1 Retrospective Summary:**  
+  Este es el primer Sprint de nuestro startup
+
+- **Sprint Goal & User Stories:**  
+  - **Sprint n Goal:**  
+    Ver detalles del informe y correcciones en base a la retroalimentación previa del primer entregable, despliegue de la landing page y del front end
+
+- **Sprint n Velocity:**  
+  - **Sum of Story Points:**
+    10
+    
+
+---
+
+#### 6.2.1.2. Aspect Leaders and Collaborators. 
+
+En esta sección se identifican los responsables principales (leaders) y los colaboradores clave (collaborators) involucrados en el diseño, desarrollo y validación del aspecto específico que se está documentando (por ejemplo, navegación, sistema de búsqueda, seguridad, etc.).
+
+##### Aspecto: Navegación en Application Web
+
+- **Líder del Aspecto:**  
+  - Nombre: Tony Ramos  
+  - Rol: UX Lead  
+  - Responsabilidades: Definición de la experiencia de usuario, coordinación con equipo frontend, validación de prototipos con usuarios.
+
+- **Colaboradores:**  
+  - Fernando Aquino Iman — Frontend Developer (implementación en Vue)  
+  - Zárate Gamarra, Luis Alejandro — Frontend Developer (implementación en Vue)  
+  - Ramos Najar, Tony Alexander — UI Designer (Elaboración de Wireframes y Mockups en Figma, Prototype)  
+  - Pérez García David Alexander — UI Designer (Elaboración de Wireframes y Mockups en Figma)
+
+##### Aspecto: Navegación en Landing Page
+
+- **Líder del Aspecto:**  
+  - Nombre: Antonella Gonzales  
+  - Rol: UI Designer  
+  - Responsabilidades: Correcto deploy y funcionamiento de la Landing Page
+
+- **Colaboradores:**  
+  - Gonzales Gomez, Antonella Frida — Landing Developer (implementación en HTML y CSS)
+
+Nuestro equipo trabaja en conjunto para asegurar que el aspecto cumpla con los requerimientos funcionales y de experiencia definidos en las etapas anteriores del proyecto.
+
+---
+
+#### 6.2.1.3. Sprint Backlog 1
+
+<img src="images/Trello.png">
+
+- **Enlace Trello:**  
+  https://trello.com/invite/b/6824f13c7a60a1edbdab2624/ATTI2ecc2bcca31cda8df4e328cb0a20e3e5969404E9/sprint-1-smartguard
+
+---
+
+#### 6.2.1.4. Development Evidence for Sprint Review.  
+
+| Repository       | Branch | Commit Id | Commit Message                                                | Commit On    |
+|------------------|--------|-----------|----------------------------------------------------------------|--------------|
+| application-web  | main   | 2b13d8e   | Initial Commit                                                 | 14/05/2025   |
+| application-web  | main   | 5edd3d9   | Merge remote 'origin/main' with local main                    | 14/05/2025   |
+| application-web  | main   | d86a4ca   | Merge branch 'main' of https://github.com/.../aplication-web  | 14/05/2025   |
+| application-web  | main   | f25e9ce   | Merge remote 'origin/main' with local main                    | 14/05/2025   |
+| application-web  | main   | 09e874c   | add redirections routes                                       | 14/05/2025   |
+| application-web  | main   | a81b0e3   | add config netlify                                             | 14/05/2025   |
+| application-web  | main   | 947e4e0   | fixed name to route sidebar                                   | 14/05/2025   |
+| application-web  | main   | 84c7eaf   | fixed name checkIcon to check                                 | 14/05/2025   |
+| application-web  | main   | b575a86   | fixed styles in splashview                                    | 14/05/2025   |
+
+---
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review.  
+
+Para este primer sprint, no se realizó ningún tipo de prueba.
+
+
+#### 6.2.1.6. Execution Evidence for Sprint Review.  
+
+Durante este sprint, se completaron los entregables:
+
+- Primera versión de la Aplicación Web  
+- Primera versión de la Landing Page
+
+<img src="images/Login.png">
+
+<img src="images/LandingPage1.png">
+
+---
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review.  
+
+Durante el desarrollo de este sprint, se utilizó data estática para simular nuestro servicio de backend mientras este se encontraba en desarrollo.
+
+---
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review.  
+
+A continuación, brindamos evidencia de lo trabajado en el presente sprint:
+
+- **Landing Page desplegada:**  
+  https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/
+
+- **Web Application desplegada:**  
+  https://6824e56fcf04376e4520c2b3--smartguard-web.netlify.app/login
+
 
 # Conclusiones  
 ## Conclusiones y recomendaciones  
