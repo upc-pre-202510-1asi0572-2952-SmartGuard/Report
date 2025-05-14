@@ -885,7 +885,116 @@ Con respecto a la sección Membresía, mostrará un mensaje de por qué optar po
 
 ### 5.4.4. Applications User Flow Diagrams  
 
+<img src="images/IoT -  User Flow 1.jpg">
+User Flow 1: Ver y editar su perfil de usuario
+Taskflow:
+- Abrir la aplicación (Home View)
 
+
+- Seleccionar "Perfil de Usuario"
+
+
+- Visualizar datos personales (Nombre, Rol, Dirección, etc.)
+
+
+- Pulsar "Editar"
+
+
+- Modificar los campos deseados
+
+
+- Guardar cambios
+
+
+- Confirmación de actualización
+
+
+
+
+<img src="images/IoT -  User Flow 2.jpg">
+
+User Flow 2: Configurar alertas y opciones generales
+Taskflow:
+- Desde el Home, ir a "Configuración"
+
+
+- Elegir la pestaña "Alertas"
+
+
+- Activar o desactivar opciones (alert option 1, 2, 3...)
+
+
+- Regresar y seleccionar "General"
+
+
+- Configurar preferencias generales
+
+
+- Guardar cambios
+
+
+
+<img src="images/IoT - User Flow 3.jpg">
+
+User Flow 3: Registrar un nuevo hogar
+Taskflow:
+- Desde la vista "Listado de Hogares Activos"
+
+
+- Pulsar "Registrar"
+
+
+- Ingresar los datos del hogar (Nombre, Categoría)
+
+
+- Seleccionar número de miembros
+
+
+- Confirmar el registro
+
+
+- Acceder al nuevo hogar desde el listado
+
+
+<img src="images/IoT - User Flow 4.jpg">
+
+User Flow 4: Gestionar los miembros del hogar
+Taskflow:
+- Desde el menú, ir a "Miembros"
+
+
+- Visualizar listado de miembros (nombre, rol, edad)
+
+
+- Pulsar en un miembro específico
+
+
+- Editar rol o información
+
+
+- Guardar cambios
+
+
+- Agregar o eliminar miembros según se requiera
+
+
+<img src="images/IoT -  User Flow 5.jpg">
+
+User Flow 5: Consultar estadísticas de acceso
+Taskflow:
+- Ingresar al apartado "Estadísticas"
+
+
+- Elegir vista por día o por miembro
+
+
+- Filtrar por fechas o dispositivos
+
+
+- Analizar gráficos de accesos, incidentes o uso
+
+
+- Exportar o compartir resultados (opcional)
 
 
 ## 5.5. Applications Prototyping  
