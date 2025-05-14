@@ -728,9 +728,49 @@ Esto es fundamental para un sistema como FaceLoock, cuyo éxito depende de la co
 
 
 
-## 5.3. Landing Page UI Design  
-### 5.3.1. Landing Page Wireframe  
-### 5.3.2. Landing Page Mock-up  
+## 5.3. Landing Page UI Design
+
+### 5.3.1. Landing Page Wireframe
+
+- Sección Inicio
+ <img src="https://media.discordapp.net/attachments/1364349164074438756/1372296688047231066/image.png?ex=68264262&is=6824f0e2&hm=f03606205a99e8c7250b348c0d37c355d1479ad7e623ed5232092939f2b3dd06&=&format=webp&quality=lossless&width=790&height=561" alt="Landing Page Wireframe - Inicio" style="max-width:100%; height:auto;" />
+
+- Sección Sobre Nosotros  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296688311599104/image.png?ex=68264262&is=6824f0e2&hm=a327b885d7a016d0227e56967e516c82d6ebdebc13a3c3855d3eec7ee925b5af&=&format=webp&quality=lossless&width=648&height=439" alt="Landing Page Wireframe - Sobre Nosotros" style="max-width:100%; height:auto;" />
+    
+- Sección Servicios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296688680829118/image.png?ex=68264262&is=6824f0e2&hm=c8560cc29e95343c6905b23d3330a279a9be3e542a1260363ee42199d624de5b&=&format=webp&quality=lossless&width=648&height=449" alt="Landing Page Wireframe - Servicios" style="max-width:100%; height:auto;" />
+
+- Sección de Planes de Suscripción  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689049931776/image.png?ex=68264262&is=6824f0e2&hm=f996dd09811092066b9fe425b81ddc2278600a19bd5ddabea53a3b964d019b00&=&format=webp&quality=lossless&width=648&height=525" alt="Landing Page Wireframe - Planes de Suscripción" style="max-width:100%; height:auto;" />
+
+- Sección Testimonios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689318101063/image.png?ex=68264262&is=6824f0e2&hm=6f7e6f7b6409d9675dd5d82901fec475f0a85ec7938f84b8e72d04b16d729594&=&format=webp&quality=lossless&width=648&height=405" alt="Landing Page Wireframe - Testimonios" style="max-width:100%; height:auto;" />
+
+- Sección Contacto  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689595191428/image.png?ex=68264262&is=6824f0e2&hm=9e067785a4ee4e15324a06ee1e44c0655f930d03530ba507f277aa3ee1165095&=&format=webp&quality=lossless&width=648&height=354" alt="Landing Page Wireframe - Contacto" style="max-width:100%; height:auto;" />
+
+### 5.3.2. Landing Page Mock-up
+
+- Sección Inicio  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689871753276/image.png?ex=68264262&is=6824f0e2&hm=460d0da02db55c9cd859314c667482f682ca13f6317dde7dd84844b16fbf20e2&=&format=webp&quality=lossless&width=648&height=317" alt="Landing Page Mock-up - Inicio" style="max-width:100%; height:auto;" />
+
+- Sección Sobre Nosotros  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296690224070737/image.png?ex=68264262&is=6824f0e2&hm=8e22555c4961329773ea0dab180492c5484b2b23acbff940fdc1efd0ae0ba86e&=&format=webp&quality=lossless&width=648&height=259" alt="Landing Page Mock-up - Sobre Nosotros" style="max-width:100%; height:auto;" />
+
+- Sección Servicios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296690500899019/image.png?ex=68264263&is=6824f0e3&hm=6fa724e612be0fd0e51de71aeda0ed927c3f5b4aa54f7dc95e7c1d2e863c52e6&=&format=webp&quality=lossless&width=648&height=459" alt="Landing Page Mock-up - Servicios" style="max-width:100%; height:auto;" />
+
+- Sección de Planes de Suscripción  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296690920460459/image.png?ex=68264263&is=6824f0e3&hm=830fbc6a248883c666a1bab3e2e1daf01794a10f6147f4da23c268786bdfbf8c&=&format=webp&quality=lossless&width=648&height=256" alt="Landing Page Mock-up - Planes de Suscripción" style="max-width:100%; height:auto;" />
+
+- Sección Testimonios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296747937828945/image.png?ex=68264270&is=6824f0f0&hm=be760ed45c82a8dbef84ff540f5a3dd8b55d8ba379da1a776c96b6fa0662f9ba&=&format=webp&quality=lossless&width=648&height=332" alt="Landing Page Mock-up - Testimonios" style="max-width:100%; height:auto;" />
+
+- Sección Contacto  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296748235489340/image.png?ex=68264270&is=6824f0f0&hm=c4aefad189dc3d209a5ccaa237c76cc19418371d8c999e8767513a3e84777c54&=&format=webp&quality=lossless&width=648&height=330" alt="Landing Page Mock-up - Contacto" style="max-width:100%; height:auto;" />
+
+  
 ## 5.4. Applications UX/UI Design  
 ### 5.4.1. Applications Wireframes  
 
