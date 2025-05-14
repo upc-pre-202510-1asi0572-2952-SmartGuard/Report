@@ -19,8 +19,7 @@ declare module 'vue' {
     LinkButton: typeof import('./src/components/home/LinkButton.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Sidebar: typeof import('./src/components/home/sidebar.vue')['default']
-    SideBar: typeof import('primevue/sidebar')['default']
+    SideBar: typeof import('./src/components/home/SideBar.vue')['default']
     SplashView: typeof import('./src/components/shared/SplashView.vue')['default']
     ToggleSwitch: typeof import('primevue/toggleswitch')['default']
   }

@@ -4,7 +4,7 @@
     <SideBar/>
 
     <!-- Contenido principal: 85% restante -->
-    <main class="w-[85%] p-6 bg-gray-100 flex items-center justify-center">
+    <main class="w-[85%] bg-gray-100">
       
       <!-- <div class=" flex flex-col gap-4 max-w-4xl">
         <div class="flex flex-col gap-2">
@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import SideBar from '../components/home/SideBar.vue';
+import SideBar from '../components/home/Sidebar.vue';
 import Button from '../components/shared/Button.vue';
 import HomeSpace from '../components/HomeSpace.vue';
 

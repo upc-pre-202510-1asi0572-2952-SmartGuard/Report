@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full">
+    <div class=" flex flex-col w-full px-8">
         <div
             class="bg-[#2A3240] flex flex-row justify-between items-center gap-4 p-8  text-xl rounded-b-4xl lg:rounded-none">
             <Button _color="bg-[#555B66]" _texto="Regresar"/>
