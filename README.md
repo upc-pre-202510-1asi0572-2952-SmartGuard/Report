@@ -627,7 +627,107 @@ La estrategia SEO de *FaceLoock* tiene como objetivo posicionar eficazmente el p
 
 
 ### 5.2.4. Searching Systems  
+
+El sistema de búsqueda en **FaceLoock** está optimizado para que los usuarios puedan acceder rápidamente a información específica, incluso dentro de conjuntos de datos complejos como historiales, dispositivos y perfiles.
+
+---
+
+### Opciones de Búsqueda
+
+- **Búsqueda por Palabras Clave**:  
+  Permite localizar registros por nombre de usuario, fecha, tipo de acceso o estado del dispositivo.
+
+- **Búsqueda Avanzada**:  
+  Incluye filtros combinados para consultas más precisas (por ejemplo, “accesos fallidos del 1 al 5 de mayo por usuario X”).
+
+---
+
+### Filtros Disponibles
+
+- **Por Categoría**:  
+  Accesos, Dispositivos, Usuarios, Estadísticas, Configuración.
+
+- **Por Fecha**:  
+  Desde-hasta, o intervalos comunes (última semana, mes actual).
+
+- **Por Estado**:  
+  Éxito, fallido, manual, automático, remoto.
+
+- **Por Tipo de Dispositivo**:  
+  Cámara, cerradura, panel de control.
+
+---
+
+### Presentación de Resultados
+
+- Los resultados se mostrarán en **tarjetas** o **listas jerarquizadas** según relevancia o fecha.
+- Cada resultado incluye:
+  - Resumen visual (ícono, color de estado)
+  - Fecha y hora
+  - Usuario implicado
+- Se ofrecerá una **vista detallada** al hacer clic en cualquier resultado, con opción de **exportar registros**.
+
+---
+
+Este sistema mejora la **eficiencia operativa** y la **trazabilidad**, fundamentales en un entorno de seguridad residencial.
+
 ### 5.2.5. Navigation Systems  
+
+Nuestra estrategia de navegación para FaceLoock está orientada a ofrecer una experiencia fluida, clara y orientada a objetivos tanto en la Landing Page como en nuestras aplicaciones web y móviles. Se busca minimizar la fricción, facilitar la exploración y ayudar a los usuarios a alcanzar sus metas rápidamente, especialmente en contextos sensibles como el acceso a una vivienda.
+
+---
+
+### Para el Landing Page
+
+- **Menú de Navegación Claro:**  
+Se implementará un menú superior fijo y accesible, con enlaces directos a las secciones clave como:  
+“¿Cómo funciona?”, “Características”, “Planes”, “Descargar app” y “Soporte”.  
+El menú será responsivo, adaptándose a dispositivos móviles con una versión tipo “hamburguesa” para facilitar su uso.
+
+- **Llamadas a la Acción (CTA) Destacadas:**  
+Los botones de CTA estarán ubicados estratégicamente a lo largo del sitio, especialmente en la primera pantalla (“hero section”), el área de beneficios y la sección final de contacto.  
+Ejemplos:
+
+  - “Descargar App”
+  - “Solicita una demostración”
+  - “Activa tu FaceLoock”
+
+Estas llamadas estarán diseñadas con alto contraste y texto persuasivo, invitando a la acción inmediata.
+
+- **Scroll Suave y Secciones Bien Definidas:**  
+La página contará con desplazamiento fluido (“smooth scroll”) y diseño seccional (por bloques), donde cada segmento tendrá un título claro, íconos ilustrativos y contenido breve.  
+Esto mejorará la comprensión del contenido y evitará que el usuario se sienta perdido al navegar.
+
+---
+
+### Para las Aplicaciones
+
+- **Interfaz Intuitiva y Fácil de Usar:**  
+Las aplicaciones presentan una estructura simple, centrada en tareas.  
+Los íconos son reconocibles y las acciones principales están a no más de dos toques o clics de distancia.  
+El diseño está orientado a facilitar su uso por todo tipo de usuarios, incluidos adultos mayores o personas no técnicas.
+
+- **Barra de Navegación Inferior (App Móvil) y Lateral (App Web):**
+
+  - En la aplicación móvil, se implementa una barra inferior con acceso directo a:  
+  Inicio, Cámara en Vivo, Historial, Notificaciones y Ajustes.
+
+  - En la aplicación web, se emplea una barra lateral con módulos como:  
+  Dashboard, Usuarios, Dispositivo IoT, Seguridad, Perfil y Membresía.
+
+Estas barras aseguran que las funciones más utilizadas estén siempre visibles y accesibles.
+
+- **Flujo de Tareas Guiado:**  
+Funciones como registrar un nuevo rostro, configurar el dispositivo o revisar eventos de seguridad se presentan mediante un flujo paso a paso con instrucciones claras.  
+Este enfoque reduce la tasa de errores y aumenta la confianza del usuario al operar el sistema.
+
+---
+
+Al aplicar estos principios de navegación tanto en la web como en las aplicaciones móviles, garantizamos una experiencia centrada en el usuario, fácil de comprender y con una curva de aprendizaje mínima.  
+Esto es fundamental para un sistema como FaceLoock, cuyo éxito depende de la confianza, la rapidez de uso y la seguridad percibida.
+
+
+
 ## 5.3. Landing Page UI Design  
 ### 5.3.1. Landing Page Wireframe  
 ### 5.3.2. Landing Page Mock-up  
