@@ -27,13 +27,14 @@
         <LinkButton text="Miembros" iconClass="pi pi-users" route="/home"/>
         <LinkButton text="Estadísticas" iconClass="pi pi-chart-line" route="/stadisticas"/>
         <div class="border-t my-2"></div>
-        <LinkButton text="Perfil & Configuraciones" iconClass="pi pi-user-edit" route="/configuration"/>
+        <LinkButton text="Perfil" iconClass="pi pi-user-edit" route="/profile" />
+        <LinkButton text="Configuraciones" iconClass="pi pi-user-edit" route="/configuration" />
       </div>
     </div>
 
     <!-- Parte inferior -->
     <div class="px-6 pb-6">
-      <LinkButton text="Cerrar sesión" iconClass="pi pi-sign-out" route="/login"/>
+      <LinkButton text="Cerrar sesión" iconClass="pi pi-sign-out" route="/login" />
     </div>
   </aside>
 </template>
@@ -44,11 +45,11 @@ import LinkButton from './LinkButton.vue';
 
 
 export default {
-  components:{
+  components: {
     LinkButton
   },
-  methods:{
-    DirigirRuta(){
+  methods: {
+    DirigirRuta() {
 
     }
   }

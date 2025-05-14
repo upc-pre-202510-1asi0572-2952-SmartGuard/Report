@@ -83,7 +83,7 @@
 
 
 <script>
-import sidebar from '../components/home/sidebar.vue';
+import SideBar from '../components/home/Sidebar.vue';
 import Button from '../components/shared/Button.vue';
 export default {
     components: {
