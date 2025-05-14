@@ -372,6 +372,41 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 ### 5.2.1. Organization Systems  
 ### 5.2.2. Labeling Systems  
 ### 5.2.3. SEO Tags and Meta Tags  
+
+
+La estrategia SEO de *FaceLoock* tiene como objetivo posicionar eficazmente el producto en buscadores y mejorar la visibilidad tanto en web como en tiendas de aplicaciones.
+
+## Para Sitio Web (Landing Page y Plataforma Web)
+
+- ### Title
+
+  - **Landing Page:**  
+*"Bienvenido a FaceLoock - La solución innovadora para acceder a tu hogar de manera segura y sin contacto"*
+
+  - **Web App:**  
+*"Convertimos tu hogar más seguro e inteligente que nunca 💡"*
+
+- ### Meta Description
+
+  - *"Consigue tu cerradura inteligente y dale mayor seguridad a tu hogar."*
+
+- ### Meta Keywords
+
+  - *seguridad inteligente, acceso facial, datos biométricos, domótica, casa inteligente, cerradura sin llave, control de accesos, SmartGuard, FaceLoock*
+
+- ### Author
+
+  - **Landing Page & Web Application:** *SmartGuard*
+
+## Open Graph Tags (para compartir en redes)
+
+  - **title:** *FaceLoock - Accede a tu hogar con tecnología facial*  
+  - **description:** *SmartGuard es una startup innovadora dedicada a crear soluciones de seguridad inteligente mediante tecnología avanzada, proporcionando una forma moderna y segura de acceder a tu hogar.*  
+  - **image:**
+    <br><img src="images/FaceLockIMG.png"></br>
+  - **url:** [https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/](https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/)
+
+
 ### 5.2.4. Searching Systems  
 ### 5.2.5. Navigation Systems  
 ## 5.3. Landing Page UI Design  
