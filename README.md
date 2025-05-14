@@ -369,6 +369,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 ### 5.1.1. General Style Guidelines  
 ### 5.1.2. Web, Mobile and IoT Style Guidelines  
 ## 5.2. Information Architecture  
+
+La arquitectura de información de FaceLoock está diseñada para ofrecer una experiencia intuitiva, eficiente y accesible a todos los perfiles de usuario. Nuestra meta es estructurar el contenido y las funcionalidades de forma lógica y predecible, asegurando que el usuario pueda navegar y encontrar lo que necesita sin fricciones.
+
 ### 5.2.1. Organization Systems  
 ### 5.2.2. Labeling Systems  
 ### 5.2.3. SEO Tags and Meta Tags  
