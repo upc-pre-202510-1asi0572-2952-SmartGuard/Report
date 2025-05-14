@@ -2211,24 +2211,19 @@ Ejemplo:
 
 ### 6.1.4. Software Deployment Configuration  
 #### Despliegue de la aplicacion web en netlify:
+
 1. **Crear un nuevo proyecto en Netlify**  
    Inicia sesión en Netlify y haz clic en **"Add new site"**. Este paso te permitirá crear un nuevo proyecto para que Netlify gestione automáticamente el despliegue desde tu repositorio.  
-   <br/>
    ![Paso 1 - Crear nuevo proyecto](./images/netly1.png)
-  <br/>
+
 2. **Seleccionar el repositorio desde GitHub**  
    Conecta tu cuenta de GitHub (si no lo hiciste previamente) y selecciona el repositorio que contiene el proyecto a desplegar.
-     <br/>  
    ![Paso 2 - Seleccionar repositorio](./images/netly2.png)
-  <br/>
 3. **Configurar la rama y comandos de despliegue**  
    Elige la rama desde la cual deseas hacer el deploy (por ejemplo, `main` o `deploy`) y configura el directorio de salida (por defecto suele ser `dist/` en proyectos Vue.js). Luego, guarda los cambios.  
-     <br/>
    ![Paso 3 - Configurar rama](./images/netly3.png)
-  <br/>
 4. **Hacer clic en el botón “Deploy Site”**  
    Finalmente, haz clic en **"Deploy Site"** para que Netlify construya y despliegue tu aplicación automáticamente. Una vez finalizado el proceso, se te proporcionará una URL pública donde tu app estará disponible.  
-     <br/>
    ![Paso 4 - Iniciar despliegue](./images/netly4.png)
 
 ## 6.2. Landing Page, Services & Applications Implementation  
