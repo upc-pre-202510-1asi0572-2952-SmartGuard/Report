@@ -2028,26 +2028,814 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 
 
 
-
 # Capítulo V: Solution UI/UX Design  
 ## 5.1. Style Guidelines  
+Se presentan las bases del repositorio central y organizado de uso común para todo el equipo con el fin de mantener una presentación consistente. Se incluyen secciones para General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines.
 ### 5.1.1. General Style Guidelines  
+Para garantizar una experiencia coherente y profesional en todas las plataformas del ecosistema FaceLoock, se ha establecido una guía general de estilos de uso común para todo el equipo de diseño y desarrollo. Estas directrices buscan alinear los principios visuales con la propuesta de valor de SmartGuard y su producto insignia, FaceLoock.
+Nombre del proyecto: FaceLoock
+Startup: SmartGuard
+Fecha de versión: Mayo 2025
+Misión de la marca
+Transformar la forma en que las personas protegen sus hogares mediante el uso de tecnologías avanzadas, confiables y fáciles de usar.
+Visión de la marca
+Ser líderes en soluciones de seguridad residencial inteligente en América Latina, ofreciendo productos innovadores que mejoren la calidad de vida de nuestros usuarios.
+Público objetivo
+Propietarios de viviendas tecnológicas interesados en domótica y soluciones inteligentes.
+
+
+Adultos mayores o personas con movilidad reducida que requieren accesos más seguros, cómodos y sin contacto físico.
+
+
+Personalidad de la marca
+La personalidad de la marca es tecnológica, confiable y cercana, enfocada en transmitir seguridad sin perder la calidez. La solución FaceLoock se comunica con claridad, respeto y serenidad, brindando confianza y facilidad de uso.
+Valores fundamentales de la marca
+Seguridad: Brindamos protección integral mediante tecnología avanzada.
+
+
+- Confianza: Nos comprometemos con la privacidad y la fiabilidad del sistema.
+
+
+- Innovación: Apostamos por soluciones tecnológicas disruptivas.
+
+
+- Accesibilidad: Creamos experiencias intuitivas para todos los perfiles de usuario.
+
+
+- Integridad: Operamos con transparencia, respeto y responsabilidad.
+
+<br><img src="images/FaceLockLogo.png"></br>
+
+Tono de comunicación
+El tono será sereno, profesional y directo, especialmente en mensajes dentro de la aplicación, la web y la interacción con usuarios finales. Se prioriza la claridad y la confianza, evitando tecnicismos innecesarios y fomentando la tranquilidad del usuario.
+Lineamientos visuales generales
+<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="text-align: left;">Elemento</th>
+      <th style="text-align: left;">Lineamiento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Logotipo</td>
+      <td>El logo de FaceLoock representa una casa estilizada con ondas, en color azul moderno, destacando el concepto de hogar inteligente y seguridad sin contacto. Debe usarse sobre fondos claros para máxima legibilidad.</td>
+    </tr>
+    <tr>
+      <td>Tipografía</td>
+      <td>Uso preferente de Sans Serif modernas (como Montserrat o Inter) para transmitir modernidad y simplicidad. Evitar fuentes decorativas o con serifas.</td>
+    </tr>
+    <tr>
+      <td>Colores</td>
+      <td>El color azul celeste (#1E90FF aprox.) simboliza seguridad, tecnología y confianza. Se complementa con tonos neutros como blanco, gris claro y negro para una estética limpia y profesional.</td>
+    </tr>
+    <tr>
+      <td>Iconografía</td>
+      <td>Íconos minimalistas y universales. Deben ser intuitivos y coherentes con el diseño global. Se prioriza el uso de iconografía lineal.</td>
+    </tr>
+    <tr>
+      <td>Espaciado</td>
+      <td>Se mantiene un espaciado generoso y coherente para evitar sobrecarga visual y mejorar la legibilidad.</td>
+    </tr>
+    <tr>
+      <td>Diseño responsivo</td>
+      <td>Todas las interfaces deben estar optimizadas para distintos tamaños de pantalla (móvil, tablet, web). Las proporciones y tipografías se ajustan dinámicamente.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br><img src="images/Colors.png"></br>
+<br><img src="images/Typography1.png"></br>
+
+<br><img src="images/Typography2.png"></br>
+Consideraciones de accesibilidad
+Contraste suficiente entre texto y fondo.
+
+
+- Tamaño mínimo de texto recomendado: 16px.
+
+
+- Botones accesibles para personas con movilidad reducida.
+
+
+- Textos descriptivos en botones e íconos clave.
+
+
+- Compatibilidad con lectores de pantalla.
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines  
+
+En esta sección se describen las pautas específicas de diseño para las plataformas Web, Mobile e IoT del sistema FaceLoock, asegurando una presentación visual coherente, centrada en el usuario y adaptada a las características de cada canal.
+Principios generales
+- Consistencia visual y funcional: Todos los elementos visuales y de navegación deben mantener coherencia en estilo, color, tipografía y jerarquía, sin importar la plataforma.
+
+
+- Priorización de contenido: Las funciones más relevantes deben destacarse mediante la barra lateral (Web) o la navegación inferior (Mobile).
+
+
+- Interacción accesible: Uso de fuentes legibles y de buen tamaño, contrastes adecuados y componentes claramente distinguibles para facilitar la navegación.
+
+
+- Adaptabilidad: Interfaces adaptadas para una experiencia fluida en distintos dispositivos y condiciones de uso.
+
+<br><img src="images/SplashView.png"></br>
+
+Web Style Guidelines
+- Estilo de diseño: Se implementa un diseño tipo Dashboard, permitiendo una vista general del estado del sistema (usuarios autorizados, eventos recientes, alertas).
+
+
+- Sidebar de navegación: Presenta las secciones clave como Inicio, Accesos, Notificaciones, Configuración, Membresía, entre otras. Facilita la exploración jerárquica de la plataforma.
+
+
+- Diseño responsivo: La interfaz web se adapta automáticamente a diferentes tamaños de pantalla (PC, tablet, móviles).
+
+
+- Tipografía clara y moderna: Uso de fuentes sans serif legibles, con un tamaño mínimo recomendado de 16px para texto base.
+
+
+- Contrastes visuales: Se utilizan colores contrastantes (por ejemplo, azul celeste sobre blanco o negro) para resaltar botones, alertas o notificaciones.
+
+
+- Componentes reutilizables: Formularios, botones y tarjetas siguen un mismo diseño reutilizable que puede aplicarse en toda la web.
+
+<br><img src="images/Home2.png"></br>
+
+
 ## 5.2. Information Architecture  
+
+La arquitectura de información de FaceLoock está diseñada para ofrecer una experiencia intuitiva, eficiente y accesible a todos los perfiles de usuario. Nuestra meta es estructurar el contenido y las funcionalidades de forma lógica y predecible, asegurando que el usuario pueda navegar y encontrar lo que necesita sin fricciones.
+
 ### 5.2.1. Organization Systems  
+
+Para ofrecer una experiencia de usuario fluida, intuitiva y centrada en la seguridad, se ha definido una estrategia de organización del contenido que combina distintas estructuras de presentación según el propósito de cada módulo funcional dentro de FaceLoock. A continuación, se describen los principales enfoques aplicados:
+Organización Visual del Contenido
+- Jerárquica (Visual Hierarchy):
+ Se utiliza en la página de inicio y en el panel principal del Dashboard Web. Las alertas de seguridad, el acceso rápido al botón de apertura de puerta y la vista en vivo se ubican en la parte superior izquierda. Elementos secundarios como el historial, configuración y membresía se disponen en secciones subordinadas, siguiendo una jerarquía clara.
+
+
+- Secuencial (Step-by-Step):
+ Se aplica en flujos como la sincronización inicial del dispositivo IoT, el registro de usuarios y la configuración del reconocimiento facial. Las tareas se presentan paso a paso con validación progresiva para evitar errores y asegurar una configuración exitosa.
+
+
+- Matricial:
+ En secciones como el historial de accesos o la visualización de eventos, los datos se organizan en tablas o cuadrículas que permiten comparar múltiples parámetros (fecha, hora, tipo de usuario, estado del acceso) de manera simultánea y multidimensional.
+
+
+Esquemas de Categorización de Contenido
+- Alfabético:
+ Se aplica en la lista de usuarios registrados en la plataforma o miembros autorizados por vivienda. La organización alfabética por nombre facilita búsquedas rápidas.
+
+
+- Cronológico:
+ Utilizado en el historial de accesos y en las alertas de seguridad, donde los eventos se ordenan del más reciente al más antiguo, permitiendo un seguimiento lógico de la actividad del sistema.
+
+
+- Por Tópicos:
+ Empleado en la sección de configuración, donde se agrupan funciones según su tipo: privacidad, notificaciones, biometría, dispositivos, etc. Esto permite al usuario identificar y gestionar fácilmente las funcionalidades según su categoría.
+
 ### 5.2.2. Labeling Systems  
+
+La estrategia de etiquetado en SmartGuard – FaceLoock prioriza la claridad, la simplicidad y la familiaridad con conceptos del ámbito de seguridad tecnológica y domótica. Se busca evitar ambigüedades y guiar a los usuarios mediante nombres de secciones y botones que reflejen exactamente su funcionalidad.
+Principios de etiquetado
+- Etiquetas Simples y Claras:
+ Todas las etiquetas contienen 1 a 3 palabras clave, sin tecnicismos. Ejemplo: “Ver historial”, “Agregar rostro”, “Modo noche”.
+
+
+- Asociaciones Coherentes:
+ Cada etiqueta está estrictamente alineada con su contenido funcional. Por ejemplo, “Dispositivo sincronizado” solo se utiliza cuando el FaceLoock ha sido correctamente vinculado con una vivienda.
+
+Etiquetas utilizadas en la plataforma
+<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="text-align: left;">Etiqueta</th>
+      <th style="text-align: left;">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Inicio</td>
+      <td>Pantalla principal del Dashboard donde se muestran alertas, eventos recientes y control rápido.</td>
+    </tr>
+    <tr>
+      <td>Agregar rostro</td>
+      <td>Botón que abre el formulario para registrar un nuevo usuario autorizado.</td>
+    </tr>
+    <tr>
+      <td>Ver historial</td>
+      <td>Sección con registros de accesos, denegaciones e intentos fallidos.</td>
+    </tr>
+    <tr>
+      <td>Notificaciones</td>
+      <td>Centro de alertas configurables.</td>
+    </tr>
+    <tr>
+      <td>Configuración</td>
+      <td>Preferencias de cuenta, ajustes del dispositivo y opciones de seguridad.</td>
+    </tr>
+    <tr>
+      <td>Membresía</td>
+      <td>Visualización del plan activo, opciones de renovación y detalles de beneficios.</td>
+    </tr>
+    <tr>
+      <td>Dispositivo IoT</td>
+      <td>Estado de conexión, configuración del hardware FaceLoock y diagnóstico.</td>
+    </tr>
+    <tr>
+      <td>Miembros autorizados</td>
+      <td>Lista editable de personas habilitadas para ingresar al hogar.</td>
+    </tr>
+    <tr>
+      <td>Cerrar sesión</td>
+      <td>Opción para cerrar la sesión de usuario en app web o móvil.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 ### 5.2.3. SEO Tags and Meta Tags  
+
+
+La estrategia SEO de *FaceLoock* tiene como objetivo posicionar eficazmente el producto en buscadores y mejorar la visibilidad tanto en web como en tiendas de aplicaciones.
+
+## Para Sitio Web (Landing Page y Plataforma Web)
+
+- ### Title
+
+  - **Landing Page:**  
+*"Bienvenido a FaceLoock - La solución innovadora para acceder a tu hogar de manera segura y sin contacto"*
+
+  - **Web App:**  
+*"Convertimos tu hogar más seguro e inteligente que nunca 💡"*
+
+- ### Meta Description
+
+  - *"Consigue tu cerradura inteligente y dale mayor seguridad a tu hogar."*
+
+- ### Meta Keywords
+
+  - *seguridad inteligente, acceso facial, datos biométricos, domótica, casa inteligente, cerradura sin llave, control de accesos, SmartGuard, FaceLoock*
+
+- ### Author
+
+  - **Landing Page & Web Application:** *SmartGuard*
+
+## Open Graph Tags (para compartir en redes)
+
+  - **title:** *FaceLoock - Accede a tu hogar con tecnología facial*  
+  - **description:** *SmartGuard es una startup innovadora dedicada a crear soluciones de seguridad inteligente mediante tecnología avanzada, proporcionando una forma moderna y segura de acceder a tu hogar.*  
+  - **image:**
+    <br><img src="images/FaceLockIMG.png"></br>
+  - **url:** [https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/](https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/)
+
+
 ### 5.2.4. Searching Systems  
+
+El sistema de búsqueda en **FaceLoock** está optimizado para que los usuarios puedan acceder rápidamente a información específica, incluso dentro de conjuntos de datos complejos como historiales, dispositivos y perfiles.
+
+---
+
+### Opciones de Búsqueda
+
+- **Búsqueda por Palabras Clave**:  
+  Permite localizar registros por nombre de usuario, fecha, tipo de acceso o estado del dispositivo.
+
+- **Búsqueda Avanzada**:  
+  Incluye filtros combinados para consultas más precisas (por ejemplo, “accesos fallidos del 1 al 5 de mayo por usuario X”).
+
+---
+
+### Filtros Disponibles
+
+- **Por Categoría**:  
+  Accesos, Dispositivos, Usuarios, Estadísticas, Configuración.
+
+- **Por Fecha**:  
+  Desde-hasta, o intervalos comunes (última semana, mes actual).
+
+- **Por Estado**:  
+  Éxito, fallido, manual, automático, remoto.
+
+- **Por Tipo de Dispositivo**:  
+  Cámara, cerradura, panel de control.
+
+---
+
+### Presentación de Resultados
+
+- Los resultados se mostrarán en **tarjetas** o **listas jerarquizadas** según relevancia o fecha.
+- Cada resultado incluye:
+  - Resumen visual (ícono, color de estado)
+  - Fecha y hora
+  - Usuario implicado
+- Se ofrecerá una **vista detallada** al hacer clic en cualquier resultado, con opción de **exportar registros**.
+
+---
+
+Este sistema mejora la **eficiencia operativa** y la **trazabilidad**, fundamentales en un entorno de seguridad residencial.
+
 ### 5.2.5. Navigation Systems  
-## 5.3. Landing Page UI Design  
-### 5.3.1. Landing Page Wireframe  
-### 5.3.2. Landing Page Mock-up  
+
+Nuestra estrategia de navegación para FaceLoock está orientada a ofrecer una experiencia fluida, clara y orientada a objetivos tanto en la Landing Page como en nuestras aplicaciones web y móviles. Se busca minimizar la fricción, facilitar la exploración y ayudar a los usuarios a alcanzar sus metas rápidamente, especialmente en contextos sensibles como el acceso a una vivienda.
+
+---
+
+### Para el Landing Page
+
+- **Menú de Navegación Claro:**  
+Se implementará un menú superior fijo y accesible, con enlaces directos a las secciones clave como:  
+“¿Cómo funciona?”, “Características”, “Planes”, “Descargar app” y “Soporte”.  
+El menú será responsivo, adaptándose a dispositivos móviles con una versión tipo “hamburguesa” para facilitar su uso.
+
+- **Llamadas a la Acción (CTA) Destacadas:**  
+Los botones de CTA estarán ubicados estratégicamente a lo largo del sitio, especialmente en la primera pantalla (“hero section”), el área de beneficios y la sección final de contacto.  
+Ejemplos:
+
+  - “Descargar App”
+  - “Solicita una demostración”
+  - “Activa tu FaceLoock”
+
+Estas llamadas estarán diseñadas con alto contraste y texto persuasivo, invitando a la acción inmediata.
+
+- **Scroll Suave y Secciones Bien Definidas:**  
+La página contará con desplazamiento fluido (“smooth scroll”) y diseño seccional (por bloques), donde cada segmento tendrá un título claro, íconos ilustrativos y contenido breve.  
+Esto mejorará la comprensión del contenido y evitará que el usuario se sienta perdido al navegar.
+
+---
+
+### Para las Aplicaciones
+
+- **Interfaz Intuitiva y Fácil de Usar:**  
+Las aplicaciones presentan una estructura simple, centrada en tareas.  
+Los íconos son reconocibles y las acciones principales están a no más de dos toques o clics de distancia.  
+El diseño está orientado a facilitar su uso por todo tipo de usuarios, incluidos adultos mayores o personas no técnicas.
+
+- **Barra de Navegación Inferior (App Móvil) y Lateral (App Web):**
+
+  - En la aplicación móvil, se implementa una barra inferior con acceso directo a:  
+  Inicio, Cámara en Vivo, Historial, Notificaciones y Ajustes.
+
+  - En la aplicación web, se emplea una barra lateral con módulos como:  
+  Dashboard, Usuarios, Dispositivo IoT, Seguridad, Perfil y Membresía.
+
+Estas barras aseguran que las funciones más utilizadas estén siempre visibles y accesibles.
+
+- **Flujo de Tareas Guiado:**  
+Funciones como registrar un nuevo rostro, configurar el dispositivo o revisar eventos de seguridad se presentan mediante un flujo paso a paso con instrucciones claras.  
+Este enfoque reduce la tasa de errores y aumenta la confianza del usuario al operar el sistema.
+
+---
+
+Al aplicar estos principios de navegación tanto en la web como en las aplicaciones móviles, garantizamos una experiencia centrada en el usuario, fácil de comprender y con una curva de aprendizaje mínima.  
+Esto es fundamental para un sistema como FaceLoock, cuyo éxito depende de la confianza, la rapidez de uso y la seguridad percibida.
+
+
+
+## 5.3. Landing Page UI Design
+
+### 5.3.1. Landing Page Wireframe
+
+- Sección Inicio
+ <img src="https://media.discordapp.net/attachments/1364349164074438756/1372296688047231066/image.png?ex=68264262&is=6824f0e2&hm=f03606205a99e8c7250b348c0d37c355d1479ad7e623ed5232092939f2b3dd06&=&format=webp&quality=lossless&width=790&height=561" alt="Landing Page Wireframe - Inicio" style="max-width:100%; height:auto;" />
+
+- Sección Sobre Nosotros  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296688311599104/image.png?ex=68264262&is=6824f0e2&hm=a327b885d7a016d0227e56967e516c82d6ebdebc13a3c3855d3eec7ee925b5af&=&format=webp&quality=lossless&width=648&height=439" alt="Landing Page Wireframe - Sobre Nosotros" style="max-width:100%; height:auto;" />
+    
+- Sección Servicios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296688680829118/image.png?ex=68264262&is=6824f0e2&hm=c8560cc29e95343c6905b23d3330a279a9be3e542a1260363ee42199d624de5b&=&format=webp&quality=lossless&width=648&height=449" alt="Landing Page Wireframe - Servicios" style="max-width:100%; height:auto;" />
+
+- Sección de Planes de Suscripción  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689049931776/image.png?ex=68264262&is=6824f0e2&hm=f996dd09811092066b9fe425b81ddc2278600a19bd5ddabea53a3b964d019b00&=&format=webp&quality=lossless&width=648&height=525" alt="Landing Page Wireframe - Planes de Suscripción" style="max-width:100%; height:auto;" />
+
+- Sección Testimonios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689318101063/image.png?ex=68264262&is=6824f0e2&hm=6f7e6f7b6409d9675dd5d82901fec475f0a85ec7938f84b8e72d04b16d729594&=&format=webp&quality=lossless&width=648&height=405" alt="Landing Page Wireframe - Testimonios" style="max-width:100%; height:auto;" />
+
+- Sección Contacto  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689595191428/image.png?ex=68264262&is=6824f0e2&hm=9e067785a4ee4e15324a06ee1e44c0655f930d03530ba507f277aa3ee1165095&=&format=webp&quality=lossless&width=648&height=354" alt="Landing Page Wireframe - Contacto" style="max-width:100%; height:auto;" />
+
+### 5.3.2. Landing Page Mock-up
+
+- Sección Inicio  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689871753276/image.png?ex=68264262&is=6824f0e2&hm=460d0da02db55c9cd859314c667482f682ca13f6317dde7dd84844b16fbf20e2&=&format=webp&quality=lossless&width=648&height=317" alt="Landing Page Mock-up - Inicio" style="max-width:100%; height:auto;" />
+
+- Sección Sobre Nosotros  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296690224070737/image.png?ex=68264262&is=6824f0e2&hm=8e22555c4961329773ea0dab180492c5484b2b23acbff940fdc1efd0ae0ba86e&=&format=webp&quality=lossless&width=648&height=259" alt="Landing Page Mock-up - Sobre Nosotros" style="max-width:100%; height:auto;" />
+
+- Sección Servicios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296690500899019/image.png?ex=68264263&is=6824f0e3&hm=6fa724e612be0fd0e51de71aeda0ed927c3f5b4aa54f7dc95e7c1d2e863c52e6&=&format=webp&quality=lossless&width=648&height=459" alt="Landing Page Mock-up - Servicios" style="max-width:100%; height:auto;" />
+
+- Sección de Planes de Suscripción  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296690920460459/image.png?ex=68264263&is=6824f0e3&hm=830fbc6a248883c666a1bab3e2e1daf01794a10f6147f4da23c268786bdfbf8c&=&format=webp&quality=lossless&width=648&height=256" alt="Landing Page Mock-up - Planes de Suscripción" style="max-width:100%; height:auto;" />
+
+- Sección Testimonios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296747937828945/image.png?ex=68264270&is=6824f0f0&hm=be760ed45c82a8dbef84ff540f5a3dd8b55d8ba379da1a776c96b6fa0662f9ba&=&format=webp&quality=lossless&width=648&height=332" alt="Landing Page Mock-up - Testimonios" style="max-width:100%; height:auto;" />
+
+- Sección Contacto  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296748235489340/image.png?ex=68264270&is=6824f0f0&hm=c4aefad189dc3d209a5ccaa237c76cc19418371d8c999e8767513a3e84777c54&=&format=webp&quality=lossless&width=648&height=330" alt="Landing Page Mock-up - Contacto" style="max-width:100%; height:auto;" />
+
+  
 ## 5.4. Applications UX/UI Design  
 ### 5.4.1. Applications Wireframes  
+
+### Web Application
+
+- **Sección “Vista General”**
+
+<img src="images/WireSplashView.png">
+
+*Draft de la sección Vista General*
+
+
+- **Sección “Login”**
+
+<img src="images/WireLogin.png">
+
+*Draft de la sección Login*
+
+
+- **Sección “Home”**
+
+<img src="images/WireHome.png">
+
+*Draft de la sección Home*
+
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/WireSetNewSpace.png">
+
+*Draft de la sección Agregar Nueva Vivienda*
+
+
+- **Sección “Membresía”**
+
+<img src="images/WireMembership.png">
+
+*Draft de la sección Membresía*
+
+
+- **Sección “Estadísticas”**
+
+<img src="images/WireStatistics.png">
+
+*Draft de la sección Estadísticas*
+
+
+- **Sección “Miembros”**
+
+<img src="images/WireMembers.png">
+
+*Draft de la sección Miembros*
+
+
+- **Sección “Configuración”**
+
+<img src="images/WireConfiguration.png">
+
+*Draft de la sección Configuración*
+
+
+- **Sección “Perfil de Usuario”**
+
+<img src="images/WireProfile.png">
+
+*Draft de la sección Perfil de Usuario*
+
+
 ### 5.4.2. Applications Wireflow Diagrams  
+
+<img src="images/IoT - User Goal 1.jpg">
+User Goal 1: Ver y editar su perfil de usuario
+Taskflow:
+- Abrir la aplicación (Home View)
+
+
+- Seleccionar "Perfil de Usuario"
+
+
+- Visualizar datos personales (Nombre, Rol, Dirección, etc.)
+
+
+- Pulsar "Editar"
+
+
+- Modificar los campos deseados
+
+
+- Guardar cambios
+
+
+- Confirmación de actualización
+
+
+
+
+<img src="images/IoT - User Goal 2.jpg">
+
+User Goal 2: Configurar alertas y opciones generales
+Taskflow:
+- Desde el Home, ir a "Configuración"
+
+
+- Elegir la pestaña "Alertas"
+
+
+- Activar o desactivar opciones (alert option 1, 2, 3...)
+
+
+- Regresar y seleccionar "General"
+
+
+- Configurar preferencias generales
+
+
+- Guardar cambios
+
+
+
+<img src="images/IoT - User Goal 3_ Registrar un nuevo hogar.jpg">
+
+User Goal 3: Registrar un nuevo hogar
+Taskflow:
+- Desde la vista "Listado de Hogares Activos"
+
+
+- Pulsar "Registrar"
+
+
+- Ingresar los datos del hogar (Nombre, Categoría)
+
+
+- Seleccionar número de miembros
+
+
+- Confirmar el registro
+
+
+- Acceder al nuevo hogar desde el listado
+
+
+<img src="images/IoT - User Goal 4.jpg">
+
+User Goal 4: Gestionar los miembros del hogar
+Taskflow:
+- Desde el menú, ir a "Miembros"
+
+
+- Visualizar listado de miembros (nombre, rol, edad)
+
+
+- Pulsar en un miembro específico
+
+
+- Editar rol o información
+
+
+- Guardar cambios
+
+
+- Agregar o eliminar miembros según se requiera
+
+
+<img src="images/IoT - User Goal 5.jpg">
+
+User Goal 5: Consultar estadísticas de acceso
+Taskflow:
+- Ingresar al apartado "Estadísticas"
+
+
+- Elegir vista por día o por miembro
+
+
+- Filtrar por fechas o dispositivos
+
+
+- Analizar gráficos de accesos, incidentes o uso
+
+
+- Exportar o compartir resultados (opcional)
+
 ### 5.4.3. Applications Mock-ups  
+
+### Web Application
+
+- **Sección “Vista General”**
+
+<img src="images/SplashView.png">
+
+
+En esta sección se podrá ver nuestro slogan con una pequeña descripción de lo que nuestra Startup representa.
+
+- **Sección “Login”**
+
+<img src="images/Login.png">
+
+
+En la presente sección, el usuario podrá ingresar a nuestro sitio web con las credenciales como Email y Contraseña, además podrá registrarse completamente gratis, y como última opción podrá iniciar sesión con Google, Facebook o Apple
+
+- **Sección “Home”**
+
+<img src="images/Home.png">
+
+
+En la sección Home de nuestro sitio web, se visualizará la opción principal de poder registrar tu hogar para que el sistema IoT se adhiera correctamente, en este caso La Cerradura Inteligente. Además, se mostrará diversas opciones con vistas a otras funcionalidades
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/SetNewSpace.png">
+
+
+En la sección Agregar nueva vivienda, el usuario podrá interactuar con nuestro sitio web y seguir un formulario con la finalidad de registrar su hogar predeterminado, contará con 7 pasos en los cuales se solicitará información clave como el nombre, la dirección, el tipo de hogar, etc.
+
+- **Sección “Perfil”**
+
+<img src="images/Profile.png">
+
+
+En la sección Perfil de Usuario, se podrá visualizar una vista la cual mostrará datos del usuario registrado como Nombre, Email, Telefono Celular, Rol de Usuario, Ubicación y Dirección. Además, existirán 2 opciones para editar los datos del usuario o para cambiar la contraseña de la cuenta.
+
+- **Sección “Configuracion”**
+
+<img src="images/Configuration.png">
+
+
+En la vista de Configuración, estarán todos las configuraciones que nuestro web application ofrece. Existirán campos como Alertas, la cual será la encargada de notificar y enviar señales de aviso al usuario sobre el acceso o advertencias del sistema. Y también se encuentra la sub opción General, que serán todos los ajustes generales que puede ofrecer nuestro sitio web
+
+- **Sección “Miembros”**
+
+<img src="images/Members.png">
+
+
+En la sección Miembros, se registrará los miembros que están correctamente registrados y validados por el Usuario Administrador/a, además de contener una pequeña descripción de ellos y mostrar datos de relevancia como la edad, el tipo de parentesco y el rol.
+Finalmente, existirá la posibilidad de agregar más miembros o eliminarlos a dichos, pero con otra condición previa.
+
+- **Sección “Estadisticas”**
+
+<img src="images/Statistics.png">
+
+
+En la sección Estadísticas, se mostrará una opción para filtrar el sitio y la frecuencia al que desea consultar para visualizar la actividad, dicha actividad consta de controlar los: Accesos (cuantas personas entrarán a tu hogar asegurado), Miembros (quienes de los miembros registrados fue admitido), Dispositivos (aquellos dispositivos al cual admitieron o denegaron un acceso), Incidentes (factores de riesgo que podrían afectar la integridad y seguridad del Administrado, como intento de ingreso frustrado). Además de mostrar gráficos estadísticos como Accesos por día y Accesos por Miembro.
+
+- **Sección “Membresía”**
+
+<img src="images/Membership.png">
+
+
+Con respecto a la sección Membresía, mostrará un mensaje de por qué optar por nuestra membresía ofrecida, que beneficios este tendrá en contraste con el plan gratis o “Free” que inicialmente se otorga predeterminadamente y por consiguiente, cuanto es el costo de dicha membresía de opciones premiums
+
+
+
+
 ### 5.4.4. Applications User Flow Diagrams  
+
+<img src="images/IoT -  User Flow 1.jpg">
+User Flow 1: Ver y editar su perfil de usuario
+Taskflow:
+- Abrir la aplicación (Home View)
+
+
+- Seleccionar "Perfil de Usuario"
+
+
+- Visualizar datos personales (Nombre, Rol, Dirección, etc.)
+
+
+- Pulsar "Editar"
+
+
+- Modificar los campos deseados
+
+
+- Guardar cambios
+
+
+- Confirmación de actualización
+
+
+
+
+<img src="images/IoT -  User Flow 2.jpg">
+
+User Flow 2: Configurar alertas y opciones generales
+Taskflow:
+- Desde el Home, ir a "Configuración"
+
+
+- Elegir la pestaña "Alertas"
+
+
+- Activar o desactivar opciones (alert option 1, 2, 3...)
+
+
+- Regresar y seleccionar "General"
+
+
+- Configurar preferencias generales
+
+
+- Guardar cambios
+
+
+
+<img src="images/IoT - User Flow 3.jpg">
+
+User Flow 3: Registrar un nuevo hogar
+Taskflow:
+- Desde la vista "Listado de Hogares Activos"
+
+
+- Pulsar "Registrar"
+
+
+- Ingresar los datos del hogar (Nombre, Categoría)
+
+
+- Seleccionar número de miembros
+
+
+- Confirmar el registro
+
+
+- Acceder al nuevo hogar desde el listado
+
+
+<img src="images/IoT - User Flow 4.jpg">
+
+User Flow 4: Gestionar los miembros del hogar
+Taskflow:
+- Desde el menú, ir a "Miembros"
+
+
+- Visualizar listado de miembros (nombre, rol, edad)
+
+
+- Pulsar en un miembro específico
+
+
+- Editar rol o información
+
+
+- Guardar cambios
+
+
+- Agregar o eliminar miembros según se requiera
+
+
+<img src="images/IoT -  User Flow 5.jpg">
+
+User Flow 5: Consultar estadísticas de acceso
+Taskflow:
+- Ingresar al apartado "Estadísticas"
+
+
+- Elegir vista por día o por miembro
+
+
+- Filtrar por fechas o dispositivos
+
+
+- Analizar gráficos de accesos, incidentes o uso
+
+
+- Exportar o compartir resultados (opcional)
+
+
 ## 5.5. Applications Prototyping  
+
+Para garantizar una experiencia fluida y centrada en la seguridad del usuario, hemos desarrollado un prototipo funcional que contempla las principales secciones de nuestra plataforma digital. A continuación, se detallan de forma resumida los componentes clave incluidos en este prototipo:
+
+- **Introducción**: Se presenta una vista inicial con el eslogan y una breve descripción del propósito de la plataforma, orientada a la protección del hogar.
+
+- **Ingreso a la plataforma**: Los usuarios pueden acceder mediante credenciales tradicionales o con cuentas de terceros como Google, Facebook o Apple. También se permite el registro gratuito.
+
+- **Pantalla principal (Home)**: Ofrece acceso rápido a funciones esenciales, como registrar una vivienda y explorar el sistema de cerradura inteligente.
+
+- **Registro de vivienda**: Se guía al usuario mediante un formulario paso a paso para ingresar datos relevantes sobre su hogar.
+
+- **Perfil de usuario**: Muestra la información básica del usuario y permite editarla, así como modificar la contraseña de forma sencilla.
+
+- **Configuraciones**: Se agrupan opciones relacionadas a notificaciones de seguridad y ajustes generales de la aplicación.
+
+- **Gestión de miembros**: Se listan los miembros autorizados, permitiendo su administración según permisos establecidos por el usuario principal.
+
+- **Panel de estadísticas**: Proporciona una vista analítica de la actividad del hogar, incluyendo accesos, dispositivos, alertas y otros indicadores clave.
+
+- **Membresía**: Se informa sobre los beneficios de los planes premium frente al gratuito, destacando mejoras funcionales y costos asociados.
+
+---
+
+El prototipo desarrollado refleja la estructura y flujo de interacción pensados para brindar una experiencia segura, clara y accesible al usuario final. A continuación, se presentará un video que ilustre la interacción de un supuesto Usuario final con nuestro prototipo:
+
+<img src="images/Prototyping.png">
+
+Link del video: [Prototyping](https://drive.google.com/file/d/1FmPEuNleyq4nlumBAlgCWFLUjs9pcSf5/view?usp=sharing)
+
+
+
+
+
+
 
 # Capítulo VI: Product Implementation, Validation & Deployment  
 ## 6.1. Software Configuration Management  
