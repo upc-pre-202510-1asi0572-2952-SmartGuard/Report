@@ -700,78 +700,6 @@ La estrategia SEO de *FaceLoock* tiene como objetivo posicionar eficazmente el p
 
 
 ### 5.4.2. Applications Wireflow Diagrams  
-### 5.4.3. Applications Mock-ups  
-
-### Web Application
-
-- **Sección “Vista General”**
-
-<img src="images/SplashView.png">
-
-
-En esta sección se podrá ver nuestro slogan con una pequeña descripción de lo que nuestra Startup representa.
-
-- **Sección “Login”**
-
-<img src="images/Login.png">
-
-
-En la presente sección, el usuario podrá ingresar a nuestro sitio web con las credenciales como Email y Contraseña, además podrá registrarse completamente gratis, y como última opción podrá iniciar sesión con Google, Facebook o Apple
-
-- **Sección “Home”**
-
-<img src="images/Home.png">
-
-
-En la sección Home de nuestro sitio web, se visualizará la opción principal de poder registrar tu hogar para que el sistema IoT se adhiera correctamente, en este caso La Cerradura Inteligente. Además, se mostrará diversas opciones con vistas a otras funcionalidades
-
-- **Sección “Agregar nueva vivienda”**
-
-<img src="images/SetNewSpace.png">
-
-
-En la sección Agregar nueva vivienda, el usuario podrá interactuar con nuestro sitio web y seguir un formulario con la finalidad de registrar su hogar predeterminado, contará con 7 pasos en los cuales se solicitará información clave como el nombre, la dirección, el tipo de hogar, etc.
-
-- **Sección “Perfil”**
-
-<img src="images/Profile.png">
-
-
-En la sección Perfil de Usuario, se podrá visualizar una vista la cual mostrará datos del usuario registrado como Nombre, Email, Telefono Celular, Rol de Usuario, Ubicación y Dirección. Además, existirán 2 opciones para editar los datos del usuario o para cambiar la contraseña de la cuenta.
-
-- **Sección “Configuracion”**
-
-<img src="images/Configuration.png">
-
-
-En la vista de Configuración, estarán todos las configuraciones que nuestro web application ofrece. Existirán campos como Alertas, la cual será la encargada de notificar y enviar señales de aviso al usuario sobre el acceso o advertencias del sistema. Y también se encuentra la sub opción General, que serán todos los ajustes generales que puede ofrecer nuestro sitio web
-
-- **Sección “Miembros”**
-
-<img src="images/Members.png">
-
-
-En la sección Miembros, se registrará los miembros que están correctamente registrados y validados por el Usuario Administrador/a, además de contener una pequeña descripción de ellos y mostrar datos de relevancia como la edad, el tipo de parentesco y el rol.
-Finalmente, existirá la posibilidad de agregar más miembros o eliminarlos a dichos, pero con otra condición previa.
-
-- **Sección “Estadisticas”**
-
-<img src="images/Statistics.png">
-
-
-En la sección Estadísticas, se mostrará una opción para filtrar el sitio y la frecuencia al que desea consultar para visualizar la actividad, dicha actividad consta de controlar los: Accesos (cuantas personas entrarán a tu hogar asegurado), Miembros (quienes de los miembros registrados fue admitido), Dispositivos (aquellos dispositivos al cual admitieron o denegaron un acceso), Incidentes (factores de riesgo que podrían afectar la integridad y seguridad del Administrado, como intento de ingreso frustrado). Además de mostrar gráficos estadísticos como Accesos por día y Accesos por Miembro.
-
-- **Sección “Membresía”**
-
-<img src="images/Membership.png">
-
-
-Con respecto a la sección Membresía, mostrará un mensaje de por qué optar por nuestra membresía ofrecida, que beneficios este tendrá en contraste con el plan gratis o “Free” que inicialmente se otorga predeterminadamente y por consiguiente, cuanto es el costo de dicha membresía de opciones premiums
-
-
-
-
-### 5.4.4. Applications User Flow Diagrams  
 
 <img src="images/IoT - User Goal 1.jpg">
 User Goal 1: Ver y editar su perfil de usuario
@@ -883,6 +811,81 @@ Taskflow:
 
 
 - Exportar o compartir resultados (opcional)
+
+### 5.4.3. Applications Mock-ups  
+
+### Web Application
+
+- **Sección “Vista General”**
+
+<img src="images/SplashView.png">
+
+
+En esta sección se podrá ver nuestro slogan con una pequeña descripción de lo que nuestra Startup representa.
+
+- **Sección “Login”**
+
+<img src="images/Login.png">
+
+
+En la presente sección, el usuario podrá ingresar a nuestro sitio web con las credenciales como Email y Contraseña, además podrá registrarse completamente gratis, y como última opción podrá iniciar sesión con Google, Facebook o Apple
+
+- **Sección “Home”**
+
+<img src="images/Home.png">
+
+
+En la sección Home de nuestro sitio web, se visualizará la opción principal de poder registrar tu hogar para que el sistema IoT se adhiera correctamente, en este caso La Cerradura Inteligente. Además, se mostrará diversas opciones con vistas a otras funcionalidades
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/SetNewSpace.png">
+
+
+En la sección Agregar nueva vivienda, el usuario podrá interactuar con nuestro sitio web y seguir un formulario con la finalidad de registrar su hogar predeterminado, contará con 7 pasos en los cuales se solicitará información clave como el nombre, la dirección, el tipo de hogar, etc.
+
+- **Sección “Perfil”**
+
+<img src="images/Profile.png">
+
+
+En la sección Perfil de Usuario, se podrá visualizar una vista la cual mostrará datos del usuario registrado como Nombre, Email, Telefono Celular, Rol de Usuario, Ubicación y Dirección. Además, existirán 2 opciones para editar los datos del usuario o para cambiar la contraseña de la cuenta.
+
+- **Sección “Configuracion”**
+
+<img src="images/Configuration.png">
+
+
+En la vista de Configuración, estarán todos las configuraciones que nuestro web application ofrece. Existirán campos como Alertas, la cual será la encargada de notificar y enviar señales de aviso al usuario sobre el acceso o advertencias del sistema. Y también se encuentra la sub opción General, que serán todos los ajustes generales que puede ofrecer nuestro sitio web
+
+- **Sección “Miembros”**
+
+<img src="images/Members.png">
+
+
+En la sección Miembros, se registrará los miembros que están correctamente registrados y validados por el Usuario Administrador/a, además de contener una pequeña descripción de ellos y mostrar datos de relevancia como la edad, el tipo de parentesco y el rol.
+Finalmente, existirá la posibilidad de agregar más miembros o eliminarlos a dichos, pero con otra condición previa.
+
+- **Sección “Estadisticas”**
+
+<img src="images/Statistics.png">
+
+
+En la sección Estadísticas, se mostrará una opción para filtrar el sitio y la frecuencia al que desea consultar para visualizar la actividad, dicha actividad consta de controlar los: Accesos (cuantas personas entrarán a tu hogar asegurado), Miembros (quienes de los miembros registrados fue admitido), Dispositivos (aquellos dispositivos al cual admitieron o denegaron un acceso), Incidentes (factores de riesgo que podrían afectar la integridad y seguridad del Administrado, como intento de ingreso frustrado). Además de mostrar gráficos estadísticos como Accesos por día y Accesos por Miembro.
+
+- **Sección “Membresía”**
+
+<img src="images/Membership.png">
+
+
+Con respecto a la sección Membresía, mostrará un mensaje de por qué optar por nuestra membresía ofrecida, que beneficios este tendrá en contraste con el plan gratis o “Free” que inicialmente se otorga predeterminadamente y por consiguiente, cuanto es el costo de dicha membresía de opciones premiums
+
+
+
+
+### 5.4.4. Applications User Flow Diagrams  
+
+
 
 
 ## 5.5. Applications Prototyping  
