@@ -132,6 +132,12 @@
 
 TB1:
 
+<img src="images/Insights1.png" />
+
+<img src="images/Insights2.png" />
+
+<img src="images/Insights3.png" />
+
 TP:
 
 TB2:
@@ -255,28 +261,38 @@ ABET – EAC - Student Outcome 5
 
 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos
 
+
 <table>
   <tr>
     <td><b>Criterio específico</b></td>
     <td><b>Acciones realizadas</b></td>
     <td><b>Conclusiones</b></td>
   </tr>
+
   <tr>
     <td><b>Trabajo en equipo para proporcionar liderazgo en forma conjunta.</b></td>
-    <td><b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.<br><b>Gonzales Gomez, Antonella Frida</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.
-    <br><b>Pérez García, David Alexander</b><br> Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.
-</td>
-    <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea  y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
+    <td>
+      <b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.<br><br>
+      <b>Gonzales Gomez, Antonella Frida</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.<br><br>
+      <b>Pérez García, David Alexander</b><br> Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.<br><br>
+      <b>Ramos Najar, Tony Alexander</b><br> En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br>
+      <b>Aquino Iman Herly Fernando</b><br> Me encargué del desarrollo del capítulo 3, que abarca la Especificación de Requerimientos. Validé y prioricé los requisitos funcionales y no funcionales del sistema en coordinación con el equipo. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales orientaron la alineación entre objetivos estratégicos y funcionalidades clave del sistema.
+    </td>
+    <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
   </tr>
+
   <tr>
-    <td><b>Creo un entorno colaborativo e inclusivo, establezco metas, planifico tareas y cumplo objetivos.</b></td>
-    <td><b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><b>Gonzales Gomez, Antonella Frida</b><br> Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.
-    <br><b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.
+    <td><b>Creo condiciones para el trabajo articulado, priorizo tareas y cumplo los objetivos establecidos.</b></td>
+    <td>
+      <b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><br>
+      <b>Gonzales Gomez, Antonella Frida</b><br> Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.<br><br>
+      <b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.<br><br>
+      <b>Ramos Najar, Tony Alexander</b><br> Me encargué de dividir dos bounded contexts en capas (interfaz, dominio e infraestructura), para ordenar mejor el diseño de la solución. Usé Visual Paradigm para armar diagramas C4 que ayudaron a que todo el equipo entienda cómo se conecta cada parte del sistema. Gracias a esto, logramos organizarnos mejor, establecer metas claras y avanzar en el desarrollo respetando los tiempos que nos propusimos.<br><br>
+      <b>Aquino Iman Herly Fernando</b><br> Desarrollé el capítulo 3: Especificación de Requerimientos, coordinando con el equipo para validar y priorizar los requisitos funcionales y no funcionales del sistema. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales guiaron la definición de objetivos estratégicos y su alineación con las funcionalidades del sistema. Promoví un entorno de trabajo colaborativo al integrar los aportes del equipo en los entregables y asegurar la coherencia entre las secciones del documento. Establecí metas claras, planifiqué las tareas con plazos definidos y cumplí con los entregables en los tiempos acordados, contribuyendo al avance ordenado del proyecto.
     </td>
     <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
   </tr>
 </table>
-
 
 
 
@@ -952,9 +968,221 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
+
+<img src="./assets/To-Be-Mapping-Scennary.JPG" />
+
 ## 3.2. User Stories
+
+<table border="1" style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th>Epic/Story</th>
+        <th>Título</th>
+        <th>Descripción</th>
+        <th>Criterios de Aceptación</th>
+        <th>Relacionado con (Epic ID)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>001</td>
+        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
+        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
+        <td>
+          <ul>
+            <li>El sistema debe activar la cámara al detectar movimiento.</li>
+            <li>El sistema debe comparar el rostro captado con la base de datos de rostros registrados.</li>
+            <li>El sistema debe clasificar el rostro como "conocido" o "desconocido".</li>
+          </ul>
+        </td>
+        <td>EP01 - Reconocimiento Facial</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
+        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
+        <td>
+          <ul>
+            <li>La app debe permitir subir o tomar una foto de una persona para registrarla.</li>
+            <li>El rostro debe guardarse en una base de datos segura.</li>
+            <li>El sistema debe permitir eliminar o editar rostros registrados.</li>
+          </ul>
+        </td>
+        <td>EP01 - Reconocimiento Facial</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
+        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
+        <td>
+          <ul>
+            <li>El sistema debe enviar una notificación push a la app cuando detecte un rostro desconocido.</li>
+            <li>La notificación debe incluir imagen en tiempo real y hora del evento.</li>
+          </ul>
+        </td>
+        <td>EP02 - Comunicación Remota</td>
+      </tr>
+      <tr>
+        <td>004</td>
+        <td>Como propietario quiero poder loguearse en la aplicación con credenciales de manera rápida</td>
+        <td>Como propietario y usuario deseo poder loguearme con credenciales que vienen por defecto en la cerradura</td>
+        <td>
+          <ul>
+            <li>La cerradura debe tener una credencial única con la cual poder vincularlo con la aplicación móvil y a la vez poder identificarse.</li>
+          </ul>
+        </td>
+        <td>EP02 - Comunicación Remota</td>
+      </tr>
+      <tr>
+        <td>005</td>
+        <td>Como propietario, quiero ver una captura de la persona que intenta acercarse a mi hogar.</td>
+        <td>Como propietario, quiero ver en tiempo real el rostro de la persona para decidir si es seguro abrir la puerta.</td>
+        <td>
+          <ul>
+            <li>la captura de imagenes debe activarse con la detección de movimiento o bajo demanda.</li>
+          </ul>
+        </td>
+        <td>EP02 - Comunicación Remota</td>
+      </tr>
+      <tr>
+        <td>006</td>
+        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
+        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
+        <td>
+          <ul>
+            <li>La app debe tener un botón de "Abrir puerta" y otro de "Llamar a la policía".</li>
+            <li>El botón de emergencia debe marcar automáticamente al 105 o el número configurado.</li>
+            <li>El botón de apertura debe activar el mecanismo de la cerradura.</li>
+          </ul>
+        </td>
+        <td>EP02 - Comunicación Remota</td>
+      </tr>
+      <tr>
+        <td>007</td>
+        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
+        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
+        <td>
+          <ul>
+            <li>La app debe mostrar una lista de accesos con fecha, hora y tipo (conocido/desconocido).</li>
+            <li>El historial debe ser accesible desde un menú en la app.</li>
+          </ul>
+        </td>
+        <td>EP03 - Registro y Seguridad</td>
+      </tr>
+      <tr>
+        <td>008</td>
+        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
+        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
+        <td>
+          <ul>
+            <li>El sistema debe almacenar imágenes por evento.</li>
+            <li>La app debe permitir ver estos archivos desde el historial.</li>
+            <li>Se debe indicar si el rostro fue identificado o no.</li>
+          </ul>
+        </td>
+        <td>EP03 - Registro y Seguridad</td>
+      </tr>
+      <tr>
+        <td>009</td>
+        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura).</td>
+        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura)</td>
+        <td>
+          <ul>
+            <li>La app debe permitir activar alertas para eventos como intentos de forzar la cerradura o movimientos sospechosos.</li>
+            <li>El sistema debe enviar notificaciones en tiempo real según la configuración del usuario.</li>
+          </ul>
+        </td>
+        <td>EP03 - Registro y Seguridad</td>
+      </tr>
+    </tbody>
+  </table>
+
 ## 3.3. Impact Mapping
+
+<img src="./assets/Impact Map.png" />
+
 ## 3.4. Product Backlog
+
+<div style="display: flex; justify-content: center;">
+  <table border="1" style="border-collapse: collapse; width: 90%; text-align: center;">
+    <thead>
+      <tr>
+        <th>#Orden</th>
+        <th>User Story Id</th>
+        <th>Título</th>
+        <th>Descripción</th>
+        <th>Story Points</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>001</td>
+        <td>Usuario</td>
+        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
+        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Usuario</td>
+        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
+        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Usuario</td>
+        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
+        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>004</td>
+        <td>Usuario</td>
+        <td>Como propietario quiero poder loguearse en la aplicación con credenciales de manera rápida</td>
+        <td>Como propietario y usuario deseo poder loguearme con credenciales que vienen por defecto en la cerradura</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>005</td>
+        <td>Usuario</td>
+        <td>Como propietario, quiero ver en tiempo real el rostro de la persona para decidir si es seguro abrir la puerta.</td>
+        <td>Como propietario, quiero ver en tiempo real el rostro de la persona para decidir si es seguro abrir la puerta.</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>006</td>
+        <td>Usuario</td>
+        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
+        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>007</td>
+        <td>Usuario</td>
+        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
+        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>008</td>
+        <td>Usuario</td>
+        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
+        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>009</td>
+        <td>Usuario</td>
+        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura).</td>
+        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura)</td>
+        <td>5</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 
 # Capítulo IV: Solution Software Design
 
@@ -1089,21 +1317,23 @@ Diagrama relacionado:
 #### 4.1.3.1 Software Architecture System Landscape Diagram  
 El diagrama ilustra los componentes tecnológicos fundamentales (FaceLoock, Gateway, Servidor Central, App Móvil y App Web), sus interrelaciones funcionales y los flujos de comunicación. Esta representación de alto nivel permite visualizar cómo los propietarios interactúan con el sistema de seguridad residencial basado en reconocimiento facial, facilitando la comprensión de las dependencias y responsabilidades de cada componente dentro del ecosistema IoT propuesto.
 
-![Image 1](https://cdn.discordapp.com/attachments/1364349164074438756/1364357069330845786/Captura_de_pantalla_2025-04-17_121143.png?ex=68096009&is=68080e89&hm=e5c1651bd14325bcc9a2fce786a422b144fdec5c5a8d09ed5dbbf869e0e87d9c&)
-
+<img src="images/4131.png"/>
 
 #### 4.1.3.2 Software Architecture Context Level Diagrams  
 El diagrama ilustra el contexto del sistema FaceLoock, mostrando las interacciones entre el componente central (la cerradura inteligente con reconocimiento facial) y sus sistemas externos. En esta representación se visualizan claramente los límites del sistema y sus principales integraciones. El componente central FaceLoock interactúa con los propietarios, quienes gestionan el acceso y monitorean la seguridad. Se integra con sistemas externos clave: el Sistema de Notificaciones Push, los Servicios de Nube para almacenamiento de datos, la API de Reconocimiento Facial para la validación de identidades, y un Servicio de Pasarela de Pagos para gestionar suscripciones. Esta vista de contexto define el alcance del sistema, estableciendo sus fronteras operativas y las interfaces con actores externos, proporcionando una comprensión clara de las responsabilidades y dependencias del sistema FaceLoock en su entorno operativo.
-![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364358382487601202/image.png?ex=68096142&is=68080fc2&hm=3b21765bcfe335217bd4f64d305c2e18051b2f5e0bc82d0e0a556adeca376e8b&=&format=webp&quality=lossless&width=1074&height=771)
+
+<img src="images/4132.png"/>
 
 #### 4.1.3.3 Software Architecture Container Level Diagrams  
 El diagrama muestra los diferentes contenedores tecnológicos dentro del sistema FaceLoock y cómo interactúan entre sí. Los propietarios de viviendas interactúan con aplicaciones móviles y web para gestionar la seguridad y controlar el acceso a sus hogares. Estas aplicaciones se conectan a un API que gestiona las interacciones con los dispositivos. Los datos operacionales y los eventos se almacenan en una base de datos central, que recopila información sobre los dispositivos IoT, como el sistema FaceLoock. Además, el sistema se integra con servicios externos como el sistema de notificaciones push, servicios de nube para almacenar fotos, videos y otros datos relacionados con los accesos y eventos, y pasarelas de pago para gestionar las suscripciones. Este diagrama ilustra la arquitectura y la infraestructura que respalda el funcionamiento seguro y eficiente del sistema.
-![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364358126777663528/image.png?ex=68096105&is=68080f85&hm=8e4c36b90884936efbc43d42cc0a5892aef20022812044d4e323c3b897a741b1&=&format=webp&quality=lossless&width=1115&height=738)
+
+<img src="images/4133.png"/>
 
 #### 4.1.3.4 Software Architecture Deployment Diagrams  
 El diagrama muestra cómo se despliegan y comunican los diferentes componentes tecnológicos del sistema FaceLoock. Los usuarios interactúan con la aplicación móvil que hace solicitudes API al servidor backend. Este servidor gestiona la lógica del negocio y las interacciones con otros servicios, además de hacer llamadas a la base de datos, donde se almacenan los datos de usuarios, configuraciones y registros de acceso. El sistema también incluye una página de aterrizaje que interactúa con la aplicación web accesible desde cualquier navegador, proporcionando una interfaz adicional para los usuarios. Esta representación de despliegue ilustra cómo los componentes de software están organizados para asegurar la operación fluida del sistema.
 
-![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364358726357880842/Captura_de_pantalla_2025-04-17_130039.png?ex=68096194&is=68081014&hm=136d0cee1e36e66f1ddf8b7833e032c99c85cf193a10c0fb5e1cf55a9356539c&=&format=webp&quality=lossless&width=1115&height=650)
+<img src="images/4134.png"/>
+
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
@@ -1458,10 +1688,186 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 
 # Capítulo VI: Product Implementation, Validation & Deployment  
 ## 6.1. Software Configuration Management  
+##### Formato Markdown
+- Propósito: Dividir el informe en múltiples archivos con extensión .md, organizados por capítulos, para facilitar su desarrollo y posterior conversión a PDF para su entrega en el aula virtual.
+- Ruta: [https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+##### Git y Github
+- Propósito: Gestión del control de versiones del proyecto.
+- Ruta: [https://git-scm.com/](https://git-scm.com/), [https://github.com/](https://github.com/)
+
+##### Discord
+- Propósito: Facilitar la comunicación, organización de reuniones y el intercambio de documentos relevantes entre los miembros del equipo.
+- Ruta: [https://discord.com/](https://discord.com/)
+
+##### Pivotal Tracker
+- Propósito: Gestión del proyecto mediante la asignación de tareas y seguimiento del progreso del equipo de desarrollo.
+- Ruta: [https://www.pivotaltracker.com/dashboard](https://www.pivotaltracker.com/dashboard)
+
+#### Product UX/UI Design:
+
+##### Figma
+- Propósito: Crear wireframes, mock-ups y prototipos interactivos.
+- Ruta: [https://www.figma.com/](https://www.figma.com/)
+
+##### Miro
+- Propósito: Diseño de escenarios actuales (As-Is) y futuros (To-Be).
+- Ruta: [https://miro.com/es/](https://miro.com/es/)
+
+##### Structurizr
+- Propósito: Generación de diagramas del tipo C4 para representar arquitecturas de software.
+- Ruta: [https://structurizr.com/](https://structurizr.com/)
+
+##### UXPressia
+- Propósito: Desarrollo de herramientas de experiencia de usuario como User Personas, Empathy Maps, Journey Maps e Impact Maps.
+- Ruta: [https://uxpressia.com/](https://uxpressia.com/)
+
+
 ### 6.1.1. Software Development Environment Configuration  
+
+##### Visual Studio Code, Vue.js Framework, .NET y Python Backend, Azure Cloud
+- Propósito: Herramientas esenciales para el desarrollo completo del sistema. Visual Studio Code es el editor de código principal utilizado por el equipo. Vue.js Framework (junto con HTML5, CSS3 y JavaScript) se emplea para construir el Frontend de la aplicación web y la Landing Page. En el Backend se utilizan tecnologías como .NET (para APIs robustas y seguras) y Python (para lógica de negocio, procesamiento de datos o integración con servicios externos). Azure es la plataforma de nube utilizada para desplegar, escalar y administrar la infraestructura del proyecto. Para la primera entrega, se utilizó una Fake API mediante Json Server como solución temporal de simulación.
+- Ruta: [https://code.visualstudio.com/](https://code.visualstudio.com/), [https://vuejs.org/](https://vuejs.org/), [https://dotnet.microsoft.com/](https://dotnet.microsoft.com/), [https://www.python.org/](https://www.python.org/), [https://azure.microsoft.com/](https://azure.microsoft.com/), [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)
+
+##### C++
+- Propósito: Lenguaje usado para desarrollar componentes que requieren alto rendimiento o interacción directa con hardware, especialmente en soluciones que integran dispositivos IoT.
+- Ruta: [https://cplusplus.com/](https://cplusplus.com/)
+
+#### Software Testing, Software Deployment:
+
+##### GitHub Pages
+- Propósito: Hospedaje y despliegue de la Landing Page del proyecto desde el repositorio, facilitando su acceso público.
+- Ruta: [https://pages.github.com/](https://pages.github.com/)
+
+##### Netlify
+- Propósito: Plataforma utilizada para el despliegue de la Web Application desarrollada en Vue.js, incluyendo integración continua, vista previa por ramas y gestión de entornos.
+- Ruta: [https://www.netlify.com/](https://www.netlify.com/)
+
+##### Azure App Service / Azure Functions
+- Propósito: Despliegue y ejecución del backend desarrollado en .NET y Python, con escalado automático, monitoreo en tiempo real y configuración continua desde Azure DevOps o GitHub Actions.
+- Ruta: [https://azure.microsoft.com/en-us/products/app-service/](https://azure.microsoft.com/en-us/products/app-service/), [https://azure.microsoft.com/en-us/products/functions/](https://azure.microsoft.com/en-us/products/functions/)
+
+##### OpenAPI Specification vía Swagger
+- Propósito: Documentación de los Web Services construidos en .NET y Python, permitiendo su exploración e interacción mediante una interfaz intuitiva.
+- Ruta: [https://swagger.io/](https://swagger.io/)
+
+##### Arduino
+- Propósito: Programación de dispositivos IoT para recolección de datos, control de hardware y procesamiento en entornos Edge o en la nube mediante integración con Azure IoT Hub.
+- Ruta: [https://www.arduino.cc/](https://www.arduino.cc/), [https://azure.microsoft.com/en-us/products/iot-hub/](https://azure.microsoft.com/en-us/products/iot-hub/)
+
+
 ### 6.1.2. Source Code Management  
+
+Como se detalló en la sección anterior, GitHub es la plataforma elegida tanto para el hospedaje del repositorio como para el control de versiones del proyecto. Su uso permite el trabajo colaborativo distribuido, el seguimiento detallado del historial de cambios y la integración con flujos de CI/CD automatizados a través de herramientas como GitHub Actions, Azure Pipelines o Netlify.
+
+#### Implementación de Gitflow según Vincent Driessen
+
+Se ha adoptado el modelo de ramificación Gitflow, propuesto por Vincent Driessen, por su claridad para gestionar múltiples entornos (desarrollo, prueba, producción) y facilitar la colaboración estructurada entre equipos. Este enfoque estandariza el proceso de desarrollo, mejora la trazabilidad de cambios y reduce errores en la entrega de software.
+
+- **Master / Main Branch:**  
+  Representa la rama de producción. Todo lo que está en `main` se considera estable y desplegable. Cada commit aquí debe estar asociado a una versión lanzada o a un despliegue válido.  
+  Notación usada: `main`
+
+- **Develop Branch:**  
+  Es la rama donde se integran todas las funcionalidades nuevas antes de ser consideradas para producción. Aquí se hacen las pruebas de integración y se generan builds nocturnos o en staging.  
+  Notación usada: `develop`
+
+- **Release Branch:**  
+  Utilizada para estabilizar el código de cara a una nueva versión de producción. En esta rama se corrigen bugs menores, se preparan changelogs y se ajustan versiones.  
+  Notación usada: `release/[versión]` (ej. `release/1.0.0`)
+
+- **Feature Branch:**  
+  Dedicadas al desarrollo de nuevas funcionalidades. Se crean desde `develop` y, una vez finalizadas, se fusionan de vuelta. Esta estrategia permite a los desarrolladores trabajar en paralelo sin afectar la rama principal de desarrollo.  
+  Notación usada: `feature/[nombre-de-la-funcionalidad]` o simplemente `[nombre-de-la-funcionalidad]`
+
+- **Hotfix Branch:**  
+  Ramas críticas creadas desde `main` para corregir fallos en producción de manera urgente. Una vez solucionado el problema, se fusionan tanto en `main` como en `develop` para mantener la consistencia.  
+  Notación usada: `hotfix/[versión]` (ej. `hotfix/1.0.1`)
+
+Este esquema de ramificación asegura control, trazabilidad y calidad en los cambios incorporados al proyecto, especialmente cuando se trabaja en entornos CI/CD y múltiples versiones en paralelo.
+
+#### Commits Convencionales (Conventional Commits)
+
+Para garantizar un historial de commits legible, ordenado y automatizable (ideal para generación de changelogs y análisis de versiones), se utiliza la especificación **Conventional Commits 2.0.0**. Esta convención permite clasificar cada cambio según su propósito, lo que facilita la comprensión del historial de desarrollo y mejora la integración con herramientas
+
+##### Repositorios:
+- Landing page: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/landing-page](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/landing-page)
+- Frontend Web Application: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/aplication-web](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/aplication-web)
+- Frontent Movile Application: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/aplication-web](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/aplication-web)
+- Informe: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Report](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Report)
+
+
 ### 6.1.3. Source Code Style Guide & Conventions  
+#### HTML Style Guide para el proyecto
+- Siempre declarar el `<!DOCTYPE html>` para asegurar una correcta interpretación del documento por los navegadores.
+- Utilizar **minúsculas** para nombres de etiquetas y atributos: `div`, `p`, `class`, `href`, etc.
+- Todos los atributos deben ir **entre comillas dobles**: `class="container"`, `id="app"`
+- Respetar la indentación y anidar correctamente los elementos para mejorar la legibilidad.
+- Evitar etiquetas vacías innecesarias. Si es necesario dejar una etiqueta sin contenido, incluir un comentario que justifique su uso.
+
+#### Gherkin Specifications:
+- Los escenarios deben seguir la estructura estándar de BDD: `Given`, `When`, `Then`, utilizando `And` para pasos adicionales.
+- Se recomienda mantener la redacción clara y en lenguaje natural, enfocado en comportamiento observable del sistema.
+Ejemplo:
+- Feature: Registro de usuario
+- Scenario: Registro exitoso
+- Given el usuario se encuentra en la página de registro
+- When completa el formulario con datos válidos
+- And presiona el botón "Registrar"
+- Then debería ver un mensaje de éxito
+#### Code Style Guide
+
+- **Single Responsibility Principle (SRP):**
+  - Cada componente debe enfocarse en una sola función o unidad lógica. Componentes que hagan demasiado tienden a ser difíciles de mantener y testear.
+  - Divide vistas complejas en subcomponentes reutilizables.
+
+- **Funciones pequeñas y reutilizables:**
+  - Las funciones (métodos, computed, watchers) no deben exceder las 75 líneas. Mantener la lógica dividida y clara permite mayor facilidad de prueba y mantenimiento.
+  
+- **Convenciones de nombres:**
+  - Archivos de componentes deben seguir el patrón: `NombreComponente.vue`, usando UpperCamelCase.
+  - Los nombres de archivos deben describir su propósito y tipo. Ejemplos:
+    - `UserCard.vue` (componente de UI)
+    - `useAuth.js` (composable de autenticación)
+    - `auth.service.js` (servicio para autenticación)
+    - `AuthForm.vue` (formulario de autenticación)
+
+- **Estructura de archivo Vue:**
+  - Seguir el orden: `<template>`, `<script>`, `<style>`. Este orden ayuda a mantener coherencia y legibilidad.
+  - Utilizar `setup()` con la Composition API si se desea una mayor organización y reuso de lógica.
+  - Evitar lógica compleja en el template. Llevar la lógica al script y usar computed o métodos según corresponda.
+
+- **Estilo y convenciones:**
+  - Usar kebab-case en nombres de componentes dentro del template: `<user-card />`
+  - Prefiere SCSS o CSS Modules para estilos organizados. Si se usan estilos globales, declararlos de forma clara.
+  - En `<style>`, siempre usar `scoped` si el estilo es exclusivo del componente.
+  - Evita repetir código. Usa slots y props para hacer componentes reutilizables y dinámicos.
+
+[Referencia oficial Vue Style Guide](https://vuejs.org/style-guide/)
+
+
 ### 6.1.4. Software Deployment Configuration  
+#### Despliegue de la aplicacion web en netlify:
+1. **Crear un nuevo proyecto en Netlify**  
+   Inicia sesión en Netlify y haz clic en **"Add new site"**. Este paso te permitirá crear un nuevo proyecto para que Netlify gestione automáticamente el despliegue desde tu repositorio.  
+   <br/>
+   ![Paso 1 - Crear nuevo proyecto](./images/netly1.png)
+  <br/>
+2. **Seleccionar el repositorio desde GitHub**  
+   Conecta tu cuenta de GitHub (si no lo hiciste previamente) y selecciona el repositorio que contiene el proyecto a desplegar.
+     <br/>  
+   ![Paso 2 - Seleccionar repositorio](./images/netly2.png)
+  <br/>
+3. **Configurar la rama y comandos de despliegue**  
+   Elige la rama desde la cual deseas hacer el deploy (por ejemplo, `main` o `deploy`) y configura el directorio de salida (por defecto suele ser `dist/` en proyectos Vue.js). Luego, guarda los cambios.  
+     <br/>
+   ![Paso 3 - Configurar rama](./images/netly3.png)
+  <br/>
+4. **Hacer clic en el botón “Deploy Site”**  
+   Finalmente, haz clic en **"Deploy Site"** para que Netlify construya y despliegue tu aplicación automáticamente. Una vez finalizado el proceso, se te proporcionará una URL pública donde tu app estará disponible.  
+     <br/>
+   ![Paso 4 - Iniciar despliegue](./images/netly4.png)
+
 ## 6.2. Landing Page, Services & Applications Implementation  
 ### 6.2.X. Sprint n  
 #### 6.2.X.1. Sprint Planning n  
@@ -1485,5 +1891,15 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 
 # Bibliografía  
 
+- Xataka. (2023, 10 de diciembre). Las cerraduras inteligentes han conseguido hacerse un hueco en casa: cómo funcionan y qué hay que tener en cuenta. [https://www.xataka.com/domotica-1/cerraduras-inteligentes-han-conseguido-hacerse-hueco-casa-como-funcionan-que-hay-que-tener-cuenta]
+
+- Fuerteco. (2024, 30 de julio). Las mejores 7 cerraduras digitales del 2024. [https://www.fuerteco.com/las-mejores-7-cerraduras-digitales-del-2024/?srsltid=AfmBOopVAOjF1MIAmMpu_-vfwTT6k32zbBV_skDb74tvoI0htL_EWOLv]
+
+- Cerraduras Inteligentes. (2024, 24 de julio). La tecnología IoT en cerraduras inteligentes. [https://cerradurasinteligente.es/la-tecnologia-iot-en-cerraduras-inteligentes/]
+
+- WELOCK. (s. f.). El auge de las cerraduras de puertas inteligentes en los hogares inteligentes (IoT). [https://www.welock.com/es/pages/el-auge-de-las-cerraduras-de-puertas-inteligentes-en-los-hogares-inteligentes-iot]
+
 # Anexos  
 
+Link del repositorio GitHub: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard]<br>
+Link del Miro: [https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301]
