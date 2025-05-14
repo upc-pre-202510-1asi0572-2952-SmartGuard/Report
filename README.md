@@ -979,123 +979,467 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <th>Epic/Story</th>
         <th>Título</th>
         <th>Descripción</th>
-        <th>Criterios de Aceptación</th>
         <th>Relacionado con (Epic ID)</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>001</td>
-        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
-        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
-        <td>
-          <ul>
-            <li>El sistema debe activar la cámara al detectar movimiento.</li>
-            <li>El sistema debe comparar el rostro captado con la base de datos de rostros registrados.</li>
-            <li>El sistema debe clasificar el rostro como "conocido" o "desconocido".</li>
-          </ul>
-        </td>
+        <td>Identificación automática mediante reconocimiento facial</td>
+        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial, para saber si son conocidas o extrañas y decidir si permitir el acceso o recibir una alerta.</td>
         <td>EP01 - Reconocimiento Facial</td>
       </tr>
       <tr>
         <td>002</td>
-        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
-        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
-        <td>
-          <ul>
-            <li>La app debe permitir subir o tomar una foto de una persona para registrarla.</li>
-            <li>El rostro debe guardarse en una base de datos segura.</li>
-            <li>El sistema debe permitir eliminar o editar rostros registrados.</li>
-          </ul>
-        </td>
+        <td>Registro de rostros autorizados</td>
+        <td>Como propietario, quiero registrar los rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin necesidad de que yo intervenga manualmente.</td>
         <td>EP01 - Reconocimiento Facial</td>
       </tr>
       <tr>
         <td>003</td>
-        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
-        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
-        <td>
-          <ul>
-            <li>El sistema debe enviar una notificación push a la app cuando detecte un rostro desconocido.</li>
-            <li>La notificación debe incluir imagen en tiempo real y hora del evento.</li>
-          </ul>
-        </td>
+        <td>Notificación por detección de persona desconocida</td>
+        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta, para poder tomar decisiones rápidas sobre la seguridad de mi hogar.</td>
         <td>EP02 - Comunicación Remota</td>
       </tr>
       <tr>
         <td>004</td>
-        <td>Como propietario quiero poder loguearse en la aplicación con credenciales de manera rápida</td>
-        <td>Como propietario y usuario deseo poder loguearme con credenciales que vienen por defecto en la cerradura</td>
-        <td>
-          <ul>
-            <li>La cerradura debe tener una credencial única con la cual poder vincularlo con la aplicación móvil y a la vez poder identificarse.</li>
-          </ul>
-        </td>
+        <td>Inicio de sesión con credenciales predeterminadas</td>
+        <td>Como propietario, quiero poder iniciar sesión rápidamente en la aplicación usando las credenciales predeterminadas de la cerradura, para acceder a la configuración inicial sin complicaciones.</td>
         <td>EP02 - Comunicación Remota</td>
       </tr>
       <tr>
         <td>005</td>
-        <td>Como propietario, quiero ver una captura de la persona que intenta acercarse a mi hogar.</td>
-        <td>Como propietario, quiero ver en tiempo real el rostro de la persona para decidir si es seguro abrir la puerta.</td>
-        <td>
-          <ul>
-            <li>la captura de imagenes debe activarse con la detección de movimiento o bajo demanda.</li>
-          </ul>
-        </td>
+        <td>Visualización en tiempo real del rostro frente a la puerta</td>
+        <td>Como propietario, quiero ver en tiempo real el rostro de la persona que está frente a la puerta, para decidir si es seguro abrir o no la cerradura.</td>
         <td>EP02 - Comunicación Remota</td>
       </tr>
       <tr>
         <td>006</td>
-        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
-        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
-        <td>
-          <ul>
-            <li>La app debe tener un botón de "Abrir puerta" y otro de "Llamar a la policía".</li>
-            <li>El botón de emergencia debe marcar automáticamente al 105 o el número configurado.</li>
-            <li>El botón de apertura debe activar el mecanismo de la cerradura.</li>
-          </ul>
-        </td>
+        <td>Botones de acción remota en la app (abrir puerta o llamar a la policía)</td>
+        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza, para actuar rápidamente según la situación detectada.</td>
         <td>EP02 - Comunicación Remota</td>
       </tr>
       <tr>
         <td>007</td>
-        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
-        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
-        <td>
-          <ul>
-            <li>La app debe mostrar una lista de accesos con fecha, hora y tipo (conocido/desconocido).</li>
-            <li>El historial debe ser accesible desde un menú en la app.</li>
-          </ul>
-        </td>
+        <td>Consulta de historial de acceso</td>
+        <td>Como propietario, quiero consultar un historial de accesos, para saber quién y cuándo ha intentado ingresar a mi casa, ya sea con éxito o sin autorización.</td>
         <td>EP03 - Registro y Seguridad</td>
       </tr>
       <tr>
         <td>008</td>
-        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
-        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
-        <td>
-          <ul>
-            <li>El sistema debe almacenar imágenes por evento.</li>
-            <li>La app debe permitir ver estos archivos desde el historial.</li>
-            <li>Se debe indicar si el rostro fue identificado o no.</li>
-          </ul>
-        </td>
+        <td>Visualización de evidencias visuales de visitas anteriores</td>
+        <td>Como propietario, quiero ver imágenes o clips cortos de las visitas anteriores, para tener evidencia en caso de incidentes o situaciones sospechosas.</td>
         <td>EP03 - Registro y Seguridad</td>
       </tr>
       <tr>
         <td>009</td>
-        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura).</td>
-        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura)</td>
-        <td>
-          <ul>
-            <li>La app debe permitir activar alertas para eventos como intentos de forzar la cerradura o movimientos sospechosos.</li>
-            <li>El sistema debe enviar notificaciones en tiempo real según la configuración del usuario.</li>
-          </ul>
-        </td>
+        <td>Configuración de alertas personalizadas</td>
+        <td>Como propietario, quiero poder configurar alertas personalizadas, para recibir notificaciones específicas (como si alguien intenta forzar la cerradura) y poder tomar medidas rápidamente.</td>
+        <td>EP03 - Registro y Seguridad</td>
+      </tr>
+      <tr>
+        <td>010</td>
+        <td>Configuración de horarios de acceso para personas autorizada</td>
+        <td>Como propietario, deseo poder configurar las fechas y horas en las que una persona autorizada puede ingresar a mi casa, para tener mayor control sobre los accesos y limitar el ingreso según horarios permitidos.</td>
         <td>EP03 - Registro y Seguridad</td>
       </tr>
     </tbody>
   </table>
+
+
+
+
+
+## Criterios de Aceptacion
+
+
+<table>
+        <thead>
+            <tr>
+                <th colspan="2" class="hu-header">HU001 Identificación automática mediante reconocimiento facial</th>
+            </tr>
+            <tr>
+                <th width="20%">Escenario</th>
+                <th width="80%">Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="scenario-title">Escenario 1:<br>Persona registrada</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que una persona registrada se presenta frente a la cerradura.</div>
+                    <div class="step when"><strong>When:</strong> El sistema realiza el escaneo facial.</div>
+                    <div class="step then"><strong>Then:</strong> Debe reconocerla como "conocida" y notificar al propietario que se ha detectado un rostro autorizado.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 2:<br>Persona no registrada</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que una persona no registrada se presenta frente a la cerradura.</div>
+                    <div class="step when"><strong>When:</strong> El sistema realiza el escaneo facial.</div>
+                    <div class="step then"><strong>Then:</strong> Debe marcarla como "extraña", enviar una alerta al propietario y mostrar una opción para tomar acción (permitir acceso o contactar a la policía).</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 3:<br>Error de reconocimiento</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que el sistema no puede identificar claramente un rostro (por mala iluminación o ángulo).</div>
+                    <div class="step when"><strong>When:</strong> Ocurre un intento de reconocimiento.</div>
+                    <div class="step then"><strong>Then:</strong> Se registrará un mensaje de error y se repetirá el escaneo automáticamente hasta tres intentos.</div>
+                </td>
+            </tr>
+        </tbody>
+</table>
+
+
+ <table>
+        <thead>
+            <tr>
+                <th colspan="2" class="hu-header">HU002 Registro de rostros autorizados</th>
+            </tr>
+            <tr>
+                <th width="20%">Escenario</th>
+                <th width="80%">Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="scenario-title">Escenario 1:<br>Registro exitoso de rostro</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que el propietario accede a la función de registro.</div>
+                    <div class="step when"><strong>When:</strong> Toma una foto del rostro de la persona autorizada y confirma los datos.</div>
+                    <div class="step then"><strong>Then:</strong> El sistema debe guardar el rostro en la base de datos y mostrar un mensaje de confirmación.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 2:<br>Registro duplicado</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que el propietario intenta registrar a una persona cuyo rostro ya está en el sistema.</div>
+                    <div class="step when"><strong>When:</strong> El sistema detecta la coincidencia.</div>
+                    <div class="step then"><strong>Then:</strong> Debe notificar que el rostro ya está registrado y evitar duplicados.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 3:<br>Registro fallido</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que el escaneo facial no es claro (por mala iluminación o movimiento).</div>
+                    <div class="step when"><strong>When:</strong> Se intenta registrar un rostro.</div>
+                    <div class="step then"><strong>Then:</strong> Se registrará un mensaje de error y permitirá repetir el proceso.</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+<table>
+        <thead>
+            <tr>
+                <th colspan="2" class="hu-header">HU003 Notificación por detección de persona desconocida</th>
+            </tr>
+            <tr>
+                <th width="20%">Escenario</th>
+                <th width="80%">Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="scenario-title">Escenario 1:<br>Detección de persona no registrada</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que una persona no registrada se presenta frente a la cerradura.</div>
+                    <div class="step when"><strong>When:</strong> El sistema realiza el reconocimiento facial.</div>
+                    <div class="step then"><strong>Then:</strong> Debe enviar una notificación inmediata al celular del propietario con una imagen y la hora de detección.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 2:<br>Registro duplicado</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que la misma persona desconocida permanece frente a la puerta durante más de 1 minuto.</div>
+                    <div class="step when"><strong>When:</strong> El sistema ya ha enviado una notificación previa.</div>
+                    <div class="step then"><strong>Then:</strong> Debe evitar enviar notificaciones duplicadas y, en su lugar, actualizar la alerta en curso.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 3:<br>Registro fallido</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que el sistema no logra comunicarse con el celular del propietario.</div>
+                    <div class="step when"><strong>When:</strong> Ocurre una detección de desconocido.</div>
+                    <div class="step then"><strong>Then:</strong> Debe almacenar el evento localmente y reintentar el envío de la notificación cuando se restablezca la conexión.</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+<table>
+        <thead>
+            <tr>
+                <th colspan="2" class="hu-header">HU004  Inicio de sesión con credenciales predeterminadas</th>
+            </tr>
+            <tr>
+                <th width="20%">Escenario</th>
+                <th width="80%">Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="scenario-title">Escenario 1:<br>Inicio de sesión exitoso con credenciales por defecto</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que la cerradura ha sido instalada por primera vez.</div>
+                    <div class="step when"><strong>When:</strong>El propietario abre la app e ingresa las credenciales por defecto.</div>
+                    <div class="step then"><strong>Then:</strong>Debe iniciar sesión correctamente y redirigir a la pantalla principal de configuración.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 2:<br>Inicio de sesión fallido por credenciales incorrectas</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong>Que el usuario introduzca credenciales incorrectas.</div>
+                    <div class="step when"><strong>When:</strong>Intenta iniciar sesión.</div>
+                    <div class="step then"><strong>Then:</strong>El sistema debe mostrar un mensaje de error e impedir el acceso.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 3:<br>Recomendación de cambio de credenciales</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong>que el propietario ha iniciado sesión por primera vez con las credenciales por defecto.</div>
+                    <div class="step when"><strong>When:</strong>Accede al sistema.</div>
+                    <div class="step then"><strong>Then:</strong>Se debe mostrar una recomendación para cambiar la contraseña por seguridad.</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU005 Visualización en tiempo real del rostro frente a la puerta</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Visualización en tiempo real de rostro desconocido</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que una persona se posiciona frente a la cerradura y no está registrada.</div>
+                <div class="step when"><strong>When:</strong> El sistema detecta su presencia.</div>
+                <div class="step then"><strong>Then:</strong> Debe enviar una notificación al celular del propietario y mostrar en tiempo real el rostro captado por la cámara.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Visualización de rostro conocido</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que una persona registrada se presenta frente a la cerradura.</div>
+                <div class="step when"><strong>When:</strong> El propietario abre la app.</div>
+                <div class="step then"><strong>Then:</strong> Debe poder visualizar igualmente la transmisión en vivo si lo desea.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 3:<br>Fallo en la transmisión en vivo</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que existe un problema de red o la cámara no responde.</div>
+                <div class="step when"><strong>When:</strong> El propietario intenta ver la transmisión.</div>
+                <div class="step then"><strong>Then:</strong> El sistema debe mostrar un mensaje de error e intentar reconectarse automáticamente.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">HU006 Botones de acción remota en la app (abrir puerta o llamar a la policía)</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Escenario 1:<br>Abrir la puerta remotamente</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que una persona se posiciona frente a la cerradura y no está registrada.</div>
+                <div><strong>When:</strong> El sistema detecta su presencia.</div>
+                <div><strong>Then:</strong> Debe enviar una notificación al celular del propietario y mostrar en tiempo real el rostro captado por la cámara.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 2:<br>Llamada a la policía ante una amenaza</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que una persona registrada se presenta frente a la cerradura.</div>
+                <div><strong>When:</strong> El propietario abre la app.</div>
+                <div><strong>Then:</strong> Debe poder visualizar igualmente la transmisión en vivo si lo desea.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 3:<br>Botones deshabilitados si no hay conexión</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que no hay conexión entre la app y la cerradura.</div>
+                <div><strong>When:</strong> El propietario intenta usar cualquiera de los botones.</div>
+                <div><strong>Then:</strong> El sistema debe mostrar un mensaje de error indicando la falta de conectividad y deshabilitar temporalmente las acciones.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">HU007 Consulta de historial de accesos</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Escenario 1:<br>Visualizar accesos exitosos</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que un usuario registrado accede con éxito.</div>
+                <div><strong>When:</strong> El sistema detecta su presencia.</div>
+                <div><strong>Then:</strong> Debe registrar el acceso en el historial con fecha, hora y estado como "Acceso permitido".</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 2:<br>Visualizar intentos de acceso fallidos</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que una persona no registrada intenta ingresar.</div>
+                <div><strong>When:</strong> El propietario consulta el historial.</div>
+                <div><strong>Then:</strong> Debe mostrarse la imagen del rostro detectado, fecha, hora y estado como "Acceso denegado".</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 3:<br>Filtro por fechas</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el historial contiene muchos registros.</div>
+                <div><strong>When:</strong> El propietario usa el filtro por rango de fechas.</div>
+                <div><strong>Then:</strong> Debe mostrarse únicamente la lista de accesos dentro del período seleccionado.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">HU008 Visualización de evidencias visuales de visitas anteriores</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Escenario 1:<br>Acceso al historial visual</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el sistema ha registrado visitas anteriores.</div>
+                <div><strong>When:</strong> El propietario accede al historial desde la app.</div>
+                <div><strong>Then:</strong> Debe poder ver imágenes o clips cortos asociados a cada intento de acceso.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 2:<br>Visualización de visita específica</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el propietario desea revisar una visita en particular.</div>
+                <div><strong>When:</strong> Selecciona la fecha y hora del registro.</div>
+                <div><strong>Then:</strong> El sistema debe mostrar la imagen o clip correspondiente con opción de reproducir o ampliar.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 3:<br>Almacenamiento limitado</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el sistema tiene espacio limitado para almacenar evidencias.</div>
+                <div><strong>When:</strong> Se llena el espacio disponible.</div>
+                <div><strong>Then:</strong> Debe eliminar automáticamente los registros más antiguos, mostrando una advertencia al propietario si se desea conservar algún clip manualmente.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<!-- HU009 Configuración de alertas personalizadas -->
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">HU009 Configuración de alertas personalizadas</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Escenario 1:<br>Configuración de alerta personalizada</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el propietario está en la sección de configuración de alertas.</div>
+                <div><strong>When:</strong> Selecciona el tipo de alerta (por ejemplo, intento de forzar la cerradura).</div>
+                <div><strong>Then:</strong> Debe poder configurar los parámetros (tipo de notificación, frecuencia, etc.) y guardar la alerta.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 2:<br>Activación de alerta por intento de forzar la cerradura</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que alguien intenta forzar la cerradura.</div>
+                <div><strong>When:</strong> El sistema detecta la acción.</div>
+                <div><strong>Then:</strong> Debe activar la alerta configurada y enviar la notificación al propietario (por ejemplo, en la app, correo electrónico o mensaje de texto).</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 3:<br>Desactivación de alertas</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el propietario desea desactivar una alerta.</div>
+                <div><strong>When:</strong> Accede a la configuración de alertas y la desactiva.</div>
+                <div><strong>Then:</strong> El sistema debe dejar de enviar las notificaciones correspondientes a esa alerta.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- HU010 Configuración de horarios de acceso para personas autorizadas -->
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">HU010 Configuración de horarios de acceso para personas autorizadas</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Escenario 1:<br>Establecer horario de acceso</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el propietario ha registrado a una persona autorizada.</div>
+                <div><strong>When:</strong> Accede a la configuración de horarios para esa persona.</div>
+                <div><strong>Then:</strong> Debe poder establecer un rango de fechas y horas en que se permite el acceso.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 2:<br>Intento de acceso fuera del horario</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que una persona autorizada intenta ingresar fuera del horario establecido.</div>
+                <div><strong>When:</strong> El sistema valida el intento.</div>
+                <div><strong>Then:</strong> Debe denegar el acceso y notificar al propietario.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 3:<br>Edición de horarios</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el propietario desea cambiar el horario permitido.</div>
+                <div><strong>When:</strong> Accede a la configuración del perfil del usuario.</div>
+                <div><strong>Then:</strong> Debe poder modificar fácilmente el horario y guardar los cambios.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
 
 ## 3.3. Impact Mapping
 
@@ -1108,79 +1452,98 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
     <thead>
       <tr>
         <th>#Orden</th>
-        <th>User Story Id</th>
-        <th>Título</th>
+        <th>ID</th>
+        <th>Titulo</th>
         <th>Descripción</th>
-        <th>Story Points</th>
+        <th>Story Point</th>
+        <th>Usuario</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>001</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
-        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
+        <td>US001</td>
+        <td>Identificación automática mediante reconocimiento facial</td>
+        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial, para saber si son conocidas o extrañas y decidir si permitir el acceso o recibir una alerta.</td>
         <td>8</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>002</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
-        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
+        <td>US002</td>
+        <td>Registro de rostros autorizados</td>
+        <td>Como propietario, quiero registrar los rostros de personas autorizadas (familiares, amigos), para que puedan ingresar sin necesidad de que yo intervenga manualmente.</td>
         <td>3</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>003</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
-        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
+        <td>US003</td>
+        <td>Notificación por detección de persona desconocida</td>
+        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta, para poder tomar decisiones rápidas sobre la seguridad de mi hogar.</td>
         <td>3</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>004</td>
-        <td>Usuario</td>
-        <td>Como propietario quiero poder loguearse en la aplicación con credenciales de manera rápida</td>
-        <td>Como propietario y usuario deseo poder loguearme con credenciales que vienen por defecto en la cerradura</td>
+        <td>US004</td>
+        <td>Inicio de sesión con credenciales predeterminadas</td>
+        <td>Como propietario, quiero poder iniciar sesión en la aplicación usando las credenciales predeterminadas de la cerradura, para acceder rápidamente a la configuración inicial.</td>
         <td>2</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>005</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero ver en tiempo real el rostro de la persona para decidir si es seguro abrir la puerta.</td>
-        <td>Como propietario, quiero ver en tiempo real el rostro de la persona para decidir si es seguro abrir la puerta.</td>
+        <td>US005</td>
+        <td>Visualización en tiempo real del rostro frente a la puerta</td>
+        <td>Como propietario, quiero ver en tiempo real el rostro de la persona que está frente a la puerta, para decidir si es seguro abrir o no la cerradura.</td>
         <td>8</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>006</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
-        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
+        <td>US006</td>
+        <td>Botones de acción remota en la app</td>
+        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza, para actuar rápidamente según la situación.</td>
         <td>5</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>007</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
-        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
+        <td>US007</td>
+        <td>Consulta de historial de acceso</td>
+        <td>Como propietario, quiero consultar un historial de accesos, para saber quién y cuándo ha intentado ingresar a mi casa, ya sea con éxito o sin autorización.</td>
         <td>3</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>008</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
-        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
+        <td>US008</td>
+        <td>Visualización de evidencias visuales de visitas anteriores</td>
+        <td>Como propietario, quiero ver imágenes o clips cortos de las visitas anteriores, para tener evidencia en caso de incidentes o situaciones sospechosas.</td>
         <td>5</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>009</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura).</td>
-        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura)</td>
+        <td>US009</td>
+        <td>Configuración de alertas personalizadas</td>
+        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura), para recibir notificaciones específicas y actuar rápido.</td>
         <td>5</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>010</td>
+        <td>US010</td>
+        <td>Configuración de horarios de acceso para personas autorizada</td>
+        <td>Como propietario, deseo poder configurar las fechas y horas en las que una persona autorizada puede ingresar a mi casa, para tener mayor control sobre los accesos.</td>
+        <td>5</td>
+        <td>Propietario</td>
       </tr>
     </tbody>
   </table>
 </div>
+
 
 
 
