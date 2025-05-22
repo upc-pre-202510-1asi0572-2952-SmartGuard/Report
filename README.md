@@ -1544,6 +1544,48 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>5</td>
         <td>Propietario</td>
       </tr>
+      <tr>
+        <td>011</td>
+        <td>US011</td>
+        <td>Sección de Inicio de la Landing Page</td>
+        <td>Como propietario, quiero ver una hero section con contenido impactante y llamadas a la acción, para captar su atención desde el primer vistazo.</td>
+        <td>3</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>012</td>
+        <td>US012</td>
+        <td>Sección de Características del Producto</td>
+        <td>Como propietario, quiero saber de un vistazo las funcionalidades principales de la aplicación, para decidir si me interesa usarla.</td>
+        <td>2</td>
+        <td>Propietario</td>
+      </tr>
+       <tr>
+        <td>013</td>
+        <td>US013</td>
+        <td>Adaptación responsive del diseño</td>
+        <td>Como propietario, quiero que la landing se vea correctamente en cualquier dispositivo, para no tener problemas de usabilidad.</td>
+        <td>3</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>014</td>
+        <td>US014</td>
+        <td>Configuración de enlaces a tiendas</td>
+        <td>Como propietario, quiero que los botones de tienda redirija a App Store o Play Store según mi dispositivo, para instalar la app sin equivocaciones.</td>
+        <td>2</td>
+        <td>Propietario</td>
+      </tr>     
+      <tr>
+        <td>015</td>
+        <td>US015</td>
+        <td>CDesarrollo del footer informativo</td>
+        <td>Como propietario, quiero un footer con enlaces de contacto, legal y navegación secundaria, para encontrar información relevante al pie de página.</td>
+        <td>2</td>
+        <td>Propietario</td>
+      </tr>  
+
+      
     </tbody>
   </table>
 </div>
