@@ -1047,6 +1047,36 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>Como propietario, deseo poder configurar las fechas y horas en las que una persona autorizada puede ingresar a mi casa, para tener mayor control sobre los accesos y limitar el ingreso según horarios permitidos.</td>
         <td>EP03 - Registro y Seguridad</td>
       </tr>
+              <tr>
+        <td>011</td>
+        <td>Sección de Inicio de la Landing Page</td>
+        <td>Como propietario, quiero ver una hero section con contenido impactante y llamadas a la acción, para captar su atención desde el primer vistazo.</td>
+        <td>EP04 - Implementación de Landing Page de Faceloock</td>
+      </tr>
+              <tr>
+        <td>012</td>
+        <td>Sección de Características del Producto</td>
+        <td>Como propietario, quiero saber de un vistazo las funcionalidades principales de la aplicación, para decidir si me interesa usarla.</td>
+        <td>EP04 - Implementación de Landing Page de Faceloock</td>
+      </tr>
+              <tr>
+        <td>013</td>
+        <td>Adaptación responsive del diseño</td>
+        <td>Como propietario, quiero que la landing se vea correctamente en cualquier dispositivo, para no tener problemas de usabilidad.</td>
+        <td>EP04 - Implementación de Landing Page de Faceloock</td>
+      </tr>
+              <tr>
+        <td>014</td>
+        <td>Configuración de enlaces a tiendas</td>
+        <td>Como propietario, quiero que los botones de tienda redirija a App Store o Play Store según mi dispositivo, para instalar la app sin equivocaciones.</td>
+        <td>EP04 - Implementación de Landing Page de Faceloock</td>
+      </tr>
+              <tr>
+        <td>015</td>
+        <td>Desarrollo del footer informativo</td>
+        <td>Como propietario, quiero un footer con enlaces de contacto, legal y navegación secundaria, para encontrar información relevante al pie de página.</td>
+        <td>EP04 - Implementación de Landing Page de Faceloock</td>
+      </tr>
     </tbody>
   </table>
 
@@ -1438,6 +1468,156 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
                 <div><strong>Given:</strong> Que el propietario desea cambiar el horario permitido.</div>
                 <div><strong>When:</strong> Accede a la configuración del perfil del usuario.</div>
                 <div><strong>Then:</strong> Debe poder modificar fácilmente el horario y guardar los cambios.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU011 Sección de Inicio de la Landing Page</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Hero section visible al cargar la página</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario abre la landing en su navegador.</div>
+                <div class="step when"><strong>When:</strong> la página termina de cargarse.</div>
+                <div class="step then"><strong>Then:</strong> se muestra el encabezado “Bienvenido a FaceLoock” con la descripción principal (hero) en la parte superior.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>CTA redirige al usuario</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que la hero section muestra un botón “Visitar la Web”.</div>
+                <div class="step when"><strong>When:</strong> el usuario hace clic en “Visitar la Web”.</div>
+                <div class="step then"><strong>Then:</strong> se le lleva a la sección de registro o demo de la aplicación.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU012 Sección de Características del Producto</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Servicios cargados al hacer scroll</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario hace scroll hasta la sección “Nuestros Servicios”.</div>
+                <div class="step when"><strong>When:</strong> esa sección entra en el viewport.</div>
+                <div class="step then"><strong>Then:</strong> aparecen los bloques de servicio (imagen, título y descripción) para Gestión de Usuarios, Acceso Facial, Historial de Accesos, Notificaciones y Control Remoto.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Navegación directa desde el menú</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario está en la parte superior de la página.</div>
+                <div class="step when"><strong>When:</strong> hace clic en “Servicios” del menú de navegación.</div>
+                <div class="step then"><strong>Then:</strong> la página hace scroll automático hasta la sección “Nuestros Servicios”.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU013 Adaptación responsive del diseño</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Visualización en móvil</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario abre la landing en un dispositivo móvil (ancho ≤ 480 px).</div>
+                <div class="step when"><strong>When:</strong> la página se renderiza.</div>
+                <div class="step then"><strong>Then:</strong> el menú colapsa en un botón “hamburger” y las secciones pasan a diseño de columna única.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Visualización en escritorio</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario abre la landing en un navegador de escritorio (ancho ≥ 1024 px).</div>
+                <div class="step when"><strong>When:</strong> la página se renderiza.</div>
+                <div class="step then"><strong>Then:</strong> el menú aparece horizontal y las secciones (hero, servicios, footer) ocupan el ancho completo.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU014 Configuración de enlaces a tiendas</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Descarga Android</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario está en la landing.</div>
+                <div class="step when"><strong>When:</strong> hace clic en “Descargar para Android”.</div>
+                <div class="step then"><strong>Then:</strong> se abre la página de FaceLoock en Google Play.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Descarga iOS</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario está en la landing.</div>
+                <div class="step when"><strong>When:</strong> hace clic en “Descargar para iOS”.</div>
+                <div class="step then"><strong>Then:</strong> se abre la página de FaceLoock en el App Store.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU015 Desarrollo del footer informativo</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Enlace “Contacto”</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario está en cualquier parte de la landing.</div>
+                <div class="step when"><strong>When:</strong> hace clic en “Contacto” del menú o del footer.</div>
+                <div class="step then"><strong>Then:</strong> la página hace scroll hasta el formulario de contacto.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Enlaces rápidos en el footer</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario está al final de la página.</div>
+                <div class="step when"><strong>When:</strong> selecciona “Testimonios” (o cualquier ítem de “Enlaces rápidos”).</div>
+                <div class="step then"><strong>Then:</strong> la página hace scroll hasta la sección correspondiente (Testimonios, Sobre Nosotros, Servicios o Planes).</div>
             </td>
         </tr>
     </tbody>
