@@ -1155,7 +1155,18 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>Como propietario, quiero iniciar sesión al digitar mis credenciales y pulsar “Ingresar”, para asegurar que ver las funcionalidades e interactuar con la aplicación.</td>
         <td>EP07 - Perfil y Seguridad de Cuenta</td>
       </tr>
-        
+              <tr>
+        <td>029</td>
+        <td>Registro de nuevo Usuario</td>
+        <td>Como usuario, deseo poder registrarme satisfactoriamente en la sección "Regístrate gratis", en un formulario que me solicite mis datos personales como nombre, apellido, edad, dni entre otros.</td>
+        <td>EP03 - Registro y Seguridad</td>
+      </tr>
+              <tr>
+        <td>030</td>
+        <td>Registro de nuevo Hogar</td>
+        <td>Como propietario, quiero poder registrar un hogar para el posterior moniterio, con datos fundamentales como la dirección, codigo postal, umero de habitaciones, estacionamiento entre otros.</td>
+        <td>EP03 - Registro y Seguridad</td>
+      </tr>
     </tbody>
   </table>
 
@@ -2081,6 +2092,65 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         </tbody>
 </table>
 
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US029 Registro de nuevo Usuario</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Registro exitoso</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el usuario está en la sección “Regístrate gratis” y completa todos los campos obligatorios con datos válidos (nombre, apellido, edad, DNI, etc.).</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Registrarse”.</div>
+                <div class="step then"><strong>Then:</strong> Se crea la cuenta, se muestra un mensaje de bienvenida y el usuario es redirigido al dashboard o al login para iniciar sesión.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Validación de campos</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el usuario deja alguno de los campos obligatorios vacío o ingresa un DNI en formato incorrecto.</div>
+                <div class="step when"><strong>When:</strong> Intenta hacer clic en “Registrarse”.</div>
+                <div class="step then"><strong>Then:</strong> Se muestran mensajes de error junto a cada campo inválido (por ejemplo, “Nombre es obligatorio”, “DNI inválido”) y no se envía el formulario.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US030 Registro de nuevo Hogar</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Hogar registrado exitosamente</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario está en la sección “Registrar Hogar” y completa los campos obligatorios (dirección, código postal, número de habitaciones, estacionamiento, etc.).</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Guardar Hogar”.</div>
+                <div class="step then"><strong>Then:</strong> El nuevo hogar aparece en la lista de hogares registrados y se muestra un toast “Hogar registrado exitosamente”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Validación de datos del hogar</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario deja la dirección vacía o introduce un código postal con caracteres no numéricos.</div>
+                <div class="step when"><strong>When:</strong> Intenta guardar el hogar.</div>
+                <div class="step then"><strong>Then:</strong> Se muestran mensajes de error (“Dirección es obligatoria”, “Código postal inválido”) y no se agrega el hogar.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 ## 3.3. Impact Mapping
@@ -2324,6 +2394,22 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>Iniciar sesión</td>
         <td>Como propietario, quiero iniciar sesión al digitar mis credenciales y pulsar “Ingresar”, para asegurar que ver las funcionalidades e interactuar con la aplicación.</td>
         <td>1</td>
+        <td>Propietario</td>
+      </tr> 
+        <tr>
+        <td>029</td>
+        <td>US029</td>
+        <td>Registro de nuevo Usuario</td>
+        <td>Como usuario, deseo poder registrarme satisfactoriamente en la sección "Regístrate gratis", en un formulario que me solicite mis datos personales como nombre, apellido, edad, dni entre otros</td>
+        <td>5</td>
+        <td>Usuario</td>
+      </tr> 
+        <tr>
+        <td>030</td>
+        <td>US030</td>
+        <td>Registro de nuevo Hogar</td>
+        <td>Como propietario, quiero poder registrar un hogar para el posterior moniterio, con datos fundamentales como la dirección, codigo postal, umero de habitaciones, estacionamiento entre otros</td>
+        <td>4</td>
         <td>Propietario</td>
       </tr> 
     </tbody>
