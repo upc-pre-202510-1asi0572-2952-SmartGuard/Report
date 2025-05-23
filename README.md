@@ -3792,7 +3792,8 @@ Durante el primer sprint, el equipo se centró en los siguientes entregables cla
 
 - **Sprint n Velocity:**  
   - **Sum of Story Points:**
-    10
+    
+(CORREGIR)
     
 
 ---
@@ -3809,10 +3810,10 @@ En esta sección se identifican los responsables principales (leaders) y los col
   - Responsabilidades: Definición de la experiencia de usuario, coordinación con equipo frontend, validación de prototipos con usuarios.
 
 - **Colaboradores:**  
-  - Fernando Aquino Iman — Frontend Developer (implementación en Vue)  
-  - Zárate Gamarra, Luis Alejandro — Frontend Developer (implementación en Vue)  
+  - Fernando Aquino Iman — Frontend Developer (Implementación en Vue)
+  - Pérez García David Alexander — Frontend Developer (Implementación en Vue)
+  - Zárate Gamarra, Luis Alejandro — UI Designer (Elaboración de Wireframes y Mockups en Figma)  
   - Ramos Najar, Tony Alexander — UI Designer (Elaboración de Wireframes y Mockups en Figma, Prototype)  
-  - Pérez García David Alexander — UI Designer (Elaboración de Wireframes y Mockups en Figma)
 
 ##### Aspecto: Navegación en Landing Page
 
@@ -3822,7 +3823,7 @@ En esta sección se identifican los responsables principales (leaders) y los col
   - Responsabilidades: Correcto deploy y funcionamiento de la Landing Page
 
 - **Colaboradores:**  
-  - Gonzales Gomez, Antonella Frida — Landing Developer (implementación en HTML y CSS)
+  - Gonzales Gomez, Antonella Frida — Landing Page Developer (implementación en HTML y CSS)
 
 Nuestro equipo trabaja en conjunto para asegurar que el aspecto cumpla con los requerimientos funcionales y de experiencia definidos en las etapas anteriores del proyecto.
 
