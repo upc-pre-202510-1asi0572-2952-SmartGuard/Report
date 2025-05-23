@@ -1077,6 +1077,78 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>Como propietario, quiero un footer con enlaces de contacto, legal y navegación secundaria, para encontrar información relevante al pie de página.</td>
         <td>EP04 - Implementación de Landing Page de Faceloock</td>
       </tr>
+              <tr>
+        <td>016</td>
+        <td>Visualizar miembros autorizados</td>
+        <td>Como propietario, quiero ver la lista de personas autorizadas (miembros) con su nombre y foto, para gestionar quién tiene acceso.</td>
+        <td>EP05 - Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>017</td>
+        <td>Agregar nuevo miembro</td>
+        <td>Como propietario, quiero poder añadir un miembro autorizando su rostro y nombre, para que esa persona pueda ingresar sin intervención manual.</td>
+        <td>EP05 - Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>018</td>
+        <td>Editar datos de un miembro</td>
+        <td>Como propietario, quiero editar el nombre o la foto de un miembro autorizado, para mantener la información actualizada.</td>
+        <td>EP05 - Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>019</td>
+        <td>Eliminar miembro autorizado</td>
+        <td>Como propietario, quiero eliminar a un miembro de la lista de autorizados, para revocar su permiso de acceso inmediatamente.</td>
+        <td>EP05 - Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>020</td>
+        <td>Ver estadísticas de accesos</td>
+        <td>Como propietario, quiero ver un dashboard con gráficos de accesos (intentos exitosos/fallidos) por día y por usuario, para entender patrones de uso y riesgos.</td>
+        <td>EP06 - Análisis de Accesos</td>
+      </tr>
+              <tr>
+        <td>021</td>
+        <td>Filtrar estadísticas por rango de fechas</td>
+        <td>Como propietario, quiero seleccionar un rango de fechas para mis estadísticas de accesos, para analizar periodos específicos.</td>
+        <td>EP06 - Análisis de Accesos</td>
+      </tr>
+              <tr>
+        <td>022</td>
+        <td>Exportar estadísticas en CSV</td>
+        <td>Como propietario, quiero descargar mis estadísticas de accesos en formato CSV, para compartir o analizar externamente</td>
+        <td>EP06 - Análisis de Accesos</td>
+      </tr>
+              <tr>
+        <td>023</td>
+        <td>Ver y editar perfil</td>
+        <td>Como propietario, quiero ver mi perfil (nombre, email, foto) y actualizarlo, para mantener mis datos personales correctos.</td>
+        <td>EP07 - Perfil y Seguridad de Cuenta</td>
+      </tr>
+              <tr>
+        <td>024</td>
+        <td>Cambiar contraseña</td>
+        <td>Como propietario, quiero cambiar mi contraseña desde el perfil, para mantener mi cuenta segura.</td>
+        <td>EP07 - Perfil y Seguridad de Cuenta</td>
+      </tr>
+              <tr>
+        <td>025</td>
+        <td>Configurar notificaciones</td>
+        <td>Como propietario, quiero ajustar mis preferencias de notificaciones (push, email), para recibir solo las alertas que me interesen</td>
+        <td>EP07 - Perfil y Seguridad de Cuenta</td>
+      </tr>
+              <tr>
+        <td>026</td>
+        <td>Conseguir plan Premium</td>
+        <td>Como usuario, quiero ver opciones de suscripción y poder actualizar a Premium, para desbloquear funciones avanzadas (más alertas, historial ilimitado, etc.).</td>
+        <td>EP08 - Notificaciones y Alertas</td>
+      </tr>
+              <tr>
+        <td>027</td>
+        <td>Cerrar sesión</td>
+        <td>Como propietario, quiero cerrar sesión al pulsar “Salir”, para asegurar que nadie más use mi cuenta si dejo el dispositivo desatendido.</td>
+        <td>EP09 - Planes y Suscripciones Premium</td>
+      </tr>
     </tbody>
   </table>
 
