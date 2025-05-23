@@ -2063,7 +2063,7 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
     </thead>
     <tbody>
         <tr>
-            <td class="scenario-title">Escenario 1:<br>Logout exitoso</td>
+            <td class="scenario-title">Escenario 1:<br>Inicio de sesión exitoso</td>
             <td class="scenario-details">
                 <div class="step given"><strong>Given:</strong> Que el propietario digita sus credenciales.</div>
                 <div class="step And"><strong>And:</strong> Hace clic en “Ingresar”.
@@ -2072,7 +2072,7 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
             </td>
         </tr>
         <tr>
-            <td class="scenario-title">Escenario 2:<br>Error en Ingreso</td>
+            <td class="scenario-title">Escenario 2:<br>Error al ingresar</td>
             <td class="scenario-details">
                 <div class="step given"><strong>Given:</strong> Que hay un fallo de iniciar sesión.</div>
                 <div class="step when"><strong>When:</strong> El front envía la petición de espera.</div>
