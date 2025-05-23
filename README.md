@@ -1696,6 +1696,355 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
 </table>
 
 
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US016 Visualizar miembros autorizados</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Lista cargada correctamente</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario está en la sección “Miembros”.</div>
+                <div class="step when"><strong>When:</strong> La página termina de cargar la lista de miembros.</div>
+                <div class="step then"><strong>Then:</strong> Se muestran todos los miembros autorizados con nombre y foto.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error al cargar miembros</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que hay un fallo de red al obtener miembros.</div>
+                <div class="step when"><strong>When:</strong> El front intenta recuperar la lista.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra un mensaje de error “No se pudieron cargar los miembros”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US017 Agregar nuevo miembro</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Miembro agregado con éxito</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario completa el formulario de nuevo miembro.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Guardar”.</div>
+                <div class="step then"><strong>Then:</strong> Aparece el nuevo miembro en la lista y un toast “Miembro agregado”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Validación de campos</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario deja el nombre vacío.</div>
+                <div class="step when"><strong>When:</strong> Intenta guardar el miembro.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra error “El nombre es obligatorio”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US018 Editar datos de un miembro</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Edición exitosa</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario abre el modal de edición de un miembro.</div>
+                <div class="step when"><strong>When:</strong> Cambia el nombre y guarda.</div>
+                <div class="step then"><strong>Then:</strong> Se actualiza el miembro en la lista y un toast “Miembro actualizado”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error al actualizar</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que hay un fallo del servidor al editar.</div>
+                <div class="step when"><strong>When:</strong> El front envía los cambios.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudo actualizar el miembro”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US019 Eliminar miembro autorizado</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Eliminación confirmada</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario hace clic en “Eliminar” junto a un miembro.</div>
+                <div class="step when"><strong>When:</strong> Confirma la acción en el diálogo.</div>
+                <div class="step then"><strong>Then:</strong> El miembro desaparece de la lista y toast “Miembro eliminado”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Cancelación de eliminación</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que aparece el diálogo de confirmación.</div>
+                <div class="step when"><strong>When:</strong> El propietario pulsa “Cancelar”.</div>
+                <div class="step then"><strong>Then:</strong> No se elimina el miembro y no hay cambios.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US020 Ver estadísticas de accesos</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Gráficos mostrados</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario abre la sección “Estadísticas”.</div>
+                <div class="step when"><strong>When:</strong> Se cargan los datos del servidor.</div>
+                <div class="step then"><strong>Then:</strong> Se renderizan gráficos de accesos exitosos y fallidos.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error al cargar estadísticas</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Fallo de red al obtener estadísticas.</div>
+                <div class="step when"><strong>When:</strong> El front solicita los datos.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudieron cargar las estadísticas”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US021 Filtrar estadísticas por rango de fechas</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Filtro aplicado</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario selecciona fechas inicio y fin.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Aplicar filtro”.</div>
+                <div class="step then"><strong>Then:</strong> Los gráficos muestran solo datos del rango seleccionado.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Rango inválido</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que la fecha de inicio es mayor que la de fin.</div>
+                <div class="step when"><strong>When:</strong> Intenta aplicar filtro.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “Rango de fechas inválido”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US022 Exportar estadísticas en CSV</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Descarga exitosa</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario está en “Estadísticas”.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Exportar CSV”.</div>
+                <div class="step then"><strong>Then:</strong> Se descarga un archivo CSV con los datos actuales.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error en descarga</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Problema en el servidor al generar CSV.</div>
+                <div class="step when"><strong>When:</strong> El front solicita la exportación.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudo exportar el CSV”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US023 Ver y editar perfil</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Perfil mostrado</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario abre la sección “Perfil”.</div>
+                <div class="step when"><strong>When:</strong> La página carga los datos.</div>
+                <div class="step then"><strong>Then:</strong> Se muestran nombre, email y foto actuales.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Actualización exitosa</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario modifica su email y foto.</div>
+                <div class="step when"><strong>When:</strong> Guarda los cambios.</div>
+                <div class="step then"><strong>Then:</strong> Se actualiza el perfil y aparece “Perfil guardado”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US024 Cambiar contraseña</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Cambio exitoso</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario introduce contraseña actual y nueva.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Cambiar contraseña”.</div>
+                <div class="step then"><strong>Then:</strong> Se actualiza y aparece “Contraseña cambiada”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Contraseña actual incorrecta</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que la contraseña actual es incorrecta.</div>
+                <div class="step when"><strong>When:</strong> Intenta cambiarla.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “Contraseña actual inválida”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US025 Configurar notificaciones</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Ajuste guardado exitosamente</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario activa/desactiva canales de notificación.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Guardar preferencias”.</div>
+                <div class="step then"><strong>Then:</strong> Se actualizan y aparece “Preferencias guardadas”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error al guardar preferencias</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que hay un fallo de red al guardar.</div>
+                <div class="step when"><strong>When:</strong> El front envía las preferencias.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudieron guardar preferencias”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US026 Conseguir plan Premium</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Upgrade exitoso</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario selecciona un plan Premium.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Actualizar a Premium”.</div>
+                <div class="step then"><strong>Then:</strong> Se procesa el pago y aparece “Bienvenido a Premium”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Pago rechazado</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que la transacción es rechazada por el procesador.</div>
+                <div class="step when"><strong>When:</strong> El front recibe el error de pago.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “Pago rechazado, intenta de nuevo”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US027 Cerrar sesión</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Logout exitoso</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario hace clic en “Salir”.</div>
+                <div class="step when"><strong>When:</strong> El front termina la sesión.</div>
+                <div class="step then"><strong>Then:</strong> Se redirige a la pantalla de login.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error en logout</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que hay un fallo de red al cerrar sesión.</div>
+                <div class="step when"><strong>When:</strong> El front envía la petición de logout.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudo cerrar sesión”.</div>
+            </td>
+        </tbody>
+</table>
+
+
 
 ## 3.3. Impact Mapping
 
