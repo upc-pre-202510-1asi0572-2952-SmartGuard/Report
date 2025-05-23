@@ -1141,14 +1141,21 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>026</td>
         <td>Conseguir plan Premium</td>
         <td>Como usuario, quiero ver opciones de suscripción y poder actualizar a Premium, para desbloquear funciones avanzadas (más alertas, historial ilimitado, etc.).</td>
-        <td>EP08 - Notificaciones y Alertas</td>
+        <td>EP08 - Planes y Suscripciones Premium</td>
       </tr>
               <tr>
         <td>027</td>
         <td>Cerrar sesión</td>
-        <td>Como propietario, quiero cerrar sesión al pulsar “Salir”, para asegurar que nadie más use mi cuenta si dejo el dispositivo desatendido.</td>
-        <td>EP09 - Planes y Suscripciones Premium</td>
+        <td>Como propietario, quiero cerrar sesión al pulsar “Cerrar sesión”, para asegurar que nadie más use mi cuenta si dejo el dispositivo desatendido.</td>
+        <td>EP07 - Perfil y Seguridad de Cuenta</td>
       </tr>
+              <tr>
+        <td>028</td>
+        <td>Iniciar sesión</td>
+        <td>Como propietario, quiero iniciar sesión al digitar mis credenciales y pulsar “Ingresar”, para asegurar que ver las funcionalidades e interactuar con la aplicación.</td>
+        <td>EP07 - Perfil y Seguridad de Cuenta</td>
+      </tr>
+        
     </tbody>
   </table>
 
@@ -2044,6 +2051,36 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         </tbody>
 </table>
 
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US028 Iniciar sesión</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Logout exitoso</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario digita sus credenciales.</div>
+                <div class="step And"><strong>And:</strong> Hace clic en “Ingresar”.
+                <div class="step when"><strong>When:</strong> El front valida los datos.</div>
+                <div class="step then"><strong>Then:</strong> Se redirige a la pantalla de Home</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error en Ingreso</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que hay un fallo de iniciar sesión.</div>
+                <div class="step when"><strong>When:</strong> El front envía la petición de espera.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudo ingresar, inténtelo nuevamente”.</div>
+            </td>
+        </tbody>
+</table>
+
 
 
 ## 3.3. Impact Mapping
@@ -2277,7 +2314,15 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>027</td>
         <td>US027</td>
         <td>Cerrar sesión</td>
-        <td>Como propietario, quiero cerrar sesión al pulsar “Salir”, para asegurar que nadie más use mi cuenta si dejo el dispositivo desatendido.</td>
+        <td>Como propietario, quiero cerrar sesión al pulsar “Cerrar sesión”, para asegurar que nadie más use mi cuenta si dejo el dispositivo desatendido.</td>
+        <td>1</td>
+        <td>Propietario</td>
+      </tr> 
+        <tr>
+        <td>028</td>
+        <td>US028</td>
+        <td>Iniciar sesión</td>
+        <td>Como propietario, quiero iniciar sesión al digitar mis credenciales y pulsar “Ingresar”, para asegurar que ver las funcionalidades e interactuar con la aplicación.</td>
         <td>1</td>
         <td>Propietario</td>
       </tr> 
