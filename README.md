@@ -4007,6 +4007,11 @@ Durante este sprint, se llevó a cabo la implementación de la aplicación web y
 |  SmartGuard/Testing   |    main  |  76b6efe  | feat(user-stories): add US28 on testing repository | Verified  |  23/05/2025     |
 |  SmartGuard/Testing   |    main  |  731ecc0  | feat(user-stories): add US30 on testing repository | Verified  |  23/05/2025     |
 
+Se brinda captura de la evidencia de que todos los "scenarios" y "steps" se cumplen al ejecutar todos los `.feature` con el framework cucumber en el programa WebStorm
+
+<img src="images/TestingEvidence.png">
+
+
 Link del repositorio de Testing: https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Testing.git
 
 
