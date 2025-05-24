@@ -3899,33 +3899,19 @@ Durante el primer sprint, el equipo se centró en los siguientes entregables cla
 
 #### 6.2.1.1. Sprint Planning 1  
 
-- **Sprint #:** 1  
-- **Date:** 13/05/2025  
-- **Time:** 20:00  
-- **Location:** Reunión virtual vía Discord  
-- **Prepared By:** Tony Ramos Najar  
-- **Attendees:**  
-  - Fernando Aquino Iman  
-  - Pérez García David Alexander  
-  - Gonzales Gomez Antonella Frida  
-  - Ramos Najar Tony Alexander  
-  - Zárate Gamarra Luis Alejandro  
+| **Campo**                             | **Detalle**                                                                                                                                                                                      |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                          | 1                                                                                                                                                                                                |
+| **Date**                              | 13/05/2025                                                                                                                                                                                       |
+| **Time**                              | 20:00                                                                                                                                                                                            |
+| **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
+| **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
+| **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                         |
+| **Sprint n – 1 Review Summary**       | Acordes de este nuestro primer Sprint                                                                                                                                                           |
+| **Sprint n – 1 Retrospective Summary**| Este es el primer Sprint de nuestro startup                                                                                                                                                     |
+| **Sprint Goal & User Stories**       | **Sprint n Goal:**<br/>Ver detalles del informe y correcciones en base a la retroalimentación previa del primer entregable, despliegue de la landing page y del front end                         |
+| **Sprint n Velocity**                 | **Sum of Story Points:** 25                                                                                                                                                                      |
 
-- **Sprint n – 1 Review Summary:**  
-  Acordes de este nuestro primer Sprint
-
-- **Sprint n – 1 Retrospective Summary:**  
-  Este es el primer Sprint de nuestro startup
-
-- **Sprint Goal & User Stories:**  
-  - **Sprint n Goal:**  
-    Ver detalles del informe y correcciones en base a la retroalimentación previa del primer entregable, despliegue de la landing page y del front end
-
-- **Sprint n Velocity:**  
-  - **Sum of Story Points:**
-    
-(CORREGIR)
-    
 
 ---
 
@@ -3962,12 +3948,29 @@ Nuestro equipo trabaja en conjunto para asegurar que el aspecto cumpla con los r
 
 #### 6.2.1.3. Sprint Backlog 1
 
-<img src="images/Trello.png">
+<img src="images/TrelloSprint1.png">
 
 - **Enlace Trello:**  
   https://trello.com/invite/b/6824f13c7a60a1edbdab2624/ATTI2ecc2bcca31cda8df4e328cb0a20e3e5969404E9/sprint-1-smartguard
 
 ---
+
+
+| User Story ID | Title                                   | Work-Item/Task ID | Task Title                         | Description                                                                                                                              | Estimation (hours) | Assigned To     | Status |
+|---------------|-----------------------------------------|-------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|--------|
+| US011         | Sección de Inicio de la Landing Page    | TA011             | Implementar hero section           | Como propietario, quiero ver una hero section con contenido impactante y llamadas a la acción, para captar su atención desde el primer vistazo. | 4 horas            | Antonella Gonzales   | Done  |
+| US012         | Sección de Características del Producto | TA012             | Maquetar sección de características| Como propietario, quiero saber de un vistazo las funcionalidades principales de la aplicación, para decidir si me interesa usarla.          | 4 horas            | Antonella Gonzales  | Done  |
+| US013         | Adaptación responsive del diseño        | TA013             | Ajustes responsive                 | Como propietario, quiero que la landing se vea correctamente en cualquier dispositivo, para no tener problemas de usabilidad.               | 5 horas            | Antonella Gonzales  | Done  |
+| US014         | Configuración de enlaces a tiendas      | TA014             | Configurar botones de tienda       | Como propietario, quiero que los botones de tienda redirijan a App Store o Play Store según mi dispositivo, para instalar la app sin equivocaciones. | 5 horas            | Antonella Gonzales  | Done  |
+| US015         | Desarrollo del footer informativo       | TA015             | Crear footer informativo           | Como propietario, quiero un footer con enlaces de contacto, legal y navegación secundaria, para encontrar información relevante al pie de página. | 4 horas            | Antonella Gonzales  | Done  |
+| US016         | Visualizar miembros autorizados         | TA016             | Listar miembros autorizados        | Como propietario, quiero ver la lista de personas autorizadas (miembros) con su nombre y foto, para gestionar quién tiene acceso.             | 6 horas            | Fernando Aquino  | Done  |
+| US020         | Ver estadísticas de accesos             | TA020             | Mostrar dashboard de accesos       | Como propietario, quiero ver un dashboard con gráficos de accesos (intentos exitosos/ fallidos) por día y por usuario, para entender patrones de uso y riesgos. | 7 horas            | Fernando Aquino  | Done  |
+| US027         | Cerrar sesión                           | TA027             | Implementar logout                 | Como propietario, quiero cerrar sesión al pulsar “Cerrar sesión”, para asegurar que nadie más use mi cuenta si dejo el dispositivo desatendido.   | 5 hora             | Fernando Aquino  | Done  |
+| US028         | Iniciar sesión                          | TA028             | Implementar login                  | Como propietario, quiero iniciar sesión al digitar mis credenciales y pulsar “Ingresar”, para asegurar poder interactuar con la aplicación de forma segura.   | 5 hora             | David Perez  | Done  |
+| US030         | Registro de nuevo Hogar                 | TA030             | Crear formulario de Hogar          | Como propietario, quiero poder registrar un hogar para el posterior monitoreo, con datos fundamentales como la dirección, código postal, número de habitaciones, estacionamiento, etc. | 7 horas            | David Perez  | Done  |
+
+
+
 
 #### 6.2.1.4. Development Evidence for Sprint Review.  
 
