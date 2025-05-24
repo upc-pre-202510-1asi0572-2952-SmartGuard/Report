@@ -3990,7 +3990,24 @@ Nuestro equipo trabaja en conjunto para asegurar que el aspecto cumpla con los r
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.  
 
-Para este primer sprint, no se realizó ningún tipo de prueba.
+Durante este sprint, se llevó a cabo la implementación de la aplicación web y la landing page. Para las pruebas, se utilizó **Gherkin** en los archivos `.feature`, **JavaScript** en los archivos `.steps.js` y **Cucumber** como framework de ejecución, todo ello configurado y ejecutado desde **WebStorm**.
+
+| Repository            | Branch   | Commit Id | Commit Message                        | Commit Message Body                    | Committed on (Date) |
+|-----------------------|----------|-----------|---------------------------------------|----------------------------------------|---------------------|
+|  SmartGuard/Testing   |    main  |  8abaa67  | Initial commit | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  12973c0  | test(sprint-1): add feature files and step definitions for Sprint 1 | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  edb981f  | feat(user-stories): add US11 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  92d61a5  | feat(user-stories): add US12 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  1a68652  | feat(user-stories): add US13 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  c24bd3f  | feat(user-stories): add US14 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  fbcd8c6  | feat(user-stories): add US15 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  2174eb5  | feat(user-stories): add US16 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  b4c7e6a  | feat(user-stories): add US20 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  fa59a72  | feat(user-stories): add US27 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  76b6efe  | feat(user-stories): add US28 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  731ecc0  | feat(user-stories): add US30 on testing repository | Verified  |  23/05/2025     |
+
+Link del repositorio de Testing: https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Testing.git
 
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.  
