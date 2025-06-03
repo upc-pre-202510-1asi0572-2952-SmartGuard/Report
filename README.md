@@ -3377,6 +3377,71 @@ Esto es fundamental para un sistema como FaceLoock, cuyo éxito depende de la co
 *Draft de la sección Perfil de Usuario*
 
 
+### Movil Application
+
+- **Sección “Vista General”**
+
+<img src="images/WireSplashViewMovil.png">
+
+*Draft de la sección Vista General*
+
+
+- **Sección “Login”**
+
+<img src="images/WireLoginMovil.png">
+
+*Draft de la sección Login*
+
+
+- **Sección “Home”**
+
+<img src="images/WireHomeMovil.png">
+
+*Draft de la sección Home*
+
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/WireSetNewSpaceMovil.png">
+
+*Draft de la sección Agregar Nueva Vivienda*
+
+
+- **Sección “Membresía”**
+
+<img src="images/WireMembershipMovil.png">
+
+*Draft de la sección Membresía*
+
+
+- **Sección “Estadísticas”**
+
+<img src="images/WireStatisticsMovil.png">
+
+*Draft de la sección Estadísticas*
+
+
+- **Sección “Miembros”**
+
+<img src="images/WireMembersMovil.png">
+
+*Draft de la sección Miembros*
+
+
+- **Sección “Configuración”**
+
+<img src="images/WireConfigurationMovil.png">
+
+*Draft de la sección Configuración*
+
+
+- **Sección “Perfil de Usuario”**
+
+<img src="images/WireProfileMovil.png">
+
+*Draft de la sección Perfil de Usuario*
+
+
 ### 5.4.2. Applications Wireflow Diagrams  
 
 <img src="images/IoT - User Goal 1.jpg">
@@ -3557,6 +3622,56 @@ En la sección Estadísticas, se mostrará una opción para filtrar el sitio y l
 
 
 Con respecto a la sección Membresía, mostrará un mensaje de por qué optar por nuestra membresía ofrecida, que beneficios este tendrá en contraste con el plan gratis o “Free” que inicialmente se otorga predeterminadamente y por consiguiente, cuanto es el costo de dicha membresía de opciones premiums
+
+
+### Movil Application
+
+- **Sección “Vista General”**
+
+<img src="images/SplashViewMovil.png">
+
+
+- **Sección “Login”**
+
+<img src="images/LoginMovil.png">
+
+
+
+- **Sección “Home”**
+
+<img src="images/HomeMovil.png">
+
+
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/SetNewSpaceMovil.png">
+
+
+- **Sección “Perfil”**
+
+<img src="images/ProfileMovil.png">
+
+
+- **Sección “Configuracion”**
+
+<img src="images/ConfigurationMovil.png">
+
+
+
+- **Sección “Miembros”**
+
+<img src="images/MembersMovil.png">
+
+
+- **Sección “Estadisticas”**
+
+<img src="images/StatisticsMovil.png">
+
+
+- **Sección “Membresía”**
+
+<img src="images/MembershipMovil.png">
 
 
 
@@ -4053,6 +4168,56 @@ Landing Page:
 Web Application:
 
 <img src="images/reporte11.png">
+
+
+### 6.2.3. Sprint 3
+####  6.2.3.1 Sprint Planning 3
+#### 6.2.3.2 Sprint Backlog 3
+#### 6.2.3.3 Development Evidence for Sprint Review
+#### 6.2.3.4 Testing Suite Evidence for Sprint Review
+#### 6.2.3.5 Execution Evidence for Sprint Review
+Durante este sprint, se completaron los entregables:  
+
+- Aplicación Web 
+- Landing Page
+- Correcciones sobre los API Services que interactúan con la solución
+- Aplicación Móvil
+- Dispositivo IoT.
+
+#### Aplicación web:
+#### Dispositivo IoT:  
+#### Mobile application:
+
+#### 6.2.3.6 Services Documentation Evidence for Sprint Review
+#### 6.2.3.7 Software Deployment Evidence for Sprint Review
+#### 6.2.3.8 Team Collaboration Insights during Sprint
+
+###### Web Frontend:
+
+Las siguientes visualizaciones resaltan las colaboraciones de nuestro equipo en el desarrollo de la interfaz web para nuestro proyecto. 
+
+
+###### Web Backend:
+
+Las siguientes visualizaciones resaltan las colaboraciones de nuestro equipo en el desarrollo backend para nuestra aplicación web.
+
+
+###### Mobile:
+
+Las siguientes visualizaciones resaltan las colaboraciones de nuestro equipo en el desarrollo móvil para nuestra aplicación web.
+
+
+###### IoT Application:
+
+Las siguientes visualizaciones resaltan las colaboraciones de nuestro equipo en el desarrollo del dispositivo IoT para nuestro proyecto.
+
+
+###### Edge Backend:
+
+Las siguientes visualizaciones resaltan las colaboraciones de nuestro equipo en el desarrollo del edge backend para recopilar información del dispositivo IoT.
+
+
+
 
 
 # Conclusiones  
