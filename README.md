@@ -2484,10 +2484,105 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>4</td>
         <td>Propietario</td>
       </tr> 
+        <tr>
+        <td>031</td>
+        <td>US031</td>
+        <td>Eliminar mi cuenta</td>
+        <td>Como usuario, quiero eliminar mi cuenta para que todos mis datos y accesos queden completamente removidos del sistema y no pueda iniciar sesión nuevamente.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr> 
+        <tr>
+        <td>032</td>
+        <td>US032</td>
+        <td>Olvidé mi contraseña</td>
+        <td>Como usuario que no recuerda mi contraseña, quiero recibir un código de restablecimiento digitando mi correo electrónico para poder crear una nueva contraseña y acceder a mi cuenta de forma segura.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>033</td>
+        <td>US033</td>
+        <td>Gestionar mis Dispositivos</td>
+        <td>Como usuario, quiero ver la lista de mis dispositivos vinculados para tener el control sobre qué dispositivos están autorizados y en funcionamiento.</td>
+        <td>8</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>034</td>
+        <td>US034</td>
+        <td>Inscribir miembros a un Dispositivo</td>
+        <td>Como usuario administrador, quiero agregar nuevos miembros (familiares o permisos designados) para que puedan tener accesos o permisos que yo les asigne.</td>
+        <td>5</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>035</td>
+        <td>US035</td>
+        <td>Eliminar miembros inscritos de un Dispositivo</td>
+        <td>Como usuario administrador, quiero quitar miembros previamente inscritos para revocarles el acceso y garantizar que sólo las personas autorizadas puedan interactuar con el dispositivo.</td>
+        <td>5</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>036</td>
+        <td>US036</td>
+        <td>Acceder a Preguntas Frecuentes</td>
+        <td>Como usuario, quiero consultar la sección de Preguntas Frecuentes para resolver mis dudas más comunes sin necesidad de contactar a soporte, de modo que encuentre respuestas inmediatas a problemas típicos.</td>
+        <td>2</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>037</td>
+        <td>US037</td>
+        <td>Enviar consultas vía Contacto</td>
+        <td>Como usuario, quiero poder llenar un formulario de contacto con mi pregunta o problema para que el equipo de soporte atienda mi caso y me brinde asistencia personalizada.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>038</td>
+        <td>US038</td>
+        <td>Chatear en vivo con soporte</td>
+        <td>Como usuario, quiero iniciar un chat en vivo con el equipo de soporte para recibir orientación y solución de problemas en tiempo real.</td>
+        <td>8</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>039</td>
+        <td>US039</td>
+        <td>Ver Tutoriales</td>
+        <td>Como usuario, quiero ver una lista de tutoriales en video o texto que expliquen paso a paso el uso de funciones clave para aprender a utilizar la plataforma de manera rápida y eficiente</td>
+        <td>2</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>040</td>
+        <td>US040</td>
+        <td>Descargar Documentación</td>
+        <td>Como usuario, quiero descargar documentos en PDF o manuales actualizados con especificaciones técnicas y guías de uso para consultarlos offline o compartirlos con mi equipo.</td>
+        <td>2</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>041</td>
+        <td>US041</td>
+        <td>Eliminar Hogar registrado</td>
+        <td>Como usuario, quiero borrar un hogar que haya registrado previamente para dejar de recibir notificaciones y liberar espacio en mi lista de hogareS.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>042</td>
+        <td>US042</td>
+        <td>Editar Hogar registrado</td>
+        <td>Como usuario, quiero modificar los datos de un hogar (nombre, dirección, n° de cuartos, proveedor de agua, etc.) para mantener la información siempre actualizada y reflejar cambios en mi ubicación o estructura familiar.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr>
     </tbody>
   </table>
 </div>
-
 
 
 
