@@ -3906,9 +3906,9 @@ Durante el primer sprint, el equipo se centró en los siguientes entregables cla
 | **Time**                              | 20:00                                                                                                                                                                                            |
 | **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
 | **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
-| **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                         |
-| **Sprint n – 1 Review Summary**       | Acordes de este nuestro primer Sprint                                                                                                                                                           |
-| **Sprint n – 1 Retrospective Summary**| Este es el primer Sprint de nuestro startup                                                                                                                                                     |
+| **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                        |
+| **Sprint n – 1 Review Summary**       | Acordes de este nuestro primer Sprint                                                                                                                                                            |
+| **Sprint n – 1 Retrospective Summary**| Este es el primer Sprint de nuestro startup                                                                                                                                                      |
 | **Sprint Goal & User Stories**       | **Sprint n Goal:**<br/>Ver detalles del informe y correcciones en base a la retroalimentación previa del primer entregable, despliegue de la landing page y del front end                         |
 | **Sprint n Velocity**                 | **Sum of Story Points:** 25                                                                                                                                                                      |
 
@@ -4058,8 +4058,66 @@ Web Application:
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2.
+
+
+| **Campo**                             | **Detalle**                                                                                                                                                                                      |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                          | 2                                                                                                                                                                                                |
+| **Date**                              | 04/06/2025                                                                                                                                                                                       |
+| **Time**                              | 20:00                                                                                                                                                                                            |
+| **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
+| **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
+| **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                        |
+| **Sprint n – 1 Review Summary**       |                                                                                                                                                                                                  |
+| **Sprint n – 1 Retrospective Summary**|                                                                                                                                                                                                  |
+| **Sprint Goal & User Stories**        | **Sprint 2 Goal:**<br/>                                                                                                                                                                          |
+| **Sprint n Velocity**                 | **Sum of Story Points:**                                                                                                                                                                         |
+
+
 #### 6.2.2.2. Aspect Leaders and Collaborators.
 #### 6.2.2.3. Sprint Backlog 2.
+
+| User Story ID | Title                                   | Work-Item/Task ID | Task Title                         | Description                                                                                                                              | Estimation (hours) | Assigned To     | Status |
+|---------------|-----------------------------------------|-------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|--------|
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+
+
+
+
+
 #### 6.2.2.4. Development Evidence for Sprint Review
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 #### 6.2.2.6. Execution Evidence for Sprint Review.
