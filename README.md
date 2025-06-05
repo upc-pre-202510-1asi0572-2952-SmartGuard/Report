@@ -3544,6 +3544,71 @@ Esto es fundamental para un sistema como FaceLoock, cuyo éxito depende de la co
 *Draft de la sección Perfil de Usuario*
 
 
+### Movil Application
+
+- **Sección “Vista General”**
+
+<img src="images/WireSplashViewMovil.png">
+
+*Draft de la sección Vista General*
+
+
+- **Sección “Login”**
+
+<img src="images/WireLoginMovil.png">
+
+*Draft de la sección Login*
+
+
+- **Sección “Home”**
+
+<img src="images/WireHomeMovil.png">
+
+*Draft de la sección Home*
+
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/WireSetNewSpaceMovil.png">
+
+*Draft de la sección Agregar Nueva Vivienda*
+
+
+- **Sección “Membresía”**
+
+<img src="images/WireMembershipMovil.png">
+
+*Draft de la sección Membresía*
+
+
+- **Sección “Estadísticas”**
+
+<img src="images/WireStatisticsMovil.png">
+
+*Draft de la sección Estadísticas*
+
+
+- **Sección “Miembros”**
+
+<img src="images/WireMembersMovil.png">
+
+*Draft de la sección Miembros*
+
+
+- **Sección “Configuración”**
+
+<img src="images/WireConfigurationMovil.png">
+
+*Draft de la sección Configuración*
+
+
+- **Sección “Perfil de Usuario”**
+
+<img src="images/WireProfileMovil.png">
+
+*Draft de la sección Perfil de Usuario*
+
+
 ### 5.4.2. Applications Wireflow Diagrams  
 
 <img src="images/IoT - User Goal 1.jpg">
@@ -3725,6 +3790,68 @@ En la sección Estadísticas, se mostrará una opción para filtrar el sitio y l
 
 Con respecto a la sección Membresía, mostrará un mensaje de por qué optar por nuestra membresía ofrecida, que beneficios este tendrá en contraste con el plan gratis o “Free” que inicialmente se otorga predeterminadamente y por consiguiente, cuanto es el costo de dicha membresía de opciones premiums
 
+
+### Movil Application
+
+- **Sección “Vista General”**
+
+<img src="images/SplashViewMovil.png">
+
+
+- **Sección “Login”**
+
+<img src="images/LoginMovil.png">
+
+
+
+- **Sección “Home”**
+
+<img src="images/HomeMovil.png">
+
+
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/SetNewSpaceMovil.png">
+
+
+- **Sección “Perfil”**
+
+<img src="images/ProfileMovil.png">
+
+
+- **Sección “Configuracion”**
+
+<img src="images/ConfigurationMovil.png">
+
+
+
+- **Sección “Miembros”**
+
+<img src="images/MembersMovil.png">
+
+
+- **Sección “Estadisticas”**
+
+<img src="images/StatisticsMovil.png">
+
+
+- **Sección “Membresía”**
+
+<img src="images/MembershipMovil.png">
+
+#### Mobile application final:
+<img style="margin:5px; height: 500px;"  src="images/movil/2.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/3.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/4.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/5.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/6.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/7.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/8.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/9.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/10.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/11.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/12.jpg">
 
 
 
@@ -4051,7 +4178,6 @@ Ejemplo:
    ![Paso 4 - Iniciar despliegue](./images/netly4.png)
 
 ## 6.2. Landing Page, Services & Applications Implementation  
-
 
 
 ### 6.2.1. Sprint 1
