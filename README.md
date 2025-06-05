@@ -1242,9 +1242,56 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
     </tbody>
   </table>
 
+## Technical Stories
 
-
-
+<table border="1" style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th>Technical Story</th>
+        <th>Título</th>
+        <th>Descripción</th>
+        <th>Relacionado con (Epic ID)</th>
+      </tr>
+    </thead>
+    <tbody>
+              <tr>
+        <td>001</td>
+        <td>Leer y validar usuario desde puerto serial</td>
+        <td>Como desarrollador quiero leer y procesar la entrada por el puerto serial (Serial.readStringUntil('\n')) para validar si el nombre recibido coincide con alguno de los usuarios registrados y así decidir si se abre la cerradura</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+              <tr>
+        <td>002</td>
+        <td>Implementar debounce para botón de override</td>
+        <td>Como desarrollador quiero aplicar debounce al botón conectado al pin 2, de modo que solo se detecten pulsaciones reales (sin rebotes) y evitar que se ejecute la lógica de apertura/cierre varias veces por un solo toque.</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+              <tr>
+        <td>003</td>
+        <td>Controlar LED indicador de estado de cerradura</td>
+        <td>Como desarrollador quiero controlar el pin 13 como salida digital para encender el LED indicando “cerradura abierta” o apagarlo para “cerradura cerrada”, de forma que el usuario reciba feedback visual inmediato del estado.</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+              <tr>
+        <td>004</td>
+        <td>Actuar servo para simular mecanismo de bloqueo</td>
+        <td>Como desarrollador quiero inicializar y mover el servo en el pin 9 (0° cuando la cerradura está cerrada, 90° cuando está abierta) para simular físicamente el mecanismo de bloqueo.</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+              <tr>
+        <td>005</td>
+        <td>Mostrar mensajes claros en pantalla I²C</td>
+        <td>Como desarrollador quiero inicializar la pantalla I²C (LiquidCrystal_I2C en A4/A5) y mostrar mensajes claros (“Acceso Aprobado”, “Acceso Denegado”, “Cerradura Cerrada”) para que quien use el sistema entienda en todo momento qué está ocurriendo sin necesidad de la PC.</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+              <tr>
+        <td>006</td>
+        <td>Gestionar estado de cerradura con variable locked</td>
+        <td>Como desarrollador quiero gestionar el estado de la cerradura usando la variable locked para alternar entre abierto y cerrado en procesarAperturaCierre().</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+    </tbody>
+</table>
 
 ## Criterios de Aceptacion
 
@@ -2579,6 +2626,54 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>Como usuario, quiero modificar los datos de un hogar (nombre, dirección, n° de cuartos, proveedor de agua, etc.) para mantener la información siempre actualizada y reflejar cambios en mi ubicación o estructura familiar.</td>
         <td>3</td>
         <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>001</td>
+        <td>TS001</td>
+        <td>Leer y validar usuario desde puerto serial</td>
+        <td>Como desarrollador quiero leer y procesar la entrada por el puerto serial (Serial.readStringUntil('\n')) para validar si el nombre recibido coincide con alguno de los usuarios registrados y así decidir si se abre la cerradura</td>
+        <td>9</td>
+        <td>Desarrollador</td>
+      </tr>
+        <tr>
+        <td>002</td>
+        <td>TS002</td>
+        <td>Implementar debounce para botón de override</td>
+        <td>Como desarrollador quiero aplicar debounce al botón conectado al pin 2, de modo que solo se detecten pulsaciones reales (sin rebotes) y evitar que se ejecute la lógica de apertura/cierre varias veces por un solo toque.</td>
+        <td>2</td>
+        <td>Desarrollador</td>
+      </tr>
+        <tr>
+        <td>003</td>
+        <td>TS003</td>
+        <td>Controlar LED indicador de estado de cerradura</td>
+        <td>Como desarrollador quiero controlar el pin 13 como salida digital para encender el LED indicando “cerradura abierta” o apagarlo para “cerradura cerrada”, de forma que el usuario reciba feedback visual inmediato del estado.</td>
+        <td>1</td>
+        <td>Desarrollador</td>
+      </tr>
+        <tr>
+        <td>004</td>
+        <td>TS004</td>
+        <td>Actuar servo para simular mecanismo de bloqueo</td>
+        <td>Como desarrollador quiero inicializar y mover el servo en el pin 9 (0° cuando la cerradura está cerrada, 90° cuando está abierta) para simular físicamente el mecanismo de bloqueo.</td>
+        <td>5</td>
+        <td>Desarrollador</td>
+      </tr>
+        <tr>
+        <td>005</td>
+        <td>TS005</td>
+        <td>Mostrar mensajes claros en pantalla I²C</td>
+        <td>Como desarrollador quiero inicializar la pantalla I²C (LiquidCrystal_I2C en A4/A5) y mostrar mensajes claros (“Acceso Aprobado”, “Acceso Denegado”, “Cerradura Cerrada”) para que quien use el sistema entienda en todo momento qué está ocurriendo sin necesidad de la PC.</td>
+        <td>7</td>
+        <td>Desarrollador</td>
+      </tr>
+        <tr>
+        <td>006</td>
+        <td>TS006</td>
+        <td>Gestionar estado de cerradura con variable locked</td>
+        <td>Como desarrollador quiero gestionar el estado de la cerradura usando la variable locked para alternar entre abierto y cerrado en procesarAperturaCierre().</td>
+        <td>3</td>
+        <td>Desarrollador</td>
       </tr>
     </tbody>
   </table>
