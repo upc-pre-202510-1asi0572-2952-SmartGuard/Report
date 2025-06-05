@@ -273,10 +273,12 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td><b>Trabajo en equipo para proporcionar liderazgo en forma conjunta.</b></td>
     <td>
       <b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.<br><br>
-      <b>Gonzales Gomez, Antonella Frida</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.<br><br>
-      <b>Pérez García, David Alexander</b><br> Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.<br><br>
-      <b>Ramos Najar, Tony Alexander</b><br> En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br>
-      <b>Aquino Iman Herly Fernando</b><br> Me encargué del desarrollo del capítulo 3, que abarca la Especificación de Requerimientos. Validé y prioricé los requisitos funcionales y no funcionales del sistema en coordinación con el equipo. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales orientaron la alineación entre objetivos estratégicos y funcionalidades clave del sistema.
+       <b>Gonzales Gomez, Antonella Frida</b><br><b>TB1</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.<br><br>
+         <br><b>TP</b><br> En esta entrega se desarrollo los diseños del figma y luego se paso a desarrollar y deployar en github.<br><br>
+      <b>Pérez García, David Alexander</b><br><b>TB1</b><br> Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.<br><br>
+        <b>TP</b><br>En esta entrega se realizó la configuración del deployment en Netlify para la aplicación web. Asimismo, se había desarrollado previamente la codificación de la aplicación web siguiendo las vistas definidas en el prototipo de Figma.<br><br>
+      <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br><b>TP</b><br> Durante la entrega del TP, me enfoque en diseñar los wireframes y Mockups de nuestro sitio web para una correcta interaccion con el usuario, ademas de que sea intuitiva 
+      <br><br><b>Aquino Iman Herly Fernando</b><br> Me encargué del desarrollo del capítulo 3, que abarca la Especificación de Requerimientos. Validé y prioricé los requisitos funcionales y no funcionales del sistema en coordinación con el equipo. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales orientaron la alineación entre objetivos estratégicos y funcionalidades clave del sistema.
     </td>
     <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
   </tr>
@@ -285,10 +287,12 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td><b>Creo condiciones para el trabajo articulado, priorizo tareas y cumplo los objetivos establecidos.</b></td>
     <td>
       <b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><br>
-      <b>Gonzales Gomez, Antonella Frida</b><br> Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.<br><br>
+       <b>Gonzales Gomez, Antonella Frida</b><br> <b>TB1</b><br>Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.<br><br>
+<b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro landing page hacer de manera mas actractiva para que capte la atencion del cliente<br><br>
       <b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.<br><br>
-      <b>Ramos Najar, Tony Alexander</b><br> Me encargué de dividir dos bounded contexts en capas (interfaz, dominio e infraestructura), para ordenar mejor el diseño de la solución. Usé Visual Paradigm para armar diagramas C4 que ayudaron a que todo el equipo entienda cómo se conecta cada parte del sistema. Gracias a esto, logramos organizarnos mejor, establecer metas claras y avanzar en el desarrollo respetando los tiempos que nos propusimos.<br><br>
-      <b>Aquino Iman Herly Fernando</b><br> Desarrollé el capítulo 3: Especificación de Requerimientos, coordinando con el equipo para validar y priorizar los requisitos funcionales y no funcionales del sistema. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales guiaron la definición de objetivos estratégicos y su alineación con las funcionalidades del sistema. Promoví un entorno de trabajo colaborativo al integrar los aportes del equipo en los entregables y asegurar la coherencia entre las secciones del documento. Establecí metas claras, planifiqué las tareas con plazos definidos y cumplí con los entregables en los tiempos acordados, contribuyendo al avance ordenado del proyecto.
+      <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>Me encargué de dividir dos bounded contexts en capas (interfaz, dominio e infraestructura), para ordenar mejor el diseño de la solución. Usé Visual Paradigm para armar diagramas C4 que ayudaron a que todo el equipo entienda cómo se conecta cada parte del sistema. Gracias a esto, logramos organizarnos mejor, establecer metas claras y avanzar en el desarrollo respetando los tiempos que nos propusimos.<br><br>
+        <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro sitio web con el usuario, ademas el prototipo de pantalla ayudo a organizar mejor nuestras ideas
+      <br><br><b>Aquino Iman Herly Fernando</b><br> Desarrollé el capítulo 3: Especificación de Requerimientos, coordinando con el equipo para validar y priorizar los requisitos funcionales y no funcionales del sistema. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales guiaron la definición de objetivos estratégicos y su alineación con las funcionalidades del sistema. Promoví un entorno de trabajo colaborativo al integrar los aportes del equipo en los entregables y asegurar la coherencia entre las secciones del documento. Establecí metas claras, planifiqué las tareas con plazos definidos y cumplí con los entregables en los tiempos acordados, contribuyendo al avance ordenado del proyecto.
     </td>
     <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
   </tr>
@@ -979,123 +983,1247 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <th>Epic/Story</th>
         <th>Título</th>
         <th>Descripción</th>
-        <th>Criterios de Aceptación</th>
         <th>Relacionado con (Epic ID)</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>001</td>
-        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
-        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
-        <td>
-          <ul>
-            <li>El sistema debe activar la cámara al detectar movimiento.</li>
-            <li>El sistema debe comparar el rostro captado con la base de datos de rostros registrados.</li>
-            <li>El sistema debe clasificar el rostro como "conocido" o "desconocido".</li>
-          </ul>
-        </td>
+        <td>Identificación automática mediante reconocimiento facial</td>
+        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial, para saber si son conocidas o extrañas y decidir si permitir el acceso o recibir una alerta.</td>
         <td>EP01 - Reconocimiento Facial</td>
       </tr>
       <tr>
         <td>002</td>
-        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
-        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
-        <td>
-          <ul>
-            <li>La app debe permitir subir o tomar una foto de una persona para registrarla.</li>
-            <li>El rostro debe guardarse en una base de datos segura.</li>
-            <li>El sistema debe permitir eliminar o editar rostros registrados.</li>
-          </ul>
-        </td>
+        <td>Registro de rostros autorizados</td>
+        <td>Como propietario, quiero registrar los rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin necesidad de que yo intervenga manualmente.</td>
         <td>EP01 - Reconocimiento Facial</td>
       </tr>
       <tr>
         <td>003</td>
-        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
-        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
-        <td>
-          <ul>
-            <li>El sistema debe enviar una notificación push a la app cuando detecte un rostro desconocido.</li>
-            <li>La notificación debe incluir imagen en tiempo real y hora del evento.</li>
-          </ul>
-        </td>
+        <td>Notificación por detección de persona desconocida</td>
+        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta, para poder tomar decisiones rápidas sobre la seguridad de mi hogar.</td>
         <td>EP02 - Comunicación Remota</td>
       </tr>
       <tr>
         <td>004</td>
-        <td>Como propietario quiero poder loguearse en la aplicación con credenciales de manera rápida</td>
-        <td>Como propietario y usuario deseo poder loguearme con credenciales que vienen por defecto en la cerradura</td>
-        <td>
-          <ul>
-            <li>La cerradura debe tener una credencial única con la cual poder vincularlo con la aplicación móvil y a la vez poder identificarse.</li>
-          </ul>
-        </td>
+        <td>Inicio de sesión con credenciales predeterminadas</td>
+        <td>Como propietario, quiero poder iniciar sesión rápidamente en la aplicación usando las credenciales predeterminadas de la cerradura, para acceder a la configuración inicial sin complicaciones.</td>
         <td>EP02 - Comunicación Remota</td>
       </tr>
       <tr>
         <td>005</td>
-        <td>Como propietario, quiero ver una captura de la persona que intenta acercarse a mi hogar.</td>
-        <td>Como propietario, quiero ver en tiempo real el rostro de la persona para decidir si es seguro abrir la puerta.</td>
-        <td>
-          <ul>
-            <li>la captura de imagenes debe activarse con la detección de movimiento o bajo demanda.</li>
-          </ul>
-        </td>
+        <td>Visualización en tiempo real del rostro frente a la puerta</td>
+        <td>Como propietario, quiero ver en tiempo real el rostro de la persona que está frente a la puerta, para decidir si es seguro abrir o no la cerradura.</td>
         <td>EP02 - Comunicación Remota</td>
       </tr>
       <tr>
         <td>006</td>
-        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
-        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
-        <td>
-          <ul>
-            <li>La app debe tener un botón de "Abrir puerta" y otro de "Llamar a la policía".</li>
-            <li>El botón de emergencia debe marcar automáticamente al 105 o el número configurado.</li>
-            <li>El botón de apertura debe activar el mecanismo de la cerradura.</li>
-          </ul>
-        </td>
+        <td>Botones de acción remota en la app (abrir puerta o llamar a la policía)</td>
+        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza, para actuar rápidamente según la situación detectada.</td>
         <td>EP02 - Comunicación Remota</td>
       </tr>
       <tr>
         <td>007</td>
-        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
-        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
-        <td>
-          <ul>
-            <li>La app debe mostrar una lista de accesos con fecha, hora y tipo (conocido/desconocido).</li>
-            <li>El historial debe ser accesible desde un menú en la app.</li>
-          </ul>
-        </td>
+        <td>Consulta de historial de acceso</td>
+        <td>Como propietario, quiero consultar un historial de accesos, para saber quién y cuándo ha intentado ingresar a mi casa, ya sea con éxito o sin autorización.</td>
         <td>EP03 - Registro y Seguridad</td>
       </tr>
       <tr>
         <td>008</td>
-        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
-        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
-        <td>
-          <ul>
-            <li>El sistema debe almacenar imágenes por evento.</li>
-            <li>La app debe permitir ver estos archivos desde el historial.</li>
-            <li>Se debe indicar si el rostro fue identificado o no.</li>
-          </ul>
-        </td>
+        <td>Visualización de evidencias visuales de visitas anteriores</td>
+        <td>Como propietario, quiero ver imágenes o clips cortos de las visitas anteriores, para tener evidencia en caso de incidentes o situaciones sospechosas.</td>
         <td>EP03 - Registro y Seguridad</td>
       </tr>
       <tr>
         <td>009</td>
-        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura).</td>
-        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura)</td>
-        <td>
-          <ul>
-            <li>La app debe permitir activar alertas para eventos como intentos de forzar la cerradura o movimientos sospechosos.</li>
-            <li>El sistema debe enviar notificaciones en tiempo real según la configuración del usuario.</li>
-          </ul>
-        </td>
+        <td>Configuración de alertas personalizadas</td>
+        <td>Como propietario, quiero poder configurar alertas personalizadas, para recibir notificaciones específicas (como si alguien intenta forzar la cerradura) y poder tomar medidas rápidamente.</td>
         <td>EP03 - Registro y Seguridad</td>
+      </tr>
+      <tr>
+        <td>010</td>
+        <td>Configuración de horarios de acceso para personas autorizada</td>
+        <td>Como propietario, deseo poder configurar las fechas y horas en las que una persona autorizada puede ingresar a mi casa, para tener mayor control sobre los accesos y limitar el ingreso según horarios permitidos.</td>
+        <td>EP03 - Registro y Seguridad</td>
+      </tr>
+              <tr>
+        <td>011</td>
+        <td>Sección de Inicio de la Landing Page</td>
+        <td>Como propietario, quiero ver una hero section con contenido impactante y llamadas a la acción, para captar su atención desde el primer vistazo.</td>
+        <td>EP04 - Implementación de Landing Page de Faceloock</td>
+      </tr>
+              <tr>
+        <td>012</td>
+        <td>Sección de Características del Producto</td>
+        <td>Como propietario, quiero saber de un vistazo las funcionalidades principales de la aplicación, para decidir si me interesa usarla.</td>
+        <td>EP04 - Implementación de Landing Page de Faceloock</td>
+      </tr>
+              <tr>
+        <td>013</td>
+        <td>Adaptación responsive del diseño</td>
+        <td>Como propietario, quiero que la landing se vea correctamente en cualquier dispositivo, para no tener problemas de usabilidad.</td>
+        <td>EP04 - Implementación de Landing Page de Faceloock</td>
+      </tr>
+              <tr>
+        <td>014</td>
+        <td>Configuración de enlaces a tiendas</td>
+        <td>Como propietario, quiero que los botones de tienda redirija a App Store o Play Store según mi dispositivo, para instalar la app sin equivocaciones.</td>
+        <td>EP04 - Implementación de Landing Page de Faceloock</td>
+      </tr>
+              <tr>
+        <td>015</td>
+        <td>Desarrollo del footer informativo</td>
+        <td>Como propietario, quiero un footer con enlaces de contacto, legal y navegación secundaria, para encontrar información relevante al pie de página.</td>
+        <td>EP04 - Implementación de Landing Page de Faceloock</td>
+      </tr>
+              <tr>
+        <td>016</td>
+        <td>Visualizar miembros autorizados</td>
+        <td>Como propietario, quiero ver la lista de personas autorizadas (miembros) con su nombre y foto, para gestionar quién tiene acceso.</td>
+        <td>EP05 - Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>017</td>
+        <td>Agregar nuevo miembro</td>
+        <td>Como propietario, quiero poder añadir un miembro autorizando su rostro y nombre, para que esa persona pueda ingresar sin intervención manual.</td>
+        <td>EP05 - Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>018</td>
+        <td>Editar datos de un miembro</td>
+        <td>Como propietario, quiero editar el nombre o la foto de un miembro autorizado, para mantener la información actualizada.</td>
+        <td>EP05 - Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>019</td>
+        <td>Eliminar miembro autorizado</td>
+        <td>Como propietario, quiero eliminar a un miembro de la lista de autorizados, para revocar su permiso de acceso inmediatamente.</td>
+        <td>EP05 - Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>020</td>
+        <td>Ver estadísticas de accesos</td>
+        <td>Como propietario, quiero ver un dashboard con gráficos de accesos (intentos exitosos/fallidos) por día y por usuario, para entender patrones de uso y riesgos.</td>
+        <td>EP06 - Análisis de Accesos</td>
+      </tr>
+              <tr>
+        <td>021</td>
+        <td>Filtrar estadísticas por rango de fechas</td>
+        <td>Como propietario, quiero seleccionar un rango de fechas para mis estadísticas de accesos, para analizar periodos específicos.</td>
+        <td>EP06 - Análisis de Accesos</td>
+      </tr>
+              <tr>
+        <td>022</td>
+        <td>Exportar estadísticas en CSV</td>
+        <td>Como propietario, quiero descargar mis estadísticas de accesos en formato CSV, para compartir o analizar externamente</td>
+        <td>EP06 - Análisis de Accesos</td>
+      </tr>
+              <tr>
+        <td>023</td>
+        <td>Ver y editar perfil</td>
+        <td>Como propietario, quiero ver mi perfil (nombre, email, foto) y actualizarlo, para mantener mis datos personales correctos.</td>
+        <td>EP07 - Perfil y Seguridad de Cuenta</td>
+      </tr>
+              <tr>
+        <td>024</td>
+        <td>Cambiar contraseña</td>
+        <td>Como propietario, quiero cambiar mi contraseña desde el perfil, para mantener mi cuenta segura.</td>
+        <td>EP07 - Perfil y Seguridad de Cuenta</td>
+      </tr>
+              <tr>
+        <td>025</td>
+        <td>Configurar notificaciones</td>
+        <td>Como propietario, quiero ajustar mis preferencias de notificaciones (push, email), para recibir solo las alertas que me interesen</td>
+        <td>EP07 - Perfil y Seguridad de Cuenta</td>
+      </tr>
+              <tr>
+        <td>026</td>
+        <td>Conseguir plan Premium</td>
+        <td>Como usuario, quiero ver opciones de suscripción y poder actualizar a Premium, para desbloquear funciones avanzadas (más alertas, historial ilimitado, etc.).</td>
+        <td>EP08 - Planes y Suscripciones Premium</td>
+      </tr>
+              <tr>
+        <td>027</td>
+        <td>Cerrar sesión</td>
+        <td>Como propietario, quiero cerrar sesión al pulsar “Cerrar sesión”, para asegurar que nadie más use mi cuenta si dejo el dispositivo desatendido.</td>
+        <td>EP07 - Perfil y Seguridad de Cuenta</td>
+      </tr>
+              <tr>
+        <td>028</td>
+        <td>Iniciar sesión</td>
+        <td>Como propietario, quiero iniciar sesión al digitar mis credenciales y pulsar “Ingresar”, para asegurar que ver las funcionalidades e interactuar con la aplicación.</td>
+        <td>EP07 - Perfil y Seguridad de Cuenta</td>
+      </tr>
+              <tr>
+        <td>029</td>
+        <td>Registro de nuevo Usuario</td>
+        <td>Como usuario, deseo poder registrarme satisfactoriamente en la sección "Regístrate gratis", en un formulario que me solicite mis datos personales como nombre, apellido, edad, dni entre otros.</td>
+        <td>EP03 - Registro y Seguridad</td>
+      </tr>
+              <tr>
+        <td>030</td>
+        <td>Registro de nuevo Hogar</td>
+        <td>Como propietario, quiero poder registrar un hogar para el posterior moniterio, con datos fundamentales como la dirección, codigo postal, umero de habitaciones, estacionamiento entre otros.</td>
+        <td>EP03 - Registro y Seguridad</td>
+      </tr>
+              <tr>
+        <td>031</td>
+        <td>Eliminar mi cuenta</td>
+        <td>Como usuario, quiero eliminar mi cuenta para que todos mis datos y accesos queden completamente removidos del sistema y no pueda iniciar sesión nuevamente.</td>
+        <td>EP07 – Perfil y Seguridad de Cuenta</td>
+      </tr>
+              <tr>
+        <td>032</td>
+        <td>Olvidé mi contraseña</td>
+        <td>Como usuario que no recuerda mi contraseña, quiero recibir un código de restablecimiento digitando mi correo electrónico para poder crear una nueva contraseña y acceder a mi cuenta de forma segura.</td>
+        <td>EP03 – Registro y Seguridad</td>
+      </tr>
+              <tr>
+        <td>033</td>
+        <td>Gestionar mis Dispositivos</td>
+        <td>Como usuario, quiero ver la lista de mis dispositivos vinculados para tener el control sobre qué dispositivos están autorizados y en funcionamiento.</td>
+        <td>EP09 – Gestión de Dispositivos </td>
+      </tr>
+              <tr>
+        <td>034</td>
+        <td>Inscribir miembros a un Dispositivo</td>
+        <td>Como usuario administrador, quiero agregar nuevos miembros (familiares o permisos designados) para que puedan tener accesos o permisos que yo les asigne.</td>
+        <td>EP05 – Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>035</td>
+        <td>Eliminar miembros inscritos de un Dispositivo</td>
+        <td>Como usuario administrador, quiero quitar miembros previamente inscritos para revocarles el acceso y garantizar que sólo las personas autorizadas puedan interactuar con el dispositivo.</td>
+        <td>EP05 – Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>036</td>
+        <td>Acceder a Preguntas Frecuentes</td>
+        <td>Como usuario, quiero consultar la sección de Preguntas Frecuentes para resolver mis dudas más comunes sin necesidad de contactar a soporte, de modo que encuentre respuestas inmediatas a problemas típicos.</td>
+        <td>EP11 – Soporte y Documentación</td>
+      </tr>
+              <tr>
+        <td>037</td>
+        <td>Enviar consultas vía Contacto</td>
+        <td>Como usuario, quiero poder llenar un formulario de contacto con mi pregunta o problema para que el equipo de soporte atienda mi caso y me brinde asistencia personalizada.</td>
+        <td>EP11 – Soporte y Documentación</td>
+      </tr>
+              <tr>
+        <td>038</td>
+        <td>Chatear en vivo con soporte</td>
+        <td>Como usuario, quiero iniciar un chat en vivo con el equipo de soporte para recibir orientación y solución de problemas en tiempo real.</td>
+        <td>EP11 – Soporte y Documentación</td>
+      </tr>
+              <tr>
+        <td>039</td>
+        <td>Ver Tutoriales</td>
+        <td>Como usuario, quiero ver una lista de tutoriales en video o texto que expliquen paso a paso el uso de funciones clave para aprender a utilizar la plataforma de manera rápida y eficiente.</td>
+        <td>EP11 – Soporte y Documentación</td>
+      </tr>
+              <tr>
+        <td>040</td>
+        <td>Descargar Documentación</td>
+        <td>Como usuario, quiero descargar documentos en PDF o manuales actualizados con especificaciones técnicas y guías de uso para consultarlos offline o compartirlos con mi equipo.</td>
+        <td>EP11 – Soporte y Documentación</td>
+      </tr>
+              <tr>
+        <td>041</td>
+        <td>Eliminar Hogar registrado</td>
+        <td>Como usuario, quiero borrar un hogar que haya registrado previamente para dejar de recibir notificaciones y liberar espacio en mi lista de hogares.</td>
+        <td>EP10 – Gestión de Hogares</td>
+      </tr>
+              <tr>
+        <td>042</td>
+        <td>Editar Hogar registrado</td>
+        <td>Como usuario, quiero modificar los datos de un hogar (nombre, dirección, n° de cuartos, proveedor de agua, etc.) para mantener la información siempre actualizada y reflejar cambios en mi ubicación o estructura familiar.</td>
+        <td>EP10 – Gestión de Hogares</td>
       </tr>
     </tbody>
   </table>
+
+
+
+
+
+## Criterios de Aceptacion
+
+
+<table>
+        <thead>
+            <tr>
+                <th colspan="2" class="hu-header">HU001 Identificación automática mediante reconocimiento facial</th>
+            </tr>
+            <tr>
+                <th width="20%">Escenario</th>
+                <th width="80%">Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="scenario-title">Escenario 1:<br>Persona registrada</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que una persona registrada se presenta frente a la cerradura.</div>
+                    <div class="step when"><strong>When:</strong> El sistema realiza el escaneo facial.</div>
+                    <div class="step then"><strong>Then:</strong> Debe reconocerla como "conocida" y notificar al propietario que se ha detectado un rostro autorizado.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 2:<br>Persona no registrada</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que una persona no registrada se presenta frente a la cerradura.</div>
+                    <div class="step when"><strong>When:</strong> El sistema realiza el escaneo facial.</div>
+                    <div class="step then"><strong>Then:</strong> Debe marcarla como "extraña", enviar una alerta al propietario y mostrar una opción para tomar acción (permitir acceso o contactar a la policía).</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 3:<br>Error de reconocimiento</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que el sistema no puede identificar claramente un rostro (por mala iluminación o ángulo).</div>
+                    <div class="step when"><strong>When:</strong> Ocurre un intento de reconocimiento.</div>
+                    <div class="step then"><strong>Then:</strong> Se registrará un mensaje de error y se repetirá el escaneo automáticamente hasta tres intentos.</div>
+                </td>
+            </tr>
+        </tbody>
+</table>
+
+
+ <table>
+        <thead>
+            <tr>
+                <th colspan="2" class="hu-header">HU002 Registro de rostros autorizados</th>
+            </tr>
+            <tr>
+                <th width="20%">Escenario</th>
+                <th width="80%">Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="scenario-title">Escenario 1:<br>Registro exitoso de rostro</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que el propietario accede a la función de registro.</div>
+                    <div class="step when"><strong>When:</strong> Toma una foto del rostro de la persona autorizada y confirma los datos.</div>
+                    <div class="step then"><strong>Then:</strong> El sistema debe guardar el rostro en la base de datos y mostrar un mensaje de confirmación.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 2:<br>Registro duplicado</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que el propietario intenta registrar a una persona cuyo rostro ya está en el sistema.</div>
+                    <div class="step when"><strong>When:</strong> El sistema detecta la coincidencia.</div>
+                    <div class="step then"><strong>Then:</strong> Debe notificar que el rostro ya está registrado y evitar duplicados.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 3:<br>Registro fallido</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que el escaneo facial no es claro (por mala iluminación o movimiento).</div>
+                    <div class="step when"><strong>When:</strong> Se intenta registrar un rostro.</div>
+                    <div class="step then"><strong>Then:</strong> Se registrará un mensaje de error y permitirá repetir el proceso.</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+<table>
+        <thead>
+            <tr>
+                <th colspan="2" class="hu-header">HU003 Notificación por detección de persona desconocida</th>
+            </tr>
+            <tr>
+                <th width="20%">Escenario</th>
+                <th width="80%">Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="scenario-title">Escenario 1:<br>Detección de persona no registrada</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que una persona no registrada se presenta frente a la cerradura.</div>
+                    <div class="step when"><strong>When:</strong> El sistema realiza el reconocimiento facial.</div>
+                    <div class="step then"><strong>Then:</strong> Debe enviar una notificación inmediata al celular del propietario con una imagen y la hora de detección.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 2:<br>Registro duplicado</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que la misma persona desconocida permanece frente a la puerta durante más de 1 minuto.</div>
+                    <div class="step when"><strong>When:</strong> El sistema ya ha enviado una notificación previa.</div>
+                    <div class="step then"><strong>Then:</strong> Debe evitar enviar notificaciones duplicadas y, en su lugar, actualizar la alerta en curso.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 3:<br>Registro fallido</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que el sistema no logra comunicarse con el celular del propietario.</div>
+                    <div class="step when"><strong>When:</strong> Ocurre una detección de desconocido.</div>
+                    <div class="step then"><strong>Then:</strong> Debe almacenar el evento localmente y reintentar el envío de la notificación cuando se restablezca la conexión.</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+<table>
+        <thead>
+            <tr>
+                <th colspan="2" class="hu-header">HU004  Inicio de sesión con credenciales predeterminadas</th>
+            </tr>
+            <tr>
+                <th width="20%">Escenario</th>
+                <th width="80%">Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="scenario-title">Escenario 1:<br>Inicio de sesión exitoso con credenciales por defecto</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong> Que la cerradura ha sido instalada por primera vez.</div>
+                    <div class="step when"><strong>When:</strong>El propietario abre la app e ingresa las credenciales por defecto.</div>
+                    <div class="step then"><strong>Then:</strong>Debe iniciar sesión correctamente y redirigir a la pantalla principal de configuración.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 2:<br>Inicio de sesión fallido por credenciales incorrectas</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong>Que el usuario introduzca credenciales incorrectas.</div>
+                    <div class="step when"><strong>When:</strong>Intenta iniciar sesión.</div>
+                    <div class="step then"><strong>Then:</strong>El sistema debe mostrar un mensaje de error e impedir el acceso.</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="scenario-title">Escenario 3:<br>Recomendación de cambio de credenciales</td>
+                <td class="scenario-details">
+                    <div class="step given"><strong>Given:</strong>que el propietario ha iniciado sesión por primera vez con las credenciales por defecto.</div>
+                    <div class="step when"><strong>When:</strong>Accede al sistema.</div>
+                    <div class="step then"><strong>Then:</strong>Se debe mostrar una recomendación para cambiar la contraseña por seguridad.</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU005 Visualización en tiempo real del rostro frente a la puerta</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Visualización en tiempo real de rostro desconocido</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que una persona se posiciona frente a la cerradura y no está registrada.</div>
+                <div class="step when"><strong>When:</strong> El sistema detecta su presencia.</div>
+                <div class="step then"><strong>Then:</strong> Debe enviar una notificación al celular del propietario y mostrar en tiempo real el rostro captado por la cámara.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Visualización de rostro conocido</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que una persona registrada se presenta frente a la cerradura.</div>
+                <div class="step when"><strong>When:</strong> El propietario abre la app.</div>
+                <div class="step then"><strong>Then:</strong> Debe poder visualizar igualmente la transmisión en vivo si lo desea.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 3:<br>Fallo en la transmisión en vivo</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que existe un problema de red o la cámara no responde.</div>
+                <div class="step when"><strong>When:</strong> El propietario intenta ver la transmisión.</div>
+                <div class="step then"><strong>Then:</strong> El sistema debe mostrar un mensaje de error e intentar reconectarse automáticamente.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">HU006 Botones de acción remota en la app (abrir puerta o llamar a la policía)</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Escenario 1:<br>Abrir la puerta remotamente</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que una persona se posiciona frente a la cerradura y no está registrada.</div>
+                <div><strong>When:</strong> El sistema detecta su presencia.</div>
+                <div><strong>Then:</strong> Debe enviar una notificación al celular del propietario y mostrar en tiempo real el rostro captado por la cámara.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 2:<br>Llamada a la policía ante una amenaza</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que una persona registrada se presenta frente a la cerradura.</div>
+                <div><strong>When:</strong> El propietario abre la app.</div>
+                <div><strong>Then:</strong> Debe poder visualizar igualmente la transmisión en vivo si lo desea.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 3:<br>Botones deshabilitados si no hay conexión</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que no hay conexión entre la app y la cerradura.</div>
+                <div><strong>When:</strong> El propietario intenta usar cualquiera de los botones.</div>
+                <div><strong>Then:</strong> El sistema debe mostrar un mensaje de error indicando la falta de conectividad y deshabilitar temporalmente las acciones.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">HU007 Consulta de historial de accesos</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Escenario 1:<br>Visualizar accesos exitosos</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que un usuario registrado accede con éxito.</div>
+                <div><strong>When:</strong> El sistema detecta su presencia.</div>
+                <div><strong>Then:</strong> Debe registrar el acceso en el historial con fecha, hora y estado como "Acceso permitido".</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 2:<br>Visualizar intentos de acceso fallidos</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que una persona no registrada intenta ingresar.</div>
+                <div><strong>When:</strong> El propietario consulta el historial.</div>
+                <div><strong>Then:</strong> Debe mostrarse la imagen del rostro detectado, fecha, hora y estado como "Acceso denegado".</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 3:<br>Filtro por fechas</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el historial contiene muchos registros.</div>
+                <div><strong>When:</strong> El propietario usa el filtro por rango de fechas.</div>
+                <div><strong>Then:</strong> Debe mostrarse únicamente la lista de accesos dentro del período seleccionado.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">HU008 Visualización de evidencias visuales de visitas anteriores</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Escenario 1:<br>Acceso al historial visual</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el sistema ha registrado visitas anteriores.</div>
+                <div><strong>When:</strong> El propietario accede al historial desde la app.</div>
+                <div><strong>Then:</strong> Debe poder ver imágenes o clips cortos asociados a cada intento de acceso.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 2:<br>Visualización de visita específica</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el propietario desea revisar una visita en particular.</div>
+                <div><strong>When:</strong> Selecciona la fecha y hora del registro.</div>
+                <div><strong>Then:</strong> El sistema debe mostrar la imagen o clip correspondiente con opción de reproducir o ampliar.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 3:<br>Almacenamiento limitado</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el sistema tiene espacio limitado para almacenar evidencias.</div>
+                <div><strong>When:</strong> Se llena el espacio disponible.</div>
+                <div><strong>Then:</strong> Debe eliminar automáticamente los registros más antiguos, mostrando una advertencia al propietario si se desea conservar algún clip manualmente.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<!-- HU009 Configuración de alertas personalizadas -->
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">HU009 Configuración de alertas personalizadas</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Escenario 1:<br>Configuración de alerta personalizada</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el propietario está en la sección de configuración de alertas.</div>
+                <div><strong>When:</strong> Selecciona el tipo de alerta (por ejemplo, intento de forzar la cerradura).</div>
+                <div><strong>Then:</strong> Debe poder configurar los parámetros (tipo de notificación, frecuencia, etc.) y guardar la alerta.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 2:<br>Activación de alerta por intento de forzar la cerradura</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que alguien intenta forzar la cerradura.</div>
+                <div><strong>When:</strong> El sistema detecta la acción.</div>
+                <div><strong>Then:</strong> Debe activar la alerta configurada y enviar la notificación al propietario (por ejemplo, en la app, correo electrónico o mensaje de texto).</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 3:<br>Desactivación de alertas</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el propietario desea desactivar una alerta.</div>
+                <div><strong>When:</strong> Accede a la configuración de alertas y la desactiva.</div>
+                <div><strong>Then:</strong> El sistema debe dejar de enviar las notificaciones correspondientes a esa alerta.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- HU010 Configuración de horarios de acceso para personas autorizadas -->
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">HU010 Configuración de horarios de acceso para personas autorizadas</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Escenario 1:<br>Establecer horario de acceso</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el propietario ha registrado a una persona autorizada.</div>
+                <div><strong>When:</strong> Accede a la configuración de horarios para esa persona.</div>
+                <div><strong>Then:</strong> Debe poder establecer un rango de fechas y horas en que se permite el acceso.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 2:<br>Intento de acceso fuera del horario</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que una persona autorizada intenta ingresar fuera del horario establecido.</div>
+                <div><strong>When:</strong> El sistema valida el intento.</div>
+                <div><strong>Then:</strong> Debe denegar el acceso y notificar al propietario.</div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Escenario 3:<br>Edición de horarios</strong></td>
+            <td>
+                <div><strong>Given:</strong> Que el propietario desea cambiar el horario permitido.</div>
+                <div><strong>When:</strong> Accede a la configuración del perfil del usuario.</div>
+                <div><strong>Then:</strong> Debe poder modificar fácilmente el horario y guardar los cambios.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU011 Sección de Inicio de la Landing Page</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Hero section visible al cargar la página</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario abre la landing en su navegador.</div>
+                <div class="step when"><strong>When:</strong> la página termina de cargarse.</div>
+                <div class="step then"><strong>Then:</strong> se muestra el encabezado “Bienvenido a FaceLoock” con la descripción principal (hero) en la parte superior.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>CTA redirige al usuario</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que la hero section muestra un botón “Visitar la Web”.</div>
+                <div class="step when"><strong>When:</strong> el usuario hace clic en “Visitar la Web”.</div>
+                <div class="step then"><strong>Then:</strong> se le lleva a la sección de registro o demo de la aplicación.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU012 Sección de Características del Producto</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Servicios cargados al hacer scroll</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario hace scroll hasta la sección “Nuestros Servicios”.</div>
+                <div class="step when"><strong>When:</strong> esa sección entra en el viewport.</div>
+                <div class="step then"><strong>Then:</strong> aparecen los bloques de servicio (imagen, título y descripción) para Gestión de Usuarios, Acceso Facial, Historial de Accesos, Notificaciones y Control Remoto.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Navegación directa desde el menú</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario está en la parte superior de la página.</div>
+                <div class="step when"><strong>When:</strong> hace clic en “Servicios” del menú de navegación.</div>
+                <div class="step then"><strong>Then:</strong> la página hace scroll automático hasta la sección “Nuestros Servicios”.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU013 Adaptación responsive del diseño</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Visualización en móvil</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario abre la landing en un dispositivo móvil (ancho ≤ 480 px).</div>
+                <div class="step when"><strong>When:</strong> la página se renderiza.</div>
+                <div class="step then"><strong>Then:</strong> el menú colapsa en un botón “hamburger” y las secciones pasan a diseño de columna única.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Visualización en escritorio</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario abre la landing en un navegador de escritorio (ancho ≥ 1024 px).</div>
+                <div class="step when"><strong>When:</strong> la página se renderiza.</div>
+                <div class="step then"><strong>Then:</strong> el menú aparece horizontal y las secciones (hero, servicios, footer) ocupan el ancho completo.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU014 Configuración de enlaces a tiendas</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Descarga Android</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario está en la landing.</div>
+                <div class="step when"><strong>When:</strong> hace clic en “Descargar para Android”.</div>
+                <div class="step then"><strong>Then:</strong> se abre la página de FaceLoock en Google Play.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Descarga iOS</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario está en la landing.</div>
+                <div class="step when"><strong>When:</strong> hace clic en “Descargar para iOS”.</div>
+                <div class="step then"><strong>Then:</strong> se abre la página de FaceLoock en el App Store.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">HU015 Desarrollo del footer informativo</th>
+        </tr>
+        <tr>
+            <th>Escenario</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Enlace “Contacto”</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario está en cualquier parte de la landing.</div>
+                <div class="step when"><strong>When:</strong> hace clic en “Contacto” del menú o del footer.</div>
+                <div class="step then"><strong>Then:</strong> la página hace scroll hasta el formulario de contacto.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Enlaces rápidos en el footer</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> que el usuario está al final de la página.</div>
+                <div class="step when"><strong>When:</strong> selecciona “Testimonios” (o cualquier ítem de “Enlaces rápidos”).</div>
+                <div class="step then"><strong>Then:</strong> la página hace scroll hasta la sección correspondiente (Testimonios, Sobre Nosotros, Servicios o Planes).</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US016 Visualizar miembros autorizados</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Lista cargada correctamente</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario está en la sección “Miembros”.</div>
+                <div class="step when"><strong>When:</strong> La página termina de cargar la lista de miembros.</div>
+                <div class="step then"><strong>Then:</strong> Se muestran todos los miembros autorizados con nombre y foto.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error al cargar miembros</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que hay un fallo de red al obtener miembros.</div>
+                <div class="step when"><strong>When:</strong> El front intenta recuperar la lista.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra un mensaje de error “No se pudieron cargar los miembros”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US017 Agregar nuevo miembro</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Miembro agregado con éxito</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario completa el formulario de nuevo miembro.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Guardar”.</div>
+                <div class="step then"><strong>Then:</strong> Aparece el nuevo miembro en la lista y un toast “Miembro agregado”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Validación de campos</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario deja el nombre vacío.</div>
+                <div class="step when"><strong>When:</strong> Intenta guardar el miembro.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra error “El nombre es obligatorio”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US018 Editar datos de un miembro</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Edición exitosa</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario abre el modal de edición de un miembro.</div>
+                <div class="step when"><strong>When:</strong> Cambia el nombre y guarda.</div>
+                <div class="step then"><strong>Then:</strong> Se actualiza el miembro en la lista y un toast “Miembro actualizado”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error al actualizar</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que hay un fallo del servidor al editar.</div>
+                <div class="step when"><strong>When:</strong> El front envía los cambios.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudo actualizar el miembro”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US019 Eliminar miembro autorizado</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Eliminación confirmada</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario hace clic en “Eliminar” junto a un miembro.</div>
+                <div class="step when"><strong>When:</strong> Confirma la acción en el diálogo.</div>
+                <div class="step then"><strong>Then:</strong> El miembro desaparece de la lista y toast “Miembro eliminado”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Cancelación de eliminación</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que aparece el diálogo de confirmación.</div>
+                <div class="step when"><strong>When:</strong> El propietario pulsa “Cancelar”.</div>
+                <div class="step then"><strong>Then:</strong> No se elimina el miembro y no hay cambios.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US020 Ver estadísticas de accesos</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Gráficos mostrados</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario abre la sección “Estadísticas”.</div>
+                <div class="step when"><strong>When:</strong> Se cargan los datos del servidor.</div>
+                <div class="step then"><strong>Then:</strong> Se renderizan gráficos de accesos exitosos y fallidos.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error al cargar estadísticas</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Fallo de red al obtener estadísticas.</div>
+                <div class="step when"><strong>When:</strong> El front solicita los datos.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudieron cargar las estadísticas”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US021 Filtrar estadísticas por rango de fechas</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Filtro aplicado</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario selecciona fechas inicio y fin.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Aplicar filtro”.</div>
+                <div class="step then"><strong>Then:</strong> Los gráficos muestran solo datos del rango seleccionado.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Rango inválido</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que la fecha de inicio es mayor que la de fin.</div>
+                <div class="step when"><strong>When:</strong> Intenta aplicar filtro.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “Rango de fechas inválido”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US022 Exportar estadísticas en CSV</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Descarga exitosa</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario está en “Estadísticas”.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Exportar CSV”.</div>
+                <div class="step then"><strong>Then:</strong> Se descarga un archivo CSV con los datos actuales.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error en descarga</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Problema en el servidor al generar CSV.</div>
+                <div class="step when"><strong>When:</strong> El front solicita la exportación.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudo exportar el CSV”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US023 Ver y editar perfil</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Perfil mostrado</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario abre la sección “Perfil”.</div>
+                <div class="step when"><strong>When:</strong> La página carga los datos.</div>
+                <div class="step then"><strong>Then:</strong> Se muestran nombre, email y foto actuales.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Actualización exitosa</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario modifica su email y foto.</div>
+                <div class="step when"><strong>When:</strong> Guarda los cambios.</div>
+                <div class="step then"><strong>Then:</strong> Se actualiza el perfil y aparece “Perfil guardado”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US024 Cambiar contraseña</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Cambio exitoso</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario introduce contraseña actual y nueva.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Cambiar contraseña”.</div>
+                <div class="step then"><strong>Then:</strong> Se actualiza y aparece “Contraseña cambiada”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Contraseña actual incorrecta</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que la contraseña actual es incorrecta.</div>
+                <div class="step when"><strong>When:</strong> Intenta cambiarla.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “Contraseña actual inválida”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US025 Configurar notificaciones</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Ajuste guardado exitosamente</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario activa/desactiva canales de notificación.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Guardar preferencias”.</div>
+                <div class="step then"><strong>Then:</strong> Se actualizan y aparece “Preferencias guardadas”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error al guardar preferencias</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que hay un fallo de red al guardar.</div>
+                <div class="step when"><strong>When:</strong> El front envía las preferencias.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudieron guardar preferencias”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US026 Conseguir plan Premium</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Upgrade exitoso</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario selecciona un plan Premium.</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Actualizar a Premium”.</div>
+                <div class="step then"><strong>Then:</strong> Se procesa el pago y aparece “Bienvenido a Premium”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Pago rechazado</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que la transacción es rechazada por el procesador.</div>
+                <div class="step when"><strong>When:</strong> El front recibe el error de pago.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “Pago rechazado, intenta de nuevo”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US027 Cerrar sesión</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Logout exitoso</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario hace clic en “Salir”.</div>
+                <div class="step when"><strong>When:</strong> El front termina la sesión.</div>
+                <div class="step then"><strong>Then:</strong> Se redirige a la pantalla de login.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error en logout</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que hay un fallo de red al cerrar sesión.</div>
+                <div class="step when"><strong>When:</strong> El front envía la petición de logout.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudo cerrar sesión”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US028 Iniciar sesión</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Inicio de sesión exitoso</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario digita sus credenciales.</div>
+                <div class="step And"><strong>And:</strong> Hace clic en “Ingresar”.
+                <div class="step when"><strong>When:</strong> El front valida los datos.</div>
+                <div class="step then"><strong>Then:</strong> Se redirige a la pantalla de Home</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Error al ingresar</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que hay un fallo de iniciar sesión.</div>
+                <div class="step when"><strong>When:</strong> El front envía la petición de espera.</div>
+                <div class="step then"><strong>Then:</strong> Se muestra “No se pudo ingresar, inténtelo nuevamente”.</div>
+            </td>
+        </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US029 Registro de nuevo Usuario</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Registro exitoso</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el usuario está en la sección “Regístrate gratis” y completa todos los campos obligatorios con datos válidos (nombre, apellido, edad, DNI, etc.).</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Registrarse”.</div>
+                <div class="step then"><strong>Then:</strong> Se crea la cuenta, se muestra un mensaje de bienvenida y el usuario es redirigido al dashboard o al login para iniciar sesión.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Validación de campos</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el usuario deja alguno de los campos obligatorios vacío o ingresa un DNI en formato incorrecto.</div>
+                <div class="step when"><strong>When:</strong> Intenta hacer clic en “Registrarse”.</div>
+                <div class="step then"><strong>Then:</strong> Se muestran mensajes de error junto a cada campo inválido (por ejemplo, “Nombre es obligatorio”, “DNI inválido”) y no se envía el formulario.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" class="hu-header">US030 Registro de nuevo Hogar</th>
+        </tr>
+        <tr>
+            <th width="20%">Escenario</th>
+            <th width="80%">Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="scenario-title">Escenario 1:<br>Hogar registrado exitosamente</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario está en la sección “Registrar Hogar” y completa los campos obligatorios (dirección, código postal, número de habitaciones, estacionamiento, etc.).</div>
+                <div class="step when"><strong>When:</strong> Hace clic en “Guardar Hogar”.</div>
+                <div class="step then"><strong>Then:</strong> El nuevo hogar aparece en la lista de hogares registrados y se muestra un toast “Hogar registrado exitosamente”.</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="scenario-title">Escenario 2:<br>Validación de datos del hogar</td>
+            <td class="scenario-details">
+                <div class="step given"><strong>Given:</strong> Que el propietario deja la dirección vacía o introduce un código postal con caracteres no numéricos.</div>
+                <div class="step when"><strong>When:</strong> Intenta guardar el hogar.</div>
+                <div class="step then"><strong>Then:</strong> Se muestran mensajes de error (“Dirección es obligatoria”, “Código postal inválido”) y no se agrega el hogar.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 ## 3.3. Impact Mapping
 
@@ -1108,75 +2236,349 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
     <thead>
       <tr>
         <th>#Orden</th>
-        <th>User Story Id</th>
-        <th>Título</th>
+        <th>ID</th>
+        <th>Titulo</th>
         <th>Descripción</th>
-        <th>Story Points</th>
+        <th>Story Point</th>
+        <th>Usuario</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>001</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
-        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial para saber si son conocidas o extrañas.</td>
+        <td>US001</td>
+        <td>Identificación automática mediante reconocimiento facial</td>
+        <td>Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial, para saber si son conocidas o extrañas y decidir si permitir el acceso o recibir una alerta.</td>
         <td>8</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>002</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
-        <td>Como propietario, quiero registrar rostros de personas autorizadas (familiares, amigos) para que puedan ingresar sin mi intervención.</td>
+        <td>US002</td>
+        <td>Registro de rostros autorizados</td>
+        <td>Como propietario, quiero registrar los rostros de personas autorizadas (familiares, amigos), para que puedan ingresar sin necesidad de que yo intervenga manualmente.</td>
         <td>3</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>003</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
-        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta.</td>
+        <td>US003</td>
+        <td>Notificación por detección de persona desconocida</td>
+        <td>Como propietario, quiero recibir una notificación en mi celular cuando una persona desconocida esté frente a la puerta, para poder tomar decisiones rápidas sobre la seguridad de mi hogar.</td>
         <td>3</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>004</td>
-        <td>Usuario</td>
-        <td>Como propietario quiero poder loguearse en la aplicación con credenciales de manera rápida</td>
-        <td>Como propietario y usuario deseo poder loguearme con credenciales que vienen por defecto en la cerradura</td>
+        <td>US004</td>
+        <td>Inicio de sesión con credenciales predeterminadas</td>
+        <td>Como propietario, quiero poder iniciar sesión en la aplicación usando las credenciales predeterminadas de la cerradura, para acceder rápidamente a la configuración inicial.</td>
         <td>2</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>005</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero ver en tiempo real el rostro de la persona para decidir si es seguro abrir la puerta.</td>
-        <td>Como propietario, quiero ver en tiempo real el rostro de la persona para decidir si es seguro abrir la puerta.</td>
+        <td>US005</td>
+        <td>Visualización en tiempo real del rostro frente a la puerta</td>
+        <td>Como propietario, quiero ver en tiempo real el rostro de la persona que está frente a la puerta, para decidir si es seguro abrir o no la cerradura.</td>
         <td>8</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>006</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
-        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza.</td>
+        <td>US006</td>
+        <td>Botones de acción remota en la app</td>
+        <td>Como propietario, quiero tener botones en la app para abrir la puerta remotamente o llamar a la policía en caso de amenaza, para actuar rápidamente según la situación.</td>
         <td>5</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>007</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
-        <td>Como propietario, quiero consultar un historial de accesos para saber quién y cuándo ha intentado ingresar a mi casa.</td>
+        <td>US007</td>
+        <td>Consulta de historial de acceso</td>
+        <td>Como propietario, quiero consultar un historial de accesos, para saber quién y cuándo ha intentado ingresar a mi casa, ya sea con éxito o sin autorización.</td>
         <td>3</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>008</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
-        <td>Como propietario, quiero ver imágenes de las visitas anteriores para tener evidencia en caso de incidentes.</td>
+        <td>US008</td>
+        <td>Visualización de evidencias visuales de visitas anteriores</td>
+        <td>Como propietario, quiero ver imágenes o clips cortos de las visitas anteriores, para tener evidencia en caso de incidentes o situaciones sospechosas.</td>
         <td>5</td>
+        <td>Propietario</td>
       </tr>
       <tr>
         <td>009</td>
-        <td>Usuario</td>
-        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura).</td>
-        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura)</td>
+        <td>US009</td>
+        <td>Configuración de alertas personalizadas</td>
+        <td>Como propietario, quiero poder configurar alertas personalizadas (por ejemplo, si alguien intenta forzar la cerradura), para recibir notificaciones específicas y actuar rápido.</td>
         <td>5</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>010</td>
+        <td>US010</td>
+        <td>Configuración de horarios de acceso para personas autorizada</td>
+        <td>Como propietario, deseo poder configurar las fechas y horas en las que una persona autorizada puede ingresar a mi casa, para tener mayor control sobre los accesos.</td>
+        <td>5</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>011</td>
+        <td>US011</td>
+        <td>Sección de Inicio de la Landing Page</td>
+        <td>Como propietario, quiero ver una hero section con contenido impactante y llamadas a la acción, para captar su atención desde el primer vistazo.</td>
+        <td>3</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>012</td>
+        <td>US012</td>
+        <td>Sección de Características del Producto</td>
+        <td>Como propietario, quiero saber de un vistazo las funcionalidades principales de la aplicación, para decidir si me interesa usarla.</td>
+        <td>2</td>
+        <td>Propietario</td>
+      </tr>
+       <tr>
+        <td>013</td>
+        <td>US013</td>
+        <td>Adaptación responsive del diseño</td>
+        <td>Como propietario, quiero que la landing se vea correctamente en cualquier dispositivo, para no tener problemas de usabilidad.</td>
+        <td>3</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>014</td>
+        <td>US014</td>
+        <td>Configuración de enlaces a tiendas</td>
+        <td>Como propietario, quiero que los botones de tienda redirija a App Store o Play Store según mi dispositivo, para instalar la app sin equivocaciones.</td>
+        <td>2</td>
+        <td>Propietario</td>
+      </tr>     
+      <tr>
+        <td>015</td>
+        <td>US015</td>
+        <td>Desarrollo del footer informativo</td>
+        <td>Como propietario, quiero un footer con enlaces de contacto, legal y navegación secundaria, para encontrar información relevante al pie de página.</td>
+        <td>2</td>
+        <td>Propietario</td>
+      </tr>  
+      <tr>
+        <td>016</td>
+        <td>US016</td>
+        <td>Visualizar miembros autorizados</td>
+        <td>Como propietario, quiero ver la lista de personas autorizadas (miembros) con su nombre y foto, para gestionar quién tiene acceso.</td>
+        <td>2</td>
+        <td>Propietario</td>
+      </tr> 
+      <tr>
+        <td>017</td>
+        <td>US017</td>
+        <td>Agregar nuevo miembro</td>
+        <td>Como propietario, quiero poder añadir un miembro autorizando su rostro y nombre, para que esa persona pueda ingresar sin intervención manual.</td>
+        <td>3</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>018</td>
+        <td>US018</td>
+        <td>Editar datos de un miembro</td>
+        <td>Como propietario, quiero editar el nombre o la foto de un miembro autorizado, para mantener la información actualizada.</td>
+        <td>2</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>019</td>
+        <td>US019</td>
+        <td>Eliminar miembro autorizado</td>
+        <td>Como propietario, quiero eliminar a un miembro de la lista de autorizados, para revocar su permiso de acceso inmediatamente.</td>
+        <td>2</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>020</td>
+        <td>US020</td>
+        <td>Ver estadísticas de accesos</td>
+        <td>Como propietario, quiero ver un dashboard con gráficos de accesos (intentos exitosos/fallidos) por día y por usuario, para entender patrones de uso y riesgos.</td>
+        <td>5</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>021</td>
+        <td>US021</td>
+        <td>Filtrar estadísticas por rango de fechas</td>
+        <td>Como propietario, quiero seleccionar un rango de fechas para mis estadísticas de accesos, para analizar periodos específicos.</td>
+        <td>3</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>022</td>
+        <td>US022</td>
+        <td>Exportar estadísticas en CSV</td>
+        <td>Como propietario, quiero descargar mis estadísticas de accesos en formato CSV, para compartir o analizar externamente</td>
+        <td>3</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>023</td>
+        <td>US023</td>
+        <td>Ver y editar perfil</td>
+        <td>Como propietario, quiero ver mi perfil (nombre, email, foto) y actualizarlo, para mantener mis datos personales correctos.</td>
+        <td>3</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>024</td>
+        <td>US024</td>
+        <td>Cambiar contraseña</td>
+        <td>Como propietario, quiero cambiar mi contraseña desde el perfil, para mantener mi cuenta segura.</td>
+        <td>2</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>025</td>
+        <td>US025</td>
+        <td>Configurar notificaciones</td>
+        <td>Como propietario, quiero ajustar mis preferencias de notificaciones (push, email), para recibir solo las alertas que me interesen.</td>
+        <td>3</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>026</td>
+        <td>US026</td>
+        <td>Conseguir plan Premium</td>
+        <td>Como usuario, quiero ver opciones de suscripción y poder actualizar a Premium, para desbloquear funciones avanzadas (más alertas, historial ilimitado, etc.).</td>
+        <td>5</td>
+        <td>Propietario</td>
+      </tr>
+      <tr>
+        <td>027</td>
+        <td>US027</td>
+        <td>Cerrar sesión</td>
+        <td>Como propietario, quiero cerrar sesión al pulsar “Cerrar sesión”, para asegurar que nadie más use mi cuenta si dejo el dispositivo desatendido.</td>
+        <td>1</td>
+        <td>Propietario</td>
+      </tr> 
+        <tr>
+        <td>028</td>
+        <td>US028</td>
+        <td>Iniciar sesión</td>
+        <td>Como propietario, quiero iniciar sesión al digitar mis credenciales y pulsar “Ingresar”, para asegurar que ver las funcionalidades e interactuar con la aplicación.</td>
+        <td>1</td>
+        <td>Propietario</td>
+      </tr> 
+        <tr>
+        <td>029</td>
+        <td>US029</td>
+        <td>Registro de nuevo Usuario</td>
+        <td>Como usuario, deseo poder registrarme satisfactoriamente en la sección "Regístrate gratis", en un formulario que me solicite mis datos personales como nombre, apellido, edad, dni entre otros</td>
+        <td>5</td>
+        <td>Usuario</td>
+      </tr> 
+        <tr>
+        <td>030</td>
+        <td>US030</td>
+        <td>Registro de nuevo Hogar</td>
+        <td>Como propietario, quiero poder registrar un hogar para el posterior moniterio, con datos fundamentales como la dirección, codigo postal, umero de habitaciones, estacionamiento entre otros</td>
+        <td>4</td>
+        <td>Propietario</td>
+      </tr> 
+        <tr>
+        <td>031</td>
+        <td>US031</td>
+        <td>Eliminar mi cuenta</td>
+        <td>Como usuario, quiero eliminar mi cuenta para que todos mis datos y accesos queden completamente removidos del sistema y no pueda iniciar sesión nuevamente.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr> 
+        <tr>
+        <td>032</td>
+        <td>US032</td>
+        <td>Olvidé mi contraseña</td>
+        <td>Como usuario que no recuerda mi contraseña, quiero recibir un código de restablecimiento digitando mi correo electrónico para poder crear una nueva contraseña y acceder a mi cuenta de forma segura.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>033</td>
+        <td>US033</td>
+        <td>Gestionar mis Dispositivos</td>
+        <td>Como usuario, quiero ver la lista de mis dispositivos vinculados para tener el control sobre qué dispositivos están autorizados y en funcionamiento.</td>
+        <td>8</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>034</td>
+        <td>US034</td>
+        <td>Inscribir miembros a un Dispositivo</td>
+        <td>Como usuario administrador, quiero agregar nuevos miembros (familiares o permisos designados) para que puedan tener accesos o permisos que yo les asigne.</td>
+        <td>5</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>035</td>
+        <td>US035</td>
+        <td>Eliminar miembros inscritos de un Dispositivo</td>
+        <td>Como usuario administrador, quiero quitar miembros previamente inscritos para revocarles el acceso y garantizar que sólo las personas autorizadas puedan interactuar con el dispositivo.</td>
+        <td>5</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>036</td>
+        <td>US036</td>
+        <td>Acceder a Preguntas Frecuentes</td>
+        <td>Como usuario, quiero consultar la sección de Preguntas Frecuentes para resolver mis dudas más comunes sin necesidad de contactar a soporte, de modo que encuentre respuestas inmediatas a problemas típicos.</td>
+        <td>2</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>037</td>
+        <td>US037</td>
+        <td>Enviar consultas vía Contacto</td>
+        <td>Como usuario, quiero poder llenar un formulario de contacto con mi pregunta o problema para que el equipo de soporte atienda mi caso y me brinde asistencia personalizada.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>038</td>
+        <td>US038</td>
+        <td>Chatear en vivo con soporte</td>
+        <td>Como usuario, quiero iniciar un chat en vivo con el equipo de soporte para recibir orientación y solución de problemas en tiempo real.</td>
+        <td>8</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>039</td>
+        <td>US039</td>
+        <td>Ver Tutoriales</td>
+        <td>Como usuario, quiero ver una lista de tutoriales en video o texto que expliquen paso a paso el uso de funciones clave para aprender a utilizar la plataforma de manera rápida y eficiente</td>
+        <td>2</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>040</td>
+        <td>US040</td>
+        <td>Descargar Documentación</td>
+        <td>Como usuario, quiero descargar documentos en PDF o manuales actualizados con especificaciones técnicas y guías de uso para consultarlos offline o compartirlos con mi equipo.</td>
+        <td>2</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>041</td>
+        <td>US041</td>
+        <td>Eliminar Hogar registrado</td>
+        <td>Como usuario, quiero borrar un hogar que haya registrado previamente para dejar de recibir notificaciones y liberar espacio en mi lista de hogareS.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>042</td>
+        <td>US042</td>
+        <td>Editar Hogar registrado</td>
+        <td>Como usuario, quiero modificar los datos de un hogar (nombre, dirección, n° de cuartos, proveedor de agua, etc.) para mantener la información siempre actualizada y reflejar cambios en mi ubicación o estructura familiar.</td>
+        <td>3</td>
+        <td>Usuario</td>
       </tr>
     </tbody>
   </table>
@@ -1575,14 +2977,15 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 - **Autenticación**: Implementación de autenticación para garantizar que solo los usuarios autorizados puedan gestionar las configuraciones de alertas y alarmas, y acceder a los registros de seguridad.
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams  
-![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364349524595707944/image.png?ex=68095903&is=68080783&hm=9731c6d1321b34625498ae58f927196f44c54d7428280c59d6c615d4847886e2&=&format=webp&quality=lossless&width=985&height=568)
+![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364349524595707944/image.png?ex=6825b143&is=68245fc3&hm=b7c7ff13f99976ac9a65b7d5c46c0fe09ac1f126b747f9735a2dc10df347bb95&=&format=webp&quality=lossless&width=648&height=374)
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams  
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams  
-![Image 2](https://media.discordapp.net/attachments/1364349164074438756/1364349524906082435/image.png?ex=68095903&is=68080783&hm=e210fe599cc9f6098732c7d7df4dcb786087903aec421efa0d323fe5a08a4ad5&=&format=webp&quality=lossless&width=985&height=393)
+![Image 2](https://media.discordapp.net/attachments/1364349164074438756/1364349524906082435/image.png?ex=6825b143&is=68245fc3&hm=f86ca1bf9355a35662afbaa665ae7d162ab661a7f960fe6a9ad890a171a57b75&=&format=webp&quality=lossless&width=648&height=258)
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram  
-![Image 3](https://media.discordapp.net/attachments/1364349164074438756/1364349525225111643/image.png?ex=68095903&is=68080783&hm=a05e653fb90747b7b613ab6bfad99812a5bd6ceb7ee6d9de94d5fc3a5a165b05&=&format=webp&quality=lossless&width=985&height=661)
+![Image 3](https://media.discordapp.net/attachments/1364349164074438756/1364349525225111643/image.png?ex=6825b143&is=68245fc3&hm=3f54b334739b7cdb0c0262ee170ca051ec0264e813631e099b029e5336ba62dc&=&format=webp&quality=lossless&width=648&height=435)
+
 
 
 ## 4.2.1. Bounded Context: gestión de suscripciones
@@ -1651,40 +3054,951 @@ La capa de infraestructura se encarga de la gestión de la base de datos para al
 
 - **Autenticación y autorización**: Implementación de medidas de seguridad para garantizar que solo los usuarios autenticados puedan gestionar sus suscripciones y realizar pagos.
 
+
 ### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281140994078/image.png?ex=68095aa5&is=68080925&hm=cff4b4fb6d788aa3b137fb23f19a9fd940d31a45bcdbea741f69538f9236969a&=&format=webp&quality=lossless&width=985&height=605)
+![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281140994078/image.png?ex=6825b2e5&is=68246165&hm=47554ee9ef8b9314ad4a7efdfc855391035b740116015cb4a80b4ee6f526c7d6&=&format=webp&quality=lossless&width=648&height=398)
 
 ### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
-![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281413488650/image.png?ex=68095aa5&is=68080925&hm=e718bc01530eae2bd55f82c167e7a24727ed60fc16dfc91a74ce1e2ee001a542&=&format=webp&quality=lossless&width=985&height=395)
+![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281413488650/image.png?ex=6825b2e5&is=68246165&hm=6785badf89146fec9f371fe56bcf6978ce5e7586689cee5be6485ddc7b299534&=&format=webp&quality=lossless&width=648&height=260)
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram
-![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281824665650/image.png?ex=68095aa6&is=68080926&hm=6fdd78a6a36719965cc4f17a6ca007f8095b4a076fc0f398d261e7a00320f3b1&=&format=webp&quality=lossless&width=985&height=419)
-
+![Image 1](https://media.discordapp.net/attachments/1364349164074438756/1364351281824665650/image.png?ex=6825b2e6&is=68246166&hm=66fe83dc30186e7f618abc0088d6e4892962de3c41606c75abe8b678ea949b92&=&format=webp&quality=lossless&width=648&height=276)
 
 
 
 
 # Capítulo V: Solution UI/UX Design  
 ## 5.1. Style Guidelines  
+Se presentan las bases del repositorio central y organizado de uso común para todo el equipo con el fin de mantener una presentación consistente. Se incluyen secciones para General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines.
 ### 5.1.1. General Style Guidelines  
+Para garantizar una experiencia coherente y profesional en todas las plataformas del ecosistema FaceLoock, se ha establecido una guía general de estilos de uso común para todo el equipo de diseño y desarrollo. Estas directrices buscan alinear los principios visuales con la propuesta de valor de SmartGuard y su producto insignia, FaceLoock.
+Nombre del proyecto: FaceLoock
+Startup: SmartGuard
+Fecha de versión: Mayo 2025
+Misión de la marca
+Transformar la forma en que las personas protegen sus hogares mediante el uso de tecnologías avanzadas, confiables y fáciles de usar.
+Visión de la marca
+Ser líderes en soluciones de seguridad residencial inteligente en América Latina, ofreciendo productos innovadores que mejoren la calidad de vida de nuestros usuarios.
+Público objetivo
+Propietarios de viviendas tecnológicas interesados en domótica y soluciones inteligentes.
+
+
+Adultos mayores o personas con movilidad reducida que requieren accesos más seguros, cómodos y sin contacto físico.
+
+
+Personalidad de la marca
+La personalidad de la marca es tecnológica, confiable y cercana, enfocada en transmitir seguridad sin perder la calidez. La solución FaceLoock se comunica con claridad, respeto y serenidad, brindando confianza y facilidad de uso.
+Valores fundamentales de la marca
+Seguridad: Brindamos protección integral mediante tecnología avanzada.
+
+
+- Confianza: Nos comprometemos con la privacidad y la fiabilidad del sistema.
+
+
+- Innovación: Apostamos por soluciones tecnológicas disruptivas.
+
+
+- Accesibilidad: Creamos experiencias intuitivas para todos los perfiles de usuario.
+
+
+- Integridad: Operamos con transparencia, respeto y responsabilidad.
+
+<br><img src="images/FaceLockLogo.png"></br>
+
+Tono de comunicación
+El tono será sereno, profesional y directo, especialmente en mensajes dentro de la aplicación, la web y la interacción con usuarios finales. Se prioriza la claridad y la confianza, evitando tecnicismos innecesarios y fomentando la tranquilidad del usuario.
+Lineamientos visuales generales
+<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="text-align: left;">Elemento</th>
+      <th style="text-align: left;">Lineamiento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Logotipo</td>
+      <td>El logo de FaceLoock representa una casa estilizada con ondas, en color azul moderno, destacando el concepto de hogar inteligente y seguridad sin contacto. Debe usarse sobre fondos claros para máxima legibilidad.</td>
+    </tr>
+    <tr>
+      <td>Tipografía</td>
+      <td>Uso preferente de Sans Serif modernas (como Montserrat o Inter) para transmitir modernidad y simplicidad. Evitar fuentes decorativas o con serifas.</td>
+    </tr>
+    <tr>
+      <td>Colores</td>
+      <td>El color azul celeste (#1E90FF aprox.) simboliza seguridad, tecnología y confianza. Se complementa con tonos neutros como blanco, gris claro y negro para una estética limpia y profesional.</td>
+    </tr>
+    <tr>
+      <td>Iconografía</td>
+      <td>Íconos minimalistas y universales. Deben ser intuitivos y coherentes con el diseño global. Se prioriza el uso de iconografía lineal.</td>
+    </tr>
+    <tr>
+      <td>Espaciado</td>
+      <td>Se mantiene un espaciado generoso y coherente para evitar sobrecarga visual y mejorar la legibilidad.</td>
+    </tr>
+    <tr>
+      <td>Diseño responsivo</td>
+      <td>Todas las interfaces deben estar optimizadas para distintos tamaños de pantalla (móvil, tablet, web). Las proporciones y tipografías se ajustan dinámicamente.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br><img src="images/Colors.png"></br>
+<br><img src="images/Typography1.png"></br>
+
+<br><img src="images/Typography2.png"></br>
+Consideraciones de accesibilidad
+Contraste suficiente entre texto y fondo.
+
+
+- Tamaño mínimo de texto recomendado: 16px.
+
+
+- Botones accesibles para personas con movilidad reducida.
+
+
+- Textos descriptivos en botones e íconos clave.
+
+
+- Compatibilidad con lectores de pantalla.
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines  
+
+En esta sección se describen las pautas específicas de diseño para las plataformas Web, Mobile e IoT del sistema FaceLoock, asegurando una presentación visual coherente, centrada en el usuario y adaptada a las características de cada canal.
+Principios generales
+- Consistencia visual y funcional: Todos los elementos visuales y de navegación deben mantener coherencia en estilo, color, tipografía y jerarquía, sin importar la plataforma.
+
+
+- Priorización de contenido: Las funciones más relevantes deben destacarse mediante la barra lateral (Web) o la navegación inferior (Mobile).
+
+
+- Interacción accesible: Uso de fuentes legibles y de buen tamaño, contrastes adecuados y componentes claramente distinguibles para facilitar la navegación.
+
+
+- Adaptabilidad: Interfaces adaptadas para una experiencia fluida en distintos dispositivos y condiciones de uso.
+
+<br><img src="images/SplashView.png"></br>
+
+Web Style Guidelines
+- Estilo de diseño: Se implementa un diseño tipo Dashboard, permitiendo una vista general del estado del sistema (usuarios autorizados, eventos recientes, alertas).
+
+
+- Sidebar de navegación: Presenta las secciones clave como Inicio, Accesos, Notificaciones, Configuración, Membresía, entre otras. Facilita la exploración jerárquica de la plataforma.
+
+
+- Diseño responsivo: La interfaz web se adapta automáticamente a diferentes tamaños de pantalla (PC, tablet, móviles).
+
+
+- Tipografía clara y moderna: Uso de fuentes sans serif legibles, con un tamaño mínimo recomendado de 16px para texto base.
+
+
+- Contrastes visuales: Se utilizan colores contrastantes (por ejemplo, azul celeste sobre blanco o negro) para resaltar botones, alertas o notificaciones.
+
+
+- Componentes reutilizables: Formularios, botones y tarjetas siguen un mismo diseño reutilizable que puede aplicarse en toda la web.
+
+<br><img src="images/Home2.png"></br>
+
+
 ## 5.2. Information Architecture  
+
+La arquitectura de información de FaceLoock está diseñada para ofrecer una experiencia intuitiva, eficiente y accesible a todos los perfiles de usuario. Nuestra meta es estructurar el contenido y las funcionalidades de forma lógica y predecible, asegurando que el usuario pueda navegar y encontrar lo que necesita sin fricciones.
+
 ### 5.2.1. Organization Systems  
+
+Para ofrecer una experiencia de usuario fluida, intuitiva y centrada en la seguridad, se ha definido una estrategia de organización del contenido que combina distintas estructuras de presentación según el propósito de cada módulo funcional dentro de FaceLoock. A continuación, se describen los principales enfoques aplicados:
+Organización Visual del Contenido
+- Jerárquica (Visual Hierarchy):
+ Se utiliza en la página de inicio y en el panel principal del Dashboard Web. Las alertas de seguridad, el acceso rápido al botón de apertura de puerta y la vista en vivo se ubican en la parte superior izquierda. Elementos secundarios como el historial, configuración y membresía se disponen en secciones subordinadas, siguiendo una jerarquía clara.
+
+
+- Secuencial (Step-by-Step):
+ Se aplica en flujos como la sincronización inicial del dispositivo IoT, el registro de usuarios y la configuración del reconocimiento facial. Las tareas se presentan paso a paso con validación progresiva para evitar errores y asegurar una configuración exitosa.
+
+
+- Matricial:
+ En secciones como el historial de accesos o la visualización de eventos, los datos se organizan en tablas o cuadrículas que permiten comparar múltiples parámetros (fecha, hora, tipo de usuario, estado del acceso) de manera simultánea y multidimensional.
+
+
+Esquemas de Categorización de Contenido
+- Alfabético:
+ Se aplica en la lista de usuarios registrados en la plataforma o miembros autorizados por vivienda. La organización alfabética por nombre facilita búsquedas rápidas.
+
+
+- Cronológico:
+ Utilizado en el historial de accesos y en las alertas de seguridad, donde los eventos se ordenan del más reciente al más antiguo, permitiendo un seguimiento lógico de la actividad del sistema.
+
+
+- Por Tópicos:
+ Empleado en la sección de configuración, donde se agrupan funciones según su tipo: privacidad, notificaciones, biometría, dispositivos, etc. Esto permite al usuario identificar y gestionar fácilmente las funcionalidades según su categoría.
+
 ### 5.2.2. Labeling Systems  
+
+La estrategia de etiquetado en SmartGuard – FaceLoock prioriza la claridad, la simplicidad y la familiaridad con conceptos del ámbito de seguridad tecnológica y domótica. Se busca evitar ambigüedades y guiar a los usuarios mediante nombres de secciones y botones que reflejen exactamente su funcionalidad.
+Principios de etiquetado
+- Etiquetas Simples y Claras:
+ Todas las etiquetas contienen 1 a 3 palabras clave, sin tecnicismos. Ejemplo: “Ver historial”, “Agregar rostro”, “Modo noche”.
+
+
+- Asociaciones Coherentes:
+ Cada etiqueta está estrictamente alineada con su contenido funcional. Por ejemplo, “Dispositivo sincronizado” solo se utiliza cuando el FaceLoock ha sido correctamente vinculado con una vivienda.
+
+Etiquetas utilizadas en la plataforma
+<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="text-align: left;">Etiqueta</th>
+      <th style="text-align: left;">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Inicio</td>
+      <td>Pantalla principal del Dashboard donde se muestran alertas, eventos recientes y control rápido.</td>
+    </tr>
+    <tr>
+      <td>Agregar rostro</td>
+      <td>Botón que abre el formulario para registrar un nuevo usuario autorizado.</td>
+    </tr>
+    <tr>
+      <td>Ver historial</td>
+      <td>Sección con registros de accesos, denegaciones e intentos fallidos.</td>
+    </tr>
+    <tr>
+      <td>Notificaciones</td>
+      <td>Centro de alertas configurables.</td>
+    </tr>
+    <tr>
+      <td>Configuración</td>
+      <td>Preferencias de cuenta, ajustes del dispositivo y opciones de seguridad.</td>
+    </tr>
+    <tr>
+      <td>Membresía</td>
+      <td>Visualización del plan activo, opciones de renovación y detalles de beneficios.</td>
+    </tr>
+    <tr>
+      <td>Dispositivo IoT</td>
+      <td>Estado de conexión, configuración del hardware FaceLoock y diagnóstico.</td>
+    </tr>
+    <tr>
+      <td>Miembros autorizados</td>
+      <td>Lista editable de personas habilitadas para ingresar al hogar.</td>
+    </tr>
+    <tr>
+      <td>Cerrar sesión</td>
+      <td>Opción para cerrar la sesión de usuario en app web o móvil.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 ### 5.2.3. SEO Tags and Meta Tags  
+
+
+La estrategia SEO de *FaceLoock* tiene como objetivo posicionar eficazmente el producto en buscadores y mejorar la visibilidad tanto en web como en tiendas de aplicaciones.
+
+## Para Sitio Web (Landing Page y Plataforma Web)
+
+- ### Title
+
+  - **Landing Page:**  
+*"Bienvenido a FaceLoock - La solución innovadora para acceder a tu hogar de manera segura y sin contacto"*
+
+  - **Web App:**  
+*"Convertimos tu hogar más seguro e inteligente que nunca 💡"*
+
+- ### Meta Description
+
+  - *"Consigue tu cerradura inteligente y dale mayor seguridad a tu hogar."*
+
+- ### Meta Keywords
+
+  - *seguridad inteligente, acceso facial, datos biométricos, domótica, casa inteligente, cerradura sin llave, control de accesos, SmartGuard, FaceLoock*
+
+- ### Author
+
+  - **Landing Page & Web Application:** *SmartGuard*
+
+## Open Graph Tags (para compartir en redes)
+
+  - **title:** *FaceLoock - Accede a tu hogar con tecnología facial*  
+  - **description:** *SmartGuard es una startup innovadora dedicada a crear soluciones de seguridad inteligente mediante tecnología avanzada, proporcionando una forma moderna y segura de acceder a tu hogar.*  
+  - **image:**
+    <br><img src="images/FaceLockIMG.png"></br>
+  - **url:** [https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/](https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/)
+
+
 ### 5.2.4. Searching Systems  
+
+El sistema de búsqueda en **FaceLoock** está optimizado para que los usuarios puedan acceder rápidamente a información específica, incluso dentro de conjuntos de datos complejos como historiales, dispositivos y perfiles.
+
+---
+
+### Opciones de Búsqueda
+
+- **Búsqueda por Palabras Clave**:  
+  Permite localizar registros por nombre de usuario, fecha, tipo de acceso o estado del dispositivo.
+
+- **Búsqueda Avanzada**:  
+  Incluye filtros combinados para consultas más precisas (por ejemplo, “accesos fallidos del 1 al 5 de mayo por usuario X”).
+
+---
+
+### Filtros Disponibles
+
+- **Por Categoría**:  
+  Accesos, Dispositivos, Usuarios, Estadísticas, Configuración.
+
+- **Por Fecha**:  
+  Desde-hasta, o intervalos comunes (última semana, mes actual).
+
+- **Por Estado**:  
+  Éxito, fallido, manual, automático, remoto.
+
+- **Por Tipo de Dispositivo**:  
+  Cámara, cerradura, panel de control.
+
+---
+
+### Presentación de Resultados
+
+- Los resultados se mostrarán en **tarjetas** o **listas jerarquizadas** según relevancia o fecha.
+- Cada resultado incluye:
+  - Resumen visual (ícono, color de estado)
+  - Fecha y hora
+  - Usuario implicado
+- Se ofrecerá una **vista detallada** al hacer clic en cualquier resultado, con opción de **exportar registros**.
+
+---
+
+Este sistema mejora la **eficiencia operativa** y la **trazabilidad**, fundamentales en un entorno de seguridad residencial.
+
 ### 5.2.5. Navigation Systems  
-## 5.3. Landing Page UI Design  
-### 5.3.1. Landing Page Wireframe  
-### 5.3.2. Landing Page Mock-up  
+
+Nuestra estrategia de navegación para FaceLoock está orientada a ofrecer una experiencia fluida, clara y orientada a objetivos tanto en la Landing Page como en nuestras aplicaciones web y móviles. Se busca minimizar la fricción, facilitar la exploración y ayudar a los usuarios a alcanzar sus metas rápidamente, especialmente en contextos sensibles como el acceso a una vivienda.
+
+---
+
+### Para el Landing Page
+
+- **Menú de Navegación Claro:**  
+Se implementará un menú superior fijo y accesible, con enlaces directos a las secciones clave como:  
+“¿Cómo funciona?”, “Características”, “Planes”, “Descargar app” y “Soporte”.  
+El menú será responsivo, adaptándose a dispositivos móviles con una versión tipo “hamburguesa” para facilitar su uso.
+
+- **Llamadas a la Acción (CTA) Destacadas:**  
+Los botones de CTA estarán ubicados estratégicamente a lo largo del sitio, especialmente en la primera pantalla (“hero section”), el área de beneficios y la sección final de contacto.  
+Ejemplos:
+
+  - “Descargar App”
+  - “Solicita una demostración”
+  - “Activa tu FaceLoock”
+
+Estas llamadas estarán diseñadas con alto contraste y texto persuasivo, invitando a la acción inmediata.
+
+- **Scroll Suave y Secciones Bien Definidas:**  
+La página contará con desplazamiento fluido (“smooth scroll”) y diseño seccional (por bloques), donde cada segmento tendrá un título claro, íconos ilustrativos y contenido breve.  
+Esto mejorará la comprensión del contenido y evitará que el usuario se sienta perdido al navegar.
+
+---
+
+### Para las Aplicaciones
+
+- **Interfaz Intuitiva y Fácil de Usar:**  
+Las aplicaciones presentan una estructura simple, centrada en tareas.  
+Los íconos son reconocibles y las acciones principales están a no más de dos toques o clics de distancia.  
+El diseño está orientado a facilitar su uso por todo tipo de usuarios, incluidos adultos mayores o personas no técnicas.
+
+- **Barra de Navegación Inferior (App Móvil) y Lateral (App Web):**
+
+  - En la aplicación móvil, se implementa una barra inferior con acceso directo a:  
+  Inicio, Cámara en Vivo, Historial, Notificaciones y Ajustes.
+
+  - En la aplicación web, se emplea una barra lateral con módulos como:  
+  Dashboard, Usuarios, Dispositivo IoT, Seguridad, Perfil y Membresía.
+
+Estas barras aseguran que las funciones más utilizadas estén siempre visibles y accesibles.
+
+- **Flujo de Tareas Guiado:**  
+Funciones como registrar un nuevo rostro, configurar el dispositivo o revisar eventos de seguridad se presentan mediante un flujo paso a paso con instrucciones claras.  
+Este enfoque reduce la tasa de errores y aumenta la confianza del usuario al operar el sistema.
+
+---
+
+Al aplicar estos principios de navegación tanto en la web como en las aplicaciones móviles, garantizamos una experiencia centrada en el usuario, fácil de comprender y con una curva de aprendizaje mínima.  
+Esto es fundamental para un sistema como FaceLoock, cuyo éxito depende de la confianza, la rapidez de uso y la seguridad percibida.
+
+
+
+## 5.3. Landing Page UI Design
+
+### 5.3.1. Landing Page Wireframe
+
+- Sección Inicio
+ <img src="https://media.discordapp.net/attachments/1364349164074438756/1372296688047231066/image.png?ex=68264262&is=6824f0e2&hm=f03606205a99e8c7250b348c0d37c355d1479ad7e623ed5232092939f2b3dd06&=&format=webp&quality=lossless&width=790&height=561" alt="Landing Page Wireframe - Inicio" style="max-width:100%; height:auto;" />
+
+- Sección Sobre Nosotros  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296688311599104/image.png?ex=68264262&is=6824f0e2&hm=a327b885d7a016d0227e56967e516c82d6ebdebc13a3c3855d3eec7ee925b5af&=&format=webp&quality=lossless&width=648&height=439" alt="Landing Page Wireframe - Sobre Nosotros" style="max-width:100%; height:auto;" />
+    
+- Sección Servicios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296688680829118/image.png?ex=68264262&is=6824f0e2&hm=c8560cc29e95343c6905b23d3330a279a9be3e542a1260363ee42199d624de5b&=&format=webp&quality=lossless&width=648&height=449" alt="Landing Page Wireframe - Servicios" style="max-width:100%; height:auto;" />
+
+- Sección de Planes de Suscripción  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689049931776/image.png?ex=68264262&is=6824f0e2&hm=f996dd09811092066b9fe425b81ddc2278600a19bd5ddabea53a3b964d019b00&=&format=webp&quality=lossless&width=648&height=525" alt="Landing Page Wireframe - Planes de Suscripción" style="max-width:100%; height:auto;" />
+
+- Sección Testimonios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689318101063/image.png?ex=68264262&is=6824f0e2&hm=6f7e6f7b6409d9675dd5d82901fec475f0a85ec7938f84b8e72d04b16d729594&=&format=webp&quality=lossless&width=648&height=405" alt="Landing Page Wireframe - Testimonios" style="max-width:100%; height:auto;" />
+
+- Sección Contacto  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689595191428/image.png?ex=68264262&is=6824f0e2&hm=9e067785a4ee4e15324a06ee1e44c0655f930d03530ba507f277aa3ee1165095&=&format=webp&quality=lossless&width=648&height=354" alt="Landing Page Wireframe - Contacto" style="max-width:100%; height:auto;" />
+
+### 5.3.2. Landing Page Mock-up
+
+- Sección Inicio  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296689871753276/image.png?ex=68264262&is=6824f0e2&hm=460d0da02db55c9cd859314c667482f682ca13f6317dde7dd84844b16fbf20e2&=&format=webp&quality=lossless&width=648&height=317" alt="Landing Page Mock-up - Inicio" style="max-width:100%; height:auto;" />
+
+- Sección Sobre Nosotros  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296690224070737/image.png?ex=68264262&is=6824f0e2&hm=8e22555c4961329773ea0dab180492c5484b2b23acbff940fdc1efd0ae0ba86e&=&format=webp&quality=lossless&width=648&height=259" alt="Landing Page Mock-up - Sobre Nosotros" style="max-width:100%; height:auto;" />
+
+- Sección Servicios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296690500899019/image.png?ex=68264263&is=6824f0e3&hm=6fa724e612be0fd0e51de71aeda0ed927c3f5b4aa54f7dc95e7c1d2e863c52e6&=&format=webp&quality=lossless&width=648&height=459" alt="Landing Page Mock-up - Servicios" style="max-width:100%; height:auto;" />
+
+- Sección de Planes de Suscripción  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296690920460459/image.png?ex=68264263&is=6824f0e3&hm=830fbc6a248883c666a1bab3e2e1daf01794a10f6147f4da23c268786bdfbf8c&=&format=webp&quality=lossless&width=648&height=256" alt="Landing Page Mock-up - Planes de Suscripción" style="max-width:100%; height:auto;" />
+
+- Sección Testimonios  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296747937828945/image.png?ex=68264270&is=6824f0f0&hm=be760ed45c82a8dbef84ff540f5a3dd8b55d8ba379da1a776c96b6fa0662f9ba&=&format=webp&quality=lossless&width=648&height=332" alt="Landing Page Mock-up - Testimonios" style="max-width:100%; height:auto;" />
+
+- Sección Contacto  
+<img src="https://media.discordapp.net/attachments/1364349164074438756/1372296748235489340/image.png?ex=68264270&is=6824f0f0&hm=c4aefad189dc3d209a5ccaa237c76cc19418371d8c999e8767513a3e84777c54&=&format=webp&quality=lossless&width=648&height=330" alt="Landing Page Mock-up - Contacto" style="max-width:100%; height:auto;" />
+
+  
 ## 5.4. Applications UX/UI Design  
 ### 5.4.1. Applications Wireframes  
+
+### Web Application
+
+- **Sección “Vista General”**
+
+<img src="images/WireSplashView.png">
+
+*Draft de la sección Vista General*
+
+
+- **Sección “Login”**
+
+<img src="images/WireLogin.png">
+
+*Draft de la sección Login*
+
+
+- **Sección “Home”**
+
+<img src="images/WireHome.png">
+
+*Draft de la sección Home*
+
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/WireSetNewSpace.png">
+
+*Draft de la sección Agregar Nueva Vivienda*
+
+
+- **Sección “Membresía”**
+
+<img src="images/WireMembership.png">
+
+*Draft de la sección Membresía*
+
+
+- **Sección “Estadísticas”**
+
+<img src="images/WireStatistics.png">
+
+*Draft de la sección Estadísticas*
+
+
+- **Sección “Miembros”**
+
+<img src="images/WireMembers.png">
+
+*Draft de la sección Miembros*
+
+
+- **Sección “Configuración”**
+
+<img src="images/WireConfiguration.png">
+
+*Draft de la sección Configuración*
+
+
+- **Sección “Perfil de Usuario”**
+
+<img src="images/WireProfile.png">
+
+*Draft de la sección Perfil de Usuario*
+
+
+### Movil Application
+
+- **Sección “Vista General”**
+
+<img src="images/WireSplashViewMovil.png">
+
+*Draft de la sección Vista General*
+
+
+- **Sección “Login”**
+
+<img src="images/WireLoginMovil.png">
+
+*Draft de la sección Login*
+
+
+- **Sección “Home”**
+
+<img src="images/WireHomeMovil.png">
+
+*Draft de la sección Home*
+
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/WireSetNewSpaceMovil.png">
+
+*Draft de la sección Agregar Nueva Vivienda*
+
+
+- **Sección “Membresía”**
+
+<img src="images/WireMembershipMovil.png">
+
+*Draft de la sección Membresía*
+
+
+- **Sección “Estadísticas”**
+
+<img src="images/WireStatisticsMovil.png">
+
+*Draft de la sección Estadísticas*
+
+
+- **Sección “Miembros”**
+
+<img src="images/WireMembersMovil.png">
+
+*Draft de la sección Miembros*
+
+
+- **Sección “Configuración”**
+
+<img src="images/WireConfigurationMovil.png">
+
+*Draft de la sección Configuración*
+
+
+- **Sección “Perfil de Usuario”**
+
+<img src="images/WireProfileMovil.png">
+
+*Draft de la sección Perfil de Usuario*
+
+
 ### 5.4.2. Applications Wireflow Diagrams  
+
+<img src="images/IoT - User Goal 1.jpg">
+User Goal 1: Ver y editar su perfil de usuario
+Taskflow:
+- Abrir la aplicación (Home View)
+
+
+- Seleccionar "Perfil de Usuario"
+
+
+- Visualizar datos personales (Nombre, Rol, Dirección, etc.)
+
+
+- Pulsar "Editar"
+
+
+- Modificar los campos deseados
+
+
+- Guardar cambios
+
+
+- Confirmación de actualización
+
+
+
+
+<img src="images/IoT - User Goal 2.jpg">
+
+User Goal 2: Configurar alertas y opciones generales
+Taskflow:
+- Desde el Home, ir a "Configuración"
+
+
+- Elegir la pestaña "Alertas"
+
+
+- Activar o desactivar opciones (alert option 1, 2, 3...)
+
+
+- Regresar y seleccionar "General"
+
+
+- Configurar preferencias generales
+
+
+- Guardar cambios
+
+
+
+<img src="images/IoT - User Goal 3_ Registrar un nuevo hogar.jpg">
+
+User Goal 3: Registrar un nuevo hogar
+Taskflow:
+- Desde la vista "Listado de Hogares Activos"
+
+
+- Pulsar "Registrar"
+
+
+- Ingresar los datos del hogar (Nombre, Categoría)
+
+
+- Seleccionar número de miembros
+
+
+- Confirmar el registro
+
+
+- Acceder al nuevo hogar desde el listado
+
+
+<img src="images/IoT - User Goal 4.jpg">
+
+User Goal 4: Gestionar los miembros del hogar
+Taskflow:
+- Desde el menú, ir a "Miembros"
+
+
+- Visualizar listado de miembros (nombre, rol, edad)
+
+
+- Pulsar en un miembro específico
+
+
+- Editar rol o información
+
+
+- Guardar cambios
+
+
+- Agregar o eliminar miembros según se requiera
+
+
+<img src="images/IoT - User Goal 5.jpg">
+
+User Goal 5: Consultar estadísticas de acceso
+Taskflow:
+- Ingresar al apartado "Estadísticas"
+
+
+- Elegir vista por día o por miembro
+
+
+- Filtrar por fechas o dispositivos
+
+
+- Analizar gráficos de accesos, incidentes o uso
+
+
+- Exportar o compartir resultados (opcional)
+
 ### 5.4.3. Applications Mock-ups  
+
+### Web Application
+
+- **Sección “Vista General”**
+
+<img src="images/SplashView.png">
+
+
+En esta sección se podrá ver nuestro slogan con una pequeña descripción de lo que nuestra Startup representa.
+
+- **Sección “Login”**
+
+<img src="images/Login.png">
+
+
+En la presente sección, el usuario podrá ingresar a nuestro sitio web con las credenciales como Email y Contraseña, además podrá registrarse completamente gratis, y como última opción podrá iniciar sesión con Google, Facebook o Apple
+
+- **Sección “Home”**
+
+<img src="images/Home.png">
+
+
+En la sección Home de nuestro sitio web, se visualizará la opción principal de poder registrar tu hogar para que el sistema IoT se adhiera correctamente, en este caso La Cerradura Inteligente. Además, se mostrará diversas opciones con vistas a otras funcionalidades
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/SetNewSpace.png">
+
+
+En la sección Agregar nueva vivienda, el usuario podrá interactuar con nuestro sitio web y seguir un formulario con la finalidad de registrar su hogar predeterminado, contará con 7 pasos en los cuales se solicitará información clave como el nombre, la dirección, el tipo de hogar, etc.
+
+- **Sección “Perfil”**
+
+<img src="images/Profile.png">
+
+
+En la sección Perfil de Usuario, se podrá visualizar una vista la cual mostrará datos del usuario registrado como Nombre, Email, Telefono Celular, Rol de Usuario, Ubicación y Dirección. Además, existirán 2 opciones para editar los datos del usuario o para cambiar la contraseña de la cuenta.
+
+- **Sección “Configuracion”**
+
+<img src="images/Configuration.png">
+
+
+En la vista de Configuración, estarán todos las configuraciones que nuestro web application ofrece. Existirán campos como Alertas, la cual será la encargada de notificar y enviar señales de aviso al usuario sobre el acceso o advertencias del sistema. Y también se encuentra la sub opción General, que serán todos los ajustes generales que puede ofrecer nuestro sitio web
+
+- **Sección “Miembros”**
+
+<img src="images/Members.png">
+
+
+En la sección Miembros, se registrará los miembros que están correctamente registrados y validados por el Usuario Administrador/a, además de contener una pequeña descripción de ellos y mostrar datos de relevancia como la edad, el tipo de parentesco y el rol.
+Finalmente, existirá la posibilidad de agregar más miembros o eliminarlos a dichos, pero con otra condición previa.
+
+- **Sección “Estadisticas”**
+
+<img src="images/Statistics.png">
+
+
+En la sección Estadísticas, se mostrará una opción para filtrar el sitio y la frecuencia al que desea consultar para visualizar la actividad, dicha actividad consta de controlar los: Accesos (cuantas personas entrarán a tu hogar asegurado), Miembros (quienes de los miembros registrados fue admitido), Dispositivos (aquellos dispositivos al cual admitieron o denegaron un acceso), Incidentes (factores de riesgo que podrían afectar la integridad y seguridad del Administrado, como intento de ingreso frustrado). Además de mostrar gráficos estadísticos como Accesos por día y Accesos por Miembro.
+
+- **Sección “Membresía”**
+
+<img src="images/Membership.png">
+
+
+Con respecto a la sección Membresía, mostrará un mensaje de por qué optar por nuestra membresía ofrecida, que beneficios este tendrá en contraste con el plan gratis o “Free” que inicialmente se otorga predeterminadamente y por consiguiente, cuanto es el costo de dicha membresía de opciones premiums
+
+
+### Movil Application
+
+- **Sección “Vista General”**
+
+<img src="images/SplashViewMovil.png">
+
+
+- **Sección “Login”**
+
+<img src="images/LoginMovil.png">
+
+
+
+- **Sección “Home”**
+
+<img src="images/HomeMovil.png">
+
+
+
+- **Sección “Agregar nueva vivienda”**
+
+<img src="images/SetNewSpaceMovil.png">
+
+
+- **Sección “Perfil”**
+
+<img src="images/ProfileMovil.png">
+
+
+- **Sección “Configuracion”**
+
+<img src="images/ConfigurationMovil.png">
+
+
+
+- **Sección “Miembros”**
+
+<img src="images/MembersMovil.png">
+
+
+- **Sección “Estadisticas”**
+
+<img src="images/StatisticsMovil.png">
+
+
+- **Sección “Membresía”**
+
+<img src="images/MembershipMovil.png">
+
+#### Mobile application final:
+<img style="margin:5px; height: 500px;"  src="images/movil/2.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/3.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/4.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/5.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/6.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/7.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/8.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/9.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/10.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/11.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/12.jpg">
+
+
+
 ### 5.4.4. Applications User Flow Diagrams  
+
+<img src="images/IoT -  User Flow 1.jpg">
+User Flow 1: Ver y editar su perfil de usuario
+Taskflow:
+- Abrir la aplicación (Home View)
+
+
+- Seleccionar "Perfil de Usuario"
+
+
+- Visualizar datos personales (Nombre, Rol, Dirección, etc.)
+
+
+- Pulsar "Editar"
+
+
+- Modificar los campos deseados
+
+
+- Guardar cambios
+
+
+- Confirmación de actualización
+
+
+
+
+<img src="images/IoT -  User Flow 2.jpg">
+
+User Flow 2: Configurar alertas y opciones generales
+Taskflow:
+- Desde el Home, ir a "Configuración"
+
+
+- Elegir la pestaña "Alertas"
+
+
+- Activar o desactivar opciones (alert option 1, 2, 3...)
+
+
+- Regresar y seleccionar "General"
+
+
+- Configurar preferencias generales
+
+
+- Guardar cambios
+
+
+
+<img src="images/IoT - User Flow 3.jpg">
+
+User Flow 3: Registrar un nuevo hogar
+Taskflow:
+- Desde la vista "Listado de Hogares Activos"
+
+
+- Pulsar "Registrar"
+
+
+- Ingresar los datos del hogar (Nombre, Categoría)
+
+
+- Seleccionar número de miembros
+
+
+- Confirmar el registro
+
+
+- Acceder al nuevo hogar desde el listado
+
+
+<img src="images/IoT - User Flow 4.jpg">
+
+User Flow 4: Gestionar los miembros del hogar
+Taskflow:
+- Desde el menú, ir a "Miembros"
+
+
+- Visualizar listado de miembros (nombre, rol, edad)
+
+
+- Pulsar en un miembro específico
+
+
+- Editar rol o información
+
+
+- Guardar cambios
+
+
+- Agregar o eliminar miembros según se requiera
+
+
+<img src="images/IoT -  User Flow 5.jpg">
+
+User Flow 5: Consultar estadísticas de acceso
+Taskflow:
+- Ingresar al apartado "Estadísticas"
+
+
+- Elegir vista por día o por miembro
+
+
+- Filtrar por fechas o dispositivos
+
+
+- Analizar gráficos de accesos, incidentes o uso
+
+
+- Exportar o compartir resultados (opcional)
+
+
 ## 5.5. Applications Prototyping  
+
+Para garantizar una experiencia fluida y centrada en la seguridad del usuario, hemos desarrollado un prototipo funcional que contempla las principales secciones de nuestra plataforma digital. A continuación, se detallan de forma resumida los componentes clave incluidos en este prototipo:
+
+- **Introducción**: Se presenta una vista inicial con el eslogan y una breve descripción del propósito de la plataforma, orientada a la protección del hogar.
+
+- **Ingreso a la plataforma**: Los usuarios pueden acceder mediante credenciales tradicionales o con cuentas de terceros como Google, Facebook o Apple. También se permite el registro gratuito.
+
+- **Pantalla principal (Home)**: Ofrece acceso rápido a funciones esenciales, como registrar una vivienda y explorar el sistema de cerradura inteligente.
+
+- **Registro de vivienda**: Se guía al usuario mediante un formulario paso a paso para ingresar datos relevantes sobre su hogar.
+
+- **Perfil de usuario**: Muestra la información básica del usuario y permite editarla, así como modificar la contraseña de forma sencilla.
+
+- **Configuraciones**: Se agrupan opciones relacionadas a notificaciones de seguridad y ajustes generales de la aplicación.
+
+- **Gestión de miembros**: Se listan los miembros autorizados, permitiendo su administración según permisos establecidos por el usuario principal.
+
+- **Panel de estadísticas**: Proporciona una vista analítica de la actividad del hogar, incluyendo accesos, dispositivos, alertas y otros indicadores clave.
+
+- **Membresía**: Se informa sobre los beneficios de los planes premium frente al gratuito, destacando mejoras funcionales y costos asociados.
+
+---
+
+El prototipo desarrollado refleja la estructura y flujo de interacción pensados para brindar una experiencia segura, clara y accesible al usuario final. A continuación, se presentará un video que ilustre la interacción de un supuesto Usuario final con nuestro prototipo:
+
+<img src="images/Prototyping.png">
+
+Link del video: [Prototyping](https://drive.google.com/file/d/1FmPEuNleyq4nlumBAlgCWFLUjs9pcSf5/view?usp=sharing)
+
 
 # Capítulo VI: Product Implementation, Validation & Deployment  
 ## 6.1. Software Configuration Management  
@@ -1864,21 +4178,255 @@ Ejemplo:
    ![Paso 4 - Iniciar despliegue](./images/netly4.png)
 
 ## 6.2. Landing Page, Services & Applications Implementation  
-### 6.2.X. Sprint n  
-#### 6.2.X.1. Sprint Planning n  
-#### 6.2.X.2.  
-#### 6.2.X.3.  
-#### 6.2.X.4.  
-#### 6.2.X.5.  
-#### 6.2.X.6.  
-#### 6.2.X.7.  
-#### 6.2.X.8.  
-#### 6.2.X.9.  
-## 6.3. Validation Interviews  
-### 6.3.1. Diseño de Entrevistas  
-### 6.3.2. Registro de Entrevistas  
-### 6.3.3. Evaluaciones según heurísticas  
-## 6.4. Video About-the-Product  
+
+
+### 6.2.1. Sprint 1
+
+Durante el primer sprint, el equipo se centró en los siguientes entregables clave del proyecto **FaceLoock**:
+
+- Diseño de la arquitectura de software para la solución de acceso inteligente a viviendas.
+- Implementación y despliegue exitoso de la landing page del producto.
+- Desarrollo y publicación inicial de la Web Application funcional, permitiendo navegación básica y presentación del valor principal de FaceLoock.
+
+---
+
+#### 6.2.1.1. Sprint Planning 1  
+
+| **Campo**                             | **Detalle**                                                                                                                                                                                      |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                          | 1                                                                                                                                                                                                |
+| **Date**                              | 13/05/2025                                                                                                                                                                                       |
+| **Time**                              | 20:00                                                                                                                                                                                            |
+| **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
+| **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
+| **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                        |
+| **Sprint n – 1 Review Summary**       | Acordes de este nuestro primer Sprint                                                                                                                                                            |
+| **Sprint n – 1 Retrospective Summary**| Este es el primer Sprint de nuestro startup                                                                                                                                                      |
+| **Sprint Goal & User Stories**       | **Sprint n Goal:**<br/>Ver detalles del informe y correcciones en base a la retroalimentación previa del primer entregable, despliegue de la landing page y del front end                         |
+| **Sprint n Velocity**                 | **Sum of Story Points:** 25                                                                                                                                                                      |
+
+
+---
+
+#### 6.2.1.2. Aspect Leaders and Collaborators. 
+
+En esta sección se identifican los responsables principales (leaders) y los colaboradores clave (collaborators) involucrados en el diseño, desarrollo y validación del aspecto específico que se está documentando (por ejemplo, navegación, sistema de búsqueda, seguridad, etc.).
+
+##### Aspecto: Navegación en Application Web
+
+- **Líder del Aspecto:**  
+  - Nombre: Tony Ramos  
+  - Rol: UX Lead  
+  - Responsabilidades: Definición de la experiencia de usuario, coordinación con equipo frontend, validación de prototipos con usuarios.
+
+- **Colaboradores:**  
+  - Fernando Aquino Iman — Frontend Developer (Implementación en Vue)
+  - Pérez García David Alexander — Frontend Developer (Implementación en Vue)
+  - Zárate Gamarra, Luis Alejandro — UI Designer (Elaboración de Wireframes y Mockups en Figma)  
+  - Ramos Najar, Tony Alexander — UI Designer (Elaboración de Wireframes y Mockups en Figma, Prototype)  
+
+##### Aspecto: Navegación en Landing Page
+
+- **Líder del Aspecto:**  
+  - Nombre: Antonella Gonzales  
+  - Rol: UI Designer  
+  - Responsabilidades: Correcto deploy y funcionamiento de la Landing Page
+
+- **Colaboradores:**  
+  - Gonzales Gomez, Antonella Frida — Landing Page Developer (implementación en HTML y CSS)
+
+Nuestro equipo trabaja en conjunto para asegurar que el aspecto cumpla con los requerimientos funcionales y de experiencia definidos en las etapas anteriores del proyecto.
+
+---
+
+#### 6.2.1.3. Sprint Backlog 1
+
+<img src="images/TrelloSprint1.png">
+
+- **Enlace Trello:**  
+  https://trello.com/invite/b/6824f13c7a60a1edbdab2624/ATTI2ecc2bcca31cda8df4e328cb0a20e3e5969404E9/sprint-1-smartguard
+
+---
+
+
+| User Story ID | Title                                   | Work-Item/Task ID | Task Title                         | Description                                                                                                                              | Estimation (hours) | Assigned To     | Status |
+|---------------|-----------------------------------------|-------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|--------|
+| US011         | Sección de Inicio de la Landing Page    | TA011             | Implementar hero section           | Como propietario, quiero ver una hero section con contenido impactante y llamadas a la acción, para captar su atención desde el primer vistazo. | 4 horas            | Antonella Gonzales   | Done  |
+| US012         | Sección de Características del Producto | TA012             | Maquetar sección de características| Como propietario, quiero saber de un vistazo las funcionalidades principales de la aplicación, para decidir si me interesa usarla.          | 4 horas            | Antonella Gonzales  | Done  |
+| US013         | Adaptación responsive del diseño        | TA013             | Ajustes responsive                 | Como propietario, quiero que la landing se vea correctamente en cualquier dispositivo, para no tener problemas de usabilidad.               | 5 horas            | Antonella Gonzales  | Done  |
+| US014         | Configuración de enlaces a tiendas      | TA014             | Configurar botones de tienda       | Como propietario, quiero que los botones de tienda redirijan a App Store o Play Store según mi dispositivo, para instalar la app sin equivocaciones. | 5 horas            | Antonella Gonzales  | Done  |
+| US015         | Desarrollo del footer informativo       | TA015             | Crear footer informativo           | Como propietario, quiero un footer con enlaces de contacto, legal y navegación secundaria, para encontrar información relevante al pie de página. | 4 horas            | Antonella Gonzales  | Done  |
+| US016         | Visualizar miembros autorizados         | TA016             | Listar miembros autorizados        | Como propietario, quiero ver la lista de personas autorizadas (miembros) con su nombre y foto, para gestionar quién tiene acceso.             | 6 horas            | Fernando Aquino  | Done  |
+| US020         | Ver estadísticas de accesos             | TA020             | Mostrar dashboard de accesos       | Como propietario, quiero ver un dashboard con gráficos de accesos (intentos exitosos/ fallidos) por día y por usuario, para entender patrones de uso y riesgos. | 7 horas            | Fernando Aquino  | Done  |
+| US027         | Cerrar sesión                           | TA027             | Implementar logout                 | Como propietario, quiero cerrar sesión al pulsar “Cerrar sesión”, para asegurar que nadie más use mi cuenta si dejo el dispositivo desatendido.   | 5 hora             | Fernando Aquino  | Done  |
+| US028         | Iniciar sesión                          | TA028             | Implementar login                  | Como propietario, quiero iniciar sesión al digitar mis credenciales y pulsar “Ingresar”, para asegurar poder interactuar con la aplicación de forma segura.   | 5 hora             | David Perez  | Done  |
+| US030         | Registro de nuevo Hogar                 | TA030             | Crear formulario de Hogar          | Como propietario, quiero poder registrar un hogar para el posterior monitoreo, con datos fundamentales como la dirección, código postal, número de habitaciones, estacionamiento, etc. | 7 horas            | David Perez  | Done  |
+
+
+
+
+#### 6.2.1.4. Development Evidence for Sprint Review.  
+
+| Repository       | Branch | Commit Id | Commit Message                                                | Commit On    |
+|------------------|--------|-----------|----------------------------------------------------------------|--------------|
+| application-web  | main   | 2b13d8e   | Initial Commit                                                 | 14/05/2025   |
+| application-web  | main   | 5edd3d9   | Merge remote 'origin/main' with local main                    | 14/05/2025   |
+| application-web  | main   | d86a4ca   | Merge branch 'main' of https://github.com/.../aplication-web  | 14/05/2025   |
+| application-web  | main   | f25e9ce   | Merge remote 'origin/main' with local main                    | 14/05/2025   |
+| application-web  | main   | 09e874c   | add redirections routes                                       | 14/05/2025   |
+| application-web  | main   | a81b0e3   | add config netlify                                             | 14/05/2025   |
+| application-web  | main   | 947e4e0   | fixed name to route sidebar                                   | 14/05/2025   |
+| application-web  | main   | 84c7eaf   | fixed name checkIcon to check                                 | 14/05/2025   |
+| application-web  | main   | b575a86   | fixed styles in splashview                                    | 14/05/2025   |
+
+---
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review.  
+
+Durante este sprint, se llevó a cabo la implementación de la aplicación web y la landing page. Para las pruebas, se utilizó **Gherkin** en los archivos `.feature`, **JavaScript** en los archivos `.steps.js` y **Cucumber** como framework de ejecución, todo ello configurado y ejecutado desde **WebStorm**.
+
+| Repository            | Branch   | Commit Id | Commit Message                        | Commit Message Body                    | Committed on (Date) |
+|-----------------------|----------|-----------|---------------------------------------|----------------------------------------|---------------------|
+|  SmartGuard/Testing   |    main  |  8abaa67  | Initial commit | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  12973c0  | test(sprint-1): add feature files and step definitions for Sprint 1 | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  edb981f  | feat(user-stories): add US11 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  92d61a5  | feat(user-stories): add US12 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  1a68652  | feat(user-stories): add US13 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  c24bd3f  | feat(user-stories): add US14 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  fbcd8c6  | feat(user-stories): add US15 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  2174eb5  | feat(user-stories): add US16 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  b4c7e6a  | feat(user-stories): add US20 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  fa59a72  | feat(user-stories): add US27 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  76b6efe  | feat(user-stories): add US28 on testing repository | Verified  |  23/05/2025     |
+|  SmartGuard/Testing   |    main  |  731ecc0  | feat(user-stories): add US30 on testing repository | Verified  |  23/05/2025     |
+
+Se brinda captura de la evidencia de que todos los "scenarios" y "steps" se cumplen al ejecutar todos los `.feature` con el framework cucumber en el programa WebStorm
+
+<img src="images/TestingEvidence.png">
+
+
+Link del repositorio de Testing: https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Testing.git
+
+
+#### 6.2.1.6. Execution Evidence for Sprint Review.  
+
+Durante este sprint, se completaron los entregables:
+
+- Primera versión de la Aplicación Web  
+- Primera versión de la Landing Page
+
+<img src="images/Login.png">
+
+<img src="images/LandingPage1.png">
+
+---
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review.  
+
+Durante el desarrollo de este sprint, se utilizó data estática para simular nuestro servicio de backend mientras este se encontraba en desarrollo.
+
+---
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review.  
+
+A continuación, brindamos evidencia de lo trabajado en el presente sprint:
+
+- **Landing Page desplegada:**  
+  https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/
+
+- **Web Application desplegada:**  
+  https://6824e56fcf04376e4520c2b3--smartguard-web.netlify.app/login
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+
+Landing Page:
+
+<img src="images/reporte22.png">
+
+Web Application:
+
+<img src="images/reporte11.png">
+
+
+
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2.
+
+
+| **Campo**                             | **Detalle**                                                                                                                                                                                      |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                          | 2                                                                                                                                                                                                |
+| **Date**                              | 04/06/2025                                                                                                                                                                                       |
+| **Time**                              | 20:00                                                                                                                                                                                            |
+| **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
+| **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
+| **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                        |
+| **Sprint n – 1 Review Summary**       |                                                                                                                                                                                                  |
+| **Sprint n – 1 Retrospective Summary**|                                                                                                                                                                                                  |
+| **Sprint Goal & User Stories**        | **Sprint 2 Goal:**<br/>                                                                                                                                                                          |
+| **Sprint n Velocity**                 | **Sum of Story Points:**                                                                                                                                                                         |
+
+
+#### 6.2.2.2. Aspect Leaders and Collaborators.
+#### 6.2.2.3. Sprint Backlog 2.
+
+| User Story ID | Title                                   | Work-Item/Task ID | Task Title                         | Description                                                                                                                              | Estimation (hours) | Assigned To     | Status |
+|---------------|-----------------------------------------|-------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|--------|
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+
+
+
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+#### 6.2.2.6. Execution Evidence for Sprint Review.
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+#### 6.2.2.9. Team Collaboration Insights during Sprint.
+
+### 6.3. Validation Interviews.
+
+#### 6.3.1. Diseño de Entrevistas.
+#### 6.3.2. Registro de Entrevistas.
+#### 6.3.3. Evaluaciones según heurísticas.
+
+### 6.4. Video About-the-Product.
+
+
 
 # Conclusiones  
 ## Conclusiones y recomendaciones  
