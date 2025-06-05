@@ -4466,6 +4466,75 @@ En este Sprint 2 nos enfocamos en integrar y entregar todas las piezas del proye
 
 
 #### 6.2.2.2. Aspect Leaders and Collaborators.
+
+En este Sprint 2 nos enfocamos en integrar y entregar todas las piezas del proyecto: presentar la versión final de la aplicación web y la aplicación móvil, con sus interfaces completas, desplegadas y listas para usar; publicar la landing page definitiva en un entorno real; implementar y desplegar todos los endpoints del backend; avanzar con la primera versión funcional del sistema embebido Arduino; y desplegar las aplicaciones de la capa edge para garantizar el flujo de datos desde los dispositivos hacia la nube. Con esto, cerramos el Sprint 2 habiendo logrado un producto completo y desplegado en todos sus niveles: frontend, backend, sistema embebido y edge.
+
+---
+
+- [ ] **Aspecto: Frontend (Aplicación Web, Aplicación Móvil y Landing Page)**  
+  - **Líder del Aspecto:**  
+    - **Nombre:** Tony Ramos  
+    - **Rol:** Frontend Lead  
+    - **Responsabilidades:**  
+      1. Integrar y desplegar la versión final de la aplicación web (interfaces, navegación, estilos).  
+      2. Desarrollar y desplegar la versión final de la aplicación móvil (UI nativa, conectividad con backend).  
+      3. Publicar la landing page definitiva en un entorno real (configurar dominio, hosting y ajustes finales).  
+      4. Coordinar pruebas de aceptación en entornos productivos para web, móvil y landing.  
+  - **Colaboradores:**  
+    - **David Pérez** — Frontend Mobile Developer  
+      - Desarrolló e integró la aplicación móvil, conectándola con los endpoints del backend.  
+    - **Antonella Gonzales** — Landing Page Developer  
+      - Desarrolló y desplegó la landing page definitiva en el entorno productivo.  
+
+---
+
+- [ ] **Aspecto: Backend**  
+  - **Líder del Aspecto:**  
+    - **Nombre:** Fernando Aquino  
+    - **Rol:** Backend Developer Lead  
+    - **Responsabilidades:**  
+      1. Implementar todos los endpoints planeados (CRUD de usuarios, hogares, accesos, eventos, etc.).  
+      2. Configurar y desplegar la API en entorno.
+      3. Documentar la API con Swagger/OpenAPI y garantizar su accesibilidad para frontend y dispositivos.  
+      4. Realizar pruebas de integración entre frontend y backend para cada endpoint.  
+  - **Colaboradores:**  
+    - **David Pérez** — Backend Developer  
+      - Implementación de endpoints específicos (autenticación, notificaciones, registro de eventos).  
+      - Pruebas unitarias y de integración en entorno staging.  
+      - Ajustes finales de rendimiento y seguridad antes del despliegue.  
+
+---
+
+- [ ] **Aspecto: Sistema Empotrado (Arduino)**  
+  - **Líder del Aspecto:**  
+    - **Nombre:** Tony Ramos  
+    - **Rol:** Embedded Systems Developer  
+    - **Responsabilidades:**  
+      1. Diseñar e implementar la primera versión funcional del firmware en Arduino (lectura de sensores, control de actuadores).  
+      2. Desarrollar cada “technical story” definido (p. ej., lectura de datos RFID, detección de rostro, envío de telemetría).  
+  - **Colaboradores:**  
+    - *(Tony Ramos asume íntegramente estas tareas en el Sprint 2.)*
+
+---
+
+- [ ] **Aspecto: Aplicaciones de Capa Edge**  
+  - **Líder del Aspecto:**  
+    - **Nombre:** Alejandro Zárate  
+    - **Rol:** Edge Applications Lead  
+    - **Responsabilidades:**  
+      1.  
+      2.  
+      3.   
+      4.  
+  - **Colaboradores:**  
+    - **Antonella Gonzales** — Edge Applications Developer  
+      -  
+      -   
+      - 
+
+---
+
+
 #### 6.2.2.3. Sprint Backlog 2.
 
 | User Story ID | Title                                   | Work-Item/Task ID | Task Title                         | Description                                                                                                                              | Estimation (hours) | Assigned To     | Status |
