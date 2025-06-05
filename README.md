@@ -1167,6 +1167,78 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>Como propietario, quiero poder registrar un hogar para el posterior moniterio, con datos fundamentales como la dirección, codigo postal, umero de habitaciones, estacionamiento entre otros.</td>
         <td>EP03 - Registro y Seguridad</td>
       </tr>
+              <tr>
+        <td>031</td>
+        <td>Eliminar mi cuenta</td>
+        <td>Como usuario, quiero eliminar mi cuenta para que todos mis datos y accesos queden completamente removidos del sistema y no pueda iniciar sesión nuevamente.</td>
+        <td>EP07 – Perfil y Seguridad de Cuenta</td>
+      </tr>
+              <tr>
+        <td>032</td>
+        <td>Olvidé mi contraseña</td>
+        <td>Como usuario que no recuerda mi contraseña, quiero recibir un código de restablecimiento digitando mi correo electrónico para poder crear una nueva contraseña y acceder a mi cuenta de forma segura.</td>
+        <td>EP03 – Registro y Seguridad</td>
+      </tr>
+              <tr>
+        <td>033</td>
+        <td>Gestionar mis Dispositivos</td>
+        <td>Como usuario, quiero ver la lista de mis dispositivos vinculados para tener el control sobre qué dispositivos están autorizados y en funcionamiento.</td>
+        <td>EP09 – Gestión de Dispositivos </td>
+      </tr>
+              <tr>
+        <td>034</td>
+        <td>Inscribir miembros a un Dispositivo</td>
+        <td>Como usuario administrador, quiero agregar nuevos miembros (familiares o permisos designados) para que puedan tener accesos o permisos que yo les asigne.</td>
+        <td>EP05 – Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>035</td>
+        <td>Eliminar miembros inscritos de un Dispositivo</td>
+        <td>Como usuario administrador, quiero quitar miembros previamente inscritos para revocarles el acceso y garantizar que sólo las personas autorizadas puedan interactuar con el dispositivo.</td>
+        <td>EP05 – Gestión de Miembros Autorizados</td>
+      </tr>
+              <tr>
+        <td>036</td>
+        <td>Acceder a Preguntas Frecuentes</td>
+        <td>Como usuario, quiero consultar la sección de Preguntas Frecuentes para resolver mis dudas más comunes sin necesidad de contactar a soporte, de modo que encuentre respuestas inmediatas a problemas típicos.</td>
+        <td>EP11 – Soporte y Documentación</td>
+      </tr>
+              <tr>
+        <td>037</td>
+        <td>Enviar consultas vía Contacto</td>
+        <td>Como usuario, quiero poder llenar un formulario de contacto con mi pregunta o problema para que el equipo de soporte atienda mi caso y me brinde asistencia personalizada.</td>
+        <td>EP11 – Soporte y Documentación</td>
+      </tr>
+              <tr>
+        <td>038</td>
+        <td>Chatear en vivo con soporte</td>
+        <td>Como usuario, quiero iniciar un chat en vivo con el equipo de soporte para recibir orientación y solución de problemas en tiempo real.</td>
+        <td>EP11 – Soporte y Documentación</td>
+      </tr>
+              <tr>
+        <td>039</td>
+        <td>Ver Tutoriales</td>
+        <td>Como usuario, quiero ver una lista de tutoriales en video o texto que expliquen paso a paso el uso de funciones clave para aprender a utilizar la plataforma de manera rápida y eficiente.</td>
+        <td>EP11 – Soporte y Documentación</td>
+      </tr>
+              <tr>
+        <td>040</td>
+        <td>Descargar Documentación</td>
+        <td>Como usuario, quiero descargar documentos en PDF o manuales actualizados con especificaciones técnicas y guías de uso para consultarlos offline o compartirlos con mi equipo.</td>
+        <td>EP11 – Soporte y Documentación</td>
+      </tr>
+              <tr>
+        <td>041</td>
+        <td>Eliminar Hogar registrado</td>
+        <td>Como usuario, quiero borrar un hogar que haya registrado previamente para dejar de recibir notificaciones y liberar espacio en mi lista de hogares.</td>
+        <td>EP10 – Gestión de Hogares</td>
+      </tr>
+              <tr>
+        <td>042</td>
+        <td>Editar Hogar registrado</td>
+        <td>Como usuario, quiero modificar los datos de un hogar (nombre, dirección, n° de cuartos, proveedor de agua, etc.) para mantener la información siempre actualizada y reflejar cambios en mi ubicación o estructura familiar.</td>
+        <td>EP10 – Gestión de Hogares</td>
+      </tr>
     </tbody>
   </table>
 
@@ -2412,10 +2484,105 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>4</td>
         <td>Propietario</td>
       </tr> 
+        <tr>
+        <td>031</td>
+        <td>US031</td>
+        <td>Eliminar mi cuenta</td>
+        <td>Como usuario, quiero eliminar mi cuenta para que todos mis datos y accesos queden completamente removidos del sistema y no pueda iniciar sesión nuevamente.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr> 
+        <tr>
+        <td>032</td>
+        <td>US032</td>
+        <td>Olvidé mi contraseña</td>
+        <td>Como usuario que no recuerda mi contraseña, quiero recibir un código de restablecimiento digitando mi correo electrónico para poder crear una nueva contraseña y acceder a mi cuenta de forma segura.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>033</td>
+        <td>US033</td>
+        <td>Gestionar mis Dispositivos</td>
+        <td>Como usuario, quiero ver la lista de mis dispositivos vinculados para tener el control sobre qué dispositivos están autorizados y en funcionamiento.</td>
+        <td>8</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>034</td>
+        <td>US034</td>
+        <td>Inscribir miembros a un Dispositivo</td>
+        <td>Como usuario administrador, quiero agregar nuevos miembros (familiares o permisos designados) para que puedan tener accesos o permisos que yo les asigne.</td>
+        <td>5</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>035</td>
+        <td>US035</td>
+        <td>Eliminar miembros inscritos de un Dispositivo</td>
+        <td>Como usuario administrador, quiero quitar miembros previamente inscritos para revocarles el acceso y garantizar que sólo las personas autorizadas puedan interactuar con el dispositivo.</td>
+        <td>5</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>036</td>
+        <td>US036</td>
+        <td>Acceder a Preguntas Frecuentes</td>
+        <td>Como usuario, quiero consultar la sección de Preguntas Frecuentes para resolver mis dudas más comunes sin necesidad de contactar a soporte, de modo que encuentre respuestas inmediatas a problemas típicos.</td>
+        <td>2</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>037</td>
+        <td>US037</td>
+        <td>Enviar consultas vía Contacto</td>
+        <td>Como usuario, quiero poder llenar un formulario de contacto con mi pregunta o problema para que el equipo de soporte atienda mi caso y me brinde asistencia personalizada.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>038</td>
+        <td>US038</td>
+        <td>Chatear en vivo con soporte</td>
+        <td>Como usuario, quiero iniciar un chat en vivo con el equipo de soporte para recibir orientación y solución de problemas en tiempo real.</td>
+        <td>8</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>039</td>
+        <td>US039</td>
+        <td>Ver Tutoriales</td>
+        <td>Como usuario, quiero ver una lista de tutoriales en video o texto que expliquen paso a paso el uso de funciones clave para aprender a utilizar la plataforma de manera rápida y eficiente</td>
+        <td>2</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>040</td>
+        <td>US040</td>
+        <td>Descargar Documentación</td>
+        <td>Como usuario, quiero descargar documentos en PDF o manuales actualizados con especificaciones técnicas y guías de uso para consultarlos offline o compartirlos con mi equipo.</td>
+        <td>2</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>041</td>
+        <td>US041</td>
+        <td>Eliminar Hogar registrado</td>
+        <td>Como usuario, quiero borrar un hogar que haya registrado previamente para dejar de recibir notificaciones y liberar espacio en mi lista de hogareS.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>042</td>
+        <td>US042</td>
+        <td>Editar Hogar registrado</td>
+        <td>Como usuario, quiero modificar los datos de un hogar (nombre, dirección, n° de cuartos, proveedor de agua, etc.) para mantener la información siempre actualizada y reflejar cambios en mi ubicación o estructura familiar.</td>
+        <td>3</td>
+        <td>Usuario</td>
+      </tr>
     </tbody>
   </table>
 </div>
-
 
 
 
@@ -4032,9 +4199,9 @@ Durante el primer sprint, el equipo se centró en los siguientes entregables cla
 | **Time**                              | 20:00                                                                                                                                                                                            |
 | **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
 | **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
-| **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                         |
-| **Sprint n – 1 Review Summary**       | Acordes de este nuestro primer Sprint                                                                                                                                                           |
-| **Sprint n – 1 Retrospective Summary**| Este es el primer Sprint de nuestro startup                                                                                                                                                     |
+| **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                        |
+| **Sprint n – 1 Review Summary**       | Acordes de este nuestro primer Sprint                                                                                                                                                            |
+| **Sprint n – 1 Retrospective Summary**| Este es el primer Sprint de nuestro startup                                                                                                                                                      |
 | **Sprint Goal & User Stories**       | **Sprint n Goal:**<br/>Ver detalles del informe y correcciones en base a la retroalimentación previa del primer entregable, despliegue de la landing page y del front end                         |
 | **Sprint n Velocity**                 | **Sum of Story Points:** 25                                                                                                                                                                      |
 
@@ -4179,6 +4346,86 @@ Landing Page:
 Web Application:
 
 <img src="images/reporte11.png">
+
+
+
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2.
+
+
+| **Campo**                             | **Detalle**                                                                                                                                                                                      |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                          | 2                                                                                                                                                                                                |
+| **Date**                              | 04/06/2025                                                                                                                                                                                       |
+| **Time**                              | 20:00                                                                                                                                                                                            |
+| **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
+| **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
+| **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                        |
+| **Sprint n – 1 Review Summary**       |                                                                                                                                                                                                  |
+| **Sprint n – 1 Retrospective Summary**|                                                                                                                                                                                                  |
+| **Sprint Goal & User Stories**        | **Sprint 2 Goal:**<br/>                                                                                                                                                                          |
+| **Sprint n Velocity**                 | **Sum of Story Points:**                                                                                                                                                                         |
+
+
+#### 6.2.2.2. Aspect Leaders and Collaborators.
+#### 6.2.2.3. Sprint Backlog 2.
+
+| User Story ID | Title                                   | Work-Item/Task ID | Task Title                         | Description                                                                                                                              | Estimation (hours) | Assigned To     | Status |
+|---------------|-----------------------------------------|-------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|--------|
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+|          |     |              |            |    |            |    | Done  |
+
+
+
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+#### 6.2.2.6. Execution Evidence for Sprint Review.
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+#### 6.2.2.9. Team Collaboration Insights during Sprint.
+
+### 6.3. Validation Interviews.
+
+#### 6.3.1. Diseño de Entrevistas.
+#### 6.3.2. Registro de Entrevistas.
+#### 6.3.3. Evaluaciones según heurísticas.
+
+### 6.4. Video About-the-Product.
+
 
 
 # Conclusiones  
