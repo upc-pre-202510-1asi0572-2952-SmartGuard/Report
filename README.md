@@ -3673,6 +3673,18 @@ Con respecto a la sección Membresía, mostrará un mensaje de por qué optar po
 
 <img src="images/MembershipMovil.png">
 
+#### Mobile application final:
+<img style="margin:5px; height: 500px;"  src="images/movil/2.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/3.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/4.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/5.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/6.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/7.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/8.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/9.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/10.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/11.jpg">
+<img style="margin:5px; height: 500px;" src="images/movil/12.jpg">
 
 
 
@@ -4168,56 +4180,6 @@ Landing Page:
 Web Application:
 
 <img src="images/reporte11.png">
-
-
-### 6.2.3. Sprint 3
-####  6.2.3.1 Sprint Planning 3
-#### 6.2.3.2 Sprint Backlog 3
-#### 6.2.3.3 Development Evidence for Sprint Review
-#### 6.2.3.4 Testing Suite Evidence for Sprint Review
-#### 6.2.3.5 Execution Evidence for Sprint Review
-Durante este sprint, se completaron los entregables:  
-
-- Aplicación Web 
-- Landing Page
-- Correcciones sobre los API Services que interactúan con la solución
-- Aplicación Móvil
-- Dispositivo IoT.
-
-#### Aplicación web:
-#### Dispositivo IoT:  
-#### Mobile application:
-
-#### 6.2.3.6 Services Documentation Evidence for Sprint Review
-#### 6.2.3.7 Software Deployment Evidence for Sprint Review
-#### 6.2.3.8 Team Collaboration Insights during Sprint
-
-###### Web Frontend:
-
-Las siguientes visualizaciones resaltan las colaboraciones de nuestro equipo en el desarrollo de la interfaz web para nuestro proyecto. 
-
-
-###### Web Backend:
-
-Las siguientes visualizaciones resaltan las colaboraciones de nuestro equipo en el desarrollo backend para nuestra aplicación web.
-
-
-###### Mobile:
-
-Las siguientes visualizaciones resaltan las colaboraciones de nuestro equipo en el desarrollo móvil para nuestra aplicación web.
-
-
-###### IoT Application:
-
-Las siguientes visualizaciones resaltan las colaboraciones de nuestro equipo en el desarrollo del dispositivo IoT para nuestro proyecto.
-
-
-###### Edge Backend:
-
-Las siguientes visualizaciones resaltan las colaboraciones de nuestro equipo en el desarrollo del edge backend para recopilar información del dispositivo IoT.
-
-
-
 
 
 # Conclusiones  
