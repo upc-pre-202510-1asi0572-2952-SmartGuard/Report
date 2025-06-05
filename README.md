@@ -4445,6 +4445,9 @@ Web Application:
 
 
 ### 6.2.2. Sprint 2
+
+En este Sprint 2 nos enfocamos en integrar y entregar todas las piezas del proyecto: presentaremos la versión final de la aplicación web y la aplicación móvil, con sus interfaces completas, desplegadas y listas para usar. Además, publicaremos la landing page definitiva en un entorno real para que esté accesible. En el backend implementaremos cada uno de los endpoints planeados y lo desplegaremos para que el frontend y los dispositivos puedan comunicarse sin problemas. Por otro lado, avanzaremos con la primera versión funcional del sistema embebido, cubriendo todos los technical stories definidos, y desplegaremos las aplicaciones de la capa edge para asegurar que los datos fluyan correctamente desde los dispositivos hacia la nube. Con esto, cerramos el Sprint 2 habiendo logrado un producto completo y desplegado en todos sus niveles: frontend, backend, sistema embebido y edge.
+
 #### 6.2.2.1. Sprint Planning 2.
 
 
@@ -4456,10 +4459,10 @@ Web Application:
 | **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
 | **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
 | **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                        |
-| **Sprint n – 1 Review Summary**       |                                                                                                                                                                                                  |
-| **Sprint n – 1 Retrospective Summary**|                                                                                                                                                                                                  |
-| **Sprint Goal & User Stories**        | **Sprint 2 Goal:**<br/>                                                                                                                                                                          |
-| **Sprint n Velocity**                 | **Sum of Story Points:**                                                                                                                                                                         |
+| **Sprint n – 1 Review Summary**       | Corregir entregables anteriores en base a la retroalimentación del profesor.                         |
+| **Sprint n – 1 Retrospective Summary**| Se corrigió todos los detalles observados en la anterior entrega                                                                                                                                                                                                 |
+| **Sprint Goal & User Stories**        | **Sprint 2 Goal:**<br/> Implementar correctamenta todos los entregables para este sprint (front, back, sistema embebido y aplicación en la capa edge).                                                                                                                                                       |
+| **Sprint n Velocity**                 | **Sum of Story Points:** <br> 105                                                                                                                                                                   |
 
 
 #### 6.2.2.2. Aspect Leaders and Collaborators.
