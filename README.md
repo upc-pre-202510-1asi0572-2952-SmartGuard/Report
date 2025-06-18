@@ -4537,42 +4537,43 @@ En este Sprint 2 nos enfocamos en integrar y entregar todas las piezas del proye
 
 #### 6.2.2.3. Sprint Backlog 2.
 
+En este Sprint Backlog 2, se completó todas las historias de usuario de gestión de miembros, dispositivos, cuentas y soporte con respecto al frontend y backend; y en el sistema embebido implementamos lectura serial, mecanismo anti-rebote, control de indicador LED, movimiento de servo y despliegue de mensajes en pantalla I2C.
+
+<img src="images/SprintBacklog2.png">
+
+- **Enlace Trello:**  
+  [https://trello.com/invite/b/6824f13c7a60a1edbdab2624/ATTI2ecc2bcca31cda8df4e328cb0a20e3e5969404E9/sprint-1-smartguard](https://trello.com/b/2VSpef7r/sprint-2-smartguard)
+
 | User Story ID | Title                                   | Work-Item/Task ID | Task Title                         | Description                                                                                                                              | Estimation (hours) | Assigned To     | Status |
 |---------------|-----------------------------------------|-------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|--------|
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
+|     US016     |  Visualizar miembros autorizados   |     TA016         |   El sistema despliega la lista de usuarios con acceso.         |  Como propietario, quiero ver la lista de personas autorizadas (miembros) con su nombre y foto, para gestionar quién tiene acceso.  |    7 horas        |  Tony Ramos  | Done  |
+|     US017     |  Agregar nuevo miembro   |   TA017           |     Se añade un nuevo usuario al registro tras envío.       |  Como propietario, quiero poder añadir un miembro autorizando su rostro y nombre, para que esa persona pueda ingresar sin intervención manual.  |      8 horas      |   Tony Ramos  | Done  |
+|     US018     |  Editar datos de un miembro   |     TA018         |    Se actualizan los datos de un usuario existente.        |  Como propietario, quiero editar el nombre o la foto de un miembro autorizado, para mantener la información actualizada.  |     6 horas       |  Tony Ramos  | Done  |
+|     US019     |  Eliminar miembro autorizado   |     TA019         |    Se elimina un usuario tras confirmación.        |  Como propietario, quiero eliminar a un miembro de la lista de autorizados, para revocar su permiso de acceso inmediatamente.  |      8 horas      |  Fernando Aquino  | Done  |
+|     US020     |  Ver estadísticas de accesos   |       TA020       |     Se generan y muestran estadísticas de uso.       |  Como propietario, quiero ver un dashboard con gráficos de accesos (intentos exitosos/fallidos) por día y por usuario, para entender patrones de uso y riesgos.  |      6 horas      |  Fernando Aquino  | Done  |
+|     US023     |  Ver y editar perfil   |    TA023          |  Se modifican y guardan los datos de perfil.          |  Como propietario, quiero ver mi perfil (nombre, email, foto) y actualizarlo, para mantener mis datos personales correctos.  |     8 horas       |  David Perez  | Done  |
+|     US024     |  Cambiar contraseña   |      TA024       |    Se valida y actualiza la contraseña.        |  Como propietario, quiero cambiar mi contraseña desde el perfil, para mantener mi cuenta segura.  |     8 horas       |  David Perez  | Done  |
+|     US025     |  Configurar notificaciones   |    TA025          |     Se guardan las preferencias de notificaciones.       |  Como propietario, quiero ajustar mis preferencias de notificaciones (push, email), para recibir solo las alertas que me interesen  |     7 horas      |  Fernando Aquino  | Done  |
+|     US026     |  Conseguir plan premium   |      TA026        |    Se activa la suscripción premium tras pago.        |  Como usuario, quiero ver opciones de suscripción y poder actualizar a Premium, para desbloquear funciones avanzadas (más alertas, historial ilimitado, etc.).  |      5 horas      |  David Perez  | Done  |
+|     US029     |  Registro de nuevo usuario   |     TA029         |    Se crea cuenta con datos válidos.        |  Como usuario, deseo poder registrarme satisfactoriamente en la sección "Regístrate gratis", en un formulario que me solicite mis datos personales como nombre, apellido, edad, dni entre otros.  |      8 horas      |  Tony Ramos  | Done  |
+|     US030     |  Registro de nuevo hogar   |     TA030         |    Se registra un hogar con información completa.        |  Como propietario, quiero poder registrar un hogar para el posterior moniterio, con datos fundamentales como la dirección, codigo postal, umero de habitaciones, estacionamiento entre otros.  |     8 horas       |  Tony Ramos  | Done  |
+|     US031     |  Eliminar mi cuenta   |       TA031       |      Se borra la cuenta tras confirmación.      | Como usuario, quiero eliminar mi cuenta para que todos mis datos y accesos queden completamente removidos del sistema y no pueda iniciar sesión nuevamente.   |      8 horas      |  Tony Ramos  | Done  |
+|     US032     |  Olvidé mi contraseña   |       TA032       |    Se envía enlace de recuperación al correo.        |  Como usuario que no recuerda mi contraseña, quiero recibir un código de restablecimiento digitando mi correo electrónico para poder crear una nueva contraseña y acceder a mi cuenta de forma segura.  |     7 horas       |  Fernando Aquino  | To Do  |
+|     US033     |  Gestionar mis dispositivos   |      TA033        |    Se gestionan dispositivos vinculados.        |  Como usuario, quiero ver la lista de mis dispositivos vinculados para tener el control sobre qué dispositivos están autorizados y en funcionamiento.  |      6 horas      |  Fernando Aquino  | Done  |
+|     US034     |  Inscribir miembros a un dispositivo   |     TA034         |    Se asignan usuarios a un dispositivo.        |  Como usuario administrador, quiero agregar nuevos miembros (familiares o permisos designados) para que puedan tener accesos o permisos que yo les asigne.  |      8 horas      |  David Perez  | Done  |
+|     US036     |  Acceder a preguntas frecuentes   |     TA036         |     Se listan las preguntas frecuentes.       |  Como usuario, quiero consultar la sección de Preguntas Frecuentes para resolver mis dudas más comunes sin necesidad de contactar a soporte, de modo que encuentre respuestas inmediatas a problemas típicos.  |       4 horas     | Tony Ramos | Done  |
+|     US037     |  Enviar consultas vía Contacto   |      TA037        |      Se envía la consulta y se confirma recepción.      |  Como usuario, quiero poder llenar un formulario de contacto con mi pregunta o problema para que el equipo de soporte atienda mi caso y me brinde asistencia personalizada.  |      4 horas      |  Tony Ramos  | Done  |
+|     US038     |  Chatear en vivo con soporte   |      TA038        |    Se inicia chat en vivo y se intercambian mensajes.        |  Como usuario, quiero iniciar un chat en vivo con el equipo de soporte para recibir orientación y solución de problemas en tiempo real.  |      4 horas      |  Tony Ramos  | Done  |
+|     US039     |  Ver tutoriales   |      TA039        |    Se muestran los tutoriales disponibles.        |  Como usuario, quiero ver una lista de tutoriales en video o texto que expliquen paso a paso el uso de funciones clave para aprender a utilizar la plataforma de manera rápida y eficiente.  |     4 horas       |  Tony Ramos  | Done  |
+|     US040     |  Descargar documentación   |     TA040         |     Se descarga el documento solicitado.       |  Como usuario, quiero descargar documentos en PDF o manuales actualizados con especificaciones técnicas y guías de uso para consultarlos offline o compartirlos con mi equipo.  |     4 horas       |  Tony Ramos  | Done  |
+|     US041     |  Eliminar hogar registrado   |     TA041         |      Se elimina un hogar tras confirmación.      |  Como usuario, quiero borrar un hogar que haya registrado previamente para dejar de recibir notificaciones y liberar espacio en mi lista de hogares.  |    8 horas        |  Fernando Aquino  | Done  |
+|     US042     |  Editar hogar registrado   |      TA042        |     Se actualizan los datos de un hogar existente.       |  Como usuario, quiero modificar los datos de un hogar (nombre, dirección, n° de cuartos, proveedor de agua, etc.) para mantener la información siempre actualizada y reflejar cambios en mi ubicación o estructura familiar.  |    8 horas        |  David Perez  | Done  |
+|     TS001     |  Leer y validar usuario desde puerto serial   |     ES001         |    Se recibe dato por serial y se valida contra lista de usuarios autorizados.        |  Como desarrollador quiero leer y procesar la entrada por el puerto serial (Serial.readStringUntil('\n')) para validar si el nombre recibido coincide con alguno de los usuarios registrados y así decidir si se abre la cerradura  |            |    | Done  |
+|     TS002     |  Implementar debounce para boton de override   |      ES002        |      Se filtran las señales rápidas del botón para registrar solo un pulso real por activación.      |  Como desarrollador quiero aplicar debounce al botón conectado al pin 2, de modo que solo se detecten pulsaciones reales (sin rebotes) y evitar que se ejecute la lógica de apertura/cierre varias veces por un solo toque.  |            |    | Done  |
+|     TS003     |  Controlar LED indicador de estado de cerradura   |      ES003        |      Se comprueba que el LED refleje correctamente el estado de cerrado o abierto.      |  Como desarrollador quiero controlar el pin 13 como salida digital para encender el LED indicando “cerradura abierta” o apagarlo para “cerradura cerrada”, de forma que el usuario reciba feedback visual inmediato del estado.  |            |    | Done  |
+|     TS004     |  Actuar servo para simular mecanismo de bloqueo   |     ES004         |    Se verifica que el servo se mueva a 0° y 90° al bloquear y desbloquear respectivamente.        |  Como desarrollador quiero inicializar y mover el servo en el pin 9 (0° cuando la cerradura está cerrada, 90° cuando está abierta) para simular físicamente el mecanismo de bloqueo.  |            |    | Done  |
+|     TS005     |  Mostrar mensajes claros en pantalla I2C   |     ES005  |      Se envían y muestran mensajes legibles en la pantalla I2C según código de evento.      |  Como desarrollador quiero inicializar la pantalla I²C (LiquidCrystal_I2C en A4/A5) y mostrar mensajes claros (“Acceso Aprobado”, “Acceso Denegado”, “Cerradura Cerrada”) para que quien use el sistema entienda en todo momento qué está ocurriendo sin necesidad de la PC.  |            |    | Done  |
+|     TS006     |  Gestionar estado de cerradura con variable locked   |     ES006         |      Se alterna la variable locked y se comprueba coherencia entre software y hardware.      |  Como desarrollador quiero gestionar el estado de la cerradura usando la variable locked para alternar entre abierto y cerrado en procesarAperturaCierre().  |            |    | Done  |
 
 
 
