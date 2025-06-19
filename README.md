@@ -4644,6 +4644,8 @@ En este apartado se introduce la recopilación de commits más representativos r
 | Application-Backend/feat/crud | 6306bc2  | add: errors | 17/06/2025 |
 | Application-Backend/feat/crud | e1c1cba  | add: endpoints de accesos historicos  | 18/06/2025 |
 | Application-Backend/feat/crud | b81cb64  | update: profile property  | 19/06/2025 |
+| Application-Backend/feat/crud | f8c80b7  | add: dni for mienbros get method  | 19/06/2025 |
+
 
 **LandingPage**
 
@@ -4668,6 +4670,44 @@ En este apartado se introduce la recopilación de commits más representativos r
 
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+
+Aquí se contextualiza la automatización de las pruebas de las historias de usuario del Sprint Backlog 2, señalando el uso de Cucumber y Gherkin como marco de trabajo para garantizar la cobertura de cada escenario.
+
+| Repository            | Branch   | Commit Id | Commit Message                        | Commit Message Body                    | Committed on (Date) |
+|-----------------------|----------|-----------|---------------------------------------|----------------------------------------|---------------------|
+|  Testing/sprint-2   |    main  |  fc597b8  | feat: initial commit testing sprint 2 including US16 | Verified  |  19/06/2025  |
+|  Testing/sprint-2   |    main  |  db7b7f2  | feat: add US17 testing of sprint 2 on repository | Verified  | 19/06/2025  |  
+|  Testing/sprint-2   |    main  |  9bae127  | feat: add US18 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  d5009a4  | feat: add US19 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  ddfafbe  | feat: add US20 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  144b1d9  | feat: add US23 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  c69ee8b  | feat: add US24 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  ef7818e  | feat: add US25 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  b8c6945  | feat: add US26 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  1212d35  | feat: add US29 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  3222e2a  | feat: add US30 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  e95986c  | feat: add US31 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  741958f  | feat: add US32 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  4f52caf  | feat: add US33 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  bce77ff  | feat: add US34 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  30d2afd  | feat: add US36 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  0171bd2  | feat: add US37 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  099a75b  | feat: add US38 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  100978c  | feat: add US39 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  adeb307  | feat: add US40 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  7431765  | feat: add US41 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  f24aa3d  | feat: add US42 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  cef29cb  | feat: add TS01 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  c0aaacb  | feat: add TS02 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  6d84cc3  | feat: add TS03 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  657bc8c  | feat: add TS04 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  99646d5  | feat: add TS05 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  868e274  | feat: add TS06 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+
+Link del repositorio:
+[https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Testing.git](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Testing.git)
+
+
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
