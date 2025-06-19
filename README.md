@@ -4712,6 +4712,81 @@ Link del repositorio:
 
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
+
+Esta sección presenta la forma en que se ejecutaron y validaron las funcionalidades entregadas —desde la interfaz web hasta el sistema embebido y los endpoints backend— ilustrando el flujo completo de pruebas. Cabe resaltar que tanto el FrontEnd como el BackEnd se encuentran deployados en Netlify y Microsoft Azure respectivamente, por otra parte logramos comunicar ambas tecnologías por medio de un sistema CORS.
+
+**FrontEnd**
+
+- **Sección Registrar**
+
+<img src="images/registerview.png">
+
+- **Sección Login**
+
+<img src="images/loginview.png">
+
+- **Sección Principal**
+
+<img src="images/homeview.png">
+
+- **Sección Dispositivos**
+
+<img src="images/deviceview.png">
+
+- **Sección Miembros**
+
+<img src="images/memberview.png">
+
+- **Sección Perfil de Usuario**
+
+<img src="images/userview.png">
+
+- **Vista pública de un Miembro agregado**
+
+<img src="images/vistapublicamiembro.png">
+
+Link del FrontEnd deployado: [https://smartguard-web.netlify.app/splashview](https://smartguard-web.netlify.app/splashview)
+
+**Backend**
+
+- **Crear Usuario**
+  
+<img src="images/postcrearusuario.png">
+
+- **Iniciar Sesión**
+
+<img src="images/postlogin.png">
+
+- **Crear hogar**
+
+<img src="images/postcrearhogar.png">
+
+- **Agregar miembro Usuario**
+
+<img src="images/postagregarmiembrousuario.png">
+
+- **Agregar miembro a Hogar**
+
+<img src="images/postasociarmiembrohogar.png">
+
+Link del BackEnd deployado: [https://smart-guard2.azurewebsites.net/](https://smart-guard2.azurewebsites.net/)
+
+**Embedded System**
+
+- **Cerradura cerrada**
+
+<img src="images/cerraduracerrada.png">
+
+- **Usuario desconocido detectado**
+
+<img src="images/usuariodesconocido.png">
+
+- **Usuario admitido**
+
+<img src="images/usuarioadmitido.png">
+
+Link del Wokwi ESP-32: [https://wokwi.com/projects/433787052438454273](https://wokwi.com/projects/433787052438454273)
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
