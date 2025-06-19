@@ -274,8 +274,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td>
       <b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.<br><br>
        <b>Gonzales Gomez, Antonella Frida</b><br><b>TB1</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.<br><br>
-         <br><b>TP</b><br> En esta entrega se desarrollo los diseños del figma y luego se paso a desarrollar y deployar en github.<br><br>
-      <b>Pérez García, David Alexander</b><br><b>TB1</b><br> Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.<br><br>
+         <br><b>TP</b><br> En esta entrega se desarrollo los diseños del figma y luego se paso a desarrollar y deployar en github.<br><br> 
+                <br><b>TB2</b><br> En esta entrega se desarrollo capa Edge el algoritmo de reconocimiento facial y las APIs para la comunicacion con el Esp32 .<br><br>      
+<b>Pérez García, David Alexander</b><br><b>TB1</b><br> Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.<br><br>
         <b>TP</b><br>En esta entrega se realizó la configuración del deployment en Netlify para la aplicación web. Asimismo, se había desarrollado previamente la codificación de la aplicación web siguiendo las vistas definidas en el prototipo de Figma.<br><br>
       <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br><b>TP</b><br> Durante la entrega del TP, me enfoque en diseñar los wireframes y Mockups de nuestro sitio web para una correcta interaccion con el usuario, ademas de que sea intuitiva 
       <br><br><b>Aquino Iman Herly Fernando</b><br> Me encargué del desarrollo del capítulo 3, que abarca la Especificación de Requerimientos. Validé y prioricé los requisitos funcionales y no funcionales del sistema en coordinación con el equipo. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales orientaron la alineación entre objetivos estratégicos y funcionalidades clave del sistema.
@@ -289,7 +290,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       <b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><br>
        <b>Gonzales Gomez, Antonella Frida</b><br> <b>TB1</b><br>Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.<br><br>
 <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro landing page hacer de manera mas actractiva para que capte la atencion del cliente<br><br>
-      <b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.<br><br>
+                      <br><b>TB2</b><br> El algoritmo de reconocimiento facial desarrollado en Python es el más importante para dar acceso a la vivienda.<br><br>
+
+<b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.<br><br>
       <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>Me encargué de dividir dos bounded contexts en capas (interfaz, dominio e infraestructura), para ordenar mejor el diseño de la solución. Usé Visual Paradigm para armar diagramas C4 que ayudaron a que todo el equipo entienda cómo se conecta cada parte del sistema. Gracias a esto, logramos organizarnos mejor, establecer metas claras y avanzar en el desarrollo respetando los tiempos que nos propusimos.<br><br>
         <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro sitio web con el usuario, ademas el prototipo de pantalla ayudo a organizar mejor nuestras ideas
       <br><br><b>Aquino Iman Herly Fernando</b><br> Desarrollé el capítulo 3: Especificación de Requerimientos, coordinando con el equipo para validar y priorizar los requisitos funcionales y no funcionales del sistema. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales guiaron la definición de objetivos estratégicos y su alineación con las funcionalidades del sistema. Promoví un entorno de trabajo colaborativo al integrar los aportes del equipo en los entregables y asegurar la coherencia entre las secciones del documento. Establecí metas claras, planifiqué las tareas con plazos definidos y cumplí con los entregables en los tiempos acordados, contribuyendo al avance ordenado del proyecto.
@@ -1242,9 +1245,56 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
     </tbody>
   </table>
 
+## Technical Stories
 
-
-
+<table border="1" style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th>Technical Story</th>
+        <th>Título</th>
+        <th>Descripción</th>
+        <th>Relacionado con (Epic ID)</th>
+      </tr>
+    </thead>
+    <tbody>
+              <tr>
+        <td>001</td>
+        <td>Leer y validar usuario desde puerto serial</td>
+        <td>Como desarrollador quiero leer y procesar la entrada por el puerto serial (Serial.readStringUntil('\n')) para validar si el nombre recibido coincide con alguno de los usuarios registrados y así decidir si se abre la cerradura</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+              <tr>
+        <td>002</td>
+        <td>Implementar debounce para botón de override</td>
+        <td>Como desarrollador quiero aplicar debounce al botón conectado al pin 2, de modo que solo se detecten pulsaciones reales (sin rebotes) y evitar que se ejecute la lógica de apertura/cierre varias veces por un solo toque.</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+              <tr>
+        <td>003</td>
+        <td>Controlar LED indicador de estado de cerradura</td>
+        <td>Como desarrollador quiero controlar el pin 13 como salida digital para encender el LED indicando “cerradura abierta” o apagarlo para “cerradura cerrada”, de forma que el usuario reciba feedback visual inmediato del estado.</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+              <tr>
+        <td>004</td>
+        <td>Actuar servo para simular mecanismo de bloqueo</td>
+        <td>Como desarrollador quiero inicializar y mover el servo en el pin 9 (0° cuando la cerradura está cerrada, 90° cuando está abierta) para simular físicamente el mecanismo de bloqueo.</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+              <tr>
+        <td>005</td>
+        <td>Mostrar mensajes claros en pantalla I²C</td>
+        <td>Como desarrollador quiero inicializar la pantalla I²C (LiquidCrystal_I2C en A4/A5) y mostrar mensajes claros (“Acceso Aprobado”, “Acceso Denegado”, “Cerradura Cerrada”) para que quien use el sistema entienda en todo momento qué está ocurriendo sin necesidad de la PC.</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+              <tr>
+        <td>006</td>
+        <td>Gestionar estado de cerradura con variable locked</td>
+        <td>Como desarrollador quiero gestionar el estado de la cerradura usando la variable locked para alternar entre abierto y cerrado en procesarAperturaCierre().</td>
+        <td>EP12 – Firmware y Control de Cerradura</td>
+      </tr>
+    </tbody>
+</table>
 
 ## Criterios de Aceptacion
 
@@ -2579,6 +2629,54 @@ En el desarrollo de FaceLoock, es fundamental que todos los integrantes del equi
         <td>Como usuario, quiero modificar los datos de un hogar (nombre, dirección, n° de cuartos, proveedor de agua, etc.) para mantener la información siempre actualizada y reflejar cambios en mi ubicación o estructura familiar.</td>
         <td>3</td>
         <td>Usuario</td>
+      </tr>
+        <tr>
+        <td>001</td>
+        <td>TS001</td>
+        <td>Leer y validar usuario desde puerto serial</td>
+        <td>Como desarrollador quiero leer y procesar la entrada por el puerto serial (Serial.readStringUntil('\n')) para validar si el nombre recibido coincide con alguno de los usuarios registrados y así decidir si se abre la cerradura</td>
+        <td>9</td>
+        <td>Desarrollador</td>
+      </tr>
+        <tr>
+        <td>002</td>
+        <td>TS002</td>
+        <td>Implementar debounce para botón de override</td>
+        <td>Como desarrollador quiero aplicar debounce al botón conectado al pin 2, de modo que solo se detecten pulsaciones reales (sin rebotes) y evitar que se ejecute la lógica de apertura/cierre varias veces por un solo toque.</td>
+        <td>2</td>
+        <td>Desarrollador</td>
+      </tr>
+        <tr>
+        <td>003</td>
+        <td>TS003</td>
+        <td>Controlar LED indicador de estado de cerradura</td>
+        <td>Como desarrollador quiero controlar el pin 13 como salida digital para encender el LED indicando “cerradura abierta” o apagarlo para “cerradura cerrada”, de forma que el usuario reciba feedback visual inmediato del estado.</td>
+        <td>1</td>
+        <td>Desarrollador</td>
+      </tr>
+        <tr>
+        <td>004</td>
+        <td>TS004</td>
+        <td>Actuar servo para simular mecanismo de bloqueo</td>
+        <td>Como desarrollador quiero inicializar y mover el servo en el pin 9 (0° cuando la cerradura está cerrada, 90° cuando está abierta) para simular físicamente el mecanismo de bloqueo.</td>
+        <td>5</td>
+        <td>Desarrollador</td>
+      </tr>
+        <tr>
+        <td>005</td>
+        <td>TS005</td>
+        <td>Mostrar mensajes claros en pantalla I²C</td>
+        <td>Como desarrollador quiero inicializar la pantalla I²C (LiquidCrystal_I2C en A4/A5) y mostrar mensajes claros (“Acceso Aprobado”, “Acceso Denegado”, “Cerradura Cerrada”) para que quien use el sistema entienda en todo momento qué está ocurriendo sin necesidad de la PC.</td>
+        <td>7</td>
+        <td>Desarrollador</td>
+      </tr>
+        <tr>
+        <td>006</td>
+        <td>TS006</td>
+        <td>Gestionar estado de cerradura con variable locked</td>
+        <td>Como desarrollador quiero gestionar el estado de la cerradura usando la variable locked para alternar entre abierto y cerrado en procesarAperturaCierre().</td>
+        <td>3</td>
+        <td>Desarrollador</td>
       </tr>
     </tbody>
   </table>
@@ -4350,6 +4448,9 @@ Web Application:
 
 
 ### 6.2.2. Sprint 2
+
+En este Sprint 2 nos enfocamos en integrar y entregar todas las piezas del proyecto: presentaremos la versión final de la aplicación web y la aplicación móvil, con sus interfaces completas, desplegadas y listas para usar. Además, publicaremos la landing page definitiva en un entorno real para que esté accesible. En el backend implementaremos cada uno de los endpoints planeados y lo desplegaremos para que el frontend y los dispositivos puedan comunicarse sin problemas. Por otro lado, avanzaremos con la primera versión funcional del sistema embebido, cubriendo todos los technical stories definidos, y desplegaremos las aplicaciones de la capa edge para asegurar que los datos fluyan correctamente desde los dispositivos hacia la nube. Con esto, cerramos el Sprint 2 habiendo logrado un producto completo y desplegado en todos sus niveles: frontend, backend, sistema embebido y edge.
+
 #### 6.2.2.1. Sprint Planning 2.
 
 
@@ -4361,61 +4462,287 @@ Web Application:
 | **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
 | **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
 | **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                        |
-| **Sprint n – 1 Review Summary**       |                                                                                                                                                                                                  |
-| **Sprint n – 1 Retrospective Summary**|                                                                                                                                                                                                  |
-| **Sprint Goal & User Stories**        | **Sprint 2 Goal:**<br/>                                                                                                                                                                          |
-| **Sprint n Velocity**                 | **Sum of Story Points:**                                                                                                                                                                         |
+| **Sprint n – 1 Review Summary**       | Corregir entregables anteriores en base a la retroalimentación del profesor.                         |
+| **Sprint n – 1 Retrospective Summary**| Se corrigió todos los detalles observados en la anterior entrega                                                                                                                                                                                                 |
+| **Sprint Goal & User Stories**        | **Sprint 2 Goal:**<br/> Implementar correctamenta todos los entregables para este sprint (front, back, sistema embebido y aplicación en la capa edge).                                                                                                                                                       |
+| **Sprint n Velocity**                 | **Sum of Story Points:** <br> 105                                                                                                                                                                   |
 
 
 #### 6.2.2.2. Aspect Leaders and Collaborators.
+
+En este Sprint 2 nos enfocamos en integrar y entregar todas las piezas del proyecto: presentar la versión final de la aplicación web y la aplicación móvil, con sus interfaces completas, desplegadas y listas para usar; publicar la landing page definitiva en un entorno real; implementar y desplegar todos los endpoints del backend; avanzar con la primera versión funcional del sistema embebido Arduino; y desplegar las aplicaciones de la capa edge para garantizar el flujo de datos desde los dispositivos hacia la nube. Con esto, cerramos el Sprint 2 habiendo logrado un producto completo y desplegado en todos sus niveles: frontend, backend, sistema embebido y edge.
+
+---
+
+- [ ] **Aspecto: Frontend (Aplicación Web, Aplicación Móvil y Landing Page)**  
+  - **Líder del Aspecto:**  
+    - **Nombre:** Tony Ramos  
+    - **Rol:** Frontend Lead  
+    - **Responsabilidades:**  
+      1. Integrar y desplegar la versión final de la aplicación web (interfaces, navegación, estilos).  
+      2. Desarrollar y desplegar la versión final de la aplicación móvil (UI nativa, conectividad con backend).  
+      3. Publicar la landing page definitiva en un entorno real (configurar dominio, hosting y ajustes finales).  
+      4. Coordinar pruebas de aceptación en entornos productivos para web, móvil y landing.  
+  - **Colaboradores:**  
+    - **David Pérez** — Frontend Mobile Developer  
+      - Desarrolló e integró la aplicación móvil, conectándola con los endpoints del backend.  
+    - **Antonella Gonzales** — Landing Page Developer  
+      - Desarrolló y desplegó la landing page definitiva en el entorno productivo.  
+
+---
+
+- [ ] **Aspecto: Backend**  
+  - **Líder del Aspecto:**  
+    - **Nombre:** Fernando Aquino  
+    - **Rol:** Backend Developer Lead  
+    - **Responsabilidades:**  
+      1. Implementar todos los endpoints planeados (CRUD de usuarios, hogares, accesos, eventos, etc.).  
+      2. Configurar y desplegar la API en entorno.
+      3. Documentar la API con Swagger/OpenAPI y garantizar su accesibilidad para frontend y dispositivos.  
+      4. Realizar pruebas de integración entre frontend y backend para cada endpoint.  
+  - **Colaboradores:**  
+    - **David Pérez** — Backend Developer  
+      - Implementación de endpoints específicos (autenticación, notificaciones, registro de eventos).  
+      - Pruebas unitarias y de integración en entorno staging.  
+      - Ajustes finales de rendimiento y seguridad antes del despliegue.  
+
+---
+
+- [ ] **Aspecto: Sistema Empotrado (Arduino)**  
+  - **Líder del Aspecto:**  
+    - **Nombre:** Tony Ramos  
+    - **Rol:** Embedded Systems Developer  
+    - **Responsabilidades:**  
+      1. Diseñar e implementar la primera versión funcional del firmware en Arduino (lectura de sensores, control de actuadores).  
+      2. Desarrollar cada “technical story” definido (p. ej., lectura de datos RFID, detección de rostro, envío de telemetría).  
+  - **Colaboradores:**  
+    - *(Tony Ramos asume íntegramente estas tareas en el Sprint 2.)*
+
+---
+
+- [ ] **Aspecto: Aplicaciones de Capa Edge**  
+  - **Líder del Aspecto:**  
+    - **Nombre:** Alejandro Zárate  
+    - **Rol:** Edge Applications Lead  
+    - **Responsabilidades:**  
+      1.  
+      2.  
+      3.   
+      4.  
+  - **Colaboradores:**  
+    - **Antonella Gonzales** — Edge Applications Developer  
+      -  
+      -   
+      - 
+
+---
+
+
 #### 6.2.2.3. Sprint Backlog 2.
+
+En este Sprint Backlog 2, se completó todas las historias de usuario de gestión de miembros, dispositivos, cuentas y soporte con respecto al frontend y backend; y en el sistema embebido implementamos lectura serial, mecanismo anti-rebote, control de indicador LED, movimiento de servo y despliegue de mensajes en pantalla I2C.
+
+<img src="images/SprintBacklog2.png">
+
+- **Enlace Trello:**  
+  [https://trello.com/invite/b/6824f13c7a60a1edbdab2624/ATTI2ecc2bcca31cda8df4e328cb0a20e3e5969404E9/sprint-1-smartguard](https://trello.com/b/2VSpef7r/sprint-2-smartguard)
 
 | User Story ID | Title                                   | Work-Item/Task ID | Task Title                         | Description                                                                                                                              | Estimation (hours) | Assigned To     | Status |
 |---------------|-----------------------------------------|-------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|--------|
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-|          |     |              |            |    |            |    | Done  |
-
-
-
+|     US016     |  Visualizar miembros autorizados   |     TA016         |   El sistema despliega la lista de usuarios con acceso.         |  Como propietario, quiero ver la lista de personas autorizadas (miembros) con su nombre y foto, para gestionar quién tiene acceso.  |    7 horas        |  Tony Ramos  | Done  |
+|     US017     |  Agregar nuevo miembro   |   TA017           |     Se añade un nuevo usuario al registro tras envío.       |  Como propietario, quiero poder añadir un miembro autorizando su rostro y nombre, para que esa persona pueda ingresar sin intervención manual.  |      8 horas      |   Tony Ramos  | Done  |
+|     US018     |  Editar datos de un miembro   |     TA018         |    Se actualizan los datos de un usuario existente.        |  Como propietario, quiero editar el nombre o la foto de un miembro autorizado, para mantener la información actualizada.  |     6 horas       |  Tony Ramos  | Done  |
+|     US019     |  Eliminar miembro autorizado   |     TA019         |    Se elimina un usuario tras confirmación.        |  Como propietario, quiero eliminar a un miembro de la lista de autorizados, para revocar su permiso de acceso inmediatamente.  |      8 horas      |  Fernando Aquino  | Done  |
+|     US020     |  Ver estadísticas de accesos   |       TA020       |     Se generan y muestran estadísticas de uso.       |  Como propietario, quiero ver un dashboard con gráficos de accesos (intentos exitosos/fallidos) por día y por usuario, para entender patrones de uso y riesgos.  |      6 horas      |  Fernando Aquino  | Done  |
+|     US023     |  Ver y editar perfil   |    TA023          |  Se modifican y guardan los datos de perfil.          |  Como propietario, quiero ver mi perfil (nombre, email, foto) y actualizarlo, para mantener mis datos personales correctos.  |     8 horas       |  David Perez  | Done  |
+|     US024     |  Cambiar contraseña   |      TA024       |    Se valida y actualiza la contraseña.        |  Como propietario, quiero cambiar mi contraseña desde el perfil, para mantener mi cuenta segura.  |     8 horas       |  David Perez  | Done  |
+|     US025     |  Configurar notificaciones   |    TA025          |     Se guardan las preferencias de notificaciones.       |  Como propietario, quiero ajustar mis preferencias de notificaciones (push, email), para recibir solo las alertas que me interesen  |     7 horas      |  Fernando Aquino  | Done  |
+|     US026     |  Conseguir plan premium   |      TA026        |    Se activa la suscripción premium tras pago.        |  Como usuario, quiero ver opciones de suscripción y poder actualizar a Premium, para desbloquear funciones avanzadas (más alertas, historial ilimitado, etc.).  |      5 horas      |  David Perez  | Done  |
+|     US029     |  Registro de nuevo usuario   |     TA029         |    Se crea cuenta con datos válidos.        |  Como usuario, deseo poder registrarme satisfactoriamente en la sección "Regístrate gratis", en un formulario que me solicite mis datos personales como nombre, apellido, edad, dni entre otros.  |      8 horas      |  Tony Ramos  | Done  |
+|     US030     |  Registro de nuevo hogar   |     TA030         |    Se registra un hogar con información completa.        |  Como propietario, quiero poder registrar un hogar para el posterior moniterio, con datos fundamentales como la dirección, codigo postal, umero de habitaciones, estacionamiento entre otros.  |     8 horas       |  Tony Ramos  | Done  |
+|     US031     |  Eliminar mi cuenta   |       TA031       |      Se borra la cuenta tras confirmación.      | Como usuario, quiero eliminar mi cuenta para que todos mis datos y accesos queden completamente removidos del sistema y no pueda iniciar sesión nuevamente.   |      8 horas      |  Tony Ramos  | Done  |
+|     US032     |  Olvidé mi contraseña   |       TA032       |    Se envía enlace de recuperación al correo.        |  Como usuario que no recuerda mi contraseña, quiero recibir un código de restablecimiento digitando mi correo electrónico para poder crear una nueva contraseña y acceder a mi cuenta de forma segura.  |     7 horas       |  Fernando Aquino  | To Do  |
+|     US033     |  Gestionar mis dispositivos   |      TA033        |    Se gestionan dispositivos vinculados.        |  Como usuario, quiero ver la lista de mis dispositivos vinculados para tener el control sobre qué dispositivos están autorizados y en funcionamiento.  |      6 horas      |  Fernando Aquino  | Done  |
+|     US034     |  Inscribir miembros a un dispositivo   |     TA034         |    Se asignan usuarios a un dispositivo.        |  Como usuario administrador, quiero agregar nuevos miembros (familiares o permisos designados) para que puedan tener accesos o permisos que yo les asigne.  |      8 horas      |  David Perez  | Done  |
+|     US036     |  Acceder a preguntas frecuentes   |     TA036         |     Se listan las preguntas frecuentes.       |  Como usuario, quiero consultar la sección de Preguntas Frecuentes para resolver mis dudas más comunes sin necesidad de contactar a soporte, de modo que encuentre respuestas inmediatas a problemas típicos.  |       4 horas     | Tony Ramos | Done  |
+|     US037     |  Enviar consultas vía Contacto   |      TA037        |      Se envía la consulta y se confirma recepción.      |  Como usuario, quiero poder llenar un formulario de contacto con mi pregunta o problema para que el equipo de soporte atienda mi caso y me brinde asistencia personalizada.  |      4 horas      |  Tony Ramos  | Done  |
+|     US038     |  Chatear en vivo con soporte   |      TA038        |    Se inicia chat en vivo y se intercambian mensajes.        |  Como usuario, quiero iniciar un chat en vivo con el equipo de soporte para recibir orientación y solución de problemas en tiempo real.  |      4 horas      |  Tony Ramos  | Done  |
+|     US039     |  Ver tutoriales   |      TA039        |    Se muestran los tutoriales disponibles.        |  Como usuario, quiero ver una lista de tutoriales en video o texto que expliquen paso a paso el uso de funciones clave para aprender a utilizar la plataforma de manera rápida y eficiente.  |     4 horas       |  Tony Ramos  | Done  |
+|     US040     |  Descargar documentación   |     TA040         |     Se descarga el documento solicitado.       |  Como usuario, quiero descargar documentos en PDF o manuales actualizados con especificaciones técnicas y guías de uso para consultarlos offline o compartirlos con mi equipo.  |     4 horas       |  Tony Ramos  | Done  |
+|     US041     |  Eliminar hogar registrado   |     TA041         |      Se elimina un hogar tras confirmación.      |  Como usuario, quiero borrar un hogar que haya registrado previamente para dejar de recibir notificaciones y liberar espacio en mi lista de hogares.  |    8 horas        |  Fernando Aquino  | Done  |
+|     US042     |  Editar hogar registrado   |      TA042        |     Se actualizan los datos de un hogar existente.       |  Como usuario, quiero modificar los datos de un hogar (nombre, dirección, n° de cuartos, proveedor de agua, etc.) para mantener la información siempre actualizada y reflejar cambios en mi ubicación o estructura familiar.  |    8 horas        |  David Perez  | Done  |
+|     TS001     |  Leer y validar usuario desde puerto serial   |     ES001         |    Se recibe dato por serial y se valida contra lista de usuarios autorizados.        |  Como desarrollador quiero leer y procesar la entrada por el puerto serial (Serial.readStringUntil('\n')) para validar si el nombre recibido coincide con alguno de los usuarios registrados y así decidir si se abre la cerradura  |            |    | Done  |
+|     TS002     |  Implementar debounce para boton de override   |      ES002        |      Se filtran las señales rápidas del botón para registrar solo un pulso real por activación.      |  Como desarrollador quiero aplicar debounce al botón conectado al pin 2, de modo que solo se detecten pulsaciones reales (sin rebotes) y evitar que se ejecute la lógica de apertura/cierre varias veces por un solo toque.  |            |    | Done  |
+|     TS003     |  Controlar LED indicador de estado de cerradura   |      ES003        |      Se comprueba que el LED refleje correctamente el estado de cerrado o abierto.      |  Como desarrollador quiero controlar el pin 13 como salida digital para encender el LED indicando “cerradura abierta” o apagarlo para “cerradura cerrada”, de forma que el usuario reciba feedback visual inmediato del estado.  |            |    | Done  |
+|     TS004     |  Actuar servo para simular mecanismo de bloqueo   |     ES004         |    Se verifica que el servo se mueva a 0° y 90° al bloquear y desbloquear respectivamente.        |  Como desarrollador quiero inicializar y mover el servo en el pin 9 (0° cuando la cerradura está cerrada, 90° cuando está abierta) para simular físicamente el mecanismo de bloqueo.  |            |    | Done  |
+|     TS005     |  Mostrar mensajes claros en pantalla I2C   |     ES005  |      Se envían y muestran mensajes legibles en la pantalla I2C según código de evento.      |  Como desarrollador quiero inicializar la pantalla I²C (LiquidCrystal_I2C en A4/A5) y mostrar mensajes claros (“Acceso Aprobado”, “Acceso Denegado”, “Cerradura Cerrada”) para que quien use el sistema entienda en todo momento qué está ocurriendo sin necesidad de la PC.  |            |    | Done  |
+|     TS006     |  Gestionar estado de cerradura con variable locked   |     ES006         |      Se alterna la variable locked y se comprueba coherencia entre software y hardware.      |  Como desarrollador quiero gestionar el estado de la cerradura usando la variable locked para alternar entre abierto y cerrado en procesarAperturaCierre().  |            |    | Done  |
 
 
 #### 6.2.2.4. Development Evidence for Sprint Review
+
+En este apartado se introduce la recopilación de commits más representativos registrados durante el sprint, organizados por repositorio (frontend, backend, Edge y landing page) para demostrar el progreso en cada módulo.
+
+**FontEnd**
+
+| Branch | Commit Id | Commit Message                       | Committed on (Dated) |
+|--------|-----------|--------------------------------------|-----------------------|
+| application-web/main |  6828b90 | feat: add fake api data & functions like create user & validate credential fields  |  27/05/2025 |
+| application-web/main |  15c810a | feat: succesfully add a new home and display it in the home view using Fake Api |  27/05/2025 |
+| application-web/main | 4c3ee31 | feat: add comentaries  |  27/05/2025 |
+| application-web/main | 0f7d664  | feat: add comentaries  | 27/05/2025  |
+| application-web/main | eae95ea  | fix: frontend errors during deploy fixed  |  27/05/2025 |
+| application-web/main | 992f663  | fix: frontend errors during deploy fixed  | 27/05/2025  |
+| application-web/main |  8204394 | feat: basic CRUD POST implemented to members and id autogenerated and autoincremental from homes and members fixed  | 28/05/2025  |
+| application-web/main |  6d43797 | fix: file error during merge  | 28/05/2025  |
+| application-web/main | 0c9f69e  | feat: basic CRUD POST implemented to members and id autogenerated and autoincremental in home and member CRUD  | 28/05/2025  |
+| application-web/main | 1aaebb1  | feat: add delete CRUD option for members and new view device management implemented  |  28/05/2025 |
+| application-web/main | b4ed062  | feat: add delete CRUD option for members and new view device management implemented  |  28/05/2025 |
+| application-web/main |  d722f45 | feat: add new access view to front application  | 28/05/2025  |
+| application-web/main |  a1a83d6 | feat: add new access view to front application  | 28/05/2025  |
+| application-web/main |  7be9048 | feat: add new section: support view that includes Q/A, contact, tutorials, live chat and documentatition sections each one with functionality  | 29/05/2025  |
+| application-web/main |  509fe7d | feat: add new section: support view that includes Q/A, contact, tutorials, live chat and documentatition sections each one with functionality  | 29/05/2025  |
+| application-web/main |  914f4ab | feat: add completely CRUD options for homes (delete and edit by id) & recovery password by gmail code sent logic implemented  | 29/05/2025  |
+| application-web/main |  e2d42a8 | feat: add completely CRUD options for homes (delete and edit by id) & recovery password by gmail code sent logic implemented  | 29/05/2025  |
+| application-web/main | 62329ce  | feat: add fake api url deploy on every view  | 03/06/2025  |
+| application-web/main | 8163d61  | feat: add fake api url deploy on every view  |  03/06/2025 |
+| application-web/main | 7ec87d1  | feat: edit profile, edit member, change password & accesses json fixed & developed  | 05/06/2025  |
+| application-web/main |  c57cc67 | feat: edit profile, edit member, change password & accesses json fixed & developed  | 05/06/2025  |
+| application-web/main | 2d484ae  | feat: members CRUD options implemented on backend via Postman  | 15/06/2025  |
+| application-web/main |  6ac1374 | feat(update): update devices to backend  | 15/06/2025  |
+| application-web/main | 6ac1374  | feat: add member url backend and CRUD options | 16/06/2025  |
+| application-web/main | 298b80d  | feat: add member url backend and CRUD options  | 16/06/2025  |
+| application-web/main |  9535049 | update dinamic route  | 16/06/2025  |
+| application-web/main |  0f2f2f3 | feat: adding conections between front and backend endpoints management  |  17/06/2025 |
+| application-web/main |  20faca1 | feat: add public data view by id member  | 17/06/2025  |
+| application-web/main | 963b721  | feat(update): add access view  | 18/06/2025  |
+| application-web/main | 531931f  | fixed build  | 18/06/2025  |
+| application-web/main | ec4fe77  | setting env  |  18/06/2025 |
+| application-web/main | ec4fe77  | feat(fixed): fixed crud  |  18/06/2025 |
+| application-web/main | bba3d1d  | fixed responsive view mobil |  19/06/2025 |
+| application-web/main | 4556d10  | feat(fixed):fixed responsive screen in movil and tablets |  19/06/2025 |
+| application-web/main | 9970fd7  | feat(fixed):fixed responsive screen in movil and tablets |  19/06/2025 |
+
+
+
+**BackEnd**
+
+| Branch | Commit Id | Commit Message                       | Committed on (Dated) |
+|--------|-----------|--------------------------------------|-----------------------|
+| Application-Backend/main  | 4946d58  | Template backend  | 25/05/2025  |
+| Application-Backend/main  | 17d71f6  | add: dlaksmd  | 29/05/2025  |
+| Application-Backend/main  | e9cc4e8  | add: proyecto base  | 31/05/2025  |
+| Application-Backend/main  | 822de9c  | add: plantillas para el ts  | 01/06/2025  |
+| Application-Backend/main  | 89518ff  | prueba  | 11/06/2025  |
+| Application-Backend/feat/crud | d1e165e  | feat(add): add crud members and hogar and users  | 08/06/2025 |
+| Application-Backend/feat/crud | 618762c  | feat: actualizar tablas  | 12/06/2025  |
+| Application-Backend/feat/crud | d34e5f8  | add: endpoints   | 13/06/2025  |
+| Application-Backend/feat/crud | 21fad00  | add crud members an hogar  | 14/06/2025  |
+| Application-Backend/feat/crud | a8cf02a  | add: endpoints faltantes  | 14/06/2025  |
+| Application-Backend/feat/crud | e52305b  | add: asldk  | 14/06/2025  |
+| Application-Backend/feat/crud | 6ef3768  | add: login  | 14/06/2025  |
+| Application-Backend/feat/crud | eded5e8 | feat(add): add endpoint miembros habilitados por hogar | 14/06/2025  |
+| Application-Backend/feat/crud | 88d172b  | feat(update): update password  | 15/06/2025 |
+| Application-Backend/feat/crud | 227dc7c  | fixed miembro por usuario  | 15/06/2025  |
+| Application-Backend/feat/crud | 6306bc2  | add: errors | 17/06/2025 |
+| Application-Backend/feat/crud | e1c1cba  | add: endpoints de accesos historicos  | 18/06/2025 |
+| Application-Backend/feat/crud | b81cb64  | update: profile property  | 19/06/2025 |
+| Application-Backend/feat/crud | f8c80b7  | add: dni for mienbros get method  | 19/06/2025 |
+
+
+**LandingPage**
+
+| Branch | Commit Id | Commit Message                       | Committed on (Dated) |
+|--------|-----------|--------------------------------------|-----------------------|
+| landing-page/main | 82ef680  | added landing page  | 10/05/2025  |
+| landing-page/main | 66f4ef6  | Create CNAME  | 10/05/2025  |
+| landing-page/main | cd65cdb  | Create CNAME  | 10/05/2025  |
+| landing-page/main | 8d0f16e  | Update README.md  | 10/05/2025  |
+| landing-page/main | ea7d4ab  | Update index.html  | 13/05/2025  |
+| landing-page/main | 263bef0  | Update index.html  | 15/05/2025  |
+
+
+**Edge Application**
+
+| Branch | Commit Id | Commit Message                       | Committed on (Dated) |
+|--------|-----------|--------------------------------------|-----------------------|
+| Edge/main | b86ff85  | feat: implement edge layer with MQTT listener, access event handling and SQLite persistence  | 10/06/2025  |
+| Edge/main | 3f1966b  | Create recognition code | 12/06/2025  |
+| Edge/main | ffbcb55  | Rename recognition code to recognition-code.py  |  12/06/2025 |
+
+
+
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+
+Aquí se contextualiza la automatización de las pruebas de las historias de usuario del Sprint Backlog 2, señalando el uso de Cucumber y Gherkin como marco de trabajo para garantizar la cobertura de cada escenario.
+
+| Repository            | Branch   | Commit Id | Commit Message                        | Commit Message Body                    | Committed on (Date) |
+|-----------------------|----------|-----------|---------------------------------------|----------------------------------------|---------------------|
+|  Testing/sprint-2   |    main  |  fc597b8  | feat: initial commit testing sprint 2 including US16 | Verified  |  19/06/2025  |
+|  Testing/sprint-2   |    main  |  db7b7f2  | feat: add US17 testing of sprint 2 on repository | Verified  | 19/06/2025  |  
+|  Testing/sprint-2   |    main  |  9bae127  | feat: add US18 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  d5009a4  | feat: add US19 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  ddfafbe  | feat: add US20 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  144b1d9  | feat: add US23 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  c69ee8b  | feat: add US24 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  ef7818e  | feat: add US25 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  b8c6945  | feat: add US26 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  1212d35  | feat: add US29 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  3222e2a  | feat: add US30 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  e95986c  | feat: add US31 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  741958f  | feat: add US32 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  4f52caf  | feat: add US33 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  bce77ff  | feat: add US34 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  30d2afd  | feat: add US36 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  0171bd2  | feat: add US37 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  099a75b  | feat: add US38 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  100978c  | feat: add US39 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  adeb307  | feat: add US40 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  7431765  | feat: add US41 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  f24aa3d  | feat: add US42 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  cef29cb  | feat: add TS01 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  c0aaacb  | feat: add TS02 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  6d84cc3  | feat: add TS03 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  657bc8c  | feat: add TS04 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  99646d5  | feat: add TS05 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  868e274  | feat: add TS06 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+
+Link del repositorio:
+[https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Testing.git](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Testing.git)
+
+
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+
+## Web y Mobile App
+
+Configuracion de los entornos de despliegue para la aplicación web, aplicación móvil, landing page y backend, incluyendo detalles sobre el hosting, dominios y configuraciones específicas.
+
+<img src="images/evidences/deploy/deploy1.png">
+
+Visualización de la configuración del entorno de despliegue para la aplicación web, incluyendo el dominio y el hosting utilizado.
+
+<img src="images/evidences/deploy/deploy2.png">
+
+Ramas de despliegue y configuración del entorno de producción para la aplicación móvil, incluyendo detalles sobre el dominio y el hosting utilizado.
+
+<img src="images/evidences/deploy/deploy3.png">
+
+Associación del repositorio de la aplicación móvil con el entorno de producción para publicar los cambios realizados en la rama `main`.
+
+<img src="images/evidences/deploy/deploy6.png">
+
+
+Dominio y hosting de la landing page, incluyendo detalles sobre la configuración del entorno de producción.
+
+<img src="images/evidences/deploy/deploy4.png">
+
+Aplicación web desplegada en el entorno de producción, mostrando la interfaz de usuario y las funcionalidades disponibles.
+
+<img src="images/evidences/deploy/deploy5.png">
+
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
 ### 6.3. Validation Interviews.
