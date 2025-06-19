@@ -4643,6 +4643,7 @@ En este apartado se introduce la recopilación de commits más representativos r
 | Application-Backend/feat/crud | 227dc7c  | fixed miembro por usuario  | 15/06/2025  |
 | Application-Backend/feat/crud | 6306bc2  | add: errors | 17/06/2025 |
 | Application-Backend/feat/crud | e1c1cba  | add: endpoints de accesos historicos  | 18/06/2025 |
+| Application-Backend/feat/crud | b81cb64  | update: profile property  | 19/06/2025 |
 
 **LandingPage**
 
