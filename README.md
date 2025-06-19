@@ -4616,6 +4616,11 @@ En este apartado se introduce la recopilación de commits más representativos r
 | application-web/main | 531931f  | fixed build  | 18/06/2025  |
 | application-web/main | ec4fe77  | setting env  |  18/06/2025 |
 | application-web/main | ec4fe77  | feat(fixed): fixed crud  |  18/06/2025 |
+| application-web/main | bba3d1d  | fixed responsive view mobil |  19/06/2025 |
+| application-web/main | 4556d10  | feat(fixed):fixed responsive screen in movil and tablets |  19/06/2025 |
+| application-web/main | 9970fd7  | feat(fixed):fixed responsive screen in movil and tablets |  19/06/2025 |
+
+
 
 **BackEnd**
 
