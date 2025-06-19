@@ -4714,6 +4714,35 @@ Link del repositorio:
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+
+## Web y Mobile App
+
+Configuracion de los entornos de despliegue para la aplicación web, aplicación móvil, landing page y backend, incluyendo detalles sobre el hosting, dominios y configuraciones específicas.
+
+<img src="images/evidences/deploy/deploy1.png">
+
+Visualización de la configuración del entorno de despliegue para la aplicación web, incluyendo el dominio y el hosting utilizado.
+
+<img src="images/evidences/deploy/deploy2.png">
+
+Ramas de despliegue y configuración del entorno de producción para la aplicación móvil, incluyendo detalles sobre el dominio y el hosting utilizado.
+
+<img src="images/evidences/deploy/deploy3.png">
+
+Associación del repositorio de la aplicación móvil con el entorno de producción para publicar los cambios realizados en la rama `main`.
+
+<img src="images/evidences/deploy/deploy6.png">
+
+
+Dominio y hosting de la landing page, incluyendo detalles sobre la configuración del entorno de producción.
+
+<img src="images/evidences/deploy/deploy4.png">
+
+Aplicación web desplegada en el entorno de producción, mostrando la interfaz de usuario y las funcionalidades disponibles.
+
+<img src="images/evidences/deploy/deploy5.png">
+
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
 ### 6.3. Validation Interviews.
