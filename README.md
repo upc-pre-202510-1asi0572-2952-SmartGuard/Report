@@ -4781,9 +4781,17 @@ Link del BackEnd deployado: [https://smart-guard2.azurewebsites.net/](https://sm
 
 <img src="images/usuariodesconocido.png">
 
+Respuesta en el endpoint:
+
+ <img src="images/usuariowokwidesconocido.png">
+
 - **Usuario admitido**
 
 <img src="images/usuarioadmitido.png">
+
+Respuesta en el endpoint
+
+<img src="images/usuariowokwiadmitido.png">
 
 Link del Wokwi ESP-32: [https://wokwi.com/projects/433787052438454273](https://wokwi.com/projects/433787052438454273)
 
