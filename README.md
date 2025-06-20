@@ -4827,6 +4827,23 @@ Se ofrece una visión general de la documentación generada para todos los servi
 
 **BackEnd**
 
+
+| Nombre Ruta               | Método | Link                                                              |
+| :------------------------ | :----- | :---------------------------------------------------------------- |
+| Login                     | Post   | `https://smart-guard2.azurewebsites.net/api/v1/logeo`             |
+| Registrar Usuario         | Post   | `https://smart-guard2.azurewebsites.net/api/v1/usuarioMysql`      |
+| Crear Miembro             | Post   | `https://smart-guard2.azurewebsites.net/api/v1/miembros`          |
+| Crear Hogar               | Post   | `https://smart-guard2.azurewebsites.net/api/v1/hogarMysql`        |
+| Asociar Miembro a un hogar | Post   | `https://smart-guard2.azurewebsites.net/api/v1/asociar_miembro`  |
+| Registrar Acceso Histórico | post   | `https://smart-guard2.azurewebsites.net/api/v1/accesos`          |
+| Obtener                   | get    | `https://smart-guard2.azurewebsites.net/api/v1/miembros/pro`      |
+| Miembros Por usuario    |        | `pietario/Fernandorar121`                                               |
+| Obtener Hogares por usuario | get    | `https://smart-guard2.azurewebsites.net/api/v1/hogares/propietario/Fernandorar121` |
+| Obtener dispositivos por usuario | get    | `https://smart-guard2.azurewebsites.net/api/v1/dispositivos/Fernandorar121` |
+
+
+
+
 **Edge Layer**
 
 <img src="images/endpointsedge.jpg">
