@@ -144,19 +144,14 @@
 
 # Project Report Collaboration Insights
 
-TB1:
+<img src="images/contributors.png" />
 
-<img src="images/Insights1.png" />
+<img src="images/commits.png" />
 
-<img src="images/Insights2.png" />
+<img src="images/traffic.png" />
 
-<img src="images/Insights3.png" />
+<img src="images/graph.png" />
 
-TP:
-
-TB2:
-
-TF:
 
 # Contenido
 [Student Outcome](#student-outcome)
