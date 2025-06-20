@@ -4539,10 +4539,10 @@ En este Sprint 2 nos enfocamos en integrar y entregar todas las piezas del proye
       3.   
       4.  
   - **Colaboradores:**  
-    - **Antonella Gonzales** — Edge Applications Developer  
-      -  
-      -   
-      - 
+    - *Antonella Gonzales** — Edge Applications Developer  
+      - Desarrollo del algoritmo en Python para el registro y reconocimiento facial de usuarios
+      - Implementación de APIs REST para conectar el sistema de reconocimiento facial con el ESP32
+      - Ajustes y mejoras en el firmware del ESP32 para la gestión y recepción de datos de acceso
 
 ---
 
