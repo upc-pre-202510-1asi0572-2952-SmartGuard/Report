@@ -90,25 +90,39 @@
         </tr>
         <tr>
             <th>TP</th>
-            <td></td>
+            <td>14/05/2025</td>
             <td>
                 <ul>
+                    <li>Fernando Aquino Ima</li>
+                    <li>Pérez García David Alexander</li>
+                    <li>Gonzales Gomez, Antonella Frida</li>
+                    <li>Ramos Najar, Tony Alexander</li>
+                    <li>Zárate Gamarra, Luis Alejandro</li>
                 </ul>
             </td>
             <td>            
                 <ul>
+                    <li>Capítulo V: Solution UI/UX Design</li>
+                    <li>Capítulo VI: Product Implementation, Validation & Deployment</li>
+                    <li>Sprint 1</li>           
                 </ul>
             </td>
         </tr>
         <tr>
             <th>TB2</th>
-            <td></td>
+            <td>20/06/2025</td>
             <td>
                 <ul>
+                    <li>Fernando Aquino Ima</li>
+                    <li>Pérez García David Alexander</li>
+                    <li>Gonzales Gomez, Antonella Frida</li>
+                    <li>Ramos Najar, Tony Alexander</li>
+                    <li>Zárate Gamarra, Luis Alejandro</li>                    
                 </ul>
             </td>
             <td>            
                 <ul>
+                    <li>Sprint 2</li>
                 </ul>
             </td>
         </tr>
@@ -130,19 +144,14 @@
 
 # Project Report Collaboration Insights
 
-TB1:
+<img src="images/contributors.png" />
 
-<img src="images/Insights1.png" />
+<img src="images/commits.png" />
 
-<img src="images/Insights2.png" />
+<img src="images/traffic.png" />
 
-<img src="images/Insights3.png" />
+<img src="images/graph.png" />
 
-TP:
-
-TB2:
-
-TF:
 
 # Contenido
 [Student Outcome](#student-outcome)
@@ -276,9 +285,18 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <b>Gonzales Gomez, Antonella Frida</b><br><b>TB1</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.<br><br>
          <br><b>TP</b><br> En esta entrega se desarrollo los diseños del figma y luego se paso a desarrollar y deployar en github.<br><br> 
                 <br><b>TB2</b><br> En esta entrega se desarrollo capa Edge el algoritmo de reconocimiento facial y las APIs para la comunicacion con el Esp32 .<br><br>      
-<b>Pérez García, David Alexander</b><br><b>TB1</b><br> Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.<br><br>
-        <b>TP</b><br>En esta entrega se realizó la configuración del deployment en Netlify para la aplicación web. Asimismo, se había desarrollado previamente la codificación de la aplicación web siguiendo las vistas definidas en el prototipo de Figma.<br><br>
-      <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br><b>TP</b><br> Durante la entrega del TP, me enfoque en diseñar los wireframes y Mockups de nuestro sitio web para una correcta interaccion con el usuario, ademas de que sea intuitiva 
+<b>Pérez García, David Alexander</b>
+<br><b>TB1</b><br> 
+Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.
+<br><br>
+<b>TP</b>
+<br>En esta entrega se realizó la configuración del deployment en Netlify para la aplicación web. Asimismo, se había desarrollado previamente la codificación de la aplicación web siguiendo las vistas definidas en el prototipo de Figma.
+<br><br>
+<b>TB2</b>
+<br>En esta etapa me encargué del desarrollo de los endpoints necesarios para que el frontend pudiera consumirlos de manera eficiente. Utilicé el framework .NET para estructurar la solución en diferentes contextos: IAM (Identity and Access Management) y AdministradorHogar. En cada uno de estos contextos se definieron y mapearon cuidadosamente las entidades y agregados clave, como miembros, propietarios, perfiles, hogares, dispositivos y accesos.
+<br>Este enfoque permitió mantener una arquitectura limpia, escalable y alineada con los principios de diseño orientado al dominio (DDD), facilitando la integración entre el backend y el frontend de forma coherente y segura.
+<br><br>
+<b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br><b>TP</b><br> Durante la entrega del TP, me enfoque en diseñar los wireframes y Mockups de nuestro sitio web para una correcta interaccion con el usuario, ademas de que sea intuitiva. <br><br><b> TB2 </b><br> Para esta entrega, me encargué de coordinar el desarrollo de las vistas de frontend, repartiendo tareas entre los compañeros, liderando las revisiones de código y asegurando que cada pantalla consumiera correctamente los endpoints del backend desplegado en Azure, con un enfoque en la usabilidad y consistencia visual.
       <br><br><b>Aquino Iman Herly Fernando</b><br> Me encargué del desarrollo del capítulo 3, que abarca la Especificación de Requerimientos. Validé y prioricé los requisitos funcionales y no funcionales del sistema en coordinación con el equipo. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales orientaron la alineación entre objetivos estratégicos y funcionalidades clave del sistema.
     </td>
     <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
@@ -292,9 +310,13 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro landing page hacer de manera mas actractiva para que capte la atencion del cliente<br><br>
                       <br><b>TB2</b><br> El algoritmo de reconocimiento facial desarrollado en Python es el más importante para dar acceso a la vivienda.<br><br>
 
-<b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.<br><br>
+<b>Pérez García, David Alexander</b>
+<b>TB1</b><br>Asumí la responsabilidad del desarrollo de los endpoints necesarios para la integración entre frontend y backend. Utilicé el framework .NET para construir los contextos IAM y AdministradorHogar, mapeando entidades y agregados como miembros, propietarios, perfiles, hogares, dispositivos y accesos. Esta estructuración permitió una base sólida y escalable para la gestión de usuarios y control de acceso en el sistema.<br><br>
+<b>TP</b><br>Colaboré en la definición del flujo lógico del sistema desde el backend, lo que permitió al equipo de diseño alinear los mockups con la estructura real de datos. Mi participación fue clave para asegurar la viabilidad técnica de las interfaces propuestas y anticipar posibles restricciones o mejoras técnicas en el diseño.<br><br>
+<b>TB2</b><br>En esta fase, lideré la implementación de funcionalidades críticas del backend, asegurando la correcta conexión entre los servicios y sus respectivas capas. Trabajé con pruebas de integración y validación de datos utilizando herramientas como Postman y Swagger. Además, optimicé la estructura del proyecto siguiendo principios de diseño limpio y arquitectura hexagonal, lo cual facilitó la mantenibilidad del código y la colaboración con otros desarrolladores del equipo.
+<br><br>
       <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>Me encargué de dividir dos bounded contexts en capas (interfaz, dominio e infraestructura), para ordenar mejor el diseño de la solución. Usé Visual Paradigm para armar diagramas C4 que ayudaron a que todo el equipo entienda cómo se conecta cada parte del sistema. Gracias a esto, logramos organizarnos mejor, establecer metas claras y avanzar en el desarrollo respetando los tiempos que nos propusimos.<br><br>
-        <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro sitio web con el usuario, ademas el prototipo de pantalla ayudo a organizar mejor nuestras ideas
+        <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro sitio web con el usuario, ademas el prototipo de pantalla ayudo a organizar mejor nuestras ideas <br><br><b> TB2 </b><br> Para esta entrega, me encargué de articular el flujo de trabajo entre frontend y backend, priorizando las historias de usuario en el backlog, definiendo criterios de aceptación claros, realizando pruebas con Postman y garantizando el cumplimiento de los objetivos establecidos dentro del plazo del sprint.
       <br><br><b>Aquino Iman Herly Fernando</b><br> Desarrollé el capítulo 3: Especificación de Requerimientos, coordinando con el equipo para validar y priorizar los requisitos funcionales y no funcionales del sistema. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales guiaron la definición de objetivos estratégicos y su alineación con las funcionalidades del sistema. Promoví un entorno de trabajo colaborativo al integrar los aportes del equipo en los entregables y asegurar la coherencia entre las secciones del documento. Establecí metas claras, planifiqué las tareas con plazos definidos y cumplí con los entregables en los tiempos acordados, contribuyendo al avance ordenado del proyecto.
     </td>
     <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
@@ -4525,15 +4547,15 @@ En este Sprint 2 nos enfocamos en integrar y entregar todas las piezas del proye
     - **Nombre:** Alejandro Zárate  
     - **Rol:** Edge Applications Lead  
     - **Responsabilidades:**  
-      1.  
-      2.  
-      3.   
-      4.  
+      1. Mapeo de los requerimientos de la capa edge (conectividad, procesamiento local, envío a la nube).
+      2. Desarrollar e implementar la integración del sistema embebido en la capa edge (p. ej., procesamiento de datos en tiempo real en simulación).
+      3. Coordinación con el equipo de backend para asegurar que los datos del sistema embebido se envían correctamente a la nube.
+      4. Validación de la comunicación entre el sistema embebido y la capa edge.
   - **Colaboradores:**  
-    - **Antonella Gonzales** — Edge Applications Developer  
-      -  
-      -   
-      - 
+    - *Antonella Gonzales** — Edge Applications Developer  
+      - Desarrollo del algoritmo en Python para el registro y reconocimiento facial de usuarios
+      - Implementación de APIs REST para conectar el sistema de reconocimiento facial con el ESP32
+      - Ajustes y mejoras en el firmware del ESP32 para la gestión y recepción de datos de acceso
 
 ---
 
@@ -4571,17 +4593,27 @@ En este Sprint Backlog 2, se completó todas las historias de usuario de gestió
 |     US040     |  Descargar documentación   |     TA040         |     Se descarga el documento solicitado.       |  Como usuario, quiero descargar documentos en PDF o manuales actualizados con especificaciones técnicas y guías de uso para consultarlos offline o compartirlos con mi equipo.  |     4 horas       |  Tony Ramos  | Done  |
 |     US041     |  Eliminar hogar registrado   |     TA041         |      Se elimina un hogar tras confirmación.      |  Como usuario, quiero borrar un hogar que haya registrado previamente para dejar de recibir notificaciones y liberar espacio en mi lista de hogares.  |    8 horas        |  Fernando Aquino  | Done  |
 |     US042     |  Editar hogar registrado   |      TA042        |     Se actualizan los datos de un hogar existente.       |  Como usuario, quiero modificar los datos de un hogar (nombre, dirección, n° de cuartos, proveedor de agua, etc.) para mantener la información siempre actualizada y reflejar cambios en mi ubicación o estructura familiar.  |    8 horas        |  David Perez  | Done  |
-|     TS001     |  Leer y validar usuario desde puerto serial   |     ES001         |    Se recibe dato por serial y se valida contra lista de usuarios autorizados.        |  Como desarrollador quiero leer y procesar la entrada por el puerto serial (Serial.readStringUntil('\n')) para validar si el nombre recibido coincide con alguno de los usuarios registrados y así decidir si se abre la cerradura  |            |    | Done  |
-|     TS002     |  Implementar debounce para boton de override   |      ES002        |      Se filtran las señales rápidas del botón para registrar solo un pulso real por activación.      |  Como desarrollador quiero aplicar debounce al botón conectado al pin 2, de modo que solo se detecten pulsaciones reales (sin rebotes) y evitar que se ejecute la lógica de apertura/cierre varias veces por un solo toque.  |            |    | Done  |
-|     TS003     |  Controlar LED indicador de estado de cerradura   |      ES003        |      Se comprueba que el LED refleje correctamente el estado de cerrado o abierto.      |  Como desarrollador quiero controlar el pin 13 como salida digital para encender el LED indicando “cerradura abierta” o apagarlo para “cerradura cerrada”, de forma que el usuario reciba feedback visual inmediato del estado.  |            |    | Done  |
-|     TS004     |  Actuar servo para simular mecanismo de bloqueo   |     ES004         |    Se verifica que el servo se mueva a 0° y 90° al bloquear y desbloquear respectivamente.        |  Como desarrollador quiero inicializar y mover el servo en el pin 9 (0° cuando la cerradura está cerrada, 90° cuando está abierta) para simular físicamente el mecanismo de bloqueo.  |            |    | Done  |
-|     TS005     |  Mostrar mensajes claros en pantalla I2C   |     ES005  |      Se envían y muestran mensajes legibles en la pantalla I2C según código de evento.      |  Como desarrollador quiero inicializar la pantalla I²C (LiquidCrystal_I2C en A4/A5) y mostrar mensajes claros (“Acceso Aprobado”, “Acceso Denegado”, “Cerradura Cerrada”) para que quien use el sistema entienda en todo momento qué está ocurriendo sin necesidad de la PC.  |            |    | Done  |
-|     TS006     |  Gestionar estado de cerradura con variable locked   |     ES006         |      Se alterna la variable locked y se comprueba coherencia entre software y hardware.      |  Como desarrollador quiero gestionar el estado de la cerradura usando la variable locked para alternar entre abierto y cerrado en procesarAperturaCierre().  |            |    | Done  |
-
+|     TS001     |  Leer y validar usuario desde puerto serial   |     ES001         |    Se recibe dato por serial y se valida contra lista de usuarios autorizados.        |  Como desarrollador quiero leer y procesar la entrada por el puerto serial (Serial.readStringUntil('\n')) para validar si el nombre recibido coincide con alguno de los usuarios registrados y así decidir si se abre la cerradura  |    6 horas        | Luis Zárate   | Done  |
+|     TS002     |  Implementar debounce para boton de override   |      ES002        |      Se filtran las señales rápidas del botón para registrar solo un pulso real por activación.      |  Como desarrollador quiero aplicar debounce al botón conectado al pin 2, de modo que solo se detecten pulsaciones reales (sin rebotes) y evitar que se ejecute la lógica de apertura/cierre varias veces por un solo toque.  |     2 horas       | Tony Ramos   | Done  |
+|     TS003     |  Controlar LED indicador de estado de cerradura   |      ES003        |      Se comprueba que el LED refleje correctamente el estado de cerrado o abierto.      |  Como desarrollador quiero controlar el pin 13 como salida digital para encender el LED indicando “cerradura abierta” o apagarlo para “cerradura cerrada”, de forma que el usuario reciba feedback visual inmediato del estado.  |    3 horas        |  Luis Zárate  | Done  |
+|     TS004     |  Actuar servo para simular mecanismo de bloqueo   |     ES004         |    Se verifica que el servo se mueva a 0° y 90° al bloquear y desbloquear respectivamente.        |  Como desarrollador quiero inicializar y mover el servo en el pin 9 (0° cuando la cerradura está cerrada, 90° cuando está abierta) para simular físicamente el mecanismo de bloqueo.  |     2 horas       |  Tony Ramos  | Done  |
+|     TS005     |  Mostrar mensajes claros en pantalla I2C   |     ES005  |      Se envían y muestran mensajes legibles en la pantalla I2C según código de evento.      |  Como desarrollador quiero inicializar la pantalla I²C (LiquidCrystal_I2C en A4/A5) y mostrar mensajes claros (“Acceso Aprobado”, “Acceso Denegado”, “Cerradura Cerrada”) para que quien use el sistema entienda en todo momento qué está ocurriendo sin necesidad de la PC.  |      2 horas      | Luis Zárate   | Done  |
+|     TS006     |  Gestionar estado de cerradura con variable locked   |     ES006         |      Se alterna la variable locked y se comprueba coherencia entre software y hardware.      |  Como desarrollador quiero gestionar el estado de la cerradura usando la variable locked para alternar entre abierto y cerrado en procesarAperturaCierre().  |    2 horas        | Luis Zárate   | Done  |
+|     TS007     |  Inicializar sensor biométrico                             |     ES007        |      Se verifica que el sensor se comunique correctamente y devuelva datos biométricos capturados.      |  Como desarrollador quiero inicializar el sensor biométrico (ej. R305 por UART) para capturar el registro facial y permitir la identificación del usuario desde la capa edge del sistema.  |    5 horas        |  Antonella Gonzales  | Done  |
+|     TS008     |  Comparar registro biométrico con base local                            |     ES008        |      Se comprueba que una biometría válida coincida correctamente con la base local y genere un resultado booleano.      |  Como desarrollador quiero implementar la comparación de la biometría capturada con las almacenadas localmente para validar la identidad sin depender de la nube.  |    4 horas        |  Antonella Gonzales  | Done  |
+|     TS009     |  Validar biometría antes de abrir cerradura                   |     ES009        |      Se asegura que la cerradura solo se abra si la validación biométrica es exitosa.      |  Como desarrollador quiero condicionar la apertura de la cerradura al éxito de la validación biométrica para mantener la seguridad del sistema.  |    2 horas        |  Antonella Gonzales  | Done  |
+|     TS010     |  Manejar reintentos fallidos de biometría                     |     ES010        |      Se valida que cuando se den intentos fallidos se bloquee temporalmente el acceso o se indique “Acceso Denegado”.      |  Como desarrollador quiero implementar una lógica de intentos fallidos que deniegue la apertura y el acceso para evitar intentos de acceso al hogar.  |    3 horas        |  Antonella Gonzales  | Done  |
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
 En este apartado se introduce la recopilación de commits más representativos registrados durante el sprint, organizados por repositorio (frontend, backend, Edge y landing page) para demostrar el progreso en cada módulo.
+
+**Landing Page**
+
+| Branch | Commit Id | Commit Message                       | Committed on (Dated) |
+|--------|-----------|--------------------------------------|-----------------------|
+| landing-page/main | 582a8e4 | Update index.html and style.css | 19/06/2025 |
+| landing-page/main | 9276141 | fix: add favicon to browser tab | 19/06/2025 |
 
 **FontEnd**
 
@@ -4706,14 +4738,186 @@ Aquí se contextualiza la automatización de las pruebas de las historias de usu
 |  Testing/sprint-2   |    main  |  657bc8c  | feat: add TS04 testing of sprint 2 on repository | Verified  | 19/06/2025  |
 |  Testing/sprint-2   |    main  |  99646d5  | feat: add TS05 testing of sprint 2 on repository | Verified  | 19/06/2025  |
 |  Testing/sprint-2   |    main  |  868e274  | feat: add TS06 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  867bc21  | feat: add TS07 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  6d84c74  | feat: add TS08 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  24aa382  | feat: add TS09 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+|  Testing/sprint-2   |    main  |  4aa3d11  | feat: add TS10 testing of sprint 2 on repository | Verified  | 19/06/2025  |
+
+<img src="images/testingpassed.png">
+
 
 Link del repositorio:
 [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Testing.git](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Testing.git)
 
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
+
+Esta sección presenta la forma en que se ejecutaron y validaron las funcionalidades entregadas —desde la interfaz web, landing page hasta el sistema embebido y los endpoints backend— ilustrando el flujo completo de pruebas. Cabe resaltar que tanto el FrontEnd como el BackEnd se encuentran deployados en Netlify y Microsoft Azure respectivamente, por otra parte logramos comunicar ambas tecnologías por medio de un sistema CORS.
+
+**Landing Page**
+
+<img src="images/landingpage1.png">
+
+<img src="images/landingpage2.png">
+
+<img src="images/landingpage3.png">
+
+<img src="images/landingpage4.png">
+
+<img src="images/landingpage5.png">
+
+
+**FrontEnd**
+
+- **Sección Registrar**
+
+<img src="images/registerview.png">
+
+- **Sección Login**
+
+<img src="images/loginview.png">
+
+- **Sección Principal**
+
+<img src="images/homeview.png">
+
+- **Sección Dispositivos**
+
+<img src="images/deviceview.png">
+
+- **Sección Miembros**
+
+<img src="images/memberview.png">
+
+- **Sección Perfil de Usuario**
+
+<img src="images/userview.png">
+
+- **Vista pública de un Miembro agregado**
+
+<img src="images/vistapublicamiembro.png">
+
+Link del FrontEnd deployado: [https://smartguard-web.netlify.app/splashview](https://smartguard-web.netlify.app/splashview)
+
+**Backend**
+
+- **Crear Usuario**
+  
+<img src="images/postcrearusuario.png">
+
+- **Iniciar Sesión**
+
+<img src="images/postlogin.png">
+
+- **Crear hogar**
+
+<img src="images/postcrearhogar.png">
+
+- **Agregar miembro Usuario**
+
+<img src="images/postagregarmiembrousuario.png">
+
+- **Agregar miembro a Hogar**
+
+<img src="images/postasociarmiembrohogar.png">
+
+Link del BackEnd deployado: [https://smart-guard2.azurewebsites.net/](https://smart-guard2.azurewebsites.net/)
+
+<img src="images/backenddeploy.png">
+
+
+**Embedded System**
+
+- **Cerradura cerrada**
+
+<img src="images/cerraduracerrada.png">
+
+- **Usuario desconocido detectado**
+
+<img src="images/usuariodesconocido.png">
+
+Respuesta en el endpoint:
+
+ <img src="images/usuariowokwidesconocido.png">
+
+- **Usuario admitido**
+
+<img src="images/usuarioadmitido.png">
+
+Respuesta en el endpoint
+
+<img src="images/usuariowokwiadmitido.png">
+
+Link del Wokwi ESP-32: [https://wokwi.com/projects/433787052438454273](https://wokwi.com/projects/433787052438454273)
+
+**Edge Layer**
+
+- **Usuario Registrado**
+
+<img src="images/registereduser.jpg">
+
+- **Usuario Desconocido**
+
+<img src="images/unknowuser.jpg">
+
+- **Registrar usuario**
+
+<img src="images/evidenceuserregistered.jpg">
+
+- **Evidencia mediante logs**
+
+<img src="images/logs.jpg">
+
+<img src="images/logedgeapi.jpg">
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+
+Se ofrece una visión general de la documentación generada para todos los servicios expuestos (backend, Edge y mini-backend de reconocimiento facial), mostrando cómo se registraron y describieron los endpoints disponibles
+
+**BackEnd**
+
+
+| Nombre Ruta               | Método | Url                                                              |
+| :------------------------ | :----- | :---------------------------------------------------------------- |
+| Login                     | Post   | `https://smart-guard2.azurewebsites.net/api/v1/logeo`             |
+| Registrar Usuario         | Post   | `https://smart-guard2.azurewebsites.net/api/v1/usuarioMysql`      |
+| Crear Miembro             | Post   | `https://smart-guard2.azurewebsites.net/api/v1/miembros`          |
+| Crear Hogar               | Post   | `https://smart-guard2.azurewebsites.net/api/v1/hogarMysql`        |
+| Asociar Miembro a un hogar | Post   | `https://smart-guard2.azurewebsites.net/api/v1/asociar_miembro`  |
+| Registrar Acceso Histórico | post   | `https://smart-guard2.azurewebsites.net/api/v1/accesos`          |
+| Obtener Mienbros por usuario | get    | `https://smart-guard2.azurewebsites.net/api/v1/miembros/propietario/Fernandorar121`|
+| Obtener Hogares por usuario | get    | `https://smart-guard2.azurewebsites.net/api/v1/hogares/propietario/Fernandorar121` |
+| Obtener dispositivos por usuario | get    | `https://smart-guard2.azurewebsites.net/api/v1/dispositivos/Fernandorar121` |
+| Obtener Información temporal del miembro | get    | `https://smart-guard2.azurewebsites.net/api/v1/mienbroTemporal/39A692DA3BC3E64DA9355051FA54D2E4` |
+| Obtener Perfil de usuario por nickname | get    | `https://smart-guard2.azurewebsites.net/api/v1/usuarioMysql/Fernandorar121` |
+| Obtener Accesos Historicos por usuario | get    | `https://smart-guard2.azurewebsites.net/api/v1/accesos/Fernandorar121` |
+
+
+**Edge Layer**
+
+<img src="images/endpointsedge.jpg">
+
+
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+
+A continuación se describe el despliegue de cada componente de la solución en sus respectivos entornos (Azure, Railway, Netlify u otras plataformas), evidenciando la disponibilidad de los artefactos finales.
+
+## Configuración en el Entorno de Azure
+
+Primero se debe crear un nuevo function en el portal de azure
+<img src="images/azure/deploy_azure_1.png">
+Segundo debe configurar el plan de consumo para el function
+<img src="images/azure/deploy_azure_2.png">
+Luego debe configurarse los datos basicos de la cuenta, tener en cuenta la region desde donde se creara ya que una ubicación lejana provocara que la web sea lenta
+<img src="images/azure/deploy_azure_3.png">
+
+Luego en visual estudio se genera un nuevo perfil de publicación basado en functions
+<img src="images/azure/deploy_azure_4.png">
+<img src="images/azure/deploy_azure_5.png">
+
+Finalmente una vez el perfil configurado se publica mendiante el button de publicar.
+<img src="images/azure/deploy_azure_6.png">
+
 
 ## Web y Mobile App
 
@@ -4745,11 +4949,92 @@ Aplicación web desplegada en el entorno de producción, mostrando la interfaz d
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
+En este último punto se introduce el análisis de la colaboración del equipo, destacando la distribución de commits por autor y módulo para reflejar la contribución individual y colectiva en el sprint.
+
+- **Landing Page**
+
+<img src="images/landingparticipation.png">
+
+<img src="images/landingparticipation2.png">
+
+- **FrontEnd**
+
+<img src="images/frontparticipation.png">
+
+<img src="images/frontparticipation2.png">
+
+- **BackEnd**
+
+<img src="images/backparticipation.png">
+
+<img src="images/backparticipation2.png">
+
+- **Edge Layer**
+
+<img src="images/edgeparticipation.png">
+
+
 ### 6.3. Validation Interviews.
 
+En esta fase realizamos entrevistas de validación con usuarios reales para comprobar la usabilidad y coherencia del flujo completo de FaceLoock. El objetivo fue observar cómo interactúan con las funcionalidades clave: registro, login, gestión de hogares, vinculación de dispositivos IoT, administración de miembros, asignación de accesos y edición de perfil. Durante cada sesión realizamos una demo de nuestra startup, y luego recopilamos sus comentarios finales para detectar puntos de fricción y oportunidades de mejora.
+
 #### 6.3.1. Diseño de Entrevistas.
+
+Se definió un guion centrado en escenarios de uso representativos de nuestro sitio web y se seleccionaron participantes con perfil de propietarios de vivienda interesados en sistemas de seguridad inteligente. Cada entrevista siguió este esquema:
+
+**Sitio Web**
+
+| User Goal                                  | Persona                 | Explicación del flujo                                                                                                                                                        |
+| ------------------------------------------ | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Registro de cuenta**                     | Propietario de vivienda | El usuario accede al formulario de registro, ingresa correo y contraseña, valida los campos y confirma la creación de la cuenta.                                             |
+| **Inicio de sesión**                       | Propietario de vivienda | El usuario introduce email y contraseña en la pantalla de login y, si las credenciales son correctas, es redirigido al dashboard principal.                                  |
+| **Gestión de hogares**                     | Propietario de vivienda | Desde la vista principal, el usuario crea un nuevo hogar completando nombre y atributos, y posteriormente puede editar o eliminar cada registro.                             |
+| **Vinculación de dispositivo IoT a hogar** | Propietario de vivienda | Tras seleccionar un hogar, el usuario añade un ESP32 ingresando su ID, y el sistema lo asocia a la residencia seleccionada.                                                  |
+| **Gestión de miembros**                    | Propietario de vivienda | Dentro del contexto de un dispositivo, el usuario registra miembros (nombre, edad, foto), puede editar sus datos o eliminarlos, con vista previa de imagen antes de guardar. |
+| **Asignar acceso al dispositivo**          | Propietario de vivienda | El usuario selecciona un miembro existente y activa o desactiva su permiso de acceso; se muestra una página con QR y enlace único para compartir.                            |
+| **Edición y eliminación de perfil**        | Propietario de vivienda | En la sección de perfil, el usuario actualiza sus credenciales (correo, contraseña) o elige eliminar su cuenta, con confirmación doble antes de proceder.                    |
+| **Visualización de estado**                | Miembro de vivienda     | En una vista pública, el miembro visualiza su estado de acceso garantizado por el usuario, este puede estar ni bien habilitado o deshabilitado.                              |
+
 #### 6.3.2. Registro de Entrevistas.
+
+| Sección                               | Características del video                 | Sobre el contenido                               | Integración y entrega |
+| ------------------------------------- | ----------------------------------------- | ------------------------------------------------ | --------------------- |
+| Validation Interviews                 | Formato: MP4<br> Duración:                | Entrevistado(a) #1: Gerardo Gutierrez<br> Sexo: Hombre<br> Edad: 22 años<br> Segmento objetivo: Propietarios de vivienda tecnológica<br> Distrito: Comas | Screenshot: <img src="images/entrevistado1.png" width="30%"><br> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/EatNSnzwby9OumZNgaPAS_IBZ3tBaMr5rpaEuTfBg3vK6g?e=UIuRQM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/EatNSnzwby9OumZNgaPAS_IBZ3tBaMr5rpaEuTfBg3vK6g?e=UIuRQM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| Validation Interviews                 | Formato: MP4<br> Duración:                | Entrevistado(a) #1: ADOLFO PEREZ<br> Sexo: Hombre<br> Edad: 28 años<br> Segmento objetivo: Propietarios de vivienda tecnológica<br> Distrito: LIMA | Screenshot: <img src="images/entrevistado2.jpg" width="30%"><br> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/ERBWXEnmtoJCmoAQs3cQImMBsUnuj3CbDK8lU2enujtzLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Le0ua1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/ERBWXEnmtoJCmoAQs3cQImMBsUnuj3CbDK8lU2enujtzLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Le0ua1) |
+| Validation Interviews                 | Formato: MP4<br> Duración:         dsd       | Entrevistado(a) #3: <br> Sexo: <br> Edad: <br> Segmento objetivo: <br> Distrito:  | 
+| Validation Interviews                 | Formato: MP4<br> Duración:        sdsd        | Entrevistado(a) #4: <br> Sexo: <br> Edad: <br> Segmento objetivo: <br> Distrito:  | 
+
 #### 6.3.3. Evaluaciones según heurísticas.
+
+En esta fase se llevó a cabo una inspección basada en las 10 heurísticas de Nielsen para identificar problemas de usabilidad en SmartGuard / FaceLoock y proponer mejoras puntuales.
+
+**App a Evaluar:** SmartGuard / FaceLoock  
+**Tareas a Evaluar:**  
+- Registro de cuenta  
+- Inicio de sesión  
+- Gestión de hogares  
+- Vinculación de dispositivo IoT  
+- Gestión de miembros  
+- Asignación de acceso al dispositivo  
+- Edición y eliminación de perfil  
+
+**Escala de Severidad:**  
+| Nivel | Descripción                                                                                                                   |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: ocurre raramente y el usuario lo supera fácilmente.                                                     |
+| 2     | Problema menor: aparece con cierta frecuencia y dificulta ligeramente la tarea; debería corregirse en el siguiente release.  |
+| 3     | Problema mayor: ocurre con frecuencia o impide al usuario continuar sin ayuda; prioridad alta de corrección.                  |
+| 4     | Problema crítico: bloquea la tarea o causa gran confusión; debe solucionarse antes del lanzamiento.                           |
+
+**Resumen de Problemas Detectados:**  
+| # | Problema                                                                  | Severidad | Heurística / Principio violado                          |
+| - | ------------------------------------------------------------------------- | --------- | ------------------------------------------------------- |
+| 1 | En móvil, el teclado oculta el botón “Guardar” en formularios de edición. | 2         | Visibilidad del estado del sistema                      |
+| 2 | No existe indicador de progreso al procesar la foto para reconocimiento.  | 3         | Visibilidad del estado del sistema                      |
+| 3 | El campo de ingreso manual del ID del ESP32 es propenso a errores.       | 2         | Prevención de errores                                   |
+| 4 | Falta un botón “Copiar enlace” junto al QR para compartir el acceso.      | 2         | Flexibilidad y eficiencia de uso                        |
+| 5 | Mensajes de error genéricos al fallar la conexión con el backend.         | 3         | Reconocimiento, diagnóstico y recuperación de errores   |
+
 
 ### 6.4. Video About-the-Product.
 
@@ -4757,6 +5042,28 @@ Aplicación web desplegada en el entorno de producción, mostrando la interfaz d
 
 # Conclusiones  
 ## Conclusiones y recomendaciones  
+
+SmartGuard con FaceLoock ha consolidado una plataforma de seguridad residencial end-to-end que abarca desde la captura de datos en tiempo real con ESP32 y sensores IoT, pasando por el procesamiento local en la capa Edge, hasta el backend escalable desplegado en Azure y el frontend dinámico desarrollado en Vue.js; todo ello alineado con una metodología ágil que incluyó la automatización de pruebas con Cucumber/Gherkin, integración continua y despliegue continuo, monitorización de rendimiento en Azure Monitor y una gestión colaborativa del sprint mediante commits organizados por módulo; la experiencia de usuario resultante es altamente intuitiva, permitiendo añadir, editar y visualizar miembros autorizados mediante reconocimiento facial con respuestas rápidas, mientras que la documentación de APIs, las colecciones de Postman y las métricas de uptime (>99 %) garantizan la estabilidad del sistema; como próximas evoluciones se prevé reforzar la seguridad de la transmisión y el almacenamiento de datos, ampliar la capacidad de reconocimiento a múltiples rostros simultáneos, incorporar análisis predictivo de patrones de acceso mediante machine learning y optimizar la experiencia móvil para asegurar escalabilidad y adaptabilidad a nuevos escenarios.  
+
+Como recomendaciones
+- **Seguridad de extremo a extremo**  
+  Implementar HTTPS/TLS en todos los servicios, encriptar datos sensibles en tránsito y en reposo, y evaluar autenticación multifactor para usuarios críticos.
+
+- **Resiliencia y funcionamiento offline**  
+  Desarrollar mecanismos de cache y fallback en la capa Edge para que el sistema siga operativo ante desconexiones temporales.
+
+- **Escalabilidad del reconocimiento**  
+  Considerar servicios de reconocimiento facial en la nube (p. ej. Azure Face API) o modelos optimizados para procesar múltiples rostros simultáneos, junto a una cola de mensajes para balancear carga.
+
+- **Analítica avanzada**  
+  Recopilar y analizar patrones de acceso mediante machine learning para detectar anomalías y generar reportes periódicos que ayuden a optimizar recursos.
+
+- **Monitoreo centralizado**  
+  Configurar dashboards unificados (Grafana o Azure Dashboard) y alertas automáticas para métricas críticas (latencia, errores 5xx, uso de CPU/memoria).
+
+- **Mejora continua de UX**  
+  Optimizar la interfaz en distintos dispositivos (móvil, tablet, desktop), añadir notificaciones push y refinar flujos de usuario según feedback real.
+
 ## Video About-the-Team  
 
 # Bibliografía  
@@ -4771,5 +5078,11 @@ Aplicación web desplegada en el entorno de producción, mostrando la interfaz d
 
 # Anexos  
 
-Link del repositorio GitHub: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard]<br>
-Link del Miro: [https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301]
+Link del repositorio GitHub: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard)<br>
+Link del Miro: [https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301](https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301)<br>
+Link del Trello : [https://trello.com/b/2VSpef7r/sprint-2-smartguard](https://trello.com/b/2VSpef7r/sprint-2-smartguard)<br>
+Link del Canva: [https://www.canva.com/design/DAGll4dWzlo/tAVls4JI2DsSAYtjvi2Wcg/edit](https://www.canva.com/design/DAGll4dWzlo/tAVls4JI2DsSAYtjvi2Wcg/edit)<br>
+Link del Wokwi: [https://wokwi.com/projects/433787052438454273](https://wokwi.com/projects/433787052438454273)<br>
+Link de la Landing Page: [https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/](https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/)<br>
+Link del FrontEnd deployado: [https://smartguard-web.netlify.app/splashview](https://smartguard-web.netlify.app/splashview)<br>
+Link del BackEnd deployado: [https://smart-guard2.azurewebsites.net/](https://smart-guard2.azurewebsites.net/)<br>
