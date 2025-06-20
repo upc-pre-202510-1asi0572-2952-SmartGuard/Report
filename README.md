@@ -4836,12 +4836,12 @@ Se ofrece una visión general de la documentación generada para todos los servi
 | Crear Hogar               | Post   | `https://smart-guard2.azurewebsites.net/api/v1/hogarMysql`        |
 | Asociar Miembro a un hogar | Post   | `https://smart-guard2.azurewebsites.net/api/v1/asociar_miembro`  |
 | Registrar Acceso Histórico | post   | `https://smart-guard2.azurewebsites.net/api/v1/accesos`          |
-| Obtener                   | get    | `https://smart-guard2.azurewebsites.net/api/v1/miembros/pro`      |
-| Miembros Por usuario    |        | `pietario/Fernandorar121`                                               |
+| Obtener Mienbros por usuario | get    | `https://smart-guard2.azurewebsites.net/api/v1/miembros/propietario/Fernandorar121`|
 | Obtener Hogares por usuario | get    | `https://smart-guard2.azurewebsites.net/api/v1/hogares/propietario/Fernandorar121` |
 | Obtener dispositivos por usuario | get    | `https://smart-guard2.azurewebsites.net/api/v1/dispositivos/Fernandorar121` |
-
-
+| Obtener Información temporal del miembro | get    | `https://smart-guard2.azurewebsites.net/api/v1/mienbroTemporal/39A692DA3BC3E64DA9355051FA54D2E4` |
+| Obtener Perfil de usuario por nickname | get    | `https://smart-guard2.azurewebsites.net/api/v1/usuarioMysql/Fernandorar121` |
+| Obtener Accesos Historicos por usuario | get    | `https://smart-guard2.azurewebsites.net/api/v1/accesos/Fernandorar121` |
 
 
 **Edge Layer**
