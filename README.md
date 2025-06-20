@@ -4968,6 +4968,28 @@ En este último punto se introduce el análisis de la colaboración del equipo, 
 
 # Conclusiones  
 ## Conclusiones y recomendaciones  
+
+SmartGuard con FaceLoock ha consolidado una plataforma de seguridad residencial end-to-end que abarca desde la captura de datos en tiempo real con ESP32 y sensores IoT, pasando por el procesamiento local en la capa Edge, hasta el backend escalable desplegado en Azure y el frontend dinámico desarrollado en Vue.js; todo ello alineado con una metodología ágil que incluyó la automatización de pruebas con Cucumber/Gherkin, integración continua y despliegue continuo, monitorización de rendimiento en Azure Monitor y una gestión colaborativa del sprint mediante commits organizados por módulo; la experiencia de usuario resultante es altamente intuitiva, permitiendo añadir, editar y visualizar miembros autorizados mediante reconocimiento facial con respuestas rápidas, mientras que la documentación de APIs, las colecciones de Postman y las métricas de uptime (>99 %) garantizan la estabilidad del sistema; como próximas evoluciones se prevé reforzar la seguridad de la transmisión y el almacenamiento de datos, ampliar la capacidad de reconocimiento a múltiples rostros simultáneos, incorporar análisis predictivo de patrones de acceso mediante machine learning y optimizar la experiencia móvil para asegurar escalabilidad y adaptabilidad a nuevos escenarios.  
+
+Como recomendaciones
+- **Seguridad de extremo a extremo**  
+  Implementar HTTPS/TLS en todos los servicios, encriptar datos sensibles en tránsito y en reposo, y evaluar autenticación multifactor para usuarios críticos.
+
+- **Resiliencia y funcionamiento offline**  
+  Desarrollar mecanismos de cache y fallback en la capa Edge para que el sistema siga operativo ante desconexiones temporales.
+
+- **Escalabilidad del reconocimiento**  
+  Considerar servicios de reconocimiento facial en la nube (p. ej. Azure Face API) o modelos optimizados para procesar múltiples rostros simultáneos, junto a una cola de mensajes para balancear carga.
+
+- **Analítica avanzada**  
+  Recopilar y analizar patrones de acceso mediante machine learning para detectar anomalías y generar reportes periódicos que ayuden a optimizar recursos.
+
+- **Monitoreo centralizado**  
+  Configurar dashboards unificados (Grafana o Azure Dashboard) y alertas automáticas para métricas críticas (latencia, errores 5xx, uso de CPU/memoria).
+
+- **Mejora continua de UX**  
+  Optimizar la interfaz en distintos dispositivos (móvil, tablet, desktop), añadir notificaciones push y refinar flujos de usuario según feedback real.
+
 ## Video About-the-Team  
 
 # Bibliografía  
@@ -4982,5 +5004,11 @@ En este último punto se introduce el análisis de la colaboración del equipo, 
 
 # Anexos  
 
-Link del repositorio GitHub: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard]<br>
-Link del Miro: [https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301]
+Link del repositorio GitHub: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard)<br>
+Link del Miro: [https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301](https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301)<br>
+Link del Trello : [https://trello.com/b/2VSpef7r/sprint-2-smartguard](https://trello.com/b/2VSpef7r/sprint-2-smartguard)<br>
+Link del Canva: [https://www.canva.com/design/DAGll4dWzlo/tAVls4JI2DsSAYtjvi2Wcg/edit](https://www.canva.com/design/DAGll4dWzlo/tAVls4JI2DsSAYtjvi2Wcg/edit)<br>
+Link del Wokwi: [https://wokwi.com/projects/433787052438454273](https://wokwi.com/projects/433787052438454273)<br>
+Link de la Landing Page: [https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/](https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/)<br>
+Link del FrontEnd deployado: [https://smartguard-web.netlify.app/splashview](https://smartguard-web.netlify.app/splashview)<br>
+Link del BackEnd deployado: [https://smart-guard2.azurewebsites.net/](https://smart-guard2.azurewebsites.net/)<br>
