@@ -4583,6 +4583,13 @@ En este Sprint Backlog 2, se completó todas las historias de usuario de gestió
 
 En este apartado se introduce la recopilación de commits más representativos registrados durante el sprint, organizados por repositorio (frontend, backend, Edge y landing page) para demostrar el progreso en cada módulo.
 
+**Landing Page**
+
+| Branch | Commit Id | Commit Message                       | Committed on (Dated) |
+|--------|-----------|--------------------------------------|-----------------------|
+| landing-page/main | 582a8e4 | Update index.html and style.css | 19/06/2025 |
+| landing-page/main | 9276141 | fix: add favicon to browser tab | 19/06/2025 |
+
 **FontEnd**
 
 | Branch | Commit Id | Commit Message                       | Committed on (Dated) |
@@ -4716,7 +4723,20 @@ Link del repositorio:
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 
-Esta sección presenta la forma en que se ejecutaron y validaron las funcionalidades entregadas —desde la interfaz web hasta el sistema embebido y los endpoints backend— ilustrando el flujo completo de pruebas. Cabe resaltar que tanto el FrontEnd como el BackEnd se encuentran deployados en Netlify y Microsoft Azure respectivamente, por otra parte logramos comunicar ambas tecnologías por medio de un sistema CORS.
+Esta sección presenta la forma en que se ejecutaron y validaron las funcionalidades entregadas —desde la interfaz web, landing page hasta el sistema embebido y los endpoints backend— ilustrando el flujo completo de pruebas. Cabe resaltar que tanto el FrontEnd como el BackEnd se encuentran deployados en Netlify y Microsoft Azure respectivamente, por otra parte logramos comunicar ambas tecnologías por medio de un sistema CORS.
+
+**Landing Page**
+
+<img src="images/landingpage1.png">
+
+<img src="images/landingpage2.png">
+
+<img src="images/landingpage3.png">
+
+<img src="images/landingpage4.png">
+
+<img src="images/landingpage5.png">
+
 
 **FrontEnd**
 
