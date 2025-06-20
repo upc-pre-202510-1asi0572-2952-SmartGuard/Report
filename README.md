@@ -4801,8 +4801,40 @@ Respuesta en el endpoint
 
 Link del Wokwi ESP-32: [https://wokwi.com/projects/433787052438454273](https://wokwi.com/projects/433787052438454273)
 
+**Edge Layer**
+
+- **Usuario Registrado**
+
+<img src="images/registereduser.jpg">
+
+- **Usuario Desconocido**
+
+<img src="images/unknowuser.jpg">
+
+- **Registrar usuario**
+
+<img src="images/evidenceuserregistered.jpg">
+
+- **Evidencia mediante logs**
+
+<img src="images/logs.jpg">
+
+<img src="images/logedgeapi.jpg">
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+
+Se ofrece una visión general de la documentación generada para todos los servicios expuestos (backend, Edge y mini-backend de reconocimiento facial), mostrando cómo se registraron y describieron los endpoints disponibles
+
+**BackEnd**
+
+**Edge Layer**
+
+<img src="images/endpointsedge.jpg">
+
+
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+
+A continuación se describe el despliegue de cada componente de la solución en sus respectivos entornos (Azure, Railway, Netlify u otras plataformas), evidenciando la disponibilidad de los artefactos finales.
 
 ## Web y Mobile App
 
