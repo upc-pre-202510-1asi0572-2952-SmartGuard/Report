@@ -93,10 +93,18 @@
             <td></td>
             <td>
                 <ul>
+                    <li>Fernando Aquino Ima</li>
+                    <li>Pérez García David Alexander</li>
+                    <li>Gonzales Gomez, Antonella Frida</li>
+                    <li>Ramos Najar, Tony Alexander</li>
+                    <li>Zárate Gamarra, Luis Alejandro</li>
                 </ul>
             </td>
             <td>            
                 <ul>
+                    <li>Capítulo V: Solution UI/UX Design</li>
+                    <li>Capítulo VI: Product Implementation, Validation & Deployment</li>
+                    <li>Sprint 1</li>           
                 </ul>
             </td>
         </tr>
@@ -105,10 +113,16 @@
             <td></td>
             <td>
                 <ul>
+                    <li>Fernando Aquino Ima</li>
+                    <li>Pérez García David Alexander</li>
+                    <li>Gonzales Gomez, Antonella Frida</li>
+                    <li>Ramos Najar, Tony Alexander</li>
+                    <li>Zárate Gamarra, Luis Alejandro</li>                    
                 </ul>
             </td>
             <td>            
                 <ul>
+                    <li>Sprint 2</li>
                 </ul>
             </td>
         </tr>
@@ -278,7 +292,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
                 <br><b>TB2</b><br> En esta entrega se desarrollo capa Edge el algoritmo de reconocimiento facial y las APIs para la comunicacion con el Esp32 .<br><br>      
 <b>Pérez García, David Alexander</b><br><b>TB1</b><br> Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.<br><br>
         <b>TP</b><br>En esta entrega se realizó la configuración del deployment en Netlify para la aplicación web. Asimismo, se había desarrollado previamente la codificación de la aplicación web siguiendo las vistas definidas en el prototipo de Figma.<br><br>
-      <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br><b>TP</b><br> Durante la entrega del TP, me enfoque en diseñar los wireframes y Mockups de nuestro sitio web para una correcta interaccion con el usuario, ademas de que sea intuitiva 
+      <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br><b>TP</b><br> Durante la entrega del TP, me enfoque en diseñar los wireframes y Mockups de nuestro sitio web para una correcta interaccion con el usuario, ademas de que sea intuitiva. <br><br><b> TB2 </b><br> Para esta entrega, me encargué de coordinar el desarrollo de las vistas de frontend, repartiendo tareas entre los compañeros, liderando las revisiones de código y asegurando que cada pantalla consumiera correctamente los endpoints del backend desplegado en Azure, con un enfoque en la usabilidad y consistencia visual.
       <br><br><b>Aquino Iman Herly Fernando</b><br> Me encargué del desarrollo del capítulo 3, que abarca la Especificación de Requerimientos. Validé y prioricé los requisitos funcionales y no funcionales del sistema en coordinación con el equipo. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales orientaron la alineación entre objetivos estratégicos y funcionalidades clave del sistema.
     </td>
     <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
@@ -294,7 +308,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 <b>Pérez García, David Alexander</b><br> Fomenté un entorno colaborativo e inclusivo, establecí metas claras, planifiqué las tareas correspondientes a cada capítulo del reporte y aseguré el cumplimiento de los objetivos establecidos.<br><br>
       <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>Me encargué de dividir dos bounded contexts en capas (interfaz, dominio e infraestructura), para ordenar mejor el diseño de la solución. Usé Visual Paradigm para armar diagramas C4 que ayudaron a que todo el equipo entienda cómo se conecta cada parte del sistema. Gracias a esto, logramos organizarnos mejor, establecer metas claras y avanzar en el desarrollo respetando los tiempos que nos propusimos.<br><br>
-        <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro sitio web con el usuario, ademas el prototipo de pantalla ayudo a organizar mejor nuestras ideas
+        <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro sitio web con el usuario, ademas el prototipo de pantalla ayudo a organizar mejor nuestras ideas <br><br><b> TB2 </b><br> Para esta entrega, me encargué de articular el flujo de trabajo entre frontend y backend, priorizando las historias de usuario en el backlog, definiendo criterios de aceptación claros, realizando pruebas con Postman y garantizando el cumplimiento de los objetivos establecidos dentro del plazo del sprint.
       <br><br><b>Aquino Iman Herly Fernando</b><br> Desarrollé el capítulo 3: Especificación de Requerimientos, coordinando con el equipo para validar y priorizar los requisitos funcionales y no funcionales del sistema. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales guiaron la definición de objetivos estratégicos y su alineación con las funcionalidades del sistema. Promoví un entorno de trabajo colaborativo al integrar los aportes del equipo en los entregables y asegurar la coherencia entre las secciones del documento. Establecí metas claras, planifiqué las tareas con plazos definidos y cumplí con los entregables en los tiempos acordados, contribuyendo al avance ordenado del proyecto.
     </td>
     <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
