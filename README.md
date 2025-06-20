@@ -4828,7 +4828,7 @@ Se ofrece una visión general de la documentación generada para todos los servi
 **BackEnd**
 
 
-| Nombre Ruta               | Método | Link                                                              |
+| Nombre Ruta               | Método | Url                                                              |
 | :------------------------ | :----- | :---------------------------------------------------------------- |
 | Login                     | Post   | `https://smart-guard2.azurewebsites.net/api/v1/logeo`             |
 | Registrar Usuario         | Post   | `https://smart-guard2.azurewebsites.net/api/v1/usuarioMysql`      |
