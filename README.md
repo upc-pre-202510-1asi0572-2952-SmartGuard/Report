@@ -4920,6 +4920,33 @@ Aplicación web desplegada en el entorno de producción, mostrando la interfaz d
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
+En este último punto se introduce el análisis de la colaboración del equipo, destacando la distribución de commits por autor y módulo para reflejar la contribución individual y colectiva en el sprint.
+
+- **Landing Page**
+
+<img src="images/landingparticipation.png">
+
+<img src="images/landingparticipation2.png">
+
+- **FrontEnd**
+
+<img src="images/frontparticipation.png">
+
+<img src="images/frontparticipation2.png">
+
+- **BackEnd**
+
+<img src="images/backparticipation.png">
+
+<img src="images/backparticipation2.png">
+
+- **Edge Layer**
+
+<img src="images/edgeparticipation.png">
+
+
+
+
 ### 6.3. Validation Interviews.
 
 #### 6.3.1. Diseño de Entrevistas.
