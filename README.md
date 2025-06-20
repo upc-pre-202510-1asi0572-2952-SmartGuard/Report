@@ -4707,6 +4707,9 @@ Aquí se contextualiza la automatización de las pruebas de las historias de usu
 |  Testing/sprint-2   |    main  |  99646d5  | feat: add TS05 testing of sprint 2 on repository | Verified  | 19/06/2025  |
 |  Testing/sprint-2   |    main  |  868e274  | feat: add TS06 testing of sprint 2 on repository | Verified  | 19/06/2025  |
 
+<img src="images/testingpassed.png">
+
+
 Link del repositorio:
 [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Testing.git](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard/Testing.git)
 
@@ -4770,6 +4773,9 @@ Link del FrontEnd deployado: [https://smartguard-web.netlify.app/splashview](htt
 <img src="images/postasociarmiembrohogar.png">
 
 Link del BackEnd deployado: [https://smart-guard2.azurewebsites.net/](https://smart-guard2.azurewebsites.net/)
+
+<img src="images/backenddeploy.png">
+
 
 **Embedded System**
 
