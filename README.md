@@ -4954,13 +4954,69 @@ En este último punto se introduce el análisis de la colaboración del equipo, 
 <img src="images/edgeparticipation.png">
 
 
-
-
 ### 6.3. Validation Interviews.
 
+En esta fase realizamos entrevistas de validación con usuarios reales para comprobar la usabilidad y coherencia del flujo completo de FaceLoock. El objetivo fue observar cómo interactúan con las funcionalidades clave: registro, login, gestión de hogares, vinculación de dispositivos IoT, administración de miembros, asignación de accesos y edición de perfil. Durante cada sesión realizamos una demo de nuestra startup, y luego recopilamos sus comentarios finales para detectar puntos de fricción y oportunidades de mejora.
+
 #### 6.3.1. Diseño de Entrevistas.
+
+Se definió un guion centrado en escenarios de uso representativos de nuestro sitio web y se seleccionaron participantes con perfil de propietarios de vivienda interesados en sistemas de seguridad inteligente. Cada entrevista siguió este esquema:
+
+**Sitio Web**
+
+| User Goal                                  | Persona                 | Explicación del flujo                                                                                                                                                        |
+| ------------------------------------------ | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Registro de cuenta**                     | Propietario de vivienda | El usuario accede al formulario de registro, ingresa correo y contraseña, valida los campos y confirma la creación de la cuenta.                                             |
+| **Inicio de sesión**                       | Propietario de vivienda | El usuario introduce email y contraseña en la pantalla de login y, si las credenciales son correctas, es redirigido al dashboard principal.                                  |
+| **Gestión de hogares**                     | Propietario de vivienda | Desde la vista principal, el usuario crea un nuevo hogar completando nombre y atributos, y posteriormente puede editar o eliminar cada registro.                             |
+| **Vinculación de dispositivo IoT a hogar** | Propietario de vivienda | Tras seleccionar un hogar, el usuario añade un ESP32 ingresando su ID, y el sistema lo asocia a la residencia seleccionada.                                                  |
+| **Gestión de miembros**                    | Propietario de vivienda | Dentro del contexto de un dispositivo, el usuario registra miembros (nombre, edad, foto), puede editar sus datos o eliminarlos, con vista previa de imagen antes de guardar. |
+| **Asignar acceso al dispositivo**          | Propietario de vivienda | El usuario selecciona un miembro existente y activa o desactiva su permiso de acceso; se muestra una página con QR y enlace único para compartir.                            |
+| **Edición y eliminación de perfil**        | Propietario de vivienda | En la sección de perfil, el usuario actualiza sus credenciales (correo, contraseña) o elige eliminar su cuenta, con confirmación doble antes de proceder.                    |
+| **Visualización de estado**                | Miembro de vivienda     | En una vista pública, el miembro visualiza su estado de acceso garantizado por el usuario, este puede estar ni bien habilitado o deshabilitado.                              |
+
 #### 6.3.2. Registro de Entrevistas.
+
+| Sección                               | Características del video                 | Sobre el contenido                               | Integración y entrega |
+| ------------------------------------- | ----------------------------------------- | ------------------------------------------------ | --------------------- |
+| Validation Interviews                 | Formato: MP4<br> Duración:                | Entrevistado(a) #1: Gerardo Gutierrez<br> Sexo: Hombre<br> Edad: 22 años<br> Segmento objetivo: Propietarios de vivienda tecnológica<br> Distrito: Comas | Screenshot: <img src="images/entrevistado1.png" width="30%"><br> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/EatNSnzwby9OumZNgaPAS_IBZ3tBaMr5rpaEuTfBg3vK6g?e=UIuRQM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/EatNSnzwby9OumZNgaPAS_IBZ3tBaMr5rpaEuTfBg3vK6g?e=UIuRQM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| Validation Interviews                 | Formato: MP4<br> Duración:     dsds           | Entrevistado(a) #2: <br> Sexo: <br> Edad: <br> Segmento objetivo: <br> Distrito:  | 
+| Validation Interviews                 | Formato: MP4<br> Duración:         dsd       | Entrevistado(a) #3: <br> Sexo: <br> Edad: <br> Segmento objetivo: <br> Distrito:  | 
+| Validation Interviews                 | Formato: MP4<br> Duración:        sdsd        | Entrevistado(a) #4: <br> Sexo: <br> Edad: <br> Segmento objetivo: <br> Distrito:  | 
+
 #### 6.3.3. Evaluaciones según heurísticas.
+
+## 5.3.3 Evaluaciones según heurísticas
+
+En esta fase se llevó a cabo una inspección basada en las 10 heurísticas de Nielsen para identificar problemas de usabilidad en SmartGuard / FaceLoock y proponer mejoras puntuales.
+
+**App a Evaluar:** SmartGuard / FaceLoock  
+**Tareas a Evaluar:**  
+- Registro de cuenta  
+- Inicio de sesión  
+- Gestión de hogares  
+- Vinculación de dispositivo IoT  
+- Gestión de miembros  
+- Asignación de acceso al dispositivo  
+- Edición y eliminación de perfil  
+
+**Escala de Severidad:**  
+| Nivel | Descripción                                                                                                                   |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: ocurre raramente y el usuario lo supera fácilmente.                                                     |
+| 2     | Problema menor: aparece con cierta frecuencia y dificulta ligeramente la tarea; debería corregirse en el siguiente release.  |
+| 3     | Problema mayor: ocurre con frecuencia o impide al usuario continuar sin ayuda; prioridad alta de corrección.                  |
+| 4     | Problema crítico: bloquea la tarea o causa gran confusión; debe solucionarse antes del lanzamiento.                           |
+
+**Resumen de Problemas Detectados:**  
+| # | Problema                                                                  | Severidad | Heurística / Principio violado                          |
+| - | ------------------------------------------------------------------------- | --------- | ------------------------------------------------------- |
+| 1 | En móvil, el teclado oculta el botón “Guardar” en formularios de edición. | 2         | Visibilidad del estado del sistema                      |
+| 2 | No existe indicador de progreso al procesar la foto para reconocimiento.  | 3         | Visibilidad del estado del sistema                      |
+| 3 | El campo de ingreso manual del ID del ESP32 es propenso a errores.       | 2         | Prevención de errores                                   |
+| 4 | Falta un botón “Copiar enlace” junto al QR para compartir el acceso.      | 2         | Flexibilidad y eficiencia de uso                        |
+| 5 | Mensajes de error genéricos al fallar la conexión con el backend.         | 3         | Reconocimiento, diagnóstico y recuperación de errores   |
+
 
 ### 6.4. Video About-the-Product.
 
