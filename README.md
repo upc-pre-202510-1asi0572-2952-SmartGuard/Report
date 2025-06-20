@@ -90,7 +90,7 @@
         </tr>
         <tr>
             <th>TP</th>
-            <td></td>
+            <td>14/05/2025</td>
             <td>
                 <ul>
                     <li>Fernando Aquino Ima</li>
@@ -110,7 +110,7 @@
         </tr>
         <tr>
             <th>TB2</th>
-            <td></td>
+            <td>20/06/2025</td>
             <td>
                 <ul>
                     <li>Fernando Aquino Ima</li>
