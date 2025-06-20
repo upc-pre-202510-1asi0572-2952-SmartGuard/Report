@@ -4993,8 +4993,6 @@ Se definió un guion centrado en escenarios de uso representativos de nuestro si
 
 #### 6.3.3. Evaluaciones según heurísticas.
 
-## 5.3.3 Evaluaciones según heurísticas
-
 En esta fase se llevó a cabo una inspección basada en las 10 heurísticas de Nielsen para identificar problemas de usabilidad en SmartGuard / FaceLoock y proponer mejoras puntuales.
 
 **App a Evaluar:** SmartGuard / FaceLoock  
