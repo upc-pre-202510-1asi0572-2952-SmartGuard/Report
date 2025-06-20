@@ -4853,6 +4853,23 @@ Se ofrece una visión general de la documentación generada para todos los servi
 
 A continuación se describe el despliegue de cada componente de la solución en sus respectivos entornos (Azure, Railway, Netlify u otras plataformas), evidenciando la disponibilidad de los artefactos finales.
 
+## Configuración en el Entorno de Azure
+
+Primero se debe crear un nuevo function en el portal de azure
+<img src="images/azure/deploy_azure_1.png">
+Segundo debe configurar el plan de consumo para el function
+<img src="images/azure/deploy_azure_2.png">
+Luego debe configurarse los datos basicos de la cuenta, tener en cuenta la region desde donde se creara ya que una ubicación lejana provocara que la web sea lenta
+<img src="images/azure/deploy_azure_3.png">
+
+Luego en visual estudio se genera un nuevo perfil de publicación basado en functions
+<img src="images/azure/deploy_azure_4.png">
+<img src="images/azure/deploy_azure_5.png">
+
+Finalmente una vez el perfil configurado se publica mendiante el button de publicar.
+<img src="images/azure/deploy_azure_6.png">
+
+
 ## Web y Mobile App
 
 Configuracion de los entornos de despliegue para la aplicación web, aplicación móvil, landing page y backend, incluyendo detalles sobre el hosting, dominios y configuraciones específicas.
