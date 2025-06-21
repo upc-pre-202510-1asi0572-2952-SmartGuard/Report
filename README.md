@@ -284,7 +284,10 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       <b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.<br><br>
        <b>Gonzales Gomez, Antonella Frida</b><br><b>TB1</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.<br><br>
          <br><b>TP</b><br> En esta entrega se desarrollo los diseños del figma y luego se paso a desarrollar y deployar en github.<br><br> 
-                <br><b>TB2</b><br> En esta entrega se desarrollo capa Edge el algoritmo de reconocimiento facial y las APIs para la comunicacion con el Esp32 .<br><br>      
+                <br><b>TB2</b><br>En esta entrega se desarrolló la capa Edge del sistema, donde se integró el algoritmo de reconocimiento facial.
+Asimismo, se implementaron las APIs necesarias para la comunicación con el ESP32.
+Gracias a esto, se logró transmitir imágenes y recibir respuestas de autenticación en tiempo real.
+De este modo, se optimizó el procesamiento local, reduciendo la latencia y mejorando la autonomía.<br><br>      
 <b>Pérez García, David Alexander</b>
 <br><b>TB1</b><br> 
 Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.
@@ -308,7 +311,10 @@ Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales compe
       <b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><br>
        <b>Gonzales Gomez, Antonella Frida</b><br> <b>TB1</b><br>Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.<br><br>
 <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro landing page hacer de manera mas actractiva para que capte la atencion del cliente<br><br>
-                      <br><b>TB2</b><br> El algoritmo de reconocimiento facial desarrollado en Python es el más importante para dar acceso a la vivienda.<br><br>
+                      <br><b>TB2</b><br>El algoritmo de reconocimiento facial, desarrollado en Python, es fundamental para el acceso a la vivienda.
+Además, su precisión y eficiencia permiten identificar a los usuarios de forma segura.
+Por esta razón, se lo integró como componente central del sistema.
+En consecuencia, garantiza un control de acceso confiable y automatizado.<br><br>
 
 <b>Pérez García, David Alexander</b>
 <b>TB1</b><br>Asumí la responsabilidad del desarrollo de los endpoints necesarios para la integración entre frontend y backend. Utilicé el framework .NET para construir los contextos IAM y AdministradorHogar, mapeando entidades y agregados como miembros, propietarios, perfiles, hogares, dispositivos y accesos. Esta estructuración permitió una base sólida y escalable para la gestión de usuarios y control de acceso en el sistema.<br><br>
