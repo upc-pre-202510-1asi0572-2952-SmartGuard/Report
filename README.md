@@ -5042,8 +5042,9 @@ En esta fase se llevó a cabo una inspección basada en las 10 heurísticas de N
 
 
 ### 6.4. Video About-the-Product.
-
-
+<img src="images/about.png" width="130%">
+Enlace a video:  
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EVH4qvJ8U9lEmV8vfkuxdW8BkpuZTjSJSj93_EdlL7k5AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e2dbVP" target="_blank">Ver video</a>
 
 # Conclusiones  
 ## Conclusiones y recomendaciones  
