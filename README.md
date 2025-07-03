@@ -4979,6 +4979,19 @@ En este último punto se introduce el análisis de la colaboración del equipo, 
 
 <img src="images/edgeparticipation.png">
 
+### 6.2.3. Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3. 
+#### 6.2.3.2. Aspect Leaders and Collaborators. 
+#### 6.2.3.3. Sprint Backlog 2. 
+#### 6.2.3.4. Development Evidence for Sprint Review.
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review. 
+#### 6.2.3.6. Execution Evidence for Sprint Review. 
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review.
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review. 
+#### 6.2.3.9. Team Collaboration Insights during Sprint.
+
+
 
 ### 6.3. Validation Interviews.
 
@@ -5046,6 +5059,8 @@ En esta fase se llevó a cabo una inspección basada en las 10 heurísticas de N
 Enlace a video:  
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EVH4qvJ8U9lEmV8vfkuxdW8BkpuZTjSJSj93_EdlL7k5AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e2dbVP" target="_blank">Ver video</a>
 
+### 6.5. Video About-the-Team.
+
 # Conclusiones  
 ## Conclusiones y recomendaciones  
 
@@ -5093,3 +5108,8 @@ Link de la Landing Page: [https://upc-pre-202510-1asi0572-2952-smartguard.github
 Link del FrontEnd deployado: [https://smartguard-web.netlify.app/splashview](https://smartguard-web.netlify.app/splashview)<br>
 Link del BackEnd deployado: [https://smart-guard2.azurewebsites.net/](https://smart-guard2.azurewebsites.net/)<br>
 Link del Video About the Product: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EVH4qvJ8U9lEmV8vfkuxdW8BkpuZTjSJSj93_EdlL7k5AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nfRv8K](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EVH4qvJ8U9lEmV8vfkuxdW8BkpuZTjSJSj93_EdlL7k5AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nfRv8K)<br>
+Link Entrevistado Validation #1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/EatNSnzwby9OumZNgaPAS_IBZ3tBaMr5rpaEuTfBg3vK6g?e=UIuRQM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<br>
+Link Entrevistado Validation #2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/ERBWXEnmtoJCmoAQs3cQImMBsUnuj3CbDK8lU2enujtzLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Le0ua1
+<br>
+Link Entrevistado Validation #3: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EQXEo5DlWhBBpSJAbsUxvy0B1Q3RmjHUnFro3tdPi2LLdw?e=8vPyhI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
