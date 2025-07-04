@@ -4984,8 +4984,24 @@ En este último punto se introduce el análisis de la colaboración del equipo, 
 En este Sprint 3 implementamos un prototipo con un ESP32 físico y reconocimiento facial, simulando un LED que se enciende si el rostro coincide con un usuario registrado y de lo contrario, no se enciende si un usuario desconocido es detectado; dicho LED simula el acceso a la cerradura inteligente, si está encendido el acceso es otorgado, por otro lado si no se enciende, es denegado. Documentamos la lógica, el montaje y validamos el funcionamiento.
 
 #### 6.2.3.1. Sprint Planning 3. 
+
+| **Campo**                             | **Detalle**                                                                                                                                                                                      |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                          | 3                                                                                                                                                                                                |
+| **Date**                              | 05/06/2025                                                                                                                                                                                       |
+| **Time**                              | 22:00                                                                                                                                                                                            |
+| **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
+| **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
+| **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                        |
+| **Sprint n – 2 Review Summary**       | Corregir detalles de anteriores entregas en base a la retroalimentación del profesor, implementación de nueva logica.
+|
+| **Sprint n – 2 Retrospective Summary**| Se corrigió todos los detalles observados en la anterior entrega                                                                                                                                                                                                 |
+| **Sprint Goal & User Stories**        | **Sprint 3 Goal:**<br/> Implementar correctamenta los componentes físicos y conectarlos con nuestros servicios                                                                                                                                                       |
+| **Sprint n Velocity**                 | **Sum of Story Points:** <br> 25                                                                                                                                                                   |
+
+
 #### 6.2.3.2. Aspect Leaders and Collaborators. 
-#### 6.2.3.3. Sprint Backlog 2. 
+#### 6.2.3.3. Sprint Backlog 3. 
 #### 6.2.3.4. Development Evidence for Sprint Review.
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review. 
 #### 6.2.3.6. Execution Evidence for Sprint Review. 
