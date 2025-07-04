@@ -4981,6 +4981,8 @@ En este último punto se introduce el análisis de la colaboración del equipo, 
 
 ### 6.2.3. Sprint 3
 
+En este Sprint 3 implementamos un prototipo con un ESP32 físico y reconocimiento facial, simulando un LED que se enciende si el rostro coincide con un usuario registrado y de lo contrario, no se enciende si un usuario desconocido es detectado; dicho LED simula el acceso a la cerradura inteligente, si está encendido el acceso es otorgado, por otro lado si no se enciende, es denegado. Documentamos la lógica, el montaje y validamos el funcionamiento.
+
 #### 6.2.3.1. Sprint Planning 3. 
 #### 6.2.3.2. Aspect Leaders and Collaborators. 
 #### 6.2.3.3. Sprint Backlog 2. 
