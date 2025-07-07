@@ -5249,6 +5249,11 @@ Enlace a video:
 
 ### 6.5. Video About-the-Team.
 
+<img src="images/abouttheteam.png" width="130%">
+
+Link: [COPIAR Y PEGAR]<br>
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/Eb7Xf_D9_cdIguOXTt6JP44Bg6HksFpaV7D6r2eJqVpZ6Q?e=p83R3h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 # Conclusiones  
 ## Conclusiones y recomendaciones  
 
@@ -5288,16 +5293,29 @@ Como recomendaciones
 # Anexos  
 
 Link del repositorio GitHub: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard)<br>
+
 Link del Miro: [https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301](https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301)<br>
+
 Link del Trello : [https://trello.com/b/2VSpef7r/sprint-2-smartguard](https://trello.com/b/2VSpef7r/sprint-2-smartguard)<br>
+
 Link del Canva: [https://www.canva.com/design/DAGll4dWzlo/tAVls4JI2DsSAYtjvi2Wcg/edit](https://www.canva.com/design/DAGll4dWzlo/tAVls4JI2DsSAYtjvi2Wcg/edit)<br>
+
 Link del Wokwi: [https://wokwi.com/projects/433787052438454273](https://wokwi.com/projects/433787052438454273)<br>
+
 Link de la Landing Page: [https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/](https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/)<br>
+
 Link del FrontEnd deployado: [https://smartguard-web.netlify.app/splashview](https://smartguard-web.netlify.app/splashview)<br>
+
 Link del BackEnd deployado: [https://smart-guard2.azurewebsites.net/](https://smart-guard2.azurewebsites.net/)<br>
+
 Link del Video About the Product: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EVH4qvJ8U9lEmV8vfkuxdW8BkpuZTjSJSj93_EdlL7k5AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nfRv8K](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EVH4qvJ8U9lEmV8vfkuxdW8BkpuZTjSJSj93_EdlL7k5AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nfRv8K)<br>
+
+Link del Video About the Team: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/Eb7Xf_D9_cdIguOXTt6JP44Bg6HksFpaV7D6r2eJqVpZ6Q?e=p83R3h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/Eb7Xf_D9_cdIguOXTt6JP44Bg6HksFpaV7D6r2eJqVpZ6Q?e=p83R3h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+
 Link Entrevistado Validation #1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/EatNSnzwby9OumZNgaPAS_IBZ3tBaMr5rpaEuTfBg3vK6g?e=UIuRQM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 <br>
+
 Link Entrevistado Validation #2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/ERBWXEnmtoJCmoAQs3cQImMBsUnuj3CbDK8lU2enujtzLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Le0ua1
 <br>
+
 Link Entrevistado Validation #3: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EQXEo5DlWhBBpSJAbsUxvy0B1Q3RmjHUnFro3tdPi2LLdw?e=8vPyhI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
