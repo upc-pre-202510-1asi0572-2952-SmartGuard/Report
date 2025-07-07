@@ -5040,9 +5040,53 @@ En este Sprint Backlog 3, se culminó la integración y validación del prototip
 | US005         | Visualización en tiempo real del rostro frente a la puerta | TA036             | Visualizar rostro detectado en interfaz      | Como propietario, quiero ver en tiempo real el rostro de la persona que está frente a la puerta, para decidir si es seguro abrir o no la cerradura.                                               | 8 horas            | Antonella Gonzales  | Done   |
 | US002         | Registro de rostros autorizados               | TA037             | Documentar lógica y montaje                  | Documentar la lógica implementada, el montaje físico y pruebas de integración del sistema embebido y capa edge.                                                                                   | 4 horas            | Tony Ramos     | Done   |
 #### 6.2.3.4. Development Evidence for Sprint Review.
+En este apartado se presenta la recopilación de los commits más representativos registrados durante el Sprint 3, organizados por repositorio (Edge, ESP32, y documentación del prototipo físico), para demostrar el progreso alcanzado en cada módulo clave.
+
+#### Edge (Laptop como capa edge: reconocimiento facial y API)
+
+| Branch             | Commit Id | Commit Message                                   | Committed on (Dated) |
+|--------------------|-----------|--------------------------------------------------|----------------------|
+| edge/main          | 19fdc83   | feat: integrar reconocimiento facial con cámara laptop | 01/07/2025           |
+| edge/main          | 3ea512a   | feat: implementar endpoints para comunicación ESP32 | 02/07/2025           |
+| edge/main          | 21f4e1b   | fix: mejorar estabilidad en transmisión de eventos | 03/07/2025           |
+
+#### ESP32 (Firmware y control de acceso físico)
+
+| Branch             | Commit Id | Commit Message                                 | Committed on (Dated) |
+|--------------------|-----------|-----------------------------------------------|----------------------|
+| esp32/main         | 6b9d1a7   | feat: integración con API de capa edge        | 02/07/2025           |
+| esp32/main         | bca8410   | feat: controlar LED según resultado de autenticación | 02/07/2025           |
+| esp32/main         | 7f5b3c2   | fix: mejorar manejo del puerto serial         | 03/07/2025           |
+
+#### Documentación y Validación
+
+| Branch             | Commit Id | Commit Message                                 | Committed on (Dated) |
+|--------------------|-----------|-----------------------------------------------|----------------------|
+| docs/main          | 2e9f8d4   | docs: agregar guía de montaje físico y pruebas | 04/07/2025           |
+| docs/main          | 8a1e4a2   | docs: evidencias fotográficas de integración  | 04/07/2025           |
+
+---
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review. 
+### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+En este apartado se contextualiza la automatización de las pruebas de las historias de usuario del Sprint Backlog 3, empleando el framework Cucumber junto a Gherkin para garantizar la cobertura de cada escenario relevante, desde la integración física de la capa edge hasta la interacción con el ESP32. Los siguientes commits demuestran la implementación y evolución de la suite de pruebas automatizadas en el repositorio correspondiente.
+
+#### Testing Suite (Cucumber & Gherkin)
+
+| Repository            | Branch      | Commit Id | Commit Message                                   | Committed on (Date) |
+|-----------------------|------------|-----------|--------------------------------------------------|---------------------|
+| Testing/sprint-3      | main       | 2ad9b7f   | feat: add US001 edge-ESP32 integration test      | 05/07/2025          |
+| Testing/sprint-3      | main       | 9c7e8a1   | feat: add US002 facial recognition registration test | 05/07/2025          |
+| Testing/sprint-3      | main       | 0d4b13c   | feat: add TS001 serial user validation test      | 06/07/2025          |
+| Testing/sprint-3      | main       | 3b95e2f   | feat: add TS003 LED access feedback test         | 06/07/2025          |
+| Testing/sprint-3      | main       | 1fc5b8e   | feat: add US003 unknown face notification test   | 06/07/2025          |
+| Testing/sprint-3      | main       | 7a1c7d2   | feat: add US005 real-time face visualization test| 06/07/2025          |
+
+---
+
 #### 6.2.3.6. Execution Evidence for Sprint Review. 
+
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review. 
 #### 6.2.3.9. Team Collaboration Insights during Sprint.
