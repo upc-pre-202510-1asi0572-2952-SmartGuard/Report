@@ -287,7 +287,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
                 <br><b>TB2</b><br>En esta entrega se desarrolló la capa Edge del sistema, donde se integró el algoritmo de reconocimiento facial.
 Asimismo, se implementaron las APIs necesarias para la comunicación con el ESP32.
 Gracias a esto, se logró transmitir imágenes y recibir respuestas de autenticación en tiempo real.
-De este modo, se optimizó el procesamiento local, reduciendo la latencia y mejorando la autonomía.<br><br>      
+De este modo, se optimizó el procesamiento local, reduciendo la latencia y mejorando la autonomía.<br><br>
+        <br><b>TF</b><br> se culmino con la documetacion y la implentacion final de la simulacion con el esp32.<br><br>  
 <b>Pérez García, David Alexander</b>
 <br><b>TB1</b><br> 
 Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.
@@ -315,6 +316,7 @@ Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales compe
 Además, su precisión y eficiencia permiten identificar a los usuarios de forma segura.
 Por esta razón, se lo integró como componente central del sistema.
 En consecuencia, garantiza un control de acceso confiable y automatizado.<br><br>
+        <br><b>TF</b><br> se culmino con la documetacion y la implentacion final de la simulacion con el esp32.<br><br>  
 
 <b>Pérez García, David Alexander</b>
 <b>TB1</b><br>Asumí la responsabilidad del desarrollo de los endpoints necesarios para la integración entre frontend y backend. Utilicé el framework .NET para construir los contextos IAM y AdministradorHogar, mapeando entidades y agregados como miembros, propietarios, perfiles, hogares, dispositivos y accesos. Esta estructuración permitió una base sólida y escalable para la gestión de usuarios y control de acceso en el sistema.<br><br>
