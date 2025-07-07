@@ -326,8 +326,6 @@ Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales compe
           </b><br><b>TF</b><br>
         En esta ultima etapa me encargue de apoyar a levantar observaciones y errores en el proyecto banckend y fronted logrando cumplir con los requerimientos establecidos.
           <br><br>
-
-
     </td>
     <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
   </tr>
@@ -376,10 +374,7 @@ En consecuencia, garantiza un control de acceso confiable y automatizado.<br><br
 Además, su precisión y eficiencia permiten identificar a los usuarios de forma segura.
 Por esta razón, se lo integró como componente central del sistema.
 En consecuencia, garantiza un control de acceso confiable y automatizado.<br><br>
-        <br><b>TF</b><br> se culmino con la documetacion y la implentacion final de la simulacion con el esp32.<br><br>  
-    
-    
-    
+        <br><b>TF</b><br> se culmino con la documetacion y la implentacion final de la simulacion con el esp32.<br><br>      
     </td>
     <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
   </tr>
