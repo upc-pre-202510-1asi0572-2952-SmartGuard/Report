@@ -5068,7 +5068,6 @@ En este apartado se presenta la recopilación de los commits más representativo
 ---
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review. 
-### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
 En este apartado se contextualiza la automatización de las pruebas de las historias de usuario del Sprint Backlog 3, empleando el framework Cucumber junto a Gherkin para garantizar la cobertura de cada escenario relevante, desde la integración física de la capa edge hasta la interacción con el ESP32. Los siguientes commits demuestran la implementación y evolución de la suite de pruebas automatizadas en el repositorio correspondiente.
 
