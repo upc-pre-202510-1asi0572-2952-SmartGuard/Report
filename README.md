@@ -5108,9 +5108,6 @@ Se incluyen fotografías del montaje final, capturas de pantalla de la interfaz 
 
 ---
 
-#### 6.2.3.7. Services Documentation Evidence for Sprint Review.  
-
-
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
 
 Se ofrece una visión general de la documentación generada para los servicios expuestos de la capa edge, mostrando cómo se registraron y describieron los endpoints disponibles
@@ -5122,6 +5119,7 @@ Se ofrece una visión general de la documentación generada para los servicios e
 | Smart-Guard/Edge      | main       | /api/confirm-command        |   ESP32 confirma procesamiento    | 06/07/2025          |
 | Smart-Guard/Edge      | main       | /api/status                 |   Estado del sistema    | 06/07/2025          |
 | Smart-Guard/Edge      | main       | /api/users                  |   Lista usuarios (debug)    | 06/07/2025          |
+
 La documentación de los servicios desarrollados fue actualizada e incluye:
 
 - Especificaciones de los endpoints REST expuestos por la capa edge para registrar, autenticar y notificar eventos relacionados con el reconocimiento facial.
@@ -5158,6 +5156,29 @@ Durante este sprint se fortaleció la comunicación y coordinación entre los mi
 - Intercambio constante de evidencias (videos, fotos, logs) para acelerar la validación en tiempo real entre miembros.
 
 Estas dinámicas permitieron culminar todas las tareas planificadas y asegurar una integración estable del sistema completo.
+
+- **Landing Page**
+
+<img src="images/landingparticipation.png">
+
+<img src="images/landingparticipation2.png">
+
+- **FrontEnd**
+
+<img src="images/frontparticipation.png">
+
+<img src="images/frontparticipation2.png">
+
+- **BackEnd**
+
+<img src="images/backparticipation.png">
+
+<img src="images/backparticipation2.png">
+
+- **Edge Layer**
+
+<img src="images/edgeparticipation.png">
+
 
 
 ### 6.3. Validation Interviews.
