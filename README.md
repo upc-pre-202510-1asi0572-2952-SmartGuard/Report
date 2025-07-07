@@ -281,7 +281,16 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
   <tr>
     <td><b>Trabajo en equipo para proporcionar liderazgo en forma conjunta.</b></td>
     <td>
-      <b>Luis Alejandro Zárate Gamarra</b><br> Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.<br><br>
+      <b>Luis Alejandro Zárate Gamarra</b>
+      </b><br><b>TB1</b><br>
+      Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.
+      </b><br><b>TP</b><br>
+      En este intervalo de tiempo llegué a desarrollar el prototipo de la landing page en Figma, asegurando que el diseño fuera intuitivo y alineado con los objetivos del proyecto. Además, coordiné con el equipo para definir las funcionalidades clave y el flujo de usuario, facilitando la transición hacia el desarrollo.
+      </b><br><b>TB2</b><br>
+      En este proceso estuve a cargo de elaborar la capa edge del sistema, donde se integró el algoritmo de reconocimiento facial. Además, implementé las APIs necesarias para la comunicación con el ESP32, lo que permitió transmitir imágenes y recibir respuestas de autenticación en tiempo real. Esto optimizó el procesamiento local, reduciendo la latencia y mejorando la autonomía del sistema.
+      </b><br><b>TF</b><br>
+      En esta última etapa me encargue de elaborar el diseño y arquitectura inicial del sistema embebido, definiendo los componentes clave y su interacción con el sistema principal. Además, coordiné la integración del algoritmo de reconocimiento facial con el hardware, asegurando que el sistema funcionara de manera eficiente y segura.
+      <br><br>
        <b>Gonzales Gomez, Antonella Frida</b><br><b>TB1</b><br> Desarrollé el capítulo 4 sobre Context Mapping, creando diagramas de arquitectura de software a nivel de contexto, componentes y contenedores. También realicé los diagramas de clases y base de datos para los dos bounded contexts.<br><br>
          <br><b>TP</b><br> En esta entrega se desarrollo los diseños del figma y luego se paso a desarrollar y deployar en github.<br><br> 
                 <br><b>TB2</b><br>En esta entrega se desarrolló la capa Edge del sistema, donde se integró el algoritmo de reconocimiento facial.
@@ -308,7 +317,16 @@ Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales compe
   <tr>
     <td><b>Creo condiciones para el trabajo articulado, priorizo tareas y cumplo los objetivos establecidos.</b></td>
     <td>
-      <b>Luis Alejandro Zárate Gamarra</b><br> Durante el desarrollo del capítulo 1, promoví un ambiente de trabajo colaborativo e inclusivo. Aporté en la planificación de tareas y organización de entregables del equipo, especialmente en el diseño de la arquitectura del sistema a nivel de contenedores y despliegue. Coordiné tiempos y responsabilidades para asegurar el cumplimiento de los objetivos del proyecto.<br><br>
+      <b>Luis Alejandro Zárate Gamarra</b>
+      </b><br><b>TB1</b><br>
+      Al desarrollar el capítulo 1, lideré la estructuración del perfil de nuestra startup y colaboré activamente en la redacción de la misión, visión y descripción de la solución tecnológica propuesta. También participé en sesiones de EventStorming y Context Mapping, proponiendo ideas clave para definir los bounded contexts del sistema FaceLoock.
+      </b><br><b>TP</b><br>
+      En este intervalo de tiempo llegué a desarrollar el prototipo de la landing page en Figma, asegurando que el diseño fuera intuitivo y alineado con los objetivos del proyecto. Además, coordiné con el equipo para definir las funcionalidades clave y el flujo de usuario, facilitando la transición hacia el desarrollo.
+      </b><br><b>TB2</b><br>
+      En este proceso estuve a cargo de elaborar la capa edge del sistema, donde se integró el algoritmo de reconocimiento facial. Además, implementé las APIs necesarias para la comunicación con el ESP32, lo que permitió transmitir imágenes y recibir respuestas de autenticación en tiempo real. Esto optimizó el procesamiento local, reduciendo la latencia y mejorando la autonomía del sistema.
+      </b><br><b>TF</b><br>
+      En esta última etapa me encargue de elaborar el diseño y arquitectura inicial del sistema embebido, definiendo los componentes clave y su interacción con el sistema principal. Además, coordiné la integración del algoritmo de reconocimiento facial con el hardware, asegurando que el sistema funcionara de manera eficiente y segura.
+      <br><br>
        <b>Gonzales Gomez, Antonella Frida</b><br> <b>TB1</b><br>Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.<br><br>
 <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro landing page hacer de manera mas actractiva para que capte la atencion del cliente<br><br>
                       <br><b>TB2</b><br>El algoritmo de reconocimiento facial, desarrollado en Python, es fundamental para el acceso a la vivienda.
