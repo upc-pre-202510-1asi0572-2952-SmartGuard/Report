@@ -349,7 +349,26 @@ En consecuencia, garantiza un control de acceso confiable y automatizado.<br><br
 <br><br>
       <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>Me encargué de dividir dos bounded contexts en capas (interfaz, dominio e infraestructura), para ordenar mejor el diseño de la solución. Usé Visual Paradigm para armar diagramas C4 que ayudaron a que todo el equipo entienda cómo se conecta cada parte del sistema. Gracias a esto, logramos organizarnos mejor, establecer metas claras y avanzar en el desarrollo respetando los tiempos que nos propusimos.<br><br>
         <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro sitio web con el usuario, ademas el prototipo de pantalla ayudo a organizar mejor nuestras ideas <br><br><b> TB2 </b><br> Para esta entrega, me encargué de articular el flujo de trabajo entre frontend y backend, priorizando las historias de usuario en el backlog, definiendo criterios de aceptación claros, realizando pruebas con Postman y garantizando el cumplimiento de los objetivos establecidos dentro del plazo del sprint.<br><br><b> TF </b><br> Establezco las condiciones para la integración HTTP entre el ESP32 y la capa edge, priorizo las tareas de envío de solicitudes de registro y acceso, y garantizo el procesamiento correcto de las respuestas "true" (acceso permitido) o "false" (acceso denegado) según lo definido.
-      <br><br><b>Aquino Iman Herly Fernando</b><br> Desarrollé el capítulo 3: Especificación de Requerimientos, coordinando con el equipo para validar y priorizar los requisitos funcionales y no funcionales del sistema. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales guiaron la definición de objetivos estratégicos y su alineación con las funcionalidades del sistema. Promoví un entorno de trabajo colaborativo al integrar los aportes del equipo en los entregables y asegurar la coherencia entre las secciones del documento. Establecí metas claras, planifiqué las tareas con plazos definidos y cumplí con los entregables en los tiempos acordados, contribuyendo al avance ordenado del proyecto.
+      <br><br><b>Aquino Iman Herly Fernando</b>
+      <br><b>TB1</b><br>
+      Me encargué del desarrollo del capítulo 3, que abarca la Especificación de Requerimientos. Validé y prioricé los requisitos funcionales y no funcionales del sistema en coordinación con el equipo. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales orientaron la alineación entre objetivos estratégicos y funcionalidades clave del sistema.
+      </b><br><b>TP</b><br>
+      En esta entrega me encarge del desarrollo backend desarrollando las historias de usuario y publicando el proyecto en un azure function mi responsabilidad era ayudar a modelar la estructura de negocio y el flujo de la información asegurandome con cumplir con los requisitos del proyecto.
+      </b><br><b>TB2</b><br>
+      En esta etapa me encargué del desarrollo se hicieron mejoras a los endpoints necesarios para que el frontend pudiera consumirlos de manera eficiente. Utilicé el framework .NET para estructurar la solución en diferentes contextos: Este enfoque permitió mantener una arquitectura limpia, escalable y alineada con los principios de diseño orientado al dominio (DDD), facilitando la integración entre el backend y el frontend de forma coherente y segura.
+      </b><br><b>TF</b><br>
+     En esta ultima etapa me encargue de apoyar a levantar observaciones y errores en el proyecto banckend y fronted logrando cumplir con los requerimientos establecidos.
+      <br><br>
+       <b>Gonzales Gomez, Antonella Frida</b><br> <b>TB1</b><br>Trabajé de manera colaborativa en la planificación y diseño de los diagramas y modelos del sistema, cumpliendo con los plazos establecidos y asegurando una alineación constante con el equipo para realizar las entregas a tiempo.<br><br>
+<b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro landing page hacer de manera mas actractiva para que capte la atencion del cliente<br><br>
+                      <br><b>TB2</b><br>El algoritmo de reconocimiento facial, desarrollado en Python, es fundamental para el acceso a la vivienda.
+Además, su precisión y eficiencia permiten identificar a los usuarios de forma segura.
+Por esta razón, se lo integró como componente central del sistema.
+En consecuencia, garantiza un control de acceso confiable y automatizado.<br><br>
+        <br><b>TF</b><br> se culmino con la documetacion y la implentacion final de la simulacion con el esp32.<br><br>  
+    
+    
+    
     </td>
     <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
   </tr>
