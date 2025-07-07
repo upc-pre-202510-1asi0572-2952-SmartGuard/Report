@@ -316,7 +316,18 @@ Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales compe
 <br>Este enfoque permitió mantener una arquitectura limpia, escalable y alineada con los principios de diseño orientado al dominio (DDD), facilitando la integración entre el backend y el frontend de forma coherente y segura.
 <br><br>
 <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br><b>TP</b><br> Durante la entrega del TP, me enfoque en diseñar los wireframes y Mockups de nuestro sitio web para una correcta interaccion con el usuario, ademas de que sea intuitiva. <br><br><b> TB2 </b><br> Para esta entrega, me encargué de coordinar el desarrollo de las vistas de frontend, repartiendo tareas entre los compañeros, liderando las revisiones de código y asegurando que cada pantalla consumiera correctamente los endpoints del backend desplegado en Azure, con un enfoque en la usabilidad y consistencia visual. <br><br><b> TF </b><br> Para la ultima entrega de este trabajo, ayude en la conexion entre el sistema embebido y la aplicacion de la capa edge, mediante un puerto http que envie solicitud de registro o acceso a la capa edge, y este autorize o no el acceso mediante un sistema de "true" para acceso y "false" para denegación. 
-      <br><br><b>Aquino Iman Herly Fernando</b><br> Me encargué del desarrollo del capítulo 3, que abarca la Especificación de Requerimientos. Validé y prioricé los requisitos funcionales y no funcionales del sistema en coordinación con el equipo. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales orientaron la alineación entre objetivos estratégicos y funcionalidades clave del sistema.
+    <br><br><b>Aquino Iman Herly Fernando</b>
+    <br><b>TB1</b><br>
+          Me encargué del desarrollo del capítulo 3, que abarca la Especificación de Requerimientos. Validé y prioricé los requisitos funcionales y no funcionales del sistema en coordinación con el equipo. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales orientaron la alineación entre objetivos estratégicos y funcionalidades clave del sistema.
+          </b><br><b>TP</b><br>
+          En esta entrega me encarge del desarrollo backend desarrollando las historias de usuario y publicando el proyecto en un azure function mi responsabilidad era ayudar a modelar la estructura de negocio y el flujo de la información asegurandome con cumplir con los requisitos del proyecto.
+          </b><br><b>TB2</b><br>
+          En esta etapa me encargué del desarrollo se hicieron mejoras a los endpoints necesarios para que el frontend pudiera consumirlos de manera eficiente. Utilicé el framework .NET para estructurar la solución en diferentes contextos: Este enfoque permitió mantener una arquitectura limpia, escalable y alineada con los principios de diseño orientado al dominio (DDD), facilitando la integración entre el backend y el frontend de forma coherente y segura.
+          </b><br><b>TF</b><br>
+        En esta ultima etapa me encargue de apoyar a levantar observaciones y errores en el proyecto banckend y fronted logrando cumplir con los requerimientos establecidos.
+          <br><br>
+
+
     </td>
     <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
   </tr>
