@@ -5106,6 +5106,24 @@ Durante este sprint se ejecutaron diversas pruebas funcionales para validar la i
 
 Se incluyen fotografías del montaje final, capturas de pantalla de la interfaz funcionando en tiempo real, y registros en consola de la comunicación entre los módulos.
 
+- **Usuario desconocido detectado**
+
+Cuando el algoritmo Python de reconocimiento facial no encuentra coincidencia en la base de datos de perfiles autorizados, envía una señal de “false” al ESP32. Éste, tras el siguiente ciclo de actualización (cada 10 s), apaga el LED, indicando que el acceso ha sido denegado y que no se reconoce al visitante.  
+
+<img src="images/unknowuser.jpg">
+
+<img src="images/apagado.jpg">
+
+- **Usuario registrado detectado**
+
+En cuanto el script Python identifica un rostro autorizado, emite un comando de “true” al ESP32. El microcontrolador enciende inmediatamente el LED, simulando la apertura de la cerradura y señalando al usuario que su identidad ha sido verificada con éxito.  
+
+<img src="images/registereduser.jpg">
+
+<img src="images/encendido.jpg">
+
+
+
 ---
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
