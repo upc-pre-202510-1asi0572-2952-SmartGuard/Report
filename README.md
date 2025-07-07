@@ -5084,12 +5084,57 @@ En este apartado se contextualiza la automatización de las pruebas de las histo
 
 ---
 
-#### 6.2.3.6. Execution Evidence for Sprint Review. 
+#### 6.2.3.6. Execution Evidence for Sprint Review.  
 
-#### 6.2.3.7. Services Documentation Evidence for Sprint Review.
-#### 6.2.3.8. Software Deployment Evidence for Sprint Review. 
-#### 6.2.3.9. Team Collaboration Insights during Sprint.
+Durante este sprint se ejecutaron diversas pruebas funcionales para validar la interacción entre la capa edge, el ESP32 y la interfaz de usuario. Se evidenció lo siguiente:
 
+- El reconocimiento facial permitió identificar usuarios previamente registrados y denegar el acceso a rostros desconocidos.
+- El ESP32 procesó correctamente las señales recibidas desde la capa edge a través del puerto serial.
+- La simulación del control de la cerradura se logró con el encendido/apagado del LED, brindando una respuesta visual inmediata.
+- Todas las pruebas se documentaron mediante capturas de pantalla, grabaciones de video y bitácoras técnicas de validación.
+
+Se incluyen fotografías del montaje final, capturas de pantalla de la interfaz funcionando en tiempo real, y registros en consola de la comunicación entre los módulos.
+
+---
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review.  
+
+La documentación de los servicios desarrollados fue actualizada e incluye:
+
+- Especificaciones de los endpoints REST expuestos por la capa edge para registrar, autenticar y notificar eventos relacionados con el reconocimiento facial.
+- Manual de uso de la API REST, incluyendo estructura de peticiones/respuestas y códigos de estado HTTP.
+- Diagrama de flujo detallado del proceso desde el escaneo facial hasta la acción física del ESP32.
+- Instrucciones de despliegue y configuración del entorno de desarrollo, con dependencias y estructura de carpetas.
+- Archivos `README.md` actualizados en cada repositorio.
+
+Esta documentación fue almacenada en el repositorio `docs/main` y validada por los miembros encargados de integración.
+
+---
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review.  
+
+El despliegue del sistema se realizó exitosamente en el entorno de pruebas, asegurando que todos los componentes interactúen de manera fluida:
+
+- La API REST fue ejecutada localmente en la laptop que actúa como capa edge.
+- El firmware del ESP32 fue cargado y validado mediante conexión directa USB.
+- La interfaz de reconocimiento facial se ejecutó en tiempo real desde un script Python conectado a la webcam.
+- Se utilizó `ngrok` para exponer la API hacia dispositivos externos durante las pruebas de integración remota.
+
+Los scripts y configuraciones necesarias para el despliegue están documentados en los repositorios respectivos. También se realizaron pruebas finales de validación cruzada, incluyendo reinicios y desconexión/reconexión de módulos, garantizando tolerancia a fallos.
+
+---
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint.  
+
+Durante este sprint se fortaleció la comunicación y coordinación entre los miembros del equipo mediante:
+
+- Reuniones periódicas (cada 2 días) vía Discord para seguimiento del avance técnico y revisión de bloqueos.
+- Uso activo del repositorio de GitHub para la asignación y actualización de tareas, así como la integración continua de código.
+- Divisiones claras de responsabilidades, fomentando el trabajo autónomo pero sincronizado entre hardware, software y documentación.
+- Resolución colaborativa de problemas, especialmente durante la validación de la comunicación serial y la integración del LED indicador.
+- Intercambio constante de evidencias (videos, fotos, logs) para acelerar la validación en tiempo real entre miembros.
+
+Estas dinámicas permitieron culminar todas las tareas planificadas y asegurar una integración estable del sistema completo.
 
 
 ### 6.3. Validation Interviews.
