@@ -128,13 +128,19 @@
         </tr>
         <tr>
             <th>TF</th>
-            <td></td>
+            <td>07/07/2025</td>
             <td>
                 <ul>
+                    <li>Fernando Aquino Ima</li>
+                    <li>Pérez García David Alexander</li>
+                    <li>Gonzales Gomez, Antonella Frida</li>
+                    <li>Ramos Najar, Tony Alexander</li>
+                    <li>Zárate Gamarra, Luis Alejandro</li>     
                 </ul>
             </td>
             <td>            
                 <ul>
+                    <li>Sprint 3</li>
                 </ul>
             </td>
         </tr>
@@ -296,7 +302,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
                 <br><b>TB2</b><br>En esta entrega se desarrolló la capa Edge del sistema, donde se integró el algoritmo de reconocimiento facial.
 Asimismo, se implementaron las APIs necesarias para la comunicación con el ESP32.
 Gracias a esto, se logró transmitir imágenes y recibir respuestas de autenticación en tiempo real.
-De este modo, se optimizó el procesamiento local, reduciendo la latencia y mejorando la autonomía.<br><br>      
+De este modo, se optimizó el procesamiento local, reduciendo la latencia y mejorando la autonomía.<br><br>
+        <br><b>TF</b><br> se culmino con la documetacion y la implentacion final de la simulacion con el esp32.<br><br>  
 <b>Pérez García, David Alexander</b>
 <br><b>TB1</b><br> 
 Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales competidores, así como la definición de los user persona para cada segmento objetivo, incluyendo las matrices de segmentación (user tax metrics), el user journey mapping, el empathy mapping, y el as-is scenario mapping.
@@ -308,7 +315,7 @@ Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales compe
 <br>En esta etapa me encargué del desarrollo de los endpoints necesarios para que el frontend pudiera consumirlos de manera eficiente. Utilicé el framework .NET para estructurar la solución en diferentes contextos: IAM (Identity and Access Management) y AdministradorHogar. En cada uno de estos contextos se definieron y mapearon cuidadosamente las entidades y agregados clave, como miembros, propietarios, perfiles, hogares, dispositivos y accesos.
 <br>Este enfoque permitió mantener una arquitectura limpia, escalable y alineada con los principios de diseño orientado al dominio (DDD), facilitando la integración entre el backend y el frontend de forma coherente y segura.
 <br><br>
-<b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br><b>TP</b><br> Durante la entrega del TP, me enfoque en diseñar los wireframes y Mockups de nuestro sitio web para una correcta interaccion con el usuario, ademas de que sea intuitiva. <br><br><b> TB2 </b><br> Para esta entrega, me encargué de coordinar el desarrollo de las vistas de frontend, repartiendo tareas entre los compañeros, liderando las revisiones de código y asegurando que cada pantalla consumiera correctamente los endpoints del backend desplegado en Azure, con un enfoque en la usabilidad y consistencia visual.
+<b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>En esta entrega del proyecto, me encargué de diseñar el desarrollo de los 10 pasos del Domain-Driven Design. Desde la definición de eventos de dominio hasta la identificación de los bounded contexts, propuse ideas y enfoqué el trabajo para que todos estuviéramos alineados. Usamos herramientas como Miro para organizarnos mejor y entender el dominio del sistema en conjunto, lo que ayudó bastante a que todos pudiéramos aportar de forma clara y con objetivos comunes.<br><br><b>TP</b><br> Durante la entrega del TP, me enfoque en diseñar los wireframes y Mockups de nuestro sitio web para una correcta interaccion con el usuario, ademas de que sea intuitiva. <br><br><b> TB2 </b><br> Para esta entrega, me encargué de coordinar el desarrollo de las vistas de frontend, repartiendo tareas entre los compañeros, liderando las revisiones de código y asegurando que cada pantalla consumiera correctamente los endpoints del backend desplegado en Azure, con un enfoque en la usabilidad y consistencia visual. <br><br><b> TF </b><br> Para la ultima entrega de este trabajo, ayude en la conexion entre el sistema embebido y la aplicacion de la capa edge, mediante un puerto http que envie solicitud de registro o acceso a la capa edge, y este autorize o no el acceso mediante un sistema de "true" para acceso y "false" para denegación. 
       <br><br><b>Aquino Iman Herly Fernando</b><br> Me encargué del desarrollo del capítulo 3, que abarca la Especificación de Requerimientos. Validé y prioricé los requisitos funcionales y no funcionales del sistema en coordinación con el equipo. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales orientaron la alineación entre objetivos estratégicos y funcionalidades clave del sistema.
     </td>
     <td>Consideramos que la participación activa facilitó el desarrollo de esta primera fase del proyecto, promoviendo una visión clara de la idea y contribuyendo al avance coordinado hacia los objetivos planteados.</td>
@@ -333,6 +340,7 @@ Desarrollé el capítulo 2, el cual abarca el análisis de los potenciales compe
 Además, su precisión y eficiencia permiten identificar a los usuarios de forma segura.
 Por esta razón, se lo integró como componente central del sistema.
 En consecuencia, garantiza un control de acceso confiable y automatizado.<br><br>
+        <br><b>TF</b><br> se culmino con la documetacion y la implentacion final de la simulacion con el esp32.<br><br>  
 
 <b>Pérez García, David Alexander</b>
 <b>TB1</b><br>Asumí la responsabilidad del desarrollo de los endpoints necesarios para la integración entre frontend y backend. Utilicé el framework .NET para construir los contextos IAM y AdministradorHogar, mapeando entidades y agregados como miembros, propietarios, perfiles, hogares, dispositivos y accesos. Esta estructuración permitió una base sólida y escalable para la gestión de usuarios y control de acceso en el sistema.<br><br>
@@ -340,7 +348,7 @@ En consecuencia, garantiza un control de acceso confiable y automatizado.<br><br
 <b>TB2</b><br>En esta fase, lideré la implementación de funcionalidades críticas del backend, asegurando la correcta conexión entre los servicios y sus respectivas capas. Trabajé con pruebas de integración y validación de datos utilizando herramientas como Postman y Swagger. Además, optimicé la estructura del proyecto siguiendo principios de diseño limpio y arquitectura hexagonal, lo cual facilitó la mantenibilidad del código y la colaboración con otros desarrolladores del equipo.
 <br><br>
       <b>Ramos Najar, Tony Alexander</b><br> <b>TB1</b><br>Me encargué de dividir dos bounded contexts en capas (interfaz, dominio e infraestructura), para ordenar mejor el diseño de la solución. Usé Visual Paradigm para armar diagramas C4 que ayudaron a que todo el equipo entienda cómo se conecta cada parte del sistema. Gracias a esto, logramos organizarnos mejor, establecer metas claras y avanzar en el desarrollo respetando los tiempos que nos propusimos.<br><br>
-        <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro sitio web con el usuario, ademas el prototipo de pantalla ayudo a organizar mejor nuestras ideas <br><br><b> TB2 </b><br> Para esta entrega, me encargué de articular el flujo de trabajo entre frontend y backend, priorizando las historias de usuario en el backlog, definiendo criterios de aceptación claros, realizando pruebas con Postman y garantizando el cumplimiento de los objetivos establecidos dentro del plazo del sprint.
+        <b>TP</b><br> Los mockups fueron importantes para ver el flujo que tendra nuestro sitio web con el usuario, ademas el prototipo de pantalla ayudo a organizar mejor nuestras ideas <br><br><b> TB2 </b><br> Para esta entrega, me encargué de articular el flujo de trabajo entre frontend y backend, priorizando las historias de usuario en el backlog, definiendo criterios de aceptación claros, realizando pruebas con Postman y garantizando el cumplimiento de los objetivos establecidos dentro del plazo del sprint.<br><br><b> TF </b><br> Establezco las condiciones para la integración HTTP entre el ESP32 y la capa edge, priorizo las tareas de envío de solicitudes de registro y acceso, y garantizo el procesamiento correcto de las respuestas "true" (acceso permitido) o "false" (acceso denegado) según lo definido.
       <br><br><b>Aquino Iman Herly Fernando</b><br> Desarrollé el capítulo 3: Especificación de Requerimientos, coordinando con el equipo para validar y priorizar los requisitos funcionales y no funcionales del sistema. Además, elaboré los artefactos To-Be Scenario Mapping e Impact Mapping, los cuales guiaron la definición de objetivos estratégicos y su alineación con las funcionalidades del sistema. Promoví un entorno de trabajo colaborativo al integrar los aportes del equipo en los entregables y asegurar la coherencia entre las secciones del documento. Establecí metas claras, planifiqué las tareas con plazos definidos y cumplí con los entregables en los tiempos acordados, contribuyendo al avance ordenado del proyecto.
     </td>
     <td>Gracias a una planificación efectiva y una comunicación constante entre los integrantes del equipo, logramos cumplir con los objetivos propuestos, demostrando un trabajo en equipo cohesionado y orientado al logro.</td>
@@ -4997,6 +5005,217 @@ En este último punto se introduce el análisis de la colaboración del equipo, 
 
 <img src="images/edgeparticipation.png">
 
+### 6.2.3. Sprint 3
+
+En este Sprint 3 implementamos un prototipo con un ESP32 físico y reconocimiento facial, simulando un LED que se enciende si el rostro coincide con un usuario registrado y de lo contrario, no se enciende si un usuario desconocido es detectado; dicho LED simula el acceso a la cerradura inteligente, si está encendido el acceso es otorgado, por otro lado si no se enciende, es denegado. Documentamos la lógica, el montaje y validamos el funcionamiento.
+
+#### 6.2.3.1. Sprint Planning 3. 
+
+| **Campo**                             | **Detalle**                                                                                                                                                                                      |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                          | 3                                                                                                                                                                                                |
+| **Date**                              | 05/06/2025                                                                                                                                                                                       |
+| **Time**                              | 22:00                                                                                                                                                                                            |
+| **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
+| **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
+| **Attendees**                         | Fernando Aquino Iman<br/>Pérez García David Alexander<br/>Gonzales Gomez Antonella Frida<br/>Ramos Najar Tony Alexander<br/>Zárate Gamarra Luis Alejandro                                        |
+| **Sprint n – 2 Review Summary**       | Corregir detalles de anteriores entregas en base a la retroalimentación del profesor, implementación de nueva logica.
+| **Sprint n – 2 Retrospective Summary**| Se corrigió todos los detalles observados en la anterior entrega                                                                                                                                                                                                 |
+| **Sprint Goal & User Stories**        | **Sprint 3 Goal:**<br/> Implementar correctamenta los componentes físicos y conectarlos con nuestros servicios                                                                                                                                                       |
+| **Sprint n Velocity**                 | **Sum of Story Points:** <br> 25                                                                                                                                                                   |
+
+
+#### 6.2.3.2. Aspect Leaders and Collaborators. 
+Durante este sprint, documentamos detalladamente la lógica implementada, el proceso de montaje físico del prototipo y los resultados de las pruebas realizadas. Se validó el correcto funcionamiento del sistema, asegurando la interacción efectiva entre el reconocimiento facial y el control de acceso simulado por el ESP32. Esta iteración representó un avance significativo hacia la integración completa de los módulos hardware y software, acercándonos a la funcionalidad final del sistema SmartGuard.
+- [ ] **Aspecto: Prototipo Embebido con Reconocimiento Facial**  
+  - **Líder del Aspecto:**  
+    - **Nombre:** Tony Ramos  
+    - **Rol:** Embedded Systems & Prototyping Lead  
+    - **Responsabilidades:**  
+      1. Integración del ESP32 físico con el sistema de reconocimiento facial para simular el acceso mediante encendido/apagado de un LED.
+      2. Diseño y documentación de la lógica de control para la simulación de la cerradura inteligente.
+      3. Coordinación y validación del montaje del prototipo, incluyendo pruebas funcionales y recolección de evidencias.
+      4. Supervisión de la integración de la solución embebida con los demás módulos del sistema.
+  - **Colaboradores:**  
+    - *Alejandro Zárate* — Embedded Systems Developer  
+      - Apoyo en la implementación y ajuste del firmware para el ESP32.
+      - Asistencia en el montaje físico y conexiones del prototipo. 
+      - Participación en la documentación de pruebas y resultados.
+    - *Antonella Gonzales* — Embedded Systems Developer  
+      - Asistencia en el montaje físico y conexiones del prototipo. 
+      - Participación en la documentación de pruebas y resultados.
+    - *Fernando Aquino* — Documentación y Testing  
+      - Registro detallado de la lógica de control y resultados de pruebas.
+      - Apoyo en la validación funcional y elaboración de reportes del prototipo.
+
+---
+
+#### 6.2.3.3. Sprint Backlog 3. 
+En este Sprint Backlog 3, se culminó la integración y validación del prototipo físico basado en ESP32 con reconocimiento facial. Se completaron las historias de usuario relacionadas con la autenticación mediante reconocimiento facial, el control del acceso simulado a través de un LED, y la documentación detallada del montaje y pruebas del prototipo. Además, se realizó la validación funcional del sistema, asegurando la correcta interacción entre el hardware y el software, y se integró la solución embebida con los demás módulos del sistema para un flujo de datos eficiente y seguro.
+
+
+<img src="images/Trello3.png">
+
+- **Enlace Trello:**  [https://trello.com/invite/b/686bb8d579f22d16fba86f66/ATTI41d6dd1bf4ca65ba735e4fc118b7eb45A62E21FA/sprint-3](https://trello.com/invite/b/686bb8d579f22d16fba86f66/ATTI41d6dd1bf4ca65ba735e4fc118b7eb45A62E21FA/sprint-3)
+
+
+| User Story ID | Title                                         | Work-Item/Task ID | Task Title                                   | Description                                                                                                                                                                                      | Estimation (hours) | Assigned To         | Status |
+|---------------|-----------------------------------------------|-------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------------|--------|
+| US001         | Identificación automática mediante reconocimiento facial | TA031             | Integrar reconocimiento facial en capa edge  | Como propietario, quiero que la cerradura identifique automáticamente a las personas mediante reconocimiento facial, para saber si son conocidas o extrañas y así decidir permitir el acceso.      | 8 horas            | Antonella Gonzales  | Done   |
+| US002         | Registro de rostros autorizados               | TA032             | Implementar registro de nuevos usuarios      | Como propietario, quiero registrar los rostros de personas autorizadas para que puedan ingresar sin necesidad de mi intervención manual.                                                          | 3 horas            | Alejandro Zárate    | Done   |
+| TS001         | Leer y validar usuario desde puerto serial    | TA033             | Integrar notificación de capa edge a ESP32   | Como desarrollador quiero leer y procesar la entrada por el puerto serial para validar si el nombre recibido coincide con alguno de los usuarios registrados y así decidir si se abre la cerradura. | 6 horas            | Alejandro Zárate    | Done   |
+| US003         | Notificación por detección de persona desconocida | TA034             | Notificar acceso denegado                    | Como propietario, quiero recibir una notificación cuando una persona desconocida esté frente a la puerta, para poder tomar decisiones rápidas sobre la seguridad de mi hogar.                      | 4 horas            | Tony Ramos     | Done   |
+| TS003         | Controlar LED indicador de estado de cerradura | TA035             | Simular acceso físico con LED                | Como desarrollador quiero controlar el pin del LED para indicar acceso otorgado o denegado, de forma que el usuario reciba feedback visual inmediato del estado.                                   | 5 hora             | Tony Ramos     | Done   |
+| US005         | Visualización en tiempo real del rostro frente a la puerta | TA036             | Visualizar rostro detectado en interfaz      | Como propietario, quiero ver en tiempo real el rostro de la persona que está frente a la puerta, para decidir si es seguro abrir o no la cerradura.                                               | 8 horas            | Antonella Gonzales  | Done   |
+| US002         | Registro de rostros autorizados               | TA037             | Documentar lógica y montaje                  | Documentar la lógica implementada, el montaje físico y pruebas de integración del sistema embebido y capa edge.                                                                                   | 4 horas            | Tony Ramos     | Done   |
+#### 6.2.3.4. Development Evidence for Sprint Review.
+En este apartado se presenta la recopilación de los commits más representativos registrados durante el Sprint 3, organizados por repositorio (Edge, ESP32, y documentación del prototipo físico), para demostrar el progreso alcanzado en cada módulo clave.
+
+#### Edge (Laptop como capa edge: reconocimiento facial y API)
+
+| Branch             | Commit Id | Commit Message                                   | Committed on (Dated) |
+|--------------------|-----------|--------------------------------------------------|----------------------|
+| edge/main          | 19fdc83   | feat: integrar reconocimiento facial con cámara laptop | 01/07/2025           |
+| edge/main          | 3ea512a   | feat: implementar endpoints para comunicación ESP32 | 02/07/2025           |
+| edge/main          | 21f4e1b   | fix: mejorar estabilidad en transmisión de eventos | 03/07/2025           |
+
+#### ESP32 (Firmware y control de acceso físico)
+
+| Branch             | Commit Id | Commit Message                                 | Committed on (Dated) |
+|--------------------|-----------|-----------------------------------------------|----------------------|
+| esp32/main         | 6b9d1a7   | feat: integración con API de capa edge        | 02/07/2025           |
+| esp32/main         | bca8410   | feat: controlar LED según resultado de autenticación | 02/07/2025           |
+| esp32/main         | 7f5b3c2   | fix: mejorar manejo del puerto serial         | 03/07/2025           |
+
+#### Documentación y Validación
+
+| Branch             | Commit Id | Commit Message                                 | Committed on (Dated) |
+|--------------------|-----------|-----------------------------------------------|----------------------|
+| docs/main          | 2e9f8d4   | docs: agregar guía de montaje físico y pruebas | 04/07/2025           |
+| docs/main          | 8a1e4a2   | docs: evidencias fotográficas de integración  | 04/07/2025           |
+
+---
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review. 
+
+En este apartado se contextualiza la automatización de las pruebas de las historias de usuario del Sprint Backlog 3, empleando el framework Cucumber junto a Gherkin para garantizar la cobertura de cada escenario relevante, desde la integración física de la capa edge hasta la interacción con el ESP32. Los siguientes commits demuestran la implementación y evolución de la suite de pruebas automatizadas en el repositorio correspondiente.
+
+#### Testing Suite (Cucumber & Gherkin)
+
+| Repository            | Branch      | Commit Id | Commit Message                                   | Committed on (Date) |
+|-----------------------|------------|-----------|--------------------------------------------------|---------------------|
+| Testing/sprint-3      | main       | 2ad9b7f   | feat: add US001 edge-ESP32 integration test      | 05/07/2025          |
+| Testing/sprint-3      | main       | 9c7e8a1   | feat: add US002 facial recognition registration test | 05/07/2025          |
+| Testing/sprint-3      | main       | 0d4b13c   | feat: add TS001 serial user validation test      | 06/07/2025          |
+| Testing/sprint-3      | main       | 3b95e2f   | feat: add TS003 LED access feedback test         | 06/07/2025          |
+| Testing/sprint-3      | main       | 1fc5b8e   | feat: add US003 unknown face notification test   | 06/07/2025          |
+| Testing/sprint-3      | main       | 7a1c7d2   | feat: add US005 real-time face visualization test| 06/07/2025          |
+
+---
+
+#### 6.2.3.6. Execution Evidence for Sprint Review.  
+
+Durante este sprint se ejecutaron diversas pruebas funcionales para validar la interacción entre la capa edge, el ESP32 y la interfaz de usuario. Se evidenció lo siguiente:
+
+- El reconocimiento facial permitió identificar usuarios previamente registrados y denegar el acceso a rostros desconocidos.
+- El ESP32 procesó correctamente las señales recibidas desde la capa edge a través del puerto serial.
+- La simulación del control de la cerradura se logró con el encendido/apagado del LED, brindando una respuesta visual inmediata.
+- Todas las pruebas se documentaron mediante capturas de pantalla, grabaciones de video y bitácoras técnicas de validación.
+
+Se incluyen fotografías del montaje final, capturas de pantalla de la interfaz funcionando en tiempo real, y registros en consola de la comunicación entre los módulos.
+
+- **Usuario desconocido detectado**
+
+Cuando el algoritmo Python de reconocimiento facial no encuentra coincidencia en la base de datos de perfiles autorizados, envía una señal de “false” al ESP32. Éste, tras el siguiente ciclo de actualización (cada 10 s), apaga el LED, indicando que el acceso ha sido denegado y que no se reconoce al visitante.  
+
+<img src="images/unknowuser.jpg">
+
+<img src="images/apagado.jpg">
+
+- **Usuario registrado detectado**
+
+En cuanto el script Python identifica un rostro autorizado, emite un comando de “true” al ESP32. El microcontrolador enciende inmediatamente el LED, simulando la apertura de la cerradura y señalando al usuario que su identidad ha sido verificada con éxito.  
+
+<img src="images/registereduser.jpg">
+
+<img src="images/encendido.jpg">
+
+
+
+---
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review.
+
+Se ofrece una visión general de la documentación generada para los servicios expuestos de la capa edge, mostrando cómo se registraron y describieron los endpoints disponibles
+
+| Repository            | Branch      | HTTP  | Description                                   | Committed on (Date) |
+|-----------------------|------------|-----------|--------------------------------------------------|---------------------|
+| Smart-Guard/Edge      | main       | /api/get-pending-commands   |   ESP32 consulta automática    | 06/07/2025          |
+| Smart-Guard/Edge      | main       | /api/notify-access          |   Python notifica reconocimiento    | 06/07/2025          |
+| Smart-Guard/Edge      | main       | /api/confirm-command        |   ESP32 confirma procesamiento    | 06/07/2025          |
+| Smart-Guard/Edge      | main       | /api/status                 |   Estado del sistema    | 06/07/2025          |
+| Smart-Guard/Edge      | main       | /api/users                  |   Lista usuarios (debug)    | 06/07/2025          |
+
+La documentación de los servicios desarrollados fue actualizada e incluye:
+
+- Especificaciones de los endpoints REST expuestos por la capa edge para registrar, autenticar y notificar eventos relacionados con el reconocimiento facial.
+- Manual de uso de la API REST, incluyendo estructura de peticiones/respuestas y códigos de estado HTTP.
+- Diagrama de flujo detallado del proceso desde el escaneo facial hasta la acción física del ESP32.
+- Instrucciones de despliegue y configuración del entorno de desarrollo, con dependencias y estructura de carpetas.
+- Archivos `README.md` actualizados en cada repositorio.
+
+Esta documentación fue almacenada en el repositorio `docs/main` y validada por los miembros encargados de integración.
+
+---
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review.  
+
+El despliegue del sistema se realizó exitosamente en el entorno de pruebas, asegurando que todos los componentes interactúen de manera fluida:
+
+- La API REST fue ejecutada localmente en la laptop que actúa como capa edge.
+- El firmware del ESP32 fue cargado y validado mediante conexión directa USB.
+- La interfaz de reconocimiento facial se ejecutó en tiempo real desde un script Python conectado a la webcam.
+- Se utilizó `ngrok` para exponer la API hacia dispositivos externos durante las pruebas de integración remota.
+
+Los scripts y configuraciones necesarias para el despliegue están documentados en los repositorios respectivos. También se realizaron pruebas finales de validación cruzada, incluyendo reinicios y desconexión/reconexión de módulos, garantizando tolerancia a fallos.
+
+---
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint.  
+
+Durante este sprint se fortaleció la comunicación y coordinación entre los miembros del equipo mediante:
+
+- Reuniones periódicas (cada 2 días) vía Discord para seguimiento del avance técnico y revisión de bloqueos.
+- Uso activo del repositorio de GitHub para la asignación y actualización de tareas, así como la integración continua de código.
+- Divisiones claras de responsabilidades, fomentando el trabajo autónomo pero sincronizado entre hardware, software y documentación.
+- Resolución colaborativa de problemas, especialmente durante la validación de la comunicación serial y la integración del LED indicador.
+- Intercambio constante de evidencias (videos, fotos, logs) para acelerar la validación en tiempo real entre miembros.
+
+Estas dinámicas permitieron culminar todas las tareas planificadas y asegurar una integración estable del sistema completo.
+
+- **Landing Page**
+
+<img src="images/landingparticipation.png">
+
+<img src="images/landingparticipation2.png">
+
+- **FrontEnd**
+
+<img src="images/frontparticipation.png">
+
+<img src="images/frontparticipation2.png">
+
+- **BackEnd**
+
+<img src="images/backparticipation.png">
+
+<img src="images/backparticipation2.png">
+
+- **Edge Layer**
+
+<img src="images/edgeparticipation.png">
+
+
 
 ### 6.3. Validation Interviews.
 
@@ -5064,6 +5283,13 @@ En esta fase se llevó a cabo una inspección basada en las 10 heurísticas de N
 Enlace a video:  
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EVH4qvJ8U9lEmV8vfkuxdW8BkpuZTjSJSj93_EdlL7k5AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e2dbVP" target="_blank">Ver video</a>
 
+### 6.5. Video About-the-Team.
+
+<img src="images/abouttheteam.png" width="130%">
+
+Link: [COPIAR Y PEGAR]<br>
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/Eb7Xf_D9_cdIguOXTt6JP44Bg6HksFpaV7D6r2eJqVpZ6Q?e=p83R3h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 # Conclusiones  
 ## Conclusiones y recomendaciones  
 
@@ -5103,11 +5329,29 @@ Como recomendaciones
 # Anexos  
 
 Link del repositorio GitHub: [https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard](https://github.com/upc-pre-202510-1asi0572-2952-SmartGuard)<br>
+
 Link del Miro: [https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301](https://miro.com/welcomeonboard/bzJkRnIwclovUGhyMHlHZjU3YldPV1dVYTg0SjU3OFBacnpHYjdlSnB3UHpKaWJ5N1phWkRLaEZrOHV2RkE2VFFscTJyZ2QzTFNWWGd0K3hOSFdpeFdEN3IyRDFseFpxOWExdWJPWXpieUR2eURobDZrVzNRQXp4UGF1dHdNOGNBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=373620935301)<br>
+
 Link del Trello : [https://trello.com/b/2VSpef7r/sprint-2-smartguard](https://trello.com/b/2VSpef7r/sprint-2-smartguard)<br>
+
 Link del Canva: [https://www.canva.com/design/DAGll4dWzlo/tAVls4JI2DsSAYtjvi2Wcg/edit](https://www.canva.com/design/DAGll4dWzlo/tAVls4JI2DsSAYtjvi2Wcg/edit)<br>
+
 Link del Wokwi: [https://wokwi.com/projects/433787052438454273](https://wokwi.com/projects/433787052438454273)<br>
+
 Link de la Landing Page: [https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/](https://upc-pre-202510-1asi0572-2952-smartguard.github.io/landing-page/)<br>
+
 Link del FrontEnd deployado: [https://smartguard-web.netlify.app/splashview](https://smartguard-web.netlify.app/splashview)<br>
+
 Link del BackEnd deployado: [https://smart-guard2.azurewebsites.net/](https://smart-guard2.azurewebsites.net/)<br>
+
 Link del Video About the Product: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EVH4qvJ8U9lEmV8vfkuxdW8BkpuZTjSJSj93_EdlL7k5AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nfRv8K](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EVH4qvJ8U9lEmV8vfkuxdW8BkpuZTjSJSj93_EdlL7k5AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nfRv8K)<br>
+
+Link del Video About the Team: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/Eb7Xf_D9_cdIguOXTt6JP44Bg6HksFpaV7D6r2eJqVpZ6Q?e=p83R3h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/Eb7Xf_D9_cdIguOXTt6JP44Bg6HksFpaV7D6r2eJqVpZ6Q?e=p83R3h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+
+Link Entrevistado Validation #1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a153_upc_edu_pe/EatNSnzwby9OumZNgaPAS_IBZ3tBaMr5rpaEuTfBg3vK6g?e=UIuRQM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<br>
+
+Link Entrevistado Validation #2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/ERBWXEnmtoJCmoAQs3cQImMBsUnuj3CbDK8lU2enujtzLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Le0ua1
+<br>
+
+Link Entrevistado Validation #3: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h198_upc_edu_pe/EQXEo5DlWhBBpSJAbsUxvy0B1Q3RmjHUnFro3tdPi2LLdw?e=8vPyhI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
