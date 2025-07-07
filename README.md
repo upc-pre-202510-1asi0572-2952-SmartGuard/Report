@@ -128,13 +128,19 @@
         </tr>
         <tr>
             <th>TF</th>
-            <td></td>
+            <td>07/07/2025</td>
             <td>
                 <ul>
+                    <li>Fernando Aquino Ima</li>
+                    <li>Pérez García David Alexander</li>
+                    <li>Gonzales Gomez, Antonella Frida</li>
+                    <li>Ramos Najar, Tony Alexander</li>
+                    <li>Zárate Gamarra, Luis Alejandro</li>     
                 </ul>
             </td>
             <td>            
                 <ul>
+                    <li>Sprint 3</li>
                 </ul>
             </td>
         </tr>
