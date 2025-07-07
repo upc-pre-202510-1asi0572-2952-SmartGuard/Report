@@ -5092,6 +5092,17 @@ En este apartado se contextualiza la automatización de las pruebas de las histo
 #### 6.2.3.6. Execution Evidence for Sprint Review. 
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
+
+Se ofrece una visión general de la documentación generada para los servicios expuestos de la capa edge, mostrando cómo se registraron y describieron los endpoints disponibles
+
+| Repository            | Branch      | HTTP  | Description                                   | Committed on (Date) |
+|-----------------------|------------|-----------|--------------------------------------------------|---------------------|
+| Smart-Guard/Edge      | main       | /api/get-pending-commands   |   ESP32 consulta automática    | 06/07/2025          |
+| Smart-Guard/Edge      | main       | /api/notify-access          |   Python notifica reconocimiento    | 06/07/2025          |
+| Smart-Guard/Edge      | main       | /api/confirm-command        |   ESP32 confirma procesamiento    | 06/07/2025          |
+| Smart-Guard/Edge      | main       | /api/status                 |   Estado del sistema    | 06/07/2025          |
+| Smart-Guard/Edge      | main       | /api/users                  |   Lista usuarios (debug)    | 06/07/2025          |
+
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review. 
 #### 6.2.3.9. Team Collaboration Insights during Sprint.
 
