@@ -5003,6 +5003,30 @@ En este Sprint 3 implementamos un prototipo con un ESP32 físico y reconocimient
 
 
 #### 6.2.3.2. Aspect Leaders and Collaborators. 
+Durante este sprint, documentamos detalladamente la lógica implementada, el proceso de montaje físico del prototipo y los resultados de las pruebas realizadas. Se validó el correcto funcionamiento del sistema, asegurando la interacción efectiva entre el reconocimiento facial y el control de acceso simulado por el ESP32. Esta iteración representó un avance significativo hacia la integración completa de los módulos hardware y software, acercándonos a la funcionalidad final del sistema SmartGuard.
+- [ ] **Aspecto: Prototipo Embebido con Reconocimiento Facial**  
+  - **Líder del Aspecto:**  
+    - **Nombre:** Tony Ramos  
+    - **Rol:** Embedded Systems & Prototyping Lead  
+    - **Responsabilidades:**  
+      1. Integración del ESP32 físico con el sistema de reconocimiento facial para simular el acceso mediante encendido/apagado de un LED.
+      2. Diseño y documentación de la lógica de control para la simulación de la cerradura inteligente.
+      3. Coordinación y validación del montaje del prototipo, incluyendo pruebas funcionales y recolección de evidencias.
+      4. Supervisión de la integración de la solución embebida con los demás módulos del sistema.
+  - **Colaboradores:**  
+    - *Alejandro Zárate* — Embedded Systems Developer  
+      - Apoyo en la implementación y ajuste del firmware para el ESP32.
+      - Asistencia en el montaje físico y conexiones del prototipo. 
+      - Participación en la documentación de pruebas y resultados.
+    - *Antonella Gonzales* — Embedded Systems Developer  
+      - Asistencia en el montaje físico y conexiones del prototipo. 
+      - Participación en la documentación de pruebas y resultados.
+    - *Fernando Aquino* — Documentación y Testing  
+      - Registro detallado de la lógica de control y resultados de pruebas.
+      - Apoyo en la validación funcional y elaboración de reportes del prototipo.
+
+---
+
 #### 6.2.3.3. Sprint Backlog 3. 
 #### 6.2.3.4. Development Evidence for Sprint Review.
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review. 
